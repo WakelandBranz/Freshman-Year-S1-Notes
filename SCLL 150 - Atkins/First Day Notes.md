@@ -1,0 +1,1 @@
+Complete first 8 reading questions to get them out of the way ASAP. Won't have to worry about them later in the semester.
