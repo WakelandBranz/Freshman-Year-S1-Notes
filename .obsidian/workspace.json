@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DATA 110 - Balan/Pre-Lab notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Pre-Lab notes"
             }
           },
           {
@@ -112,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DATA 110 - Balan/Pre-Lab notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Pre-Lab notes"
             }
           },
           {
@@ -140,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ENGL 105 - Gotzler/Course Details/Unit Projects (Overview).md",
+                "file": "DATA 110 - Balan/Pre-Lab notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Unit Projects (Overview)"
+              "title": "Outline of Pre-Lab notes"
             }
           },
           {
@@ -183,11 +185,11 @@
   },
   "active": "e9e5e1780df005a1",
   "lastOpenFiles": [
-    "DATA 110 - Balan/Old Chen Notes/Second Day Notes (still with Chen).md",
+    "ENGL 105 - Gotzler/Course Details/Unit Projects (Overview).md",
     "DATA 110 - Balan/Pre-Lab notes.md",
-    "DATA 110 - Balan/Old Chen Notes",
+    "DATA 110 - Balan/Old Chen Notes/Second Day Notes (still with Chen).md",
     "DATA 110 - Balan/Old Chen Notes/First Day Notes (still with Chen).md",
-    "test folder",
+    "DATA 110 - Balan/Old Chen Notes",
     "SCLL 150 - Atkins/First Day Notes.md",
     "SCLL 150 - Atkins",
     "MATH 381 - Crawford/Side notes/Section 1.1ish Side Notes.md",
@@ -197,7 +199,6 @@
     "MATH 381 - Crawford",
     "IDST 101 - Sarah/First Day Notes.md",
     "IDST 101 - Sarah",
-    "ENGL 105 - Gotzler/Course Details/Unit Projects (Overview).md",
     "ENGL 105 - Gotzler/Course Details",
     "ENGL 105 - Gotzler/Notes/Day 1 Notes.md",
     "ENGL 105 - Gotzler/Notes/Day 3 Mini Unit Notes.md",
@@ -206,6 +207,9 @@
     "ENGL 105 - Gotzler/Drawings",
     "ENGL 105 - Gotzler/Goals & Objectives.md",
     "ENGL 105 - Gotzler",
+    "DATA 110 - Balan/Second Day Notes (still with Chen).md",
+    "DATA 110 - Balan/First Day Notes (still with Chen).md",
+    "DATA 110 - Balan",
     "New folder/This should have a new file name now.md",
     "DATA 110 - Balan/This should have a new file name now.md"
   ]
