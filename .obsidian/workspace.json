@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ENGL 105 - Gotzler/Notes/W1/Friday 08-22 Reading Notes.md",
+                "file": "ENGL 105 - Gotzler/Notes/W2/Monday 08-25-2025 Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Friday 08-22 Reading Notes"
+              "title": "Monday 08-25-2025 Notes"
             }
           }
         ]
@@ -164,7 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 305.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,11 +182,12 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "7bbd04301681fe2c",
+  "active": "e9e5e1780df005a1",
   "lastOpenFiles": [
+    "ENGL 105 - Gotzler/Notes/W1/Friday 08-22 Reading Notes.md",
+    "ENGL 105 - Gotzler/Notes/W2/Monday 08-25-2025 Notes.md",
     "ENGL 105 - Gotzler/Notes/W2",
     "ENGL 105 - Gotzler/Notes/W1",
-    "ENGL 105 - Gotzler/Notes/W1/Friday 08-22 Reading Notes.md",
     "DATA 110 - Balan/Pre-Lab notes.md",
     "DATA 110 - Balan/Old Chen Notes/Second Day Notes (still with Chen).md",
     "DATA 110 - Balan/Old Chen Notes",
@@ -207,7 +208,6 @@
     "ENGL 105 - Gotzler/Notes/W1/Day 3 Mini Unit Notes.md",
     "ENGL 105 - Gotzler/Notes",
     "ENGL 105 - Gotzler/Drawings/LPE Triangle.md",
-    "ENGL 105 - Gotzler/Drawings",
     "ENGL 105 - Gotzler/Goals & Objectives.md",
     "New folder/This should have a new file name now.md",
     "DATA 110 - Balan/This should have a new file name now.md"
