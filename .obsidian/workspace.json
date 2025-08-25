@@ -11,14 +11,14 @@
             "id": "e9e5e1780df005a1",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "copilot-custom-prompts/Explain like I am 5.md",
-                "bFile": "copilot-custom-prompts/Explain like I am 5.md",
-                "aRef": ""
+                "file": "copilot-custom-prompts/Fix grammar and spelling.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Explain like I am 5"
+              "icon": "lucide-file",
+              "title": "Fix grammar and spelling"
             }
           }
         ]
@@ -158,9 +158,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "902a88f6885ffe98",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -183,8 +193,9 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "e9e5e1780df005a1",
+  "active": "902a88f6885ffe98",
   "lastOpenFiles": [
+    "MATH 381 - Crawford/Truth Table Example.md",
     "MATH 381 - Crawford/Day 2 Section 1.1ish notes.md",
     "copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
@@ -218,7 +229,6 @@
     "DATA 110 - Balan/Old Chen Notes/First Day Notes (still with Chen).md",
     "test folder",
     "MATH 381 - Crawford/Side notes/Section 1.1ish Side Notes.md",
-    "MATH 381 - Crawford/Truth Table Example.md",
     "IDST 101 - Sarah/First Day Notes.md",
     "ENGL 105 - Gotzler/Course Details/Unit Projects (Overview).md"
   ]
