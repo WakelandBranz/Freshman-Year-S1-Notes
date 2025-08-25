@@ -87,7 +87,7 @@
 
 ## Core Definition
 
-**Digital Humanities** is born from the enc  ounter between traditional humanities and computational methods. It represents the migration of cultural materials into networked environments, creating new challenges and opportunities for humanistic inquiry.
+**Digital Humanities** is born from the encounter between traditional humanities and computational methods. It represents the migration of cultural materials into networked environments, creating new challenges and opportunities for humanistic inquiry.
 
 ## Key Characteristics
 

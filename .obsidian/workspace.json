@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "06e06f3016e6fedb",
+        "id": "73afef622230be60",
         "type": "tabs",
         "children": [
           {
-            "id": "6ba17de3e85d10f7",
+            "id": "e9e5e1780df005a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DATA 110 - Balan/Pre-Lab notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pre-Lab notes"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DATA 110 - Balan/Pre-Lab notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Pre-Lab notes"
+              "title": "Outgoing links"
             }
           },
           {
@@ -142,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DATA 110 - Balan/Pre-Lab notes.md",
+                "file": "ENGL 105 - Gotzler/Course Details/Unit Projects (Overview).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pre-Lab notes"
+              "title": "Outline of Unit Projects (Overview)"
             }
           },
           {
@@ -180,23 +178,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "6ba17de3e85d10f7",
+  "active": "e9e5e1780df005a1",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-08-23 15.49.05.excalidraw.md",
     "ENGL 105 - Gotzler/Notes/Friday 08-22 Reading Notes.md",
-    "Excalidraw",
-    "ENGL 105 - Gotzler/Notes/Day 3 Mini Unit Notes.md",
-    "ENGL 105 - Gotzler/Drawings/LPE Triangle.md",
-    "ENGL 105 - Gotzler/Goals & Objectives.md",
     "DATA 110 - Balan/Pre-Lab notes.md",
-    "ENGL 105 - Gotzler/Course Details/Unit Projects (Overview).md",
     "DATA 110 - Balan/Old Chen Notes/Second Day Notes (still with Chen).md",
-    "DATA 110 - Balan/Old Chen Notes/First Day Notes (still with Chen).md",
     "DATA 110 - Balan/Old Chen Notes",
+    "DATA 110 - Balan/Old Chen Notes/First Day Notes (still with Chen).md",
+    "test folder",
     "SCLL 150 - Atkins/First Day Notes.md",
     "SCLL 150 - Atkins",
     "MATH 381 - Crawford/Side notes/Section 1.1ish Side Notes.md",
@@ -206,13 +198,15 @@
     "MATH 381 - Crawford",
     "IDST 101 - Sarah/First Day Notes.md",
     "IDST 101 - Sarah",
+    "ENGL 105 - Gotzler/Course Details/Unit Projects (Overview).md",
     "ENGL 105 - Gotzler/Course Details",
     "ENGL 105 - Gotzler/Notes/Day 1 Notes.md",
+    "ENGL 105 - Gotzler/Notes/Day 3 Mini Unit Notes.md",
     "ENGL 105 - Gotzler/Notes",
+    "ENGL 105 - Gotzler/Drawings/LPE Triangle.md",
     "ENGL 105 - Gotzler/Drawings",
+    "ENGL 105 - Gotzler/Goals & Objectives.md",
     "ENGL 105 - Gotzler",
-    "DATA 110 - Balan/Second Day Notes (still with Chen).md",
-    "DATA 110 - Balan/First Day Notes (still with Chen).md",
     "New folder/This should have a new file name now.md",
     "DATA 110 - Balan/This should have a new file name now.md"
   ]
