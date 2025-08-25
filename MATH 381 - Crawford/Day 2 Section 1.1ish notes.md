@@ -1,25 +1,25 @@
 ### Negation
 
 - Little hook to notate a negation
-- `"not¬ p"`
+- `¬ p`
 
 ### Conjunction
 
 - Little arrow pointing up to notate a conjunction
 - You must have two propositions to make a conjunction
-- `"p and∧ q"`
+- `p ∧ q`
 
 ### Disjunction
 
 - Little arrow pointing down to notate a disjunction
-- `"p or q"`
+- `p ∨ q`
 - At least one must be true for the statement to evaluate to true
 - If neither is true then the statement evaluates to false
 
 ### XOR (exclusive or)
 
 - An **x** with a little circle around it to notate XOR
-- `"p xor q"`
+- `p ⊕ q`
 - **T** if _p_ is **T** & _q_ is **F**
 - **T** if _p_ is **F** & _q_ is **T**
     - (essentially if one is true and the other is false then the statement evaluates to true… otherwise if they are both false or both true then the statement evaluates to false)
@@ -51,13 +51,13 @@
 
 ### The **Inverse**
 
-- The inverse of `p → q` is `not¬ p → not¬ q`
+- The inverse of `p → q` is `¬ p → ¬ q`
     - Base statement: _“I go running when it is sunny.”_
     - Inverse: _“If it is not sunny I do not go running.”_
 
 ### The **Contrapositive**
 
-- The contrapositive of `p → q` is `not¬ q → not¬ p`
+- The contrapositive of `p → q` is `¬ q → ¬ p`
     - Base statement: _“I go running when it is sunny.”_
     - Contrapositive: _“If I am running it is not sunny.”_
 ### Truth Tables
