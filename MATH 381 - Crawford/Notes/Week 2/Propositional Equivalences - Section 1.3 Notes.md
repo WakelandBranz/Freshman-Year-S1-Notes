@@ -28,8 +28,9 @@ Example 1. Write out the truth tables for p ∧ ¬p and p ∨ ¬p.
 ##### DeMorgan's Laws
 - ¬(p ∧ q) ≡ ¬p ∨ ¬q
 - ¬(p ∨ q) ≡ ¬p ∧ ¬q
-- p ⊕ q
+- p ⊕ q ≡ (p ∨ q) ∧ ¬(p ∧ q)
+- p ⊕ q ≡ q ⊕ p
 
-## THE ONLY 
+## THE ONLY THINGS WE CAN USE FOR LOGICAL EQUIVALENCES IS TABLE 6, TABLE 7 ROWS 1 & 2, TABLE 8 ROW 1
 
 
