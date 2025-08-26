@@ -32,7 +32,7 @@
 - `"p implies q"` **OR** `"If p, then q"`
 - Is false if _q_ is false, but _p_ is true
 - True otherwise
-- [Lil Explanation](obsidian://open?vault=Obsidian%20Vault&file=MATH%20381%20-%20Crawford%2FSide%20notes%2FSection%201.1ish%20Side%20Notes)
+- [Lil Explanation](obsidian://open?vault=UNC-FreshmanS1Notes&file=MATH%20381%20-%20Crawford%2FNotes%2FSide%20notes%2FSection%201.1ish%20Side%20Notes)
 
 ### Biconditional
 
