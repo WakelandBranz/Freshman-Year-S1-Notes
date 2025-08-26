@@ -15,16 +15,20 @@ Example 1. Write out the truth tables for p ∧ ¬p and p ∨ ¬p.
 | T   | F   | F      |
 | F   | T   | F      |
 
----
-
 | p   | ¬p  | p ∨ ¬p |
 | --- | --- | ------ |
 | T   | F   | T      |
 | F   | T   | T      |
 
+---
 ##### Logical Equivalence Definition
 - Two propositions *p* and *q* are called *Logically Equivalent* means `p ↔ q` is a tautology and we write `p ≡ q` 
 - ***NOTE*** "≡" is not a logical operator
 
 ##### DeMorgan's Laws
 - ¬(p ∧ q) ≡ ¬p ∨ ¬q
+- ¬(p ∨ q) ≡ ¬p ∧ ¬q
+
+
+
+
