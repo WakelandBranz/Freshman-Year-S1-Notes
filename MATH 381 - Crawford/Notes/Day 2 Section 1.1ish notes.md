@@ -62,7 +62,7 @@
 9n    - Contrapositive: _“If I am running it is not sunny.”_
 ### Truth Tables
 - A row for each possible combination of Truth values for all of the propositions in your proposition
-> [Useful truth table drawing](obsidian://open?vault=Obsidian%20Vault&file=MATH%20381%20-%20Crawford%2FTruth%20Table%20Example)
+> [Useful truth table drawing](obsidian://open?vault=UNC-FreshmanS1Notes&file=MATH%20381%20-%20Crawford%2FImages%2FTruth%20Table%20Example)
 
 ##### Example
 - p = students who have taken 231 can take 232

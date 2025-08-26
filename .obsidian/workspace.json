@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATH 381 - Crawford/Day 2 Section 1.1ish notes.md",
+                "file": "MATH 381 - Crawford/Notes/Day 2 Section 1.1ish notes.md",
                 "mode": "source",
                 "source": false
               },
@@ -195,9 +195,11 @@
   },
   "active": "e9e5e1780df005a1",
   "lastOpenFiles": [
-    "MATH 381 - Crawford/Truth Table Example.md",
-    "MATH 381 - Crawford/Day 2 Section 1.1ish notes.md",
-    "MATH 381 - Crawford/Side notes/Section 1.1ish Side Notes.md",
+    "MATH 381 - Crawford/Images/Truth Table Example.md",
+    "MATH 381 - Crawford/Notes/Day 2 Section 1.1ish notes.md",
+    "MATH 381 - Crawford/Images",
+    "MATH 381 - Crawford/Notes",
+    "MATH 381 - Crawford/Notes/Side notes/Section 1.1ish Side Notes.md",
     "copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
@@ -226,10 +228,7 @@
     "ENGL 105 - Gotzler/Notes/W1",
     "DATA 110 - Balan/Pre-Lab notes.md",
     "DATA 110 - Balan/Old Chen Notes/Second Day Notes (still with Chen).md",
-    "DATA 110 - Balan/Old Chen Notes",
     "DATA 110 - Balan/Old Chen Notes/First Day Notes (still with Chen).md",
-    "test folder",
-    "IDST 101 - Sarah/First Day Notes.md",
-    "ENGL 105 - Gotzler/Course Details/Unit Projects (Overview).md"
+    "IDST 101 - Sarah/First Day Notes.md"
   ]
 }
