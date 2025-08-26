@@ -10,3 +10,17 @@ Example 1. Write out the truth tables for p ∧ ¬p and p ∨ ¬p.
 - p ∧ ¬p - Contradiction
 - p ∨ ¬p - Tautology
 
+|p|¬p|p ∧ ¬p|
+|---|---|---|
+|T|F|F|
+|F|T|F|
+
+---
+
+|p|¬p|p ∨ ¬p|
+|---|---|---|
+|T|F|T|
+|F|T|T|
+
+##### Logical Equivalence Definition
+- 
