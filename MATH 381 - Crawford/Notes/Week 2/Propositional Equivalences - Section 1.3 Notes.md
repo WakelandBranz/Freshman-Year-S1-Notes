@@ -28,7 +28,8 @@ Example 1. Write out the truth tables for p ∧ ¬p and p ∨ ¬p.
 ##### DeMorgan's Laws
 - ¬(p ∧ q) ≡ ¬p ∨ ¬q
 - ¬(p ∨ q) ≡ ¬p ∧ ¬q
+- p ⊕ q
 
-
+## THE ONLY 
 
 
