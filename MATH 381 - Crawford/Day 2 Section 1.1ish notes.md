@@ -59,7 +59,7 @@
 
 - The contrapositive of `p → q` is `¬ q → ¬ p`
     - Base statement: _“I go running when it is sunny.”_
-    - Contrapositive: _“If I am running it is not sunny.”_
+9n    - Contrapositive: _“If I am running it is not sunny.”_
 ### Truth Tables
 - A row for each possible combination of Truth values for all of the propositions in your proposition
 > [Useful truth table drawing](obsidian://open?vault=Obsidian%20Vault&file=MATH%20381%20-%20Crawford%2FTruth%20Table%20Example)
