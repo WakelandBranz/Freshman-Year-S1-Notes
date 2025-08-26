@@ -3,4 +3,10 @@
 ##### Contradiction Definition
 - A compound proposition that is ***ALWAYS FALSE*** no matter the truth values of the propositions which it is made of. 
 ##### Contingency Definition
-- Tru
+- Truth value depends on the truth value of the propositions it is made of
+	- Variable truth value, neither a tautology nor a contradiction
+
+Example 1. Write out the truth tables for p ∧ ¬p and p ∨ ¬p.
+- p ∧ ¬p - Contradiction
+- p ∨ ¬p - Tautology
+
