@@ -23,4 +23,5 @@ Example 1. Write out the truth tables for p ∧ ¬p and p ∨ ¬p.
 |F|T|T|
 
 ##### Logical Equivalence Definition
-- Two propositions *p* and *q* are called *Logically Equivalent* means *p*  
+- Two propositions *p* and *q* are called *Logically Equivalent* means `p ↔ q` is a tautology and we write `p ≡ q` 
+- ***NOTE*** "≡" is not a logical operator
