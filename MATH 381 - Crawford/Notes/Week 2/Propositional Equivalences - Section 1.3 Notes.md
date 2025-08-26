@@ -34,7 +34,12 @@ Example 1. Write out the truth tables for p ∧ ¬p and p ∨ ¬p.
 - p ⊕ q ≡ q ⊕ p
 
 > Example 2. Show that p → q ≡ (¬p) ∨ q.
-> - 
 
 
+| p   | q   | ¬p  | (¬p) ∨ q | p → q |
+| --- | --- | --- | -------- | ----- |
+| T   | T   | F   | T        | T     |
+| T   | F   | F   | F        | F     |
+| F   | T   | T   | T        | T     |
+| F   | F   | T   | T        | T     |
 
