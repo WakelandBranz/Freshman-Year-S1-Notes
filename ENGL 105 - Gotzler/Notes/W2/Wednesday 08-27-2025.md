@@ -9,8 +9,6 @@
 - Evaluative questions
 - Textual evidence/archives and special collections
 - Close reading, theoretical and historical interpretation, performance and creative practice
-
----
 ### DH Values And Methods
 
 >DH Values
@@ -25,5 +23,7 @@
  	*Provide specific examples from the methods list to support your choice*
 
 > **Collaborative and Distributed**: Much of DH relies on expertise across a plethora of fields thus this value/method is most clearly reflected.
+
+---
 
 
