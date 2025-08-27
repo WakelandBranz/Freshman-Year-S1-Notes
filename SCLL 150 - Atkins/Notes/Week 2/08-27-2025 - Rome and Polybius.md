@@ -44,8 +44,6 @@
 
 **Polybius’s cycle of constitutional degeneration (anacyclosis)**
 
-**Polybius’s cycle of constitutional change**
-
 - **Monarchy → Tyranny**  
   - Wise king → accumulates personal power → loses restraint → becomes oppressive.
 - **Tyranny → Aristocracy**  
