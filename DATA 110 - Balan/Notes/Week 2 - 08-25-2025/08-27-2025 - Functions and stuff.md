@@ -18,4 +18,5 @@ for index,element in enumerate(some_array_):
 my_range = range(0, 20, 2)
 # my_range -> range(0, 20, 2)
 list(my_range()
+# NEED TO COMPLETE
 ```
