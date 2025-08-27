@@ -9,4 +9,3 @@
 - Exhibits will be peer reviewed
 	- How does our exhibit function as a whole?
 	- How is it ***themed?***
-	- 
