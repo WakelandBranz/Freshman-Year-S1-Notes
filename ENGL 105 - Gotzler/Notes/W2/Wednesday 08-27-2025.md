@@ -15,6 +15,10 @@
 
 >DH Values
 
-- Critical and Theoretical - Grounded in theory and traditional critical practice, plus humanistic self-criticism of DH's own tools and technologies
-- Iterative and Experimental - Emphasizes experimentation, risk-taking, redefinition, and productive failure through versioning and iteration
-- Collaborative and Distributed - Built on distributed networks of expertise across disciplines (scholars, pr)
+- **Critical and Theoretical** - Grounded in theory and traditional critical practice, plus humanistic self-criticism of DH's own tools and technologies
+- **Iterative and Experimental** - Emphasizes experimentation, risk-taking, redefinition, and productive failure through versioning and iteration
+- **Collaborative and Distributed** - Built on distributed networks of expertise across disciplines (scholars, programmers, librarians, designers, etc.)
+- **Multimodal and Performative** - Embraces multiple modes (text, audio, video) and performative expression that breaks down reader/writer boundaries
+- **Open and Accessible** - Promotes open, public publishing through Creative Commons, digital archives, and interactive projects
+
+**Which of Honn's DH Values do you think is most clearly reflected across multiple DH methods?**
