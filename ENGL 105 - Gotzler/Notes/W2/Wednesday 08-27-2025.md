@@ -22,7 +22,7 @@
 - **Open and Accessible** - Promotes open, public publishing through Creative Commons, digital archives, and interactive projects
 
 >**Which of Honn's DH Values do you think is most clearly reflected across multiple DH methods?**
-	> *Provide specific examples from the methods list to support your choice*
+ 	*Provide specific examples from the methods list to support your choice*
 
 > **Collaborative and Distributed**: Much of DH relies on expertise across a plethora of fields thus this value/method is most clearly reflected.
 
