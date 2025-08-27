@@ -11,4 +11,10 @@
 - Close reading, theoretical and historical interpretation, performance and creative practice
 
 ---
+### DH Values And Methods
 
+>DH Values
+
+- Critical and Theoretical - Grounded in theory and traditional critical practice, plus humanistic self-criticism of DH's own tools and technologies
+- Iterative and Experimental - Emphasizes experimentation, risk-taking, redefinition, and productive failure through versioning and iteration
+- Collaborative and Distributed - Built on distributed networks of expertise across disciplines (scholars, pr)
