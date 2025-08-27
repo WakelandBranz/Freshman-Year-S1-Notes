@@ -174,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 343.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,7 +193,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "e9e5e1780df005a1",
+  "active": "902a88f6885ffe98",
   "lastOpenFiles": [
     "DATA 110 - Balan/Notes/Week 2 - 08-25-2025/08-27-2025 Functions and stuff.md",
     "DATA 110 - Balan/Notes/Three Types of Data.md",
