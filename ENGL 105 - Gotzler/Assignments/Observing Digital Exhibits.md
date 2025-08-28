@@ -15,6 +15,6 @@ Each WG member selects 1 digital exhibit from the list below to view in-depth an
 
 observations re: exhibit's approach to **content curation**
 
-1. The format of the 'novels' is somewhat odd. On the first few pages of the novels subcategory, books show up diagonally from one another with the text being on the opposite side of the book cover. It then transitions to all books and text being aligned on the same sides of the page.
+1. The format of the exhibit is somewhat odd. Prior to the 'Zines, Comics & Small-Press' category, books show up diagonally from one another with the text being on the opposite side of the book cover. It then transitions to all books and text being aligned on the same sides of the page.
 2. _"Conditions: A Magazine of Writing by Women with an Emphasis on Writing by Lesbians"_ is an interesting collection. Although my knowledge of this subject is extremely limited, it seems like a first of its kind. Being entirely written, edited, and printed by a diverse team of queer and feminist women—as well as only allowing women-owned businesses to advertise—feels like something I would only hear about being done in the 2000s.
-3. 
+3. A large majority of these publications have aspects of them that, regardless of the time period, seem to be there for the sole purpose shock value. For example, "*The Love that Dares To Speak Its Name*" is a gay fantasy about Jesus Christ.  
