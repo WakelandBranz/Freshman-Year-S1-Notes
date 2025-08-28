@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "asd.md",
+                "file": "Rules of Inference.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "asd"
+              "title": "Rules of Inference"
             }
           }
         ],
@@ -208,10 +208,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "045afb4721becc46",
+  "active": "902a88f6885ffe98",
   "lastOpenFiles": [
     "MATH 381 - Crawford/Only Propositional Equivalences That Can Be Used.md",
-    "asd.md",
+    "Rules of Inference.md",
     "test.md",
     "MATH 381 - Crawford/Notes/Week 2/1.6 - Rules of Inference Notes.md",
     "thing.tex.md",

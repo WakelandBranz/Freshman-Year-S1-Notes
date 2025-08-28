@@ -10,3 +10,5 @@
 | $p \land q \;\vdash\; q$ | $((p \land q)\rightarrow q)$ | Simplification (∧‑Elimination ₂) |
 | $p,\; q \;\vdash\; p \land q$ | $((p)\land (q))\rightarrow (p \land q)$ | Conjunction (∧‑Introduction) |
 | $p \lor q,\; \lnot p \lor r \;\vdash\; q \lor r$ | $((p \lor q)\land (\lnot p \lor r))\rightarrow (q \lor r)$ | Resolution |
+- **Turnstile (⊢)** = “we can **prove** this."
+- **Therefore (∴)** = “as a result, **hence**."
