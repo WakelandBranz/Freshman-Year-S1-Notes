@@ -16,3 +16,9 @@ Here’s the same three‑column table, but the **first column** now shows each 
 
 - **Turnstile (⊢)** = “we can **prove** this."
 - **Therefore (∴)** = “as a result, **hence**."
+---
+### Problem Format **===VERY IMPORTANT===***
+1. Argument
+	- Is it a valid argument?
+2. If it is valid, prove it.
+	- If it is not valid, give an example
