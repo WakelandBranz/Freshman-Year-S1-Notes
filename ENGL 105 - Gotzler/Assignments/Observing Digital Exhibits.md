@@ -15,4 +15,5 @@ Each WG member selects 1 digital exhibit from the list below to view in-depth an
 
 observations re: exhibit's approach to **content curation**
 
-1. The format of the 'novels' is somewhat odd. On the first few pages of the novels subcategory, books show up diagonally from one another with the text being on the opposite side of the book cover. It then transitions to all books and text 
+1. The format of the 'novels' is somewhat odd. On the first few pages of the novels subcategory, books show up diagonally from one another with the text being on the opposite side of the book cover. It then transitions to all books and text being aligned on the same sides of the page.
+2. "Conditions: A Magazine of Writing by Women with an Emphasis on Writing by Lesbians" is an interesting collection. Although my knowledge on this subject is extremely limited, this seems like a first of its kind.  
