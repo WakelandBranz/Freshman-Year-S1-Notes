@@ -25,10 +25,12 @@ This logic is not valid. While Sarah being happy as a result of getting an A on 
 3.  $p \lor r$ - Premise
 4. $r \rightarrow s$ - Simplification of 1
 5. $\lnot p \lor q$ - Logical Equivalence of 2
-6. $\lnot r \lor s$ - Logical Equivalence of 3
+6. $\lnot r \lor s$ - Logical Equivalence of 4
 7. $q \lor r$ - Resolution of 3 and 5
 8. $r \lor p$ - Commutative law of 3
 9. $p \lor s$ - Resolution of 3 and 6 
+10. $r \lor q$ - Commutative of 7
+11. $q \lor s$ - Resolution of 10 and 6
 
 #### C)
 1. $r \rightarrow t$ - Premise
