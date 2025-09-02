@@ -32,13 +32,14 @@ This logic is not valid. While Sarah being happy as a result of getting an A on 
 10. $r \lor q$ - Commutative of 7
 11. $q \lor s$ - Resolution of 10 and 6
 
-#### C)
+#### C)NOT COMPELTE FIXXXX
 1. $r \rightarrow t$ - Premise
 2. $\lnot t$ - Premise
 3. $\lnot r$ - Modus Tollens on 1 & 2
 4. $(\lnot p \lor \lnot q) \rightarrow (r \land s)$ - Premise
-5. $\lnot (r \land s)$ - 
-6. $(\lnot p \lor \lnot q) \rightarrow (r \land s)$ - Premise
-7. $\lnot(\lnot p \lor \lnot q)$ - Modus Tollens on 4 and 5
-8. $p \land q$ - Double Negation
-9. $p$ - Simplification
+5. 
+6. $\lnot (r \land s)$ - 
+7. $(\lnot p \lor \lnot q) \rightarrow (r \land s)$ - Premise
+8. $\lnot(\lnot p \lor \lnot q)$ - Modus Tollens on 4 and 5
+9. $p \land q$ - Double Negation
+10. $p$ - Simplification
