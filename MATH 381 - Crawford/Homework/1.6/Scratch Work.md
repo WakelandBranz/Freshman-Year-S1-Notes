@@ -12,5 +12,6 @@ $\begin{align} p &\rightarrow q \\ p &\rightarrow r \\ \hline \therefore q &\rig
 
 #### B)
 1. $(p \rightarrow q) \cap (r \rightarrow s)$ - Premise
-2. $(p \rightarrow q)$ - 
-3. 
+2. $(p \rightarrow q)$ - Simplification of 1
+3. $p \lor r$ - Premise
+4. $r \rightarrow s$ - Simplification of 1
