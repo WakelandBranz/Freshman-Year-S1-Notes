@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATH 381 - Crawford/Propositional Equivalences That Can Be Used.md",
+                "file": "MATH 381 - Crawford/Homework/1.6/Scratch Work.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Propositional Equivalences That Can Be Used"
+              "title": "Scratch Work"
             }
           }
         ],
@@ -206,13 +206,16 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "902a88f6885ffe98",
+  "active": "045afb4721becc46",
   "lastOpenFiles": [
+    "MATH 381 - Crawford/Homework/1.6/Homework 1.6 - Wakeland Branz.md",
+    "MATH 381 - Crawford/Homework/1.6/Scratch Work.md",
+    "MATH 381 - Crawford/Homework/1.6",
     "MATH 381 - Crawford/Symbols.md",
-    "MATH 381 - Crawford/Rules of Inference.md",
+    "MATH 381 - Crawford/Homework",
     "MATH 381 - Crawford/Propositional Equivalences That Can Be Used.md",
+    "MATH 381 - Crawford/Rules of Inference.md",
     "MATH 381 - Crawford/Notes/Week 3/1.4 - Predicates and Quantifiers.md",
-    "MATH 381 - Crawford/Untitled",
     "MATH 381 - Crawford/Notes/Week 2/1.3 - Propositional Equivalences Notes.md",
     "MATH 381 - Crawford/Notes/Week 2/1.6 - Rules of Inference Notes.md",
     "MATH 381 - Crawford/Notes/Week 1/Day 2 Section 1.1ish notes.md",
@@ -236,13 +239,10 @@
     "MATH 381 - Crawford/Notes/Week 1",
     "MATH 381 - Crawford/Images/Truth Table Example.md",
     "MATH 381 - Crawford/Images",
-    "MATH 381 - Crawford/Notes",
     "copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
     "copilot-custom-prompts/Remove URLs.md",
-    "copilot-custom-prompts/Generate glossary.md",
-    "copilot-custom-prompts/Generate table of contents.md",
-    "copilot-custom-prompts/Make longer.md"
+    "copilot-custom-prompts/Generate glossary.md"
   ]
 }
