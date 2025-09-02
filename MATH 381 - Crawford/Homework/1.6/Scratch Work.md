@@ -29,4 +29,7 @@ This logic is not valid. While Sarah being happy as a result of getting an A on 
 
 #### C)
 1. $r \rightarrow t$ - Premise
-2. 
+2. $\lnot t$ - Premise
+3. $\lnot r$ - Modus Tollens on 1 & 2
+4. 
+5. $\lnot (r \land s)$ - 
