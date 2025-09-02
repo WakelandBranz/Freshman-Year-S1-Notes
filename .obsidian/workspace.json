@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ENGL 105 - Gotzler/Assignments/Observing Digital Exhibits.md",
+                "file": "MATH 381 - Crawford/Notes/Week 3/1.4 - Predicates and Quantifiers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Observing Digital Exhibits"
+              "title": "1.4 - Predicates and Quantifiers"
             }
           }
         ],
@@ -205,11 +205,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7bbd04301681fe2c",
+  "active": "045afb4721becc46",
   "lastOpenFiles": [
+    "ENGL 105 - Gotzler/Assignments/Observing Digital Exhibits.md",
+    "MATH 381 - Crawford/Notes/Week 3/1.4 - Predicates and Quantifiers.md",
     "MATH 381 - Crawford/Notes/Week 3",
     "MATH 381 - Crawford/Rules of Inference.md",
-    "ENGL 105 - Gotzler/Assignments/Observing Digital Exhibits.md",
     "ENGL 105 - Gotzler/Assignments",
     "MATH 381 - Crawford/Notes/Week 2/1.3 - Propositional Equivalences Notes.md",
     "MATH 381 - Crawford/Notes/Week 2/1.6 - Rules of Inference Notes.md",
@@ -241,7 +242,6 @@
     "copilot-custom-prompts/Generate table of contents.md",
     "copilot-custom-prompts/Make longer.md",
     "copilot-custom-prompts/Make shorter.md",
-    "copilot-custom-prompts",
-    "SCLL 150 - Atkins/Notes/Week 2"
+    "copilot-custom-prompts"
   ]
 }
