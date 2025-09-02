@@ -33,4 +33,7 @@ This logic is not valid. While Sarah being happy as a result of getting an A on 
 3. $\lnot r$ - Modus Tollens on 1 & 2
 4. $(\lnot p \lor \lnot q) \rightarrow (r \land s)$ - Premise
 5. $\lnot (r \land s)$ - 
-6. $\
+6. $(\lnot p \lor \lnot q) \rightarrow (r \land s)$ - Premise
+7. $\lnot(\lnot p \lor \lnot q)$ - Modus Tollens on 4 and 5
+8. $p \land q$ - Double Negation
+9. $p$ - Simplification
