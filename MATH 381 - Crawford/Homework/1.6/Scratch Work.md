@@ -23,4 +23,6 @@ This logic is not valid. While Sarah being happy as a result of getting an A on 
 1. $(p \rightarrow q) \land (r \rightarrow s)$ - Premise
 2. $(p \rightarrow q)$ - Simplification of 1
 3. $r \rightarrow s$ - Simplification of 1
-4. $p \lor r$ - Premise
+4. $\lnot p \lor q$ - Logical Equiv of 2.
+5. $\lnot r \lor s$
+6. $p \lor r$ - Premise
