@@ -21,11 +21,13 @@ This logic is not valid. While Sarah being happy as a result of getting an A on 
 
 #### B) - DO A LOGICAL EQUIVALENCE
 1. $(p \rightarrow q) \land (r \rightarrow s)$ - Premise
-2. $(p \rightarrow q)$ - Simplification of 1
-3. $r \rightarrow s$ - Simplification of 1
-4. $\lnot p \lor q$ - Logical Equivalence of 2.
-5. $\lnot r \lor s$ - Logical Equivalence of 3.
-6. $p \lor r$ - Premise
+2. $(p \rightarrow q)$ - Simplification of 1 
+3.  $p \lor r$ - Premise
+4. $r \rightarrow s$ - Simplification of 1
+5. $\lnot p \lor q$ - Logical Equivalence of 2
+6. $\lnot r \lor s$ - Logical Equivalence of 3
+7. $q \lor r$ - Resolution of 3 and 5
+8. $r \lor q$ - Commutative law
 
 #### C)
 1. $r \rightarrow t$ - Premise
