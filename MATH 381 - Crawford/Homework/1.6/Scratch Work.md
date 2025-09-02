@@ -19,7 +19,7 @@ $\therefore q \implies r$ - Therefore, if Sarah is happy, then Sarah calls her p
 
 This logic is not valid. While Sarah being happy as a result of getting an A on her final exam and Sarah calling her parents as a result of getting an A on the final exam do make sense, there is a litany of other possible reasons as to why Sarah could be calling her parents other than her being happy. The premises only tell us what happens when Sarah aces the final, but the conclusion incorrectly assumes that ALL of Sarah's happiness leads to calling her parents. This shows the logical gap in the argument structure.
 
-#### B) - DO A LOGICAL EQUIVALENCE
+#### B) - DOUBLE CHECK THIS OR DO LOGICAL EQUIVALENCE!!! THIS IS PROBABLY NOT COMPLETE!!!!
 1. $(p \rightarrow q) \land (r \rightarrow s)$ - Premise
 2. $(p \rightarrow q)$ - Simplification of 1 
 3.  $p \lor r$ - Premise
@@ -27,7 +27,8 @@ This logic is not valid. While Sarah being happy as a result of getting an A on 
 5. $\lnot p \lor q$ - Logical Equivalence of 2
 6. $\lnot r \lor s$ - Logical Equivalence of 3
 7. $q \lor r$ - Resolution of 3 and 5
-8. $r \lor q$ - Commutative law
+8. $r \lor p$ - Commutative law of 3
+9. $p \lor s$ - Resolution of 3 and 6 
 
 #### C)
 1. $r \rightarrow t$ - Premise
