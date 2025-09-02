@@ -180,8 +180,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-ghost",
+              "title": "copilot-chat-view"
             }
           }
         ],
@@ -202,13 +202,12 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-git:Open Git source control": false,
-      "copilot:Open Copilot Chat": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "045afb4721becc46",
+  "active": "7bbd04301681fe2c",
   "lastOpenFiles": [
-    "ENGL 105 - Gotzler/Projects/Project 1/Project 1 Intro.md",
+    "MATH 381 - Crawford/Notes/Week 3",
     "MATH 381 - Crawford/Rules of Inference.md",
     "ENGL 105 - Gotzler/Assignments/Observing Digital Exhibits.md",
     "ENGL 105 - Gotzler/Assignments",
@@ -223,6 +222,7 @@
     "DATA 110 - Balan/Notes/Week 2 - 08-25-2025/08-27-2025 - Functions and stuff.md",
     "DATA 110 - Balan/Notes/Week 2 - 08-25-2025/08-25-2025 - Intro to Python Programming.md",
     "DATA 110 - Balan/Notes/Three Types of Data.md",
+    "ENGL 105 - Gotzler/Projects/Project 1/Project 1 Intro.md",
     "ENGL 105 - Gotzler/Notes/W2/Wednesday 08-27-2025.md",
     "ENGL 105 - Gotzler/Projects/Project 1",
     "ENGL 105 - Gotzler/Projects",
@@ -241,7 +241,6 @@
     "copilot-custom-prompts/Generate table of contents.md",
     "copilot-custom-prompts/Make longer.md",
     "copilot-custom-prompts/Make shorter.md",
-    "copilot-custom-prompts/Emojify.md",
     "copilot-custom-prompts",
     "SCLL 150 - Atkins/Notes/Week 2"
   ]
