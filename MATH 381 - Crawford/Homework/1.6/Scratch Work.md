@@ -1,4 +1,5 @@
 ### 1.
-- A)
+#### A)
 
-$\begin{align} p &\implies q \\ p &\implies r \\ \therefore q &\implies r \end{align}$
+$\begin{align} p &\implies q \\ p &\implies r \\ \hline \therefore q &\implies r \end{align}$
+
