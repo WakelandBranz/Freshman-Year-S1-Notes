@@ -31,5 +31,6 @@ This logic is not valid. While Sarah being happy as a result of getting an A on 
 1. $r \rightarrow t$ - Premise
 2. $\lnot t$ - Premise
 3. $\lnot r$ - Modus Tollens on 1 & 2
-4. $\lnot (r \land s)$ - 
-5. $\
+4. $(\lnot p \lor \lnot q) \rightarrow (r \land s)$ - Premise
+5. $\lnot (r \land s)$ - 
+6. $\
