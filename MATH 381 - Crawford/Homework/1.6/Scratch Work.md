@@ -1,7 +1,7 @@
 ### 1.
 #### A)
 
-$\begin{align} p &\implies q \\ p &\implies r \\ \hline \therefore q &\implies r \end{align}$
+$\begin{align} p &\rightarrow q \\ p &\rightarrow r \\ \hline \therefore q &\rightarrow r \end{align}$
 ##### Initial Contradiction
 - Let p = False, q = True, r = False
 - $p \implies q \equiv False \implies True \equiv True$
@@ -20,6 +20,8 @@ $\therefore q \implies r$ - Therefore, if Sarah is happy, then Sarah calls her p
 This logic is not valid. While Sarah being happy as a result of getting an A on her final exam and Sarah calling her parents as a result of getting an A on the final exam do make sense, there is a litany of other possible reasons as to why Sarah could be calling her parents other than her being happy. The premises only tell us what happens when Sarah aces the final, but the conclusion incorrectly assumes that ALL of Sarah's happiness leads to calling her parents. This shows the logical gap in the argument structure.
 
 #### B) - DOUBLE CHECK THIS OR DO LOGICAL EQUIVALENCE!!! THIS IS PROBABLY NOT COMPLETE!!!!
+$\begin{align} (p \rightarrow q) &\land (r \rightarrow s) \\ p &\lor r \\ \hline \therefore q &\lor s\end{align}$
+
 1. $(p \rightarrow q) \land (r \rightarrow s)$ - Premise
 2. $(p \rightarrow q)$ - Simplification of 1 
 3.  $p \lor r$ - Premise
@@ -33,6 +35,8 @@ This logic is not valid. While Sarah being happy as a result of getting an A on 
 11. $q \lor s$ - Resolution of 10 and 6
 
 #### C)
+ $\begin{align} (\lnot p \lor \lnot q) &\rightarrow (r \land s) \\ r &\rightarrow t \\ \lnot t \\ \hline \therefore p\end{align}$
+
 1. $r \rightarrow t$ - Premise
 2. $\lnot t$ - Premise
 3. $\lnot r$ - Modus Tollens on 1 & 2
