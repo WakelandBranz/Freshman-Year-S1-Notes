@@ -1,5 +1,7 @@
 ### 1.
 #### A)
+
+$\begin{align} p &\implies q \\ p &\implies r \\ \hline \therefore q &\implies r \end{align}$
 ##### Contradiction
 - p = "Sarah gets an A on the final exam"
 - q = "Sarah is happy"

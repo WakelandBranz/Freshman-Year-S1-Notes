@@ -9,7 +9,7 @@ $\begin{align} p &\implies q \\ p &\implies r \\ \hline \therefore q &\implies r
 - $\therefore q \implies r \equiv True \implies False \equiv False$
 - $\therefore$ Invalid Argument
 - 
-##### Contradition
+##### Contradiction
 - p = "Sarah gets an A on the final exam"
 - q = "Sarah is happy"
 - r = "Sarah calls her parents"
@@ -26,3 +26,7 @@ This logic is not valid. While Sarah being happy as a result of getting an A on 
 4. $\lnot p \lor q$ - Logical Equivalence of 2.
 5. $\lnot r \lor s$ - Logical Equivalence of 3.
 6. $p \lor r$ - Premise
+
+#### C)
+1. $r \rightarrow t$ - Premise
+2. 
