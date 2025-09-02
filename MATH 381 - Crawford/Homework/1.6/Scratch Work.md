@@ -10,9 +10,11 @@ $\begin{align} p &\implies q \\ p &\implies r \\ \hline \therefore q &\implies r
 - $\therefore$ Invalid Argument
 - 
 ##### Contradition
-- p = "It's raining"
-- q = "The ground is wet"
-- r = "The sprinklers are on"
-If it is raining, then the ground is wet.
-If it is raining, then the sprinklers are on.
-If the ground is wet, then the sprinklers are on.
+- p = "Sarah gets an A on the final exam"
+- q = "Sarah is happy"
+- r = "Sarah calls her parents"
+$p \implies q$ - If Sarah gets an A on the final exam, then she is happy.
+$p \implies r$ - If Sarah gets an A on the final exam, then Sarah calls her parents.
+$\therefore q \implies r$ - Therefore, if Sarah is happy, then Sarah calls her parents.
+
+This logic is not valid. While Sarah being happy as a result of getting an A on her final exam and Sarah calling her parents as a result of getting an A on the final exam do make sense, there is a litany of other possible reasons as to why Sarah could be calling her parents other than her being happy.
