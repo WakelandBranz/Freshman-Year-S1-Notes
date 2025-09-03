@@ -58,6 +58,10 @@ This argument form is valid.
 
 ### 4. 
 
-Below is a "proof" that -1/2 is positive. Is this a valid argument? If so, explain why we were able to deduce a false conclusion from a valid argument. If not, explain.
+Below is a "proof" that $-\frac{1}{2}$ is positive. Is this a valid argument? If so, explain why we were able to deduce a false conclusion from a valid argument. If not, explain.
 
-"We know that if 0 $\leq"
+"We know that if $0 \leq x^2 \leq 1$, then $0 \leq x \leq 1$ for any real number x.
+Clearly $(-\frac{1}{2}^2 = 1/4$ is between 0 and 1.
+Therefore $-\frac{1}{2}$ is between 0 and 1."
+
+This is not a valid argument. 
