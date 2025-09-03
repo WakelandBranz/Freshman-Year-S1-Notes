@@ -67,6 +67,7 @@ $\begin{align} &p_{1} \\ &\dots \\ &p_{n} \\ \hline &q \rightarrow r \end{align}
 [Valid Argument?]
 
 Assuming that the above is a valid argument, we can safely assume that $q$ and $r$ are always true.
+In order for our second argument to fail, $q \rightarrow r$ has to evaluate to be false; this is only possible if $q$ is true and $r$ is false.
 ### 3. UNSURE HOW TO DO
 
 Use exercise (**2**) to show that the argument form with premises $(p \land t) \rightarrow (r \lor s)$, $q \rightarrow (u \land t)$, $u \rightarrow p$, and $\lnot s$ and conclusion $q \rightarrow r$ is valid.
