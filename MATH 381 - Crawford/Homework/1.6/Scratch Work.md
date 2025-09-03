@@ -22,6 +22,8 @@ While Sarah being happy as a result of getting an A on her final exam and Sarah 
 The premises only tell us what happens when Sarah aces the final, but the conclusion incorrectly assumes that ALL of Sarah's happiness leads to calling her parents. 
 This shows the logical gap in the argument structure.
 
+
+
 #### B)
 $\begin{align} (p \rightarrow q) &\land (r \rightarrow s) \\ p &\lor r \\ \hline \therefore q &\lor s\end{align}$
 
