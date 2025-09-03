@@ -26,6 +26,7 @@ This shows the logical gap in the argument structure.
 #### B)
 $\begin{align} (p \rightarrow q) &\land (r \rightarrow s) \\ p &\lor r \\ \hline \therefore q &\lor s\end{align}$
 
+#### PF:  
 1. $(p \rightarrow q) \land (r \rightarrow s)$ - Premise
 2. $(p \rightarrow q)$ - Simplification of 1 
 3.  $p \lor r$ - Premise
@@ -43,6 +44,7 @@ This argument form is valid.
 #### C)
  $\begin{align} (\lnot p \lor \lnot q) &\rightarrow (r \land s) \\ r &\rightarrow t \\ \lnot t \\ \hline \therefore p\end{align}$
 
+#### PF:  
 1. $r \rightarrow t$ - Premise
 2. $\lnot t$ - Premise
 3. $\lnot r$ - Modus Tollens on 1 & 2
@@ -90,4 +92,16 @@ q = Works in a tech startup
 r = Seen several injuries
 
 $\begin{align} p &\lor q \\ p &\rightarrow r \\ &\lnot r \\ \hline &\therefore q\end{align}$
+
+#### PF:  
+1. $p \lor q$ - Premise
+2. $p \rightarrow r$ - Premise
+3. $\lnot r$ - Premise
+4. $\lnot p$ -  Modus Tollens of 2 and 3
+5. $q$ - Disjunctive Syllogism of 1 and 4
+
+Therefore this is a valid argument
+
+### 6.
+
 
