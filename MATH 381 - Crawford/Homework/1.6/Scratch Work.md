@@ -123,3 +123,5 @@ Find ONE example of the following (you do not need to find all three) on social 
 3. $q \rightarrow r$ - Premise (questionable)
 4. $q$ - Modus Ponens of 1 and 2
 5. $r$ - Modus Ponens of 3 and 4
+
+EXPLANATION HERE
