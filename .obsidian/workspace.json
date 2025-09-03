@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ENGL 105 - Gotzler/Notes/Week 03/9-3-25 Boolean Operators.md",
+                "file": "ENGL 105 - Gotzler/Exercises/Flight Plans - Planning Exercise.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9-3-25 Boolean Operators"
+              "title": "Flight Plans - Planning Exercise"
             }
           }
         ],
@@ -208,8 +208,10 @@
   },
   "active": "045afb4721becc46",
   "lastOpenFiles": [
-    "MATH 381 - Crawford/Homework/1.6/Scratch Work.md",
     "ENGL 105 - Gotzler/Notes/Week 03/9-3-25 Boolean Operators.md",
+    "ENGL 105 - Gotzler/Exercises/Flight Plans - Planning Exercise.md",
+    "ENGL 105 - Gotzler/Exercises",
+    "MATH 381 - Crawford/Homework/1.6/Scratch Work.md",
     "ENGL 105 - Gotzler/Notes/Week 03",
     "MATH 381 - Crawford/Homework/1.6/Homework 1.6 - Wakeland Branz.md",
     "MATH 381 - Crawford/Rules of Inference.md",
@@ -238,11 +240,9 @@
     "SCLL 150 - Atkins/Notes/Week 2/08-25-2025.md",
     "MATH 381 - Crawford/Notes/Side notes/Section 1.1ish Side Notes.md",
     "MATH 381 - Crawford/Notes/Week 2",
-    "MATH 381 - Crawford/Notes/Week 1",
     "MATH 381 - Crawford/Images/Truth Table Example.md",
     "copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot-custom-prompts/Remove URLs.md"
+    "copilot-custom-prompts/Rewrite as tweet.md"
   ]
 }
