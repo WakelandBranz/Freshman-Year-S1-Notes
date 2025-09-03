@@ -1,2 +1,2 @@
 
-***(1)*** Begin with a broad search for the keyword "weightlifting history"; ***(2)*** skim through initial search results at a high-altitude, taking note of what does and doesn't seem like interesting and factual information; ***(3)*** narrow results to what catches my attention using the 'AND' boolean 
+***(1)*** Begin with a broad search for the keyword "sports history" in the Wilson Library museum; ***(2)*** skim through initial search results at a high-altitude, taking note of what does and doesn't seem like interesting and factual information; ***(3)*** narrow results to weightlifting using the 'AND' boolean operator; ***(4)*** slow down and carefully read which articles are the most interesting
