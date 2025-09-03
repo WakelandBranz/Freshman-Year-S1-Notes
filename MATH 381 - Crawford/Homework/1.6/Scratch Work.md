@@ -63,12 +63,10 @@ Suppose that the argument from with premises $p_{1}$, $...$, $p_n$, $q$ and conc
 
 $\begin{align} &p_{1} \\ &\dots \\ &p_{n} \\ &q \\ \hline &r \end{align}$
 
-Assuming that the above is a valid argument, we can safely assume that q and r 
-
-$\begin{align} &p_{1} \\ &\dots \\ &p_{n} \\ \hline q &\rightarrow r \end{align}$
+$\begin{align} &p_{1} \\ &\dots \\ &p_{n} \\ \hline &q \rightarrow r \end{align}$
 [Valid Argument?]
 
-
+Assuming that the above is a valid argument, we can safely assume that $q$ and $r$ are always true.
 ### 3. UNSURE HOW TO DO
 
 Use exercise (**2**) to show that the argument form with premises $(p \land t) \rightarrow (r \lor s)$, $q \rightarrow (u \land t)$, $u \rightarrow p$, and $\lnot s$ and conclusion $q \rightarrow r$ is valid.
