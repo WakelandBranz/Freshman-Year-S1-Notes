@@ -97,11 +97,16 @@ $\begin{align} p &\lor q \\ p &\rightarrow r \\ &\lnot r \\ \hline &\therefore q
 4. $\lnot p$ -  Modus Tollens of 2 and 3
 5. $q$ - Disjunctive Syllogism of 1 and 4
 
-Therefore this is a valid argument
+Therefore this is a valid argument.
 
 ### 6.
 Find ONE example of the following (you do not need to find all three) on social media, a podcast, the news, or other source:
 (a) An example of a valid argument which as true premises and a true conclusion.
-(b) An example of a valid argument which includes at least one false premise.
-(c) An example of an invalid argument, meaning tha
+===(b) An example of a valid argument which includes at least one false premise.===
+(c) An example of an invalid argument, meaning that it has true premises leading to a false conclusion.
+
+####  [Pew Research article showing an example of a valid argument which includes at least one false premise](https://www.pewresearch.org/science/2023/08/09/why-some-americans-do-not-see-urgency-on-climate-change/)
+
+- https://www.pewresearch.org/science/2023/08/09/why-some-americans-do-not-see-urgency-on-climate-change/
+- _“I believe it’s cyclical. And the reason why I believe this is because there were record high temperatures more than 100 years ago that are higher than what we are having now. And this is going to come and go as time goes on – a.k.a. cyclical.”_ –Woman, 50s, Coastal Florida
 
