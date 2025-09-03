@@ -74,12 +74,10 @@ Therefore $-\frac{1}{2}$ is between 0 and 1."
 This argument uses correct logical reasoning (modus ponens), making it valid. 
 Despite this, the first premise is **false.**
 
-The premise claims that 
-
-
-The argument uses correct logical reasoning (universal instantiation + modus ponens), making it valid. However, the first premise is **false**.
-
-**The error:** The premise claims "if 0 ≤ x² ≤ 1, then 0 ≤ x ≤ 1" but this is incorrect. The correct statement would be "if 0 ≤ x² ≤ 1, then -1 ≤ x ≤ 1" (since both positive and negative values can have squares in this range).
+The premise claims "if $0 \leq x^2 \leq 1$, then $0 \leq x \leq 1$" but this is incorrect.
+The correct premise would be "if $0 \leq x^2 \leq 1$, then $-1 \leq x \leq 1$" since both positive and negative values can have squares in this range.
+We were able to deduce a false conclusion from a valid argument in this scenario because valid arguments with false premises can produce false conclusions.
+The logical structure of the argument is sound, but since we are working from incorrect information and the conclusion follows then the conclusion is false.
 
 **Why we get a false conclusion:** Valid arguments with false premises can produce false conclusions. The logical structure is sound, but we're working from incorrect information. Since -1/2 satisfies 0 ≤ x² ≤ 1 but doesn't satisfy the (incorrect) conclusion 0 ≤ x ≤ 1, we see the premise is false.
 
