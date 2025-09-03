@@ -89,4 +89,5 @@ p = Works in a hospital
 q = Works in a tech startup
 r = Seen several injuries
 
-$p \lor q \\$
+$\begin{align} p &\lor q \\ p &\rightarrow r \\ &\lnot r \\ \hline &\therefore q\end{align}$
+
