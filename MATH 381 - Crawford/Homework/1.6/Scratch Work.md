@@ -17,7 +17,10 @@ $p \implies q$ - If Sarah gets an A on the final exam, then she is happy.
 $p \implies r$ - If Sarah gets an A on the final exam, then Sarah calls her parents.
 $\therefore q \implies r$ - Therefore, if Sarah is happy, then Sarah calls her parents.
 
-This logic is not valid. While Sarah being happy as a result of getting an A on her final exam and Sarah calling her parents as a result of getting an A on the final exam do make sense, there is a litany of other possible reasons as to why Sarah could be calling her parents other than her being happy. The premises only tell us what happens when Sarah aces the final, but the conclusion incorrectly assumes that ALL of Sarah's happiness leads to calling her parents. This shows the logical gap in the argument structure.
+This logic is not valid. 
+While Sarah being happy as a result of getting an A on her final exam and Sarah calling her parents as a result of getting an A on the final exam do make sense, there is a litany of other possible reasons as to why Sarah could be calling her parents other than her being happy. 
+The premises only tell us what happens when Sarah aces the final, but the conclusion incorrectly assumes that ALL of Sarah's happiness leads to calling her parents. 
+This shows the logical gap in the argument structure.
 
 #### B)
 $\begin{align} (p \rightarrow q) &\land (r \rightarrow s) \\ p &\lor r \\ \hline \therefore q &\lor s\end{align}$
@@ -58,10 +61,24 @@ This argument form is valid.
 
 ### 4. 
 
-Below is a "proof" that $-\frac{1}{2}$ is positive. Is this a valid argument? If so, explain why we were able to deduce a false conclusion from a valid argument. If not, explain.
+Below is a "proof" that $-\frac{1}{2}$ is positive. Is this a valid argument? 
+If so, explain why we were able to deduce a false conclusion from a valid argument. 
+If not, explain.
 
 "We know that if $0 \leq x^2 \leq 1$, then $0 \leq x \leq 1$ for any real number x.
 Clearly $(-\frac{1}{2}^2 = 1/4$ is between 0 and 1.
 Therefore $-\frac{1}{2}$ is between 0 and 1."
 
-This is not a valid argument. 
+This argument uses correct logical reasoning (modus ponens), making it valid. 
+Despite this, the first premise is **false.**
+
+The premise claims that 
+
+
+The argument uses correct logical reasoning (universal instantiation + modus ponens), making it valid. However, the first premise is **false**.
+
+**The error:** The premise claims "if 0 ≤ x² ≤ 1, then 0 ≤ x ≤ 1" but this is incorrect. The correct statement would be "if 0 ≤ x² ≤ 1, then -1 ≤ x ≤ 1" (since both positive and negative values can have squares in this range).
+
+**Why we get a false conclusion:** Valid arguments with false premises can produce false conclusions. The logical structure is sound, but we're working from incorrect information. Since -1/2 satisfies 0 ≤ x² ≤ 1 but doesn't satisfy the (incorrect) conclusion 0 ≤ x ≤ 1, we see the premise is false.
+
+**Key insight:** Validity only guarantees that _if_ the premises were true, the conclusion would follow. It doesn't guarantee the premises are actually true.
