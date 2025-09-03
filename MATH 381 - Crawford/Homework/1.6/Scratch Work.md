@@ -123,10 +123,3 @@ Find ONE example of the following (you do not need to find all three) on social 
 3. $q \rightarrow r$ - Premise (questionable)
 4. $q$ - Modus Ponens of 1 and 2
 5. $r$ - Modus Ponens of 3 and 4
-
-6. P                           Premise (FALSE)
-7. P → Q                       Premise (questionable)
-8. Q → R                       Premise (questionable)  
-9. Q                           Modus Ponens (1,2)
-10. R                           Modus Ponens (4,3)
-∴ Current warming is natural
