@@ -64,7 +64,9 @@ Suppose that the argument from with premises $p_{1}$, $...$, $p_n$, $q$ and conc
 $\begin{align} &p_{1} \\ &\dots \\ &p_{n} \\ &q \\ \hline &r \end{align}$
 Valid argument...
 
-$$
+$\begin{align} &p_{1} \\ &\dots \\ &p_{n} \\ \hline q &\rightarrow r \end{align}$
+[Valid Argument?]
+
 
 ### 3. UNSURE HOW TO DO
 
