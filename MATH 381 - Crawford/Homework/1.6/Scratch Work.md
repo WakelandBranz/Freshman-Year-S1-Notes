@@ -55,10 +55,12 @@ This argument form is valid.
 
 This argument form is valid.
 
+---
 ### 2. UNSURE HOW TO DO
 
 ### 3. UNSURE HOW TO DO
 
+---
 ### 4. 
 
 Below is a "proof" that $-\frac{1}{2}$ is positive. Is this a valid argument? 
@@ -78,6 +80,7 @@ We were able to deduce a false conclusion from a valid argument in this scenario
 Since $-\frac{1}{2}$ satisfies $0 \leq x^2 \leq 1$ but does not satisfy the (incorrect) conclusion $0 \leq x \leq 1$, we see the premise is false.
 The logical structure is correct, but the false premise leads to a false conclusion.
 
+---
 ### 5.
 
 Show that the following is a valid argument: 
@@ -99,6 +102,7 @@ $\begin{align} p &\lor q \\ p &\rightarrow r \\ &\lnot r \\ \hline &\therefore q
 
 Therefore this is a valid argument.
 
+---
 ### 6.
 Find ONE example of the following (you do not need to find all three) on social media, a podcast, the news, or other source:
 (a) An example of a valid argument which as true premises and a true conclusion.
@@ -109,4 +113,20 @@ Find ONE example of the following (you do not need to find all three) on social 
 
 - https://www.pewresearch.org/science/2023/08/09/why-some-americans-do-not-see-urgency-on-climate-change/
 - _“I believe it’s cyclical. And the reason why I believe this is because there were record high temperatures more than 100 years ago that are higher than what we are having now. And this is going to come and go as time goes on – a.k.a. cyclical.”_ –Woman, 50s, Coastal Florida
+#### PF:
+- P = "Past temperatures (100+ years ago) were higher than current temperatures"
+- Q = "Current warming is part of natural cycles"
+- R = "Current warming is natural/not human-caused"
 
+1. $p$ - Premise (false)
+2. $p \rightarrow q$ - Premise (questionable)
+3. $q \rightarrow r$ - Premise (questionable)
+4. $q$ - Modus Ponens of 1 and 2
+5. $r$ - Modus Ponens of 3 and 4
+
+6. P                           Premise (FALSE)
+7. P → Q                       Premise (questionable)
+8. Q → R                       Premise (questionable)  
+9. Q                           Modus Ponens (1,2)
+10. R                           Modus Ponens (4,3)
+∴ Current warming is natural
