@@ -2,7 +2,7 @@
 #### A)
 
 $\begin{align} p &\implies q \\ p &\implies r \\ \hline \therefore q &\implies r \end{align}$
-##### Contradiction
+##### Counterexample
 - p = "Sarah gets an A on the final exam"
 - q = "Sarah is happy"
 - r = "Sarah calls her parents"
