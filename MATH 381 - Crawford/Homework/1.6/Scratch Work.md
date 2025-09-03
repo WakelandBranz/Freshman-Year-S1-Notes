@@ -20,9 +20,6 @@ This logic is not valid.
 While Sarah being happy as a result of getting an A on her final exam and Sarah calling her parents as a result of getting an A on the final exam do make sense, there is a litany of other possible reasons as to why Sarah could be calling her parents other than her being happy. 
 The premises only tell us what happens when Sarah aces the final, but the conclusion incorrectly assumes that ALL of Sarah's happiness leads to calling her parents. 
 This shows the logical gap in the argument structure.
-
-
-
 #### B)
 $\begin{align} (p \rightarrow q) &\land (r \rightarrow s) \\ p &\lor r \\ \hline \therefore q &\lor s\end{align}$
 
@@ -103,5 +100,8 @@ $\begin{align} p &\lor q \\ p &\rightarrow r \\ &\lnot r \\ \hline &\therefore q
 Therefore this is a valid argument
 
 ### 6.
-
+Find ONE example of the following (you do not need to find all three) on social media, a podcast, the news, or other source:
+(a) An example of a valid argument which as true premises and a true conclusion.
+(b) An example of a valid argument which includes at least one false premise.
+(c) An example of an invalid argument, meaning tha
 
