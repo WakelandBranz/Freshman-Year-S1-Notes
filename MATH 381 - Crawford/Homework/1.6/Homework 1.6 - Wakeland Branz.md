@@ -1,5 +1,6 @@
 ### 1.
 #### A)
+Determine if the following argument forms are valid or invalid. Explain your reasoning.
 
 $\begin{align} p &\implies q \\ p &\implies r \\ \hline \therefore q &\implies r \end{align}$
 ##### Counterexample
@@ -11,7 +12,7 @@ $p \rightarrow r$ - If Sarah gets an A on the final exam, then Sarah calls her p
 $\therefore q \rightarrow r$ - Therefore, if Sarah is happy, then Sarah calls her parents.
 
 This logic is not valid. While Sarah being happy as a result of getting an A on her final exam and Sarah calling her parents as a result of getting an A on the final exam do make sense, there is a litany of other possible reasons as to why Sarah could be calling her parents other than her being happy. The premises only tell us what happens when Sarah aces the final, but the conclusion incorrectly assumes that ALL of Sarah's happiness leads to calling her parents. This shows the logical gap in the argument structure.
-<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 <br>
 ---
 #### B)

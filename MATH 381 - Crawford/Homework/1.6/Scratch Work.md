@@ -1,5 +1,6 @@
 ### 1.
 #### A)
+Determine if the following argument forms are valid or invalid. Explain your reasoning.
 
 $\begin{align} p &\rightarrow q \\ p &\rightarrow r \\ \hline \therefore q &\rightarrow r \end{align}$
 ##### Initial Contradiction
@@ -58,7 +59,11 @@ This argument form is valid.
 ---
 ### 2. UNSURE HOW TO DO
 
+Suppose that the argument from with premises $p_{1}$, $...$, $p_n$, $q$ and conclusion $r$ is valid. Show that this implies that the argument form with premises $p_{1}$, $...$, $p_{n}$ and conclusion $q \rightarrow r$.
+
 ### 3. UNSURE HOW TO DO
+
+Use exercise (**2**) to show that the argument form with premises $(p \land t) \rightarrow (r \lor s)$, $q \rightarrow (u \land t)$, $u \rightarrow p$, and $\lnot s$ and conclusion $q \rightarrow r$ is valid.
 
 ---
 ### 4. 
