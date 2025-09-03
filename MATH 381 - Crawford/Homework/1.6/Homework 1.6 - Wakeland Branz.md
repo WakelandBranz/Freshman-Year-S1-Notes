@@ -11,25 +11,9 @@ $p \rightarrow r$ - If Sarah gets an A on the final exam, then Sarah calls her p
 $\therefore q \rightarrow r$ - Therefore, if Sarah is happy, then Sarah calls her parents.
 
 This logic is not valid. While Sarah being happy as a result of getting an A on her final exam and Sarah calling her parents as a result of getting an A on the final exam do make sense, there is a litany of other possible reasons as to why Sarah could be calling her parents other than her being happy. The premises only tell us what happens when Sarah aces the final, but the conclusion incorrectly assumes that ALL of Sarah's happiness leads to calling her parents. This shows the logical gap in the argument structure.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+<br>
+---
 #### B)
 $\begin{align} (p \rightarrow q) &\land (r \rightarrow s) \\ p &\lor r \\ \hline \therefore q &\lor s\end{align}$
 
@@ -52,7 +36,7 @@ This argument form is valid.
 
 1. $r \rightarrow t$ - Premise
 2. $\lnot t$ - Premise
-3. $\lnot r$ - Modus Tollens on 1 & 2
+3. $\lnot r$ - Modus Tollens on 1 and 2
 4. $\lnot r \lor \lnot s$ - Addition of 3
 5. $\lnot (r \land s)$ - DeMorgan's Law on 4
 6. $(\lnot p \lor \lnot q) \rightarrow (r \land s)$ - Premise
