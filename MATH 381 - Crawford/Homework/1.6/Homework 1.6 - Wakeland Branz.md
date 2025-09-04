@@ -133,6 +133,11 @@ Since $-\frac{1}{2}$ satisfies $0 \leq x^2 \leq 1$ but does not satisfy the (inc
 The logical structure is correct, but the false premise leads to a false conclusion.
 
 ---
+<br> <br> <br>
+  <br>
+  <br> <br> <br>
+  <br>
+  <br><br><br>
 ### 5.
 
 Show that the following is a valid argument: 
@@ -160,7 +165,6 @@ Find ONE example of the following (you do not need to find all three) on social 
 (a) An example of a valid argument which as true premises and a true conclusion.
 ===(b) An example of a valid argument which includes at least one false premise.===
 (c) An example of an invalid argument, meaning that it has true premises leading to a false conclusion.
-
 ####  [Pew Research article showing an example of a valid argument which includes at least one false premise](https://www.pewresearch.org/science/2023/08/09/why-some-americans-do-not-see-urgency-on-climate-change/)
 
 - https://www.pewresearch.org/science/2023/08/09/why-some-americans-do-not-see-urgency-on-climate-change/
