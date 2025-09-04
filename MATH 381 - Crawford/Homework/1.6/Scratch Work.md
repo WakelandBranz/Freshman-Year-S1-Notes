@@ -70,13 +70,21 @@ Given that the first argument is valid, we know whenever all premises, $p_{1}$, 
 For our second argument to be valid, we need to show that whenever $p_{1}$, ..., $p_{n}$ are all true, then $q \rightarrow r$ must be true.
 For the second argument o fail, $q \rightarrow r$ would have to be false, which only happens when $q$ is true and $r$ is false.
 In any cases where $p_{1}$, ..., $p_{n}$ are all true.
-If $q$ is false, then $q \rightarrow r$ is automatically true. If $q$ is true, then we have 
+If $q$ is false, then $q \rightarrow r$ is automatically true.
+If $q$ is true, then we have $p_{1}$, ..., $p_{n}$, $q$ all true.
+Since the original argument was valid, this forces $r$ to be true, making $q \rightarrow r$ true as well.
 Therefore $q \rightarrow r$ is true in both cases, so the second argument is valid.
 
 ---
 ### 3. UNSURE HOW TO DO
 
 Use exercise (**2**) to show that the argument form with premises $(p \land t) \rightarrow (r \lor s)$, $q \rightarrow (u \land t)$, $u \rightarrow p$, and $\lnot s$ and conclusion $q \rightarrow r$ is valid.
+
+Given premises:
+
+$\begin{align}  (p \land t) &\rightarrow (r \lor s) \\ q &\rightarrow (u \land t) \\ u &\rightarrow p \\ &\lnot s \\ \hline \therefore q &\rightarrow r\end{align}$
+
+
 
 ---
 ### 4. 
