@@ -66,10 +66,11 @@ $\begin{align} &p_{1} \\ &\dots \\ &p_{n} \\ &q \\ \hline &r \end{align}$
 $\begin{align} &p_{1} \\ &\dots \\ &p_{n} \\ \hline &q \rightarrow r \end{align}$
 [Valid Argument?]
 
-Given that the first argument is a valid argument, we know that all of the premises, including $q$ and $r$, are always true.
-In order for our second argument to fail, $q \rightarrow r$ has to evaluate to be false; this is only possible if $q$ is true and $r$ is false.
-That being said, there are only two possibilities: if q is false then $q \rightarrow r$ will always evaluate to be true and if q is true then r must also be true for $q \rightarrow r$ to evaluate to true.
-Since we know the original argument was valid, having $p_{1}$, $p_{2}$, etc. AND q all true would force r to be true. So "if q, then r" is true in this case too.
+Given that the first argument is valid, we know whenever all premises, $p_{1}$, ..., $p_{n}$, $q$ are true, then $r$ must be true.
+For our second argument to be valid, we need to show that whenever $p_{1}$, ..., $p_{n}$ are all true, then $q \rightarrow r$ must be true.
+For the second argument o fail, $q \rightarrow r$ would have to be false, which only happens when $q$ is true and $r$ is false.
+Since we know the original argument was valid, having $p_{1}$, $p_{2}$, etc. AND  all true would force $r$ to be true. 
+So $q \rightarrow r$ is true in this case too.
 
 ---
 ### 3. UNSURE HOW TO DO
