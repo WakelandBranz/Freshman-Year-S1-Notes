@@ -96,7 +96,7 @@ Since $u$ is true and we have the premise $u \rightarrow p$, we can conclude $p$
 Now we know both $p$ and $t$ are true, so $(p \land t)$ is true.
 From $(p \land t)$ being true and the premise $(p \land t) \rightarrow (r \lor s)$, we can conclude $(r \lor s)$ is true using modus ponens.
 We also have the premise $\lnot s$ (s is false).
-Since $()
+Since $(r \lor s)$ is true and $s$ is false, $r$ must be true using sijunctive syllogism.
 
 ---
 ### 4. 
