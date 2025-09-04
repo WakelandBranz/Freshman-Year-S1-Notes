@@ -37,7 +37,7 @@ $\begin{align} (p \rightarrow q) &\land (r \rightarrow s) \\ p &\lor r \\ \hline
 10. $r \lor q$ - Commutative of 7
 11. $q \lor s$ - Resolution of 10 and 6
 
-This argument form is valid.
+Based on the proof above, this argument form is valid.
 
 #### C)
  $\begin{align} (\lnot p \lor \lnot q) &\rightarrow (r \land s) \\ r &\rightarrow t \\ \lnot t \\ \hline \therefore p\end{align}$
@@ -54,17 +54,16 @@ This argument form is valid.
 9. $p \land q$ - Double Negation
 10. $p$ - Simplification
 
-This argument form is valid.
+Based on the proof above, this argument form is valid.
 
 ---
-### 2. UNSURE HOW TO DO
+### 2. 
 
 Suppose that the argument from with premises $p_{1}$, $...$, $p_n$, $q$ and conclusion $r$ is valid. Show that this implies that the argument form with premises $p_{1}$, $...$, $p_{n}$ and conclusion $q \rightarrow r$.
 
 $\begin{align} &p_{1} \\ &\dots \\ &p_{n} \\ &q \\ \hline &r \end{align}$
 
 $\begin{align} &p_{1} \\ &\dots \\ &p_{n} \\ \hline &q \rightarrow r \end{align}$
-[Valid Argument?]
 
 Given that the first argument is valid, we know whenever all premises, $p_{1}$, ..., $p_{n}$, $q$ are true, then $r$ must be true.
 For our second argument to be valid, we need to show that whenever $p_{1}$, ..., $p_{n}$ are all true, then $q \rightarrow r$ must be true.
@@ -76,7 +75,7 @@ Since the original argument was valid, this forces $r$ to be true, making $q \ri
 Therefore $q \rightarrow r$ is true in both cases, so the second argument is valid.
 
 ---
-### 3. UNSURE HOW TO DO
+### 3. 
 
 Use exercise (**2**) to show that the argument form with premises $(p \land t) \rightarrow (r \lor s)$, $q \rightarrow (u \land t)$, $u \rightarrow p$, and $\lnot s$ and conclusion $q \rightarrow r$ is valid.
 
@@ -96,7 +95,9 @@ Since $u$ is true and we have the premise $u \rightarrow p$, we can conclude $p$
 Now we know both $p$ and $t$ are true, so $(p \land t)$ is true.
 From $(p \land t)$ being true and the premise $(p \land t) \rightarrow (r \lor s)$, we can conclude $(r \lor s)$ is true using modus ponens.
 We also have the premise $\lnot s$ (s is false).
-Since $(r \lor s)$ is true and $s$ is false, $r$ must be true using sijunctive syllogism.
+Since $(r \lor s)$ is true and $s$ is false, $r$ must be true using disjunctive syllogism.
+Therefore, assuming $q$ leads us to conclude $r$.
+By using exercise 2, this proves that $q \rightarrow r$ is a valid conclusion from our original premises.
 
 ---
 ### 4. 
@@ -138,7 +139,7 @@ $\begin{align} p &\lor q \\ p &\rightarrow r \\ &\lnot r \\ \hline &\therefore q
 4. $\lnot p$ -  Modus Tollens of 2 and 3
 5. $q$ - Disjunctive Syllogism of 1 and 4
 
-Therefore this is a valid argument.
+Based on the proof above, this is a valid argument.
 
 ---
 ### 6.
@@ -162,4 +163,4 @@ Find ONE example of the following (you do not need to find all three) on social 
 4. $q$ - Modus Ponens of 1 and 2
 5. $r$ - Modus Ponens of 3 and 4
 
-EXPLANATION HERE
+This example demonstrates a valid argument with a false premise because while the logical reasoning follows correctly (if past temperatures were higher, then warming is cyclical, therefore current warming is natural), the factual claim that past temperatures exceeded current ones is scientifically incorrect, making the argument structurally sound but factually flawed.
