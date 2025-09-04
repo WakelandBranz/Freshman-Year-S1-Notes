@@ -69,8 +69,9 @@ $\begin{align} &p_{1} \\ &\dots \\ &p_{n} \\ \hline &q \rightarrow r \end{align}
 Given that the first argument is valid, we know whenever all premises, $p_{1}$, ..., $p_{n}$, $q$ are true, then $r$ must be true.
 For our second argument to be valid, we need to show that whenever $p_{1}$, ..., $p_{n}$ are all true, then $q \rightarrow r$ must be true.
 For the second argument o fail, $q \rightarrow r$ would have to be false, which only happens when $q$ is true and $r$ is false.
-Since we know the original argument was valid, having $p_{1}$, $p_{2}$, etc. AND  all true would force $r$ to be true. 
-So $q \rightarrow r$ is true in this case too.
+In any cases where $p_{1}$, ..., $p_{n}$ are all true.
+If $q$ is false, then $q \rightarrow r$ is automatically true. If $q$ is true, then we have 
+Therefore $q \rightarrow r$ is true in both cases, so the second argument is valid.
 
 ---
 ### 3. UNSURE HOW TO DO
