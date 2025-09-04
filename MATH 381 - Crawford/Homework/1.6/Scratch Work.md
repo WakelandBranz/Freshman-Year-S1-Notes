@@ -89,9 +89,14 @@ $\equiv$
 $\begin{align}  (p \land t) &\rightarrow (r \lor s) \\ q &\rightarrow (u \land t) \\ u &\rightarrow p \\ &\lnot s \\ &q \\ \hline &r\end{align}$
 
 Based on what we proved in exercise 2, the above 2 argument forms are equivalent. 
-Given that these arguments are valid and the premises are true, we know that q is true. 
-From this we can extract that both $u$ and $t$ are true because in order for $q \rightarrow (u \land t)$ to evaluate to true they must be true and that since $q \rightarrow (u \land t)$ is a premise it is true.
-
+To use exercise 2's method, we assume $q$ is true and show that $r$ must follow.
+From $q$ being true and the premise $q \rightarrow (u \land t)$, we can conclude $(u \land t)$ is true using modus ponens.
+From $(u \land t)$ being true, we can extract that both $u$ and $t$ are individually true.
+Since $u$ is true and we have the premise $u \rightarrow p$, we can conclude $p$ is true using modus ponens.
+Now we know both $p$ and $t$ are true, so $(p \land t)$ is true.
+From $(p \land t)$ being true and the premise $(p \land t) \rightarrow (r \lor s)$, we can conclude $(r \lor s)$ is true using modus ponens.
+We also have the premise $\lnot s$ (s is false).
+Since $()
 
 ---
 ### 4. 
