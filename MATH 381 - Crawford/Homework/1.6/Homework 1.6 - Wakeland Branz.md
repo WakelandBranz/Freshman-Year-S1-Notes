@@ -15,9 +15,9 @@ This logic is not valid.
 While Sarah being happy as a result of getting an A on her final exam and Sarah calling her parents as a result of getting an A on the final exam do make sense, there is a litany of other possible reasons as to why Sarah could be calling her parents other than her being happy. 
 The premises only tell us what happens when Sarah aces the final, but the conclusion incorrectly assumes that ALL of Sarah's happiness leads to calling her parents. 
 This shows the logical gap in the argument structure.
-<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-<br>
+
 ---
+<br> <br> <br> <br> <br> <br> <br> <br> <br>
 #### B)
 $\begin{align} (p \rightarrow q) &\land (r \rightarrow s) \\ p &\lor r \\ \hline \therefore q &\lor s\end{align}$
 
@@ -35,6 +35,13 @@ $\begin{align} (p \rightarrow q) &\land (r \rightarrow s) \\ p &\lor r \\ \hline
 11. $q \lor s$ - Resolution of 10 and 6
 
 Based on the proof above, this argument form is valid.
+
+---
+ <br> <br> <br> <br> <br> <br> <br>
+
+ <br> <br> <br> <br> <br> <br>
+ <br>
+ <br>
 
 #### C)
  $\begin{align} (\lnot p \lor \lnot q) &\rightarrow (r \land s) \\ r &\rightarrow t \\ \lnot t \\ \hline \therefore p\end{align}$
@@ -54,6 +61,10 @@ Based on the proof above, this argument form is valid.
 Based on the proof above, this argument form is valid.
 
 ---
+ <br> <br> <br> <br> <br> <br>
+
+ <br> <br> <br> <br> <br> <br>
+ <br> <br> <br>
 ### 2. 
 
 Suppose that the argument from with premises $p_{1}$, $...$, $p_n$, $q$ and conclusion $r$ is valid. Show that this implies that the argument form with premises $p_{1}$, $...$, $p_{n}$ and conclusion $q \rightarrow r$.
@@ -72,6 +83,9 @@ Since the original argument was valid, this forces $r$ to be true, making $q \ri
 Therefore $q \rightarrow r$ is true in both cases, so the second argument is valid.
 
 ---
+ <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+ <br>
+ <br>
 ### 3. 
 
 Use exercise (**2**) to show that the argument form with premises $(p \land t) \rightarrow (r \lor s)$, $q \rightarrow (u \land t)$, $u \rightarrow p$, and $\lnot s$ and conclusion $q \rightarrow r$ is valid.
@@ -97,6 +111,8 @@ Therefore, assuming $q$ leads us to conclude $r$.
 By using exercise 2, this proves that $q \rightarrow r$ is a valid conclusion from our original premises.
 
 ---
+ <br> <br> <br>
+  <br>
 ### 4. 
 
 Below is a "proof" that $-\frac{1}{2}$ is positive. Is this a valid argument? 
