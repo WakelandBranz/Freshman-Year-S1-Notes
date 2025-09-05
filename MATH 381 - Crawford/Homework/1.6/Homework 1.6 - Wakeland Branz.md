@@ -165,8 +165,7 @@ Find ONE example of the following (you do not need to find all three) on social 
 (a) An example of a valid argument which as true premises and a true conclusion.
 ===(b) An example of a valid argument which includes at least one false premise.===
 (c) An example of an invalid argument, meaning that it has true premises leading to a false conclusion.
-####  [Pew Research article showing an example of a valid argument which includes at least one false premise](https://www.pewresearch.org/science/2023/08/09/why-some-americans-do-not-see-urgency-on-climate-change/)
-
+####  Pew Research article showing an example of a valid argument which includes at least one false premise
 - https://www.pewresearch.org/science/2023/08/09/why-some-americans-do-not-see-urgency-on-climate-change/
 - _“I believe it’s cyclical. And the reason why I believe this is because there were record high temperatures more than 100 years ago that are higher than what we are having now. And this is going to come and go as time goes on – a.k.a. cyclical.”_ –Woman, 50s, Coastal Florida
 #### PF:
@@ -181,3 +180,5 @@ Find ONE example of the following (you do not need to find all three) on social 
 5. $r$ - Modus Ponens of 3 and 4
 
 This example demonstrates a valid argument with a false premise because while the logical reasoning follows correctly (if past temperatures were higher, then warming is cyclical, therefore current warming is natural), the factual claim that past temperatures exceeded current ones is scientifically incorrect, making the argument structurally sound but factually flawed.
+
+---
