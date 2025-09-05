@@ -14,4 +14,13 @@
 
 #### *Triangular Composition Strategies*
 - 'the 3-way switch'
-- general quesiton--specf
+- general question--specific answer--general theme
+- audience who knows: the same--less-and more
+
+#### *Aspirational Goals of the Genre*
+- observation before explanation
+- motivate/direct further thought/action
+- ASK: *Why is this profound and exciting?*
+---
+### Analyzing Genre Samples
+
