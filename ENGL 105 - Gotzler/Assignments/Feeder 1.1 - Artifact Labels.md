@@ -5,3 +5,5 @@ Go to an online digital collection of historical and/or cultural artifacts (e.g.
 **NOTE:** Please upload an image/text/audio file of your artifact along with the label, either embedded in the document or as a separate file.
 
 ---
+![[Pasted image 20250907115713.png]]
+
