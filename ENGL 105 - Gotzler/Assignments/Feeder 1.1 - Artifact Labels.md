@@ -5,7 +5,7 @@ Go to an online digital collection of historical and/or cultural artifacts (e.g.
 **NOTE:** Please upload an image/text/audio file of your artifact along with the label, either embedded in the document or as a separate file.
 
 ---
-![[Pasted image 20250907122402.png]]
+
 
 
 **Elisha Mitchell (1793–1857)**, _Pocket Watch, Recovered 1857_ , Metal and Glass
