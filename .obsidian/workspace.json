@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATH 381 - Crawford/Notes/Week 3/Small Explanation for ∀ and ∃.md",
+                "file": "MATH 381 - Crawford/Notes/Week 3/1.5 Nested Quantifiers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Small Explanation for ∀ and ∃"
+              "title": "1.5 Nested Quantifiers"
             }
           }
         ],
@@ -206,7 +206,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "0c695db4e61c7791",
+  "active": "045afb4721becc46",
   "lastOpenFiles": [
     "MATH 381 - Crawford/Notes/Week 3/Small Explanation for ∀ and ∃.md",
     "MATH 381 - Crawford/Notes/Week 3/1.4 - Predicates and Quantifiers.md",
