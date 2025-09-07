@@ -25,14 +25,14 @@
             "id": "045afb4721becc46",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "MATH 381 - Crawford/Notes/Week 3/Small Explanation for forall and ∃.md",
-                "bFile": "MATH 381 - Crawford/Notes/Week 3/Small Explanation for forall and ∃.md",
-                "aRef": ""
+                "file": "MATH 381 - Crawford/Notes/Week 3/Small Explanation for ∀ and ∃.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Small Explanation for forall and ∃"
+              "icon": "lucide-file",
+              "title": "Small Explanation for ∀ and ∃"
             }
           }
         ],
@@ -206,7 +206,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "045afb4721becc46",
+  "active": "0c695db4e61c7791",
   "lastOpenFiles": [
     "MATH 381 - Crawford/Notes/Week 3/Small Explanation for ∀ and ∃.md",
     "MATH 381 - Crawford/Notes/Week 3/1.4 - Predicates and Quantifiers.md",
