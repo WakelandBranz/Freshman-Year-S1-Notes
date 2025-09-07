@@ -25,14 +25,14 @@
             "id": "045afb4721becc46",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "MATH 381 - Crawford/Notes/Week 3/Small Explanation for forall and ∃.md",
-                "mode": "source",
-                "source": false
+                "aFile": "MATH 381 - Crawford/Notes/Week 3/Small Explanation for forall and ∃.md",
+                "bFile": "MATH 381 - Crawford/Notes/Week 3/Small Explanation for forall and ∃.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Small Explanation for forall and ∃"
+              "icon": "diff",
+              "title": "Diff: Small Explanation for forall and ∃"
             }
           }
         ],
@@ -208,9 +208,9 @@
   },
   "active": "045afb4721becc46",
   "lastOpenFiles": [
+    "MATH 381 - Crawford/Notes/Week 3/Small Explanation for ∀ and ∃.md",
     "MATH 381 - Crawford/Notes/Week 3/1.4 - Predicates and Quantifiers.md",
     "MATH 381 - Crawford/Notes/Week 3/1.5 Nested Quantifiers.md",
-    "MATH 381 - Crawford/Notes/Week 3/Small Explanation for forall and ∃.md",
     "MATH 381 - Crawford/Symbols.md",
     "ENGL 105 - Gotzler/Assignments/Feeder 1.1 - Artifact Labels.md",
     "Pasted image 20250907122402.png",
