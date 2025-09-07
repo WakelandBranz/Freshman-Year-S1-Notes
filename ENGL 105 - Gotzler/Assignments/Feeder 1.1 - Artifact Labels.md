@@ -7,3 +7,7 @@ Go to an online digital collection of historical and/or cultural artifacts (e.g.
 ---
 ![[Pasted image 20250907115713.png]]
 
+Guerrilla Girls (American, active since 1985), “10 Trashy Ideas About the Environment,” from Portfolio Compleat, 1992. Offset Lithograph, 12 x 9 in. Ackland Fund.
+
+Elisha Mitchell (1793-1857), Pocket Watch of Elisha Mitchell, 1857
+
