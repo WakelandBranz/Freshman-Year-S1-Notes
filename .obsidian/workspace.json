@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DATA 110 - Balan/Notes/Three Types of Data.md",
+                "file": "ENGL 105 - Gotzler/Assignments/Observing Digital Exhibits.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Three Types of Data"
+              "title": "Observing Digital Exhibits"
             }
           }
         ],
@@ -185,7 +185,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -208,6 +208,9 @@
   },
   "active": "045afb4721becc46",
   "lastOpenFiles": [
+    "ENGL 105 - Gotzler/Assignments/Untitled.md",
+    "ENGL 105 - Gotzler/Assignments/Observing Digital Exhibits.md",
+    "DATA 110 - Balan/Notes/Three Types of Data.md",
     "ENGL 105 - Gotzler/Notes/Week 03/9-5-2025 - Wall Text.md",
     "SCLL 150 - Atkins/Notes/Week 03/09-03-25.md",
     "ENGL 105 - Gotzler/Exercises/Flight Plans - Planning Exercise.md",
@@ -226,7 +229,6 @@
     "MATH 381 - Crawford/Notes/Week 2/1.3 - Propositional Equivalences Notes.md",
     "MATH 381 - Crawford/Notes/Week 2/1.6 - Rules of Inference Notes.md",
     "MATH 381 - Crawford/Notes/Week 1/Day 2 Section 1.1ish notes.md",
-    "ENGL 105 - Gotzler/Assignments/Observing Digital Exhibits.md",
     "MATH 381 - Crawford/Notes/Week 3",
     "ENGL 105 - Gotzler/Projects/Project 1/Project 1 Intro.md",
     "ENGL 105 - Gotzler/Assignments",
@@ -236,13 +238,11 @@
     "MATH 381 - Crawford/Notes/Prelim Notes",
     "DATA 110 - Balan/Notes/Week 2 - 08-25-2025/08-27-2025 - Functions and stuff.md",
     "DATA 110 - Balan/Notes/Week 2 - 08-25-2025/08-25-2025 - Intro to Python Programming.md",
-    "DATA 110 - Balan/Notes/Three Types of Data.md",
     "ENGL 105 - Gotzler/Notes/Week 02/Wednesday 08-27-2025.md",
     "ENGL 105 - Gotzler/Projects/Project 1",
     "ENGL 105 - Gotzler/Projects",
     "SCLL 150 - Atkins/Notes/Week 02/08-25-2025.md",
     "MATH 381 - Crawford/Notes/Side notes/Section 1.1ish Side Notes.md",
-    "MATH 381 - Crawford/Images/Truth Table Example.md",
-    "copilot-custom-prompts/Fix grammar and spelling.md"
+    "MATH 381 - Crawford/Images/Truth Table Example.md"
   ]
 }
