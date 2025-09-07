@@ -11,5 +11,5 @@ Guerrilla Girls (American, active since 1985), “10 Trashy Ideas About the Envi
 
 **Elisha Mitchell (1793–1857)** , _Pocket Watch, Recovered 1857_ , Metal and Glass
 
-This pocket watch marked the exact moment that Elisha Mitchell met his fate. 
+This pocket watch marked the exact moment that Elisha Mitchell met his fate. In 1857, geologist 
 
