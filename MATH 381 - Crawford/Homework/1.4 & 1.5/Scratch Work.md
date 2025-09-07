@@ -14,6 +14,9 @@ Since the first proposition being true implies that P(x) evaluates to true for a
 ##### (b) $\exists x P(x) \rightarrow \forall x P(x)$ is an arbitrary propositional function
 
 This statement is false.
+This statement attempts to claim that if some values of x are true for P(x) then all values of x are true for P(x).
+This is cannot be true.
+If P(x) were to be $x = 5$ then the first proposition would evaluate as true because there exists a case where $x = 5$ thus P(x) is true but in all cases 
 
 ---
  
