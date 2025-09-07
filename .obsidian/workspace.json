@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MATH 381 - Crawford/Notes/Week 3/1.5 Nested Quantifiers.md",
+                "file": "MATH 381 - Crawford/Homework/1.4 & 1.5/Scratch Work.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.5 Nested Quantifiers"
+              "title": "Scratch Work"
             }
           }
         ],
@@ -189,7 +189,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,9 +209,13 @@
   },
   "active": "045afb4721becc46",
   "lastOpenFiles": [
+    "MATH 381 - Crawford/Homework/1.4 & 1.5/Homework 1.6 - Wakeland Branz.md",
+    "MATH 381 - Crawford/Homework/1.6/Scratch Work.md",
+    "MATH 381 - Crawford/Homework/1.4 & 1.5/Scratch Work.md",
+    "MATH 381 - Crawford/Notes/Week 3/1.5 Nested Quantifiers.md",
+    "MATH 381 - Crawford/Homework/1.4 & 1.5",
     "MATH 381 - Crawford/Notes/Week 3/Small Explanation for ∀ and ∃.md",
     "MATH 381 - Crawford/Notes/Week 3/1.4 - Predicates and Quantifiers.md",
-    "MATH 381 - Crawford/Notes/Week 3/1.5 Nested Quantifiers.md",
     "MATH 381 - Crawford/Symbols.md",
     "ENGL 105 - Gotzler/Assignments/Feeder 1.1 - Artifact Labels.md",
     "Pasted image 20250907122402.png",
@@ -223,7 +228,6 @@
     "SCLL 150 - Atkins/Notes/Week 03",
     "ENGL 105 - Gotzler/Notes/Week 03/9-3-25 Boolean Operators.md",
     "ENGL 105 - Gotzler/Exercises",
-    "MATH 381 - Crawford/Homework/1.6/Scratch Work.md",
     "ENGL 105 - Gotzler/Notes/Week 03",
     "MATH 381 - Crawford/Homework/1.6/Homework 1.6 - Wakeland Branz.md",
     "MATH 381 - Crawford/Rules of Inference.md",
@@ -242,9 +246,6 @@
     "MATH 381 - Crawford/Notes/Prelim Notes",
     "DATA 110 - Balan/Notes/Week 2 - 08-25-2025/08-27-2025 - Functions and stuff.md",
     "DATA 110 - Balan/Notes/Week 2 - 08-25-2025/08-25-2025 - Intro to Python Programming.md",
-    "ENGL 105 - Gotzler/Notes/Week 02/Wednesday 08-27-2025.md",
-    "ENGL 105 - Gotzler/Projects/Project 1",
-    "ENGL 105 - Gotzler/Projects",
-    "SCLL 150 - Atkins/Notes/Week 02/08-25-2025.md"
+    "ENGL 105 - Gotzler/Projects/Project 1"
   ]
 }
