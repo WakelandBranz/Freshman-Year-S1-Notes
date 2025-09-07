@@ -5,11 +5,10 @@ Go to an online digital collection of historical and/or cultural artifacts (e.g.
 **NOTE:** Please upload an image/text/audio file of your artifact along with the label, either embedded in the document or as a separate file.
 
 ---
-![[Pasted image 20250907115713.png]]
+![[Pasted image 20250907122402.png]]
 
-Guerrilla Girls (American, active since 1985), “10 Trashy Ideas About the Environment,” from Portfolio Compleat, 1992. Offset Lithograph, 12 x 9 in. Ackland Fund.
 
-**Elisha Mitchell (1793–1857)** , _Pocket Watch, Recovered 1857_ , Metal and Glass
+**Elisha Mitchell (1793–1857)**, _Pocket Watch, Recovered 1857_ , Metal and Glass
 
-This metal and glass pocket watch marked the moment that UNC geologist Elisha Mitchell tragically met his fate. In 1857, Mitchell fell to his death while trying to confirm that North Carolina’s Black Mountains were the tallest in the eastern U.S. Days later, his body was discovered by a local guide--this watch still in his pocket, reportedly frozen at the hour he died. He is memorialized in the naming of Mount Mitchell, the highest peak in the eastern United States.
+This metal and glass pocket watch marked the moment that UNC geologist Elisha Mitchell tragically met his fate. In 1857, Mitchell fell to his death while trying to confirm that North Carolina’s Black Mountains were the tallest in the eastern U.S. Days later, his body was discovered by a local guide--this watch still in his pocket, reportedly frozen at the hour he died. Today, he is memorialized in the naming of Mount Mitchell, the highest peak in the eastern United States.
 
