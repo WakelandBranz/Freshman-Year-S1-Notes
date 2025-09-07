@@ -1,0 +1,4 @@
+Think about statements such as $\forall x \forall yP(x,y)$ as a 2d loop. You loop through all values of x and for all values of x you loop through all values of y. If P(x, y) evaluates to true for EVERY single one of those operations then the statement is true.
+
+Statements such as $\forall x \exists yP(x, y)$ are a little simpler. It's a 2d loop again but this time you still loop through every x value and loop through every y value BUT you don't have to make sure that every value of y evaluates to true... if one value of y for all values of x evaluates to true for P(x, y) then the statement is true.
+ - Essentially stop evaluating all values of y once a true one is found if you're dealing with a $\exists$
