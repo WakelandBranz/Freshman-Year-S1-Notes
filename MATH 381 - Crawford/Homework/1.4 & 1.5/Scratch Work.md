@@ -16,8 +16,11 @@ Since the first proposition being true implies that P(x) evaluates to true for a
 This statement is false.
 
 ---
- - (c) $\forall x (2x \ge x)$, where the domain is $\mathbb{R}$.
-	 
+ 
+ # (c) $\forall x (2x \ge x)$, where the domain is $\mathbb{R}$.
+ 
 ---
- - (d) $\exists x (x^2 = e^x)$, where the domain is $\mathbb{R}$.
+ 
+ ##### (d) $\exists x (x^2 = e^x)$, where the domain is $\mathbb{R}$.
+ 
 ---
