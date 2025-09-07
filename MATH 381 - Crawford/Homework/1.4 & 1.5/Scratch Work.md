@@ -17,7 +17,7 @@ This statement is false.
 
 ---
  
- # (c) $\forall x (2x \ge x)$, where the domain is $\mathbb{R}$.
+ ##### (c) $\forall x (2x \ge x)$, where the domain is $\mathbb{R}$.
  
 ---
  
