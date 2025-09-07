@@ -15,12 +15,17 @@ Since the first proposition being true implies that P(x) evaluates to true for a
 
 This statement is false.
 This statement attempts to claim that if some values of x are true for P(x) then all values of x are true for P(x).
-This is cannot be true.
-If P(x) were to be $x = 5$ then the first proposition would evaluate as true because there exists a case where $x = 5$ thus P(x) is true but in all cases 
+This cannot be true.
+If P(x) were to be $x = 5$ then the first proposition would evaluate as true because there exists a case where $x = 5$ thus P(5) is true but P(6) is false so $\forall xP(x)$ is false.
 
 ---
  
  ##### (c) $\forall x (2x \ge x)$, where the domain is $\mathbb{R}$.
+
+This statement is false.
+This statement attempts to claim that 2x is always greater than x for all real numbers but this is false for all negative numbers.
+If $x \ge 0$ then this statement evaluates to true, but it is false otherwise. 
+If x were to equal -1, then the statement would 
  
 ---
  
