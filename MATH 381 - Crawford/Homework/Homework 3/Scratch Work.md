@@ -47,9 +47,9 @@ H(x) = "x is here today."
 
 **Negation work**: 
 $\lnot(\exists x(S(x) \land \lnot H(x)))$
-$\equiv \lnot \exists x (\lnot (S(x)) \land \lnot H(x)))$ - Distributing out the negation
-$\equiv \forall x (\lnot S(x) \lor \lnot  (\lnot H(x)))$ - DeMorgan's Law
-$\equiv \forall x(\lnot S(x) \lor H(x))$ - Double negation
+1. $\equiv \lnot \exists x (\lnot (S(x)) \land \lnot H(x)))$ - Distributing out the negation
+2. $\equiv \forall x (\lnot S(x) \lor \lnot  (\lnot H(x)))$ - DeMorgan's Law
+3. $\equiv \forall x(\lnot S(x) \lor H(x))$ - Double negation
 $\equiv \forall x(S(x) \rightarrow H(x))$ - Logical equivalence
 
 ---
@@ -115,6 +115,12 @@ Thus, since there is no x that works for all y, this statement is false.
 #### $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
 
 For all values of z there exists a value of n that for all values of m $(n \le z^2 \lor z < n + m)$ is true.
+
+**Negation**: 
+
+**Negation Work:**
+1. $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
+
 
 ---
 ### 6. Let the universe for x be people and let the universe for y be movies. Translate the following statements to English without using any variables, given the following notation for predicates:
