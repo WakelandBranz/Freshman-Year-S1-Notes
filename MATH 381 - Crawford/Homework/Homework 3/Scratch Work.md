@@ -46,11 +46,11 @@ H(x) = "x is here today."
 **English Negation**: All of the students in this class are here today. 
 
 **Negation work**: 
-$\lnot(\exists x(S(x) \land \lnot H(x)))$
-1. $\equiv \lnot \exists x (\lnot (S(x)) \land \lnot H(x)))$ - Distributing out the negation
-2. $\equiv \forall x (\lnot S(x) \lor \lnot  (\lnot H(x)))$ - DeMorgan's Law
-3. $\equiv \forall x(\lnot S(x) \lor H(x))$ - Double negation
-$\equiv \forall x(S(x) \rightarrow H(x))$ - Logical equivalence
+1. $\lnot(\exists x(S(x) \land \lnot H(x)))$
+2. $\equiv \lnot \exists x (\lnot (S(x)) \land \lnot H(x)))$ - Distributing out the negation of 1.
+3. $\equiv \forall x (\lnot S(x) \lor \lnot  (\lnot H(x)))$ - DeMorgan's Law of 2.
+4. $\equiv \forall x(\lnot S(x) \lor H(x))$ - Double negation of 3.
+5. $\equiv \forall x(S(x) \rightarrow H(x))$ - Logical equivalence of 4.
 
 ---
 ##### (b) The number $\sqrt{x}$ is rational if x is an integer
@@ -119,7 +119,11 @@ For all values of z there exists a value of n that for all values of m $(n \le z
 **Negation**: 
 
 **Negation Work:**
-1. $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
+$\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
+1. $\lnot (\forall z \exists n \forall m (n \le z^2 \lor z < n + m))$
+2. $\lnot \forall z \lnot \exists n \lnot \forall m(\lnot(n \le z^2 \lor z < n + m))$ - Distribution of the negation of 1.
+3. $\exists z \forall n \exists m(\lnot(n \le z^2 \lor z < n + m))$ - DeMorgan's Law of 2.
+4. $\exists z \forall n \exists m()
 
 
 ---
