@@ -35,13 +35,15 @@ If x were to equal -1, then the statement would evaluate to $(2(-1) \ge -1) \equ
 
 ##### (a) Some of the students in this class are not here today.
 
+==
+
 S(x) = "x is a student in this class"
 H(x) = "x is here today."
 
 **Translation**: $\exists x(S(x) \land \lnot H(x))$
 **Negation**: $\equiv \forall x(S(x) \rightarrow H(x))$
 
-**English Negation**: All of the students in this class 
+**English Negation**: All of the students in this class are here today. 
 
 Negation work: 
 $\lnot(\exists x(S(x) \land \lnot H(x)))$
