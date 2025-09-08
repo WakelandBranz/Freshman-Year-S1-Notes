@@ -45,12 +45,13 @@ H(x) = "x is here today."
 
 **English Negation**: All of the students in this class are here today. 
 
-**Negation work**: 
+**Negation work**: DOUBLE CHECK THIS
 1. $\lnot(\exists x(S(x) \land \lnot H(x)))$
-2. $\equiv \lnot \exists x (\lnot (S(x)) \land \lnot H(x)))$ - Distributing out the negation of 1.
-3. $\equiv \forall x (\lnot S(x) \lor \lnot  (\lnot H(x)))$ - DeMorgan's Law of 2.
-4. $\equiv \forall x(\lnot S(x) \lor H(x))$ - Double negation of 3.
-5. $\equiv \forall x(S(x) \rightarrow H(x))$ - Logical equivalence of 4.
+2. $\equiv \forall x(\lnot (S(x) \land \lnot H(x)))$ - Existential quantifier to universal quantifier
+3. $\equiv \forall x (\lnot (S(x)) \land \lnot H(x)))$ - Distributing out the negation of 2.
+4. $\equiv \forall x (\lnot S(x) \lor \lnot  (\lnot H(x)))$ - DeMorgan's Law of 3.
+5. $\equiv \forall x(\lnot S(x) \lor H(x))$ - Double negation of 4.
+6. $\equiv \forall x(S(x) \rightarrow H(x))$ - Logical equivalence of 5.
 
 ---
 ##### (b) The number $\sqrt{x}$ is rational if x is an integer
