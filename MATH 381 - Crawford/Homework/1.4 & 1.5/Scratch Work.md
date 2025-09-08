@@ -45,7 +45,10 @@ Negation:
 
 ---
 
-### 3. 
+### 3. Let the domain for x be teachers at UNC and the domain for y be classes at UNC. Translate the following English statements into logical expressions, using the below:
+
+#### T(x, y): $x$ is teaching $y$
+#### M(y): $y$ is a math course
 
 ---
 ### 4. Let P (x, y) be the statement x + 2y = xy, where x is an integer and y is a real number. Determine the truth value of each statement, with explanation.
