@@ -45,7 +45,7 @@ H(x) = "x is here today."
 
 **English Negation**: All of the students in this class are here today. 
 
-Negation work: 
+**Negation work**: 
 $\lnot(\exists x(S(x) \land \lnot H(x)))$
 $\equiv \lnot \exists x (\lnot (S(x)) \land \lnot H(x)))$ - Distributing out the negation
 $\equiv \forall x (\lnot S(x) \lor \lnot  (\lnot H(x)))$ - DeMorgan's Law
@@ -61,6 +61,13 @@ R($\sqrt{x}$) "$\sqrt{x}$ is rational"
 **Negation**: 
 
 **English Negation**:
+
+**Negation Work**: 
+1. 
+2. $\forall x(\lnot I(x) \lor R(\sqrt{x}))$ - Logical Equivalence to 1.
+$\lnot (\forall x(I(x) \rightarrow R(\sqrt{x})))$
+$\equiv \lnot \forall x(\lnot (I(x) \rightarrow R(\sqrt{x})))$
+$\equiv \lnot \forall x(\lnot I(x) \)
 
 ---
 
