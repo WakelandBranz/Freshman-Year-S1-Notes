@@ -35,6 +35,18 @@ If x were to equal -1, then the statement would evaluate to $(2(-1) \ge -1) \equ
 
 ##### (a) Some of the students in this class are not here today.
 
-S(x) = "x is a stu"
+S(x) = "x is a student in this class"
+H(x) = "x is here today."
 
+Translation: $\exists x(S(x) \land \lnot H(x))$
+Negation: 
+
+##### (b)
+
+---
+
+### 3. 
+
+---
+### 4. Let P (x, y) be the statement x + 2y = xy, where x is an integer and y is a real number. Determine the truth value of each statement, with explanation.
 
