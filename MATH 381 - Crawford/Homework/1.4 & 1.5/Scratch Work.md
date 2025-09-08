@@ -19,8 +19,7 @@ This cannot be true.
 If P(x) were to be $x = 5$ then the first proposition would evaluate as true because there exists a case where $x = 5$ thus P(5) is true but P(6) is false so $\forall xP(x)$ is false.
 
 ---
- 
- ##### (c) $\forall x (2x \ge x)$, where the domain is $\mathbb{R}$.
+##### (c) $\forall x (2x \ge x)$, where the domain is $\mathbb{R}$.
 
 This statement is false.
 This statement attempts to claim that 2x is always greater than or equal to x for all real numbers but this is false for all negative numbers.
@@ -28,9 +27,14 @@ If $x \ge 0$ then this statement evaluates to true, but it is false otherwise.
 If x were to equal -1, then the statement would evaluate to $(2(-1) \ge -1) \equiv (-2 \ge -1)$ which is false.
  
 ---
- 
- ##### (d) $\exists x (x^2 = e^x)$, where the domain is $\mathbb{R}$.
+##### (d) $\exists x (x^2 = e^x)$, where the domain is $\mathbb{R}$.
  
 ---
 
-### Translate each of the following statements into logical expressions, introducing notation as needed forpropositional functions and appropriate domains. Then negate the logical expression and translate thenegation back into English.
+### 2. Translate each of the following statements into logical expressions, introducing notation as needed for propositional functions and appropriate domains. Then negate the logical expression and translate the negation back into English.
+
+##### (a) Some of the students in this class are not here today.
+
+S(x) = "x is a stu"
+
+
