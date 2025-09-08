@@ -43,8 +43,8 @@ Negation:
 
 Negation work: 
 $\lnot(\exists x(S(x) \land \lnot H(x)))$
-$\equiv \lnot \exists x \lnot (S(x) \land \lnot H(x))$
-$\equiv \forall x(\lnot S(x) \lor H(x))$ - DeMorgan's
+$\equiv \lnot \exists x (\lnot (S(x) \land \lnot(\lnot H(x))))$ - Distributing out the negation
+$\equiv \forall x(\lnot S(x) \lor H(x))$ - DeMorgan's and double negation
 
 ##### (b) The number $\sqrt{x}$ is rational if x is an integer
 
