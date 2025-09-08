@@ -41,7 +41,7 @@ S(x) = "x is a student in this class"
 H(x) = "x is here today."
 
 **Translation**: $\exists x(S(x) \land \lnot H(x))$
-**Negation**: $\equiv \forall x(S(x) \rightarrow H(x))$
+**Negation**: $\forall x(S(x) \rightarrow H(x))$
 
 **English Negation**: All of the students in this class are here today. 
 
@@ -55,6 +55,12 @@ $\equiv \forall x(S(x) \rightarrow H(x))$ - Logical equivalence
 ##### (b) The number $\sqrt{x}$ is rational if x is an integer
 
 I(x) = "x is an integer"
+R($\sqrt{x}$) "$\sqrt{x}$ is rational"
+
+**Translation**: $\forall x(I(x) \rightarrow R(\sqrt{x}))$
+**Negation**: 
+
+**English Negation**:
 
 ---
 
