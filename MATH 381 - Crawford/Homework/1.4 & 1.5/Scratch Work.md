@@ -57,7 +57,10 @@ Since this statement asks if there exists a value where it evaluates to true, an
 
 ---
 ##### (b) $\forall x \exists yP(x,y)$
-
+This statement is false.
+When x = 2, P(2, y) evaluates to $2 + 2y = 2y$. 
+$2 + 2y = 2y$ is a false statement, thus when x = 2 there does not exist a value of y such that P(x, y) evaluates to true.
+This means that the entire statement is false.
 
 ---
 ##### (c) $\exists x \forall yP(x,y)$
