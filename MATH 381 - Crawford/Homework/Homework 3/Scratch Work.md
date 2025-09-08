@@ -52,6 +52,7 @@ $\equiv \forall x (\lnot S(x) \lor \lnot  (\lnot H(x)))$ - DeMorgan's Law
 $\equiv \forall x(\lnot S(x) \lor H(x))$ - Double negation
 $\equiv \forall x(S(x) \rightarrow H(x))$ - Logical equivalence
 
+---
 ##### (b) The number $\sqrt{x}$ is rational if x is an integer
 
 I(x) = "x is an integer"
@@ -67,7 +68,9 @@ R($\sqrt{x}$) "$\sqrt{x}$ is rational"
 2. $\equiv \forall x(\lnot I(x) \lor R(\sqrt{x}))$ - Logical Equivalence to 1.
 3. $\lnot (\forall x(\lnot I(x) \lor R(\sqrt{x})))$ - Begin distribution of the negative
 4. $\equiv \lnot \forall x(\lnot (\lnot I(x) \lor R(\sqrt{x})))$
-5. $\equiv \lnot \forall x(\lnot I(x) \)
+5. $\equiv \lnot \forall x(\lnot (\lnot I(x)) \lnot \lor \lnot R(\sqrt{x}))$ 
+6. $
+7. $\equiv \exists x(I(x) \land \lnot R(\sqrt{x}))$
 
 ---
 
