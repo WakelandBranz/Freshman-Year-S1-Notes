@@ -49,14 +49,11 @@ Negation:
 
 ---
 ### 4. Let P (x, y) be the statement x + 2y = xy, where x is an integer and y is a real number. Determine the truth value of each statement, with explanation.
-
-a) ∃yP (4, y)
-(b) ∀x∃yP (x, y)
-(c) ∃x∀yP (x, y)
-
 ##### (a) $\exists yP(4,y)$
 This statement is true.
-P(4, y) can be evaluated as $4 + 2y = 4y$ 
+P(4, y) can be evaluated as $4 + 2y = 4y$. 
+Algebraically, this statement is equivalent to $4 = 2y$ which tells us that when y = 2 this statement is true.
+Since this statement asks if there exists a value where it evaluates to true, and since P(4, y) evaluates to true when y = 2, this statement is true.
 
 ---
 ##### (b) $\forall x \exists yP(x,y)$
