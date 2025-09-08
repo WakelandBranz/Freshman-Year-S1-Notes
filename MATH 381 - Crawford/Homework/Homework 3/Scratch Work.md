@@ -41,6 +41,11 @@ H(x) = "x is here today."
 Translation: $\exists x(S(x) \land \lnot H(x))$
 Negation: 
 
+Negation work: 
+$\lnot(\exists x(S(x) \land \lnot H(x)))$
+$\equiv \lnot \exists x \lnot (S(x) \land \lnot H(x))$
+$\equiv \forall x(\lnot S(x) \lor H(x))$ - DeMorgan's
+
 ##### (b) The number $\sqrt{x}$ is rational if x is an integer
 
 
