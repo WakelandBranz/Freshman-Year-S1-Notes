@@ -41,7 +41,9 @@ H(x) = "x is here today."
 Translation: $\exists x(S(x) \land \lnot H(x))$
 Negation: 
 
-##### (b)
+##### (b) The number $\sqrt{x}$ is rational if x is an integer
+
+
 
 ---
 
@@ -94,4 +96,6 @@ Thus, since there is no x that works for all y, this statement is false.
 #### C(y): y is a comedy
 
 ##### (a) $\forall y(C(y) \rightarrow \exists xL(x, y))$ 
-#####
+
+---
+##### (b) $\forall y \exists x(S(x, y) \land A(y))$
