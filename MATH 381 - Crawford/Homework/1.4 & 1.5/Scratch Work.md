@@ -63,8 +63,10 @@ When simplified, $2 + 2y = 2y \equiv 2 = 0$, thus when x = 2 there does not exis
 This means that the entire statement is false.
 
 ---
-##### (c) $\exists x \forall yP(x,y)$
+##### (c) $\exists x \forall yP(x,y)$ ===REVIEW THIS===
 This statement is false.
-This statement states that there exists a value of x where all values of y result in
+This statement states that there exists a value of x where all values of y result in P(x, y) evaluating to true. 
+This is false, as for any fixed x, the equation x + 2y = xy can only be satisfied by at most one value of y.
+Thus, since there is no x that works for all y, this statement is false.
 
 ---
