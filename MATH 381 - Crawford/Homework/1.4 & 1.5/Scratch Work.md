@@ -83,3 +83,15 @@ Thus, since there is no x that works for all y, this statement is false.
 
 ### 5. Let the universe for m and for n be the set of positive integers and let the universe for z be the set of all integers. Write the negation of the following statement without the symbol “¬” and determine, with explanation, whether the original statement or its negation is true.
 
+#### $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
+
+---
+### 6. Let the universe for x be people and let the universe for y be movies. Translate the following statements to English without using any variables, given the following notation for predicates:
+
+#### S(x, y): x saw y
+#### L(x, y): x liked y
+#### A(y): y won an award
+#### C(y): y is a comedy
+
+##### (a) $\forall y(C(y) \rightarrow \exists xL(x, y))$ 
+#####
