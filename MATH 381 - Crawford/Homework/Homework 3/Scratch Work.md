@@ -59,18 +59,18 @@ I(x) = "x is an integer"
 R($\sqrt{x}$) "$\sqrt{x}$ is rational"
 
 **Translation**: $\forall x(I(x) \rightarrow R(\sqrt{x}))$
-**Negation**: 
+**Negation**: $\exists x(I(x) \land \lnot R(\sqrt{x}))$
 
-**English Negation**:
+**English Negation**: There exists an integer x such that $\sqrt{x}$ is irrational.
 
 **Negation Work**: 
 1. $\forall x(I(x) \rightarrow R(\sqrt{x}))$
 2. $\equiv \forall x(\lnot I(x) \lor R(\sqrt{x}))$ - Logical Equivalence to 1.
 3. $\lnot (\forall x(\lnot I(x) \lor R(\sqrt{x})))$ - Begin distribution of the negative
-4. $\equiv \lnot \forall x(\lnot (\lnot I(x) \lor R(\sqrt{x})))$
-5. $\equiv \lnot \forall x(\lnot (\lnot I(x)) \lnot \lor \lnot R(\sqrt{x}))$ 
-6. $
-7. $\equiv \exists x(I(x) \land \lnot R(\sqrt{x}))$
+4. $\equiv \lnot \forall x(\lnot (\lnot I(x) \lor R(\sqrt{x})))$ - Distribution of the negative
+5. $\equiv \lnot \forall x(\lnot (\lnot I(x)) \lnot \lor \lnot R(\sqrt{x}))$  - Distribution of the negative
+6. $\equiv \exists x(\lnot(\lnot I(x) \land \lnot R(\sqrt{x})))$ - DeMorgan's Law of 5.
+7. $\equiv \exists x(I(x) \land \lnot R(\sqrt{x}))$ - Double Negation of 6.
 
 ---
 
