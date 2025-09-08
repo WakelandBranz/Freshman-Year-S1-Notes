@@ -35,7 +35,7 @@ If x were to equal -1, then the statement would evaluate to $(2(-1) \ge -1) \equ
 
 ##### (a) Some of the students in this class are not here today.
 
-==
+(Some people are both students and absent)
 
 S(x) = "x is a student in this class"
 H(x) = "x is here today."
@@ -54,7 +54,7 @@ $\equiv \forall x(S(x) \rightarrow H(x))$ - Logical equivalence
 
 ##### (b) The number $\sqrt{x}$ is rational if x is an integer
 
-
+I(x) = "x is an integer"
 
 ---
 
@@ -97,6 +97,8 @@ Thus, since there is no x that works for all y, this statement is false.
 ### 5. Let the universe for m and for n be the set of positive integers and let the universe for z be the set of all integers. Write the negation of the following statement without the symbol “¬” and determine, with explanation, whether the original statement or its negation is true.
 
 #### $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
+
+For all values of z there exists a value of n that for all values of m $(n \le z^2 \lor z < n + m)$ is true.
 
 ---
 ### 6. Let the universe for x be people and let the universe for y be movies. Translate the following statements to English without using any variables, given the following notation for predicates:
