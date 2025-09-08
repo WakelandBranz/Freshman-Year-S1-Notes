@@ -112,23 +112,26 @@ Thus, since there is no x that works for all y, this statement is false.
 
 ---
 
+# NOT FULLY COMPLETE
 ### 5. Let the universe for m and for n be the set of positive integers and let the universe for z be the set of all integers. Write the negation of the following statement without the symbol “¬” and determine, with explanation, whether the original statement or its negation is true.
 
 #### $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
 
 For all values of z there exists a value of n that for all values of m $(n \le z^2 \lor z < n + m)$ is true.
 
-**Negation**: 
+**Negation**: $\exists z \forall n \exists m(n > z^2 \land z \ge n + m)$
 
 **Negation Work:**
 $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
 1. $\lnot (\forall z \exists n \forall m (n \le z^2 \lor z < n + m))$
-2. $\lnot \forall z \lnot \exists n \lnot \forall m(\lnot(n \le z^2 \lor z < n + m))$ - Distribution of the negation of 1.
-3. $\exists z \forall n \exists m(\lnot(n \le z^2 \lor z < n + m))$ - Existential quantifier to universal quantifier & vice versa of 2.
-4. $\exists z \forall n \exists m(n > z^2 \land z \ge n + m)$ - 
+2. $\equiv \lnot \forall z \lnot \exists n \lnot \forall m(\lnot(n \le z^2 \lor z < n + m))$ - Distribution of the negation of 1.
+3. $\equiv \exists z \forall n \exists m(\lnot(n \le z^2 \lor z < n + m))$ - Existential quantifier to universal quantifier & vice versa of 2.
+4. $\equiv \exists z \forall n \exists m(n > z^2 \land z \ge n + m)$ - Negation of Inequality Relations
 
 
 ---
+
+# REVIEW
 ### 6. Let the universe for x be people and let the universe for y be movies. Translate the following statements to English without using any variables, given the following notation for predicates:
 
 #### S(x, y): x saw y
@@ -138,5 +141,9 @@ $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
 
 ##### (a) $\forall y(C(y) \rightarrow \exists xL(x, y))$ 
 
+##### Translation: Every comedy movie is liked by someone (?)
+
 ---
 ##### (b) $\forall y \exists x(S(x, y) \land A(y))$
+
+##### Translation: Every movie was seen by someone and won an award (?)
