@@ -32,3 +32,5 @@ If x were to equal -1, then the statement would evaluate to $(2(-1) \ge -1) \equ
  ##### (d) $\exists x (x^2 = e^x)$, where the domain is $\mathbb{R}$.
  
 ---
+
+### Translate each of the following statements into logical expressions, introducing notation as needed forpropositional functions and appropriate domains. Then negate the logical expression and translate thenegation back into English.
