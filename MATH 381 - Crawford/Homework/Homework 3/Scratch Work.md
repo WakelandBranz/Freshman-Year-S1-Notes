@@ -39,12 +39,16 @@ S(x) = "x is a student in this class"
 H(x) = "x is here today."
 
 Translation: $\exists x(S(x) \land \lnot H(x))$
-Negation: 
+Negation: $\equiv \forall x(\lnot S(x) \lor H(x))$
+
+English Negation: All of the students in this class 
 
 Negation work: 
 $\lnot(\exists x(S(x) \land \lnot H(x)))$
-$\equiv \lnot \exists x (\lnot (S(x) \land \lnot(\lnot H(x))))$ - Distributing out the negation
-$\equiv \forall x(\lnot S(x) \lor H(x))$ - DeMorgan's and double negation
+$\equiv \lnot \exists x (\lnot (S(x)) \land \lnot H(x)))$ - Distributing out the negation
+$\equiv \forall x (\lnot S(x) \lor \lnot  (\lnot H(x)))$ - DeMorgan's Law
+$\equiv \forall x(\lnot S(x) \lor H(x))$ - Double negation
+$\equiv \forall
 
 ##### (b) The number $\sqrt{x}$ is rational if x is an integer
 
