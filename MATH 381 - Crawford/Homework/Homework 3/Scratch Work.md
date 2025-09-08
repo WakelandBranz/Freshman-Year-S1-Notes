@@ -38,17 +38,17 @@ If x were to equal -1, then the statement would evaluate to $(2(-1) \ge -1) \equ
 S(x) = "x is a student in this class"
 H(x) = "x is here today."
 
-Translation: $\exists x(S(x) \land \lnot H(x))$
-Negation: $\equiv \forall x(\lnot S(x) \lor H(x))$
+**Translation**: $\exists x(S(x) \land \lnot H(x))$
+**Negation**: $\equiv \forall x(S(x) \rightarrow H(x))$
 
-English Negation: All of the students in this class 
+**English Negation**: All of the students in this class 
 
 Negation work: 
 $\lnot(\exists x(S(x) \land \lnot H(x)))$
 $\equiv \lnot \exists x (\lnot (S(x)) \land \lnot H(x)))$ - Distributing out the negation
 $\equiv \forall x (\lnot S(x) \lor \lnot  (\lnot H(x)))$ - DeMorgan's Law
 $\equiv \forall x(\lnot S(x) \lor H(x))$ - Double negation
-$\equiv \forall
+$\equiv \forall x(S(x) \rightarrow H(x))$ - Logical equivalence
 
 ##### (b) The number $\sqrt{x}$ is rational if x is an integer
 
