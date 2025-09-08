@@ -47,7 +47,7 @@ H(x) = "x is here today."
 
 **Negation work**: DOUBLE CHECK THIS
 1. $\lnot(\exists x(S(x) \land \lnot H(x)))$
-2. $\equiv \forall x(\lnot (S(x) \land \lnot H(x)))$ - Existential quantifier to universal quantifier
+2. $\equiv \forall x(\lnot (S(x) \land \lnot H(x)))$ - Existential quantifier to universal quantifier of 1.
 3. $\equiv \forall x (\lnot (S(x)) \land \lnot H(x)))$ - Distributing out the negation of 2.
 4. $\equiv \forall x (\lnot S(x) \lor \lnot  (\lnot H(x)))$ - DeMorgan's Law of 3.
 5. $\equiv \forall x(\lnot S(x) \lor H(x))$ - Double negation of 4.
@@ -67,11 +67,12 @@ R($\sqrt{x}$) "$\sqrt{x}$ is rational"
 **Negation Work**: 
 1. $\forall x(I(x) \rightarrow R(\sqrt{x}))$
 2. $\equiv \forall x(\lnot I(x) \lor R(\sqrt{x}))$ - Logical Equivalence to 1.
-3. $\lnot (\forall x(\lnot I(x) \lor R(\sqrt{x})))$ - Begin distribution of the negative
-4. $\equiv \lnot \forall x(\lnot (\lnot I(x) \lor R(\sqrt{x})))$ - Distribution of the negative
-5. $\equiv \lnot \forall x(\lnot (\lnot I(x)) \lnot \lor \lnot R(\sqrt{x}))$  - Distribution of the negative
-6. $\equiv \exists x(\lnot(\lnot I(x) \land \lnot R(\sqrt{x})))$ - DeMorgan's Law of 5.
-7. $\equiv \exists x(I(x) \land \lnot R(\sqrt{x}))$ - Double Negation of 6.
+3. $\equiv \lnot (\forall x(\lnot I(x) \lor R(\sqrt{x})))$ - Distributing out the negation of 2.
+4. $\equiv \lnot \forall x(\lnot (\lnot I(x) \lor R(\sqrt{x})))$ - Distributing out the negation of 3.
+5. $\equiv \lnot \forall x(\lnot (\lnot I(x)) \lnot \lor \lnot R(\sqrt{x}))$  - Distributing out the negation of 4.
+6. $\equiv \exists x (\lnot (\lnot I(x) \lor \lnot R(\sqrt{x})))$ - Universal quantifier to existential quantifier of 5.
+7. $\equiv \exists x(\lnot(\lnot I(x) \land \lnot R(\sqrt{x})))$ - DeMorgan's Law of 6.
+8. $\equiv \exists x(I(x) \land \lnot R(\sqrt{x}))$ - Double Negation of 7.
 
 ---
 
@@ -123,8 +124,8 @@ For all values of z there exists a value of n that for all values of m $(n \le z
 $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
 1. $\lnot (\forall z \exists n \forall m (n \le z^2 \lor z < n + m))$
 2. $\lnot \forall z \lnot \exists n \lnot \forall m(\lnot(n \le z^2 \lor z < n + m))$ - Distribution of the negation of 1.
-3. $\exists z \forall n \exists m(\lnot(n \le z^2 \lor z < n + m))$ - DeMorgan's Law of 2.
-4. $\exists z \forall n \exists m()
+3. $\exists z \forall n \exists m(\lnot(n \le z^2 \lor z < n + m))$ - Existential quantifier to universal quantifier & vice versa of 2.
+4. $\exists z \forall n \exists m(n > z^2 \land z \ge n + m)$ - 
 
 
 ---
