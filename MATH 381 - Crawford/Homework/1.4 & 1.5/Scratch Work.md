@@ -50,6 +50,13 @@ Negation:
 #### T(x, y): $x$ is teaching $y$
 #### M(y): $y$ is a math course
 
+#### Then give the negation of your logical expression, simplifying as much as possible.
+
+##### (a) Every teacher at UNC teaches at least one math course.
+
+---
+##### (b) There is exactly one teacher who teaches every class at UNC
+
 ---
 ### 4. Let P (x, y) be the statement x + 2y = xy, where x is an integer and y is a real number. Determine the truth value of each statement, with explanation.
 ##### (a) $\exists yP(4,y)$
@@ -73,3 +80,6 @@ This is false, as for any fixed x, the equation x + 2y = xy can only be satisfie
 Thus, since there is no x that works for all y, this statement is false.
 
 ---
+
+### 5. Let the universe for m and for n be the set of positive integers and let the universe for z be the set of all integers. Write the negation of the following statement without the symbol “¬” and determine, with explanation, whether the original statement or its negation is true.
+
