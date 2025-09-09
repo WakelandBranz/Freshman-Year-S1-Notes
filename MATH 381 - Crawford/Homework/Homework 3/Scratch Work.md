@@ -76,6 +76,8 @@ R($\sqrt{x}$) "$\sqrt{x}$ is rational"
 
 ### 3. Let the domain for x be teachers at UNC and the domain for y be classes at UNC. Translate the following English statements into logical expressions, using the below:
 
+## ===WORK ON THIS ONE WITH MATT!===
+
 #### T(x, y): $x$ is teaching $y$
 #### M(y): $y$ is a math course
 
@@ -131,6 +133,8 @@ $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
 
 # REVIEW
 ### 6. Let the universe for x be people and let the universe for y be movies. Translate the following statements to English without using any variables, given the following notation for predicates:
+
+## ===WORK ON THIS ONE WITH MATT!===
 
 #### S(x, y): x saw y
 #### L(x, y): x liked y
