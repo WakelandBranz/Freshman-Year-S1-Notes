@@ -143,9 +143,11 @@ $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
 
 ##### (a) $\forall y(C(y) \rightarrow \exists xL(x, y))$ 
 
+For every comedy movie there exists someone who likes it
 ##### Translation: Every comedy movie is liked by someone (?)
 
 ---
 ##### (b) $\forall y \exists x(S(x, y) \land A(y))$
 
+For every movie seen there exists someone 
 ##### Translation: Every movie was seen by someone and won an award (?)
