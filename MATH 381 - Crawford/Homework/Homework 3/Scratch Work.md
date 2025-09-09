@@ -37,7 +37,7 @@ If x were to equal -1, then the statement would evaluate to $(2(-1) \ge -1) \equ
 
 ##### (a) Some of the students in this class are not here today.
 
-(Some people are both students and absent)
+(Some people are both students and absent/not here)
 
 S(x) = "x is a student in this class"
 H(x) = "x is here today."
