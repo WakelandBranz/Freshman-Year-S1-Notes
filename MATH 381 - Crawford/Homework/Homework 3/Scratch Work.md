@@ -16,7 +16,7 @@ Since the first proposition being true implies that P(x) evaluates to true for a
 This statement is false.
 This statement attempts to claim that if some values of x are true for P(x) then all values of x are true for P(x).
 This cannot be true.
-If P(x) were to be $x = 5$ then the first proposition would evaluate as true because there exists a case where $x = 5$ thus P(5) is true but P(6) is false so $\forall xP(x)$ is false.
+If P(5) were to evaevaluate as true because there exists a case where $x = 5$ thus P(5) is true but P(6) is false so $\forall xP(x)$ is false.
 
 ---
 ##### (c) $\forall x (2x \ge x)$, where the domain is $\mathbb{R}$.
@@ -60,7 +60,7 @@ H(x) = "x is here today."
 ##### (b) The number $\sqrt{x}$ is rational if x is an integer
 
 I(x) = "x is an integer"
-R($\sqrt{x}$) "$\sqrt{x}$ is rational"
+R($\sqrt{x}$) = "$\sqrt{x}$ is rational"
 
 **Translation**: $\forall x(I(x) \rightarrow R(\sqrt{x}))$
 **Negation**: $\exists x(I(x) \land \lnot R(\sqrt{x}))$
