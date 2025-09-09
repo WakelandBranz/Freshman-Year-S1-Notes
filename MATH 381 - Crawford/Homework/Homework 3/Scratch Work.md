@@ -90,7 +90,12 @@ R($\sqrt{x}$) = "$\sqrt{x}$ is rational"
 
 ##### (a) Every teacher at UNC teaches at least one math course.
 
-**Translation**: $\exists x \forall y(T(x, y) \rightarrow M(y))$
+**Translation**: $\forall x \exists y(T(x, y) \land M(y))$
+**Negation**: 
+
+**Negation Work**: 
+1. $\lnot(\forall x \exists y(T(x, y) \land M(y)))$
+2. 
 
 ---
 ##### (b) There is exactly one teacher who teaches every class at UNC
