@@ -102,8 +102,19 @@ R($\sqrt{x}$) = "$\sqrt{x}$ is rational"
 ---
 ##### (b) There is exactly one teacher who teaches every class at UNC
 ===LEAVE THIS ALONE===
+#### x: Teachers at UNC
+#### y: Classes at UNC
 
-$\exists x (\forall y T(x, y) \land \forall z \forall y(T(x, y)) \rightarrow z = x)$
+#### Let z have the domain of teachers at UNC
+
+$\exists x (\forall y T(x, y) \land \forall z \forall y(T(z, y)) \rightarrow z = x)$
+
+ - $\exists x \forall yT(x, y)$
+	 - This part represents "There exists at least one teacher who teaches every class at UNC"
+- $\forall z \forall y(T(z,y)) \rightarrow z = x$
+	- This part represents exactly one teacher
+
+
 
 ---
 ### 4. Let P (x, y) be the statement x + 2y = xy, where x is an integer and y is a real number. Determine the truth value of each statement, with explanation.
