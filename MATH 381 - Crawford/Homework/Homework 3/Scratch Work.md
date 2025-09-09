@@ -101,7 +101,7 @@ R($\sqrt{x}$) = "$\sqrt{x}$ is rational"
 
 ---
 ##### (b) There is exactly one teacher who teaches every class at UNC
-===LEAVE THIS ALONE===
+===JUST DO NEGATION===
 #### x: Teachers at UNC
 #### y: Classes at UNC
 
