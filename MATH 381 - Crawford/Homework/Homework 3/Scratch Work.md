@@ -142,6 +142,8 @@ Thus, since there is no x that works for all y, this statement is false.
 
 #### $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
 
+Can you show that z is true for all positive integers, all negative integers, and for zero, and then for n and m the positive integer.
+
 For all values of z there exists a value of n that for all values of m such that $(n \le z^2 \lor z < n + m)$ is true.
 
 **Negation**: $\exists z \forall n \exists m(n > z^2 \land z \ge n + m)$
