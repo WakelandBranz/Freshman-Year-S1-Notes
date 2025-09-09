@@ -103,6 +103,8 @@ R($\sqrt{x}$) = "$\sqrt{x}$ is rational"
 ##### (b) There is exactly one teacher who teaches every class at UNC
 ===LEAVE THIS ALONE===
 
+$\exists x (\forall y T(x, y) \land \forall z \forall y(T(x, y)) \rightarrow z = x)$
+
 ---
 ### 4. Let P (x, y) be the statement x + 2y = xy, where x is an integer and y is a real number. Determine the truth value of each statement, with explanation.
 ##### (a) $\exists yP(4,y)$
