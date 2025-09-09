@@ -29,7 +29,7 @@ If x were to equal -1, then the statement would evaluate to $(2(-1) \ge -1) \equ
 ---
 ##### (d) $\exists x (x^2 = e^x)$, where the domain is $\mathbb{R}$.
 
-===How?===
+===How? - **LEARN INTERMEDIATE VALUE THEOREM FOR THIS**===
 This statement is true.
 f(x) = $e^x - x^2$
 
@@ -79,8 +79,6 @@ R($\sqrt{x}$) = "$\sqrt{x}$ is rational"
 ---
 
 ### 3. Let the domain for x be teachers at UNC and the domain for y be classes at UNC. Translate the following English statements into logical expressions, using the below:
-
-## ===WORK ON THIS ONE WITH MATT!===
 
 #### T(x, y): $x$ is teaching $y$
 #### M(y): $y$ is a math course
@@ -142,7 +140,6 @@ $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
 1. $\lnot (\forall z \exists n \forall m (n \le z^2 \lor z < n + m))$
 2. $\equiv \exists z \forall n \exists m(\lnot(n \le z^2 \lor z < n + m))$ - Negation of the existential and universal qualifiers of 1.
 3. $\equiv \exists z \forall n \exists m(n > z^2 \land z \ge n + m)$ - Negation of Inequality Relations of 2.
-
 
 ---
 
