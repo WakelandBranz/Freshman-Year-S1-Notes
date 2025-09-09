@@ -95,8 +95,9 @@ R($\sqrt{x}$) = "$\sqrt{x}$ is rational"
 
 **Negation Work**: 
 1. $\lnot(\forall x \exists y(T(x, y) \land M(y)))$
-2. $\equiv \exists x \forall y(\lnot(T(x, y) \land M(y)))$ - Negation of universal and existential qualifiers of 1.
-3. $\equiv \exists x \forall y(\lnot T(x, y) \lor \lnot M(y))$ - DeMorgan's Law of 2.
+2. $\equiv \exists x(\lnot(\exists y(T(x, y) \land M(y))))$
+3. $\equiv \exists x \forall y(\lnot(T(x, y) \land M(y)))$ - Negation of universal and existential qualifiers of 1.
+4. $\equiv \exists x \forall y(\lnot T(x, y) \lor \lnot M(y))$ - DeMorgan's Law of 2.
 
 ---
 ##### (b) There is exactly one teacher who teaches every class at UNC
@@ -131,7 +132,7 @@ Thus, since there is no x that works for all y, this statement is false.
 
 #### $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
 
-For all values of z there exists a value of n that for all values of m $(n \le z^2 \lor z < n + m)$ is true.
+For all values of z there exists a value of n that for all values of m such that $(n \le z^2 \lor z < n + m)$ is true.
 
 **Negation**: $\exists z \forall n \exists m(n > z^2 \land z \ge n + m)$
 
