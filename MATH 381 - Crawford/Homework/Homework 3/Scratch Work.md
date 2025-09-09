@@ -31,6 +31,8 @@ If x were to equal -1, then the statement would evaluate to $(2(-1) \ge -1) \equ
 
 ===How?===
 This statement is true.
+f(x) = $e^x - x^2$
+
 
  
 ---
