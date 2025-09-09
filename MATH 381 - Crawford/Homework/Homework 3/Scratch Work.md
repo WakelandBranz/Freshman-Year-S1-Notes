@@ -95,8 +95,8 @@ R($\sqrt{x}$) = "$\sqrt{x}$ is rational"
 
 **Negation Work**: 
 1. $\lnot(\forall x \exists y(T(x, y) \land M(y)))$
-2. $\equiv \exists x(\lnot(\exists y(T(x, y) \land M(y))))$
-3. $\equiv \exists x \forall y(\lnot(T(x, y) \land M(y)))$ - Negation of universal and existential qualifiers of 1.
+2. $\equiv \exists x(\lnot(\exists y(T(x, y) \land M(y))))$ - Negation of the universal quantifier of 1.
+3. $\equiv \exists x \forall y(\lnot(T(x, y) \land M(y)))$ - Negation of the existential quantifier of 2.
 4. $\equiv \exists x \forall y(\lnot T(x, y) \lor \lnot M(y))$ - DeMorgan's Law of 2.
 
 ---
@@ -139,15 +139,15 @@ For all values of z there exists a value of n that for all values of m such that
 **Negation Work:**
 $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
 1. $\lnot (\forall z \exists n \forall m (n \le z^2 \lor z < n + m))$
-2. $\equiv \exists z \forall n \exists m(\lnot(n \le z^2 \lor z < n + m))$ - Negation of the existential and universal qualifiers of 1.
-3. $\equiv \exists z \forall n \exists m(n > z^2 \land z \ge n + m)$ - Negation of Inequality Relations of 2.
+2. $\equiv \exists z(\lnot (\exists n \forall m (n \le z^2 \lor z < n + m)))$ - Negation of the universal quantifier of 1.
+3. $\equiv \exists z \forall n (\lnot (\forall m (n \le z^2 \lor z < n + m))))$ - Negation of the existential quantifier of 2.
+4. $\equiv \exists z \forall n \exists m(\lnot(n \le z^2 \lor z < n + m))$ - Negation of the universal quantifier of 3.
+5. $\equiv \exists z \forall n \exists m(n > z^2 \land z \ge n + m)$ - Negation of Inequality Relations of 2.
 
 ---
 
 # REVIEW
 ### 6. Let the universe for x be people and let the universe for y be movies. Translate the following statements to English without using any variables, given the following notation for predicates:
-
-## ===WORK ON THIS ONE WITH MATT!===
 
 #### S(x, y): x saw y
 #### L(x, y): x liked y
