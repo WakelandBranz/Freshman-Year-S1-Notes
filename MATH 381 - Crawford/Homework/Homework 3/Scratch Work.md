@@ -91,11 +91,12 @@ R($\sqrt{x}$) = "$\sqrt{x}$ is rational"
 ##### (a) Every teacher at UNC teaches at least one math course.
 
 **Translation**: $\forall x \exists y(T(x, y) \land M(y))$
-**Negation**: 
+**Negation**: $\exists x \forall y(\lnot T(x, y) \lor \lnot M(y))$
 
 **Negation Work**: 
 1. $\lnot(\forall x \exists y(T(x, y) \land M(y)))$
-2. 
+2. $\equiv \exists x \forall y(\lnot(T(x, y) \land M(y)))$ - Negation of universal and existential qualifiers of 1.
+3. $\equiv \exists x \forall y(\lnot T(x, y) \lor \lnot M(y))$ - DeMorgan's Law of 2.
 
 ---
 ##### (b) There is exactly one teacher who teaches every class at UNC
