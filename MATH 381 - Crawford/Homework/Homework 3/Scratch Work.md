@@ -126,7 +126,7 @@ Thus, since there is no x that works for all y, this statement is false.
 
 ---
 
-# NOT FULLY COMPLETE
+# NOT FULLY COMPLETE - MATT THINKS 5 IS TRUE
 ### 5. Let the universe for m and for n be the set of positive integers and let the universe for z be the set of all integers. Write the negation of the following statement without the symbol “¬” and determine, with explanation, whether the original statement or its negation is true.
 
 #### $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
@@ -162,5 +162,5 @@ $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
 ---
 ##### (b) $\forall y \exists x(S(x, y) \land A(y))$
 
-Rough Translation: For every movie there exists someone who saw it and the movie won an award.
+***Rough Translation:*** For every movie there exists someone who saw it and the movie won an award.
 ##### Translation: Every movie was seen by someone and won an award (?)
