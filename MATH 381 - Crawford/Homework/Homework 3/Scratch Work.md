@@ -16,7 +16,7 @@ Since the first proposition being true implies that P(x) evaluates to true for a
 This statement is false.
 This statement attempts to claim that if some values of x are true for P(x) then all values of x are true for P(x).
 This cannot be true.
-If P(5) were to evaevaluate as true because there exists a case where $x = 5$ thus P(5) is true but P(6) is false so $\forall xP(x)$ is false.
+If P(5) were to evaluate as true this does not imply that P(6), P(7), P(8), etc. would also evaluate as true.
 
 ---
 ##### (c) $\forall x (2x \ge x)$, where the domain is $\mathbb{R}$.
@@ -87,8 +87,10 @@ R($\sqrt{x}$) = "$\sqrt{x}$ is rational"
 
 ##### (a) Every teacher at UNC teaches at least one math course.
 
+
 ---
 ##### (b) There is exactly one teacher who teaches every class at UNC
+===LEAVE THIS ALONE===
 
 ---
 ### 4. Let P (x, y) be the statement x + 2y = xy, where x is an integer and y is a real number. Determine the truth value of each statement, with explanation.
