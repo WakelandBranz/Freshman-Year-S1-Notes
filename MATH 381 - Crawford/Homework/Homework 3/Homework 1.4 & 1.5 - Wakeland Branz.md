@@ -23,10 +23,51 @@ If $x \ge 0$ then this statement evaluates to true, but it is false otherwise.
 If x were to equal -1, then the statement would evaluate to $(2(-1) \ge -1) \equiv (-2 \ge -1)$ which is false.
  
 ---
+<div style="page-break-after: always;"></div>
+page break above me
+
 ##### (d) $\exists x (x^2 = e^x)$, where the domain is $\mathbb{R}$.
 
 ===How?===
 
 ---
-<div style="page-break-after: always;"></div>
-test
+### 2. Translate each of the following statements into logical expressions, introducing notation as needed for propositional functions and appropriate domains. Then negate the logical expression and translate the negation back into English.
+
+##### (a) Some of the students in this class are not here today.
+
+(Some people are both students and absent/not here)
+
+S(x) = "x is a student in this class"
+H(x) = "x is here today."
+
+**Translation**: $\exists x(S(x) \land \lnot H(x))$
+**Negation**: $\forall x(S(x) \rightarrow H(x))$
+
+**English Negation**: All of the students in this class are here today. 
+
+**Negation work**: 
+1. $\lnot(\exists x(S(x) \land \lnot H(x)))$
+2. $\equiv \forall x(\lnot (S(x) \land \lnot H(x)))$ - Existential quantifier to universal quantifier of 1.
+3. $\equiv \forall x (\lnot S(x) \lor \lnot  (\lnot H(x)))$ - DeMorgan's Law of 2.
+4. $\equiv \forall x(\lnot S(x) \lor H(x))$ - Double negation of 3.
+5. $\equiv \forall x(S(x) \rightarrow H(x))$ - Logical equivalence of 4.
+
+---
+##### (b) The number $\sqrt{x}$ is rational if x is an integer
+
+I(x) = "x is an integer"
+R($\sqrt{x}$) "$\sqrt{x}$ is rational"
+
+**Translation**: $\forall x(I(x) \rightarrow R(\sqrt{x}))$
+**Negation**: $\exists x(I(x) \land \lnot R(\sqrt{x}))$
+
+**English Negation**: There exists an integer x such that $\sqrt{x}$ is irrational.
+
+**Negation Work**: 
+1. $\lnot(\forall x(I(x) \rightarrow R(\sqrt{x})))$
+2. $\equiv \lnot(\forall x(\lnot I(x) \lor R(\sqrt{x})))$ - Logical Equivalence to 1.
+3. $\equiv \exists x(\lnot  (\lnot I(x) \lor R(\sqrt{x})))$ - Negation of universal quantifier of 2.
+4. $\equiv \exists x(\lnot (\lnot I(x)) \land \lnot R(\sqrt{x}))$ - DeMorgan's Law of 3.
+5. $\exists x(I(x) \land \lnot R(\sqrt{x}))$ - Double negation of 4.
+
+---
