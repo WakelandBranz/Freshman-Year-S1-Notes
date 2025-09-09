@@ -30,6 +30,8 @@ If x were to equal -1, then the statement would evaluate to $(2(-1) \ge -1) \equ
 ##### (d) $\exists x (x^2 = e^x)$, where the domain is $\mathbb{R}$.
 
 ===How?===
+This statement is true.
+
  
 ---
 
@@ -124,9 +126,8 @@ For all values of z there exists a value of n that for all values of m $(n \le z
 **Negation Work:**
 $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
 1. $\lnot (\forall z \exists n \forall m (n \le z^2 \lor z < n + m))$
-2. $\equiv \lnot \forall z \lnot \exists n \lnot \forall m(\lnot(n \le z^2 \lor z < n + m))$ - Distribution of the negation of 1.
-3. $\equiv \exists z \forall n \exists m(\lnot(n \le z^2 \lor z < n + m))$ - Existential quantifier to universal quantifier & vice versa of 2.
-4. $\equiv \exists z \forall n \exists m(n > z^2 \land z \ge n + m)$ - Negation of Inequality Relations
+2. $\equiv \exists z \forall n \exists m(\lnot(n \le z^2 \lor z < n + m))$ - Negation of the existential and universal qualifiers of 1.
+3. $\equiv \exists z \forall n \exists m(n > z^2 \land z \ge n + m)$ - Negation of Inequality Relations of 2.
 
 
 ---
