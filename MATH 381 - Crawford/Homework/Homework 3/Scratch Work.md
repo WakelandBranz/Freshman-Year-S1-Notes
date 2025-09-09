@@ -83,10 +83,14 @@ R($\sqrt{x}$) = "$\sqrt{x}$ is rational"
 #### T(x, y): $x$ is teaching $y$
 #### M(y): $y$ is a math course
 
+#### x: Teachers at UNC
+#### y: Classes at UNC
+
 #### Then give the negation of your logical expression, simplifying as much as possible.
 
 ##### (a) Every teacher at UNC teaches at least one math course.
 
+**Translation**: $\exists x \forall y(T(x, y) \rightarrow M(y))$
 
 ---
 ##### (b) There is exactly one teacher who teaches every class at UNC
