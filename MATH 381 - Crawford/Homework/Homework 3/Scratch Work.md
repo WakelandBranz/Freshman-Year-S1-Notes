@@ -113,9 +113,6 @@ $\exists x (\forall y T(x, y) \land \forall z \forall y(T(z, y)) \rightarrow z =
 	 - This part represents "There exists at least one teacher who teaches every class at UNC"
 - $\forall z \forall y(T(z,y)) \rightarrow z = x$
 	- This part represents exactly one teacher
-
-
-
 ---
 ### 4. Let P (x, y) be the statement x + 2y = xy, where x is an integer and y is a real number. Determine the truth value of each statement, with explanation.
 ##### (a) $\exists yP(4,y)$
