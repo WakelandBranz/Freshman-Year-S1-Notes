@@ -50,7 +50,7 @@ H(x) = "x is here today."
 **Negation work**: 
 1. $\lnot(\exists x(S(x) \land \lnot H(x)))$
 2. $\equiv \forall x(\lnot (S(x) \land \lnot H(x)))$ - Existential quantifier to universal quantifier of 1.
-3. $\equiv \forall x (\lnot S(x) \lor \lnot  (\lnot H(x)))$ - DeMorgan's Law of 2 & Distributing Out the Negation.
+3. $\equiv \forall x (\lnot S(x) \lor \lnot  (\lnot H(x)))$ - DeMorgan's Law of 2.
 4. $\equiv \forall x(\lnot S(x) \lor H(x))$ - Double negation of 3.
 5. $\equiv \forall x(S(x) \rightarrow H(x))$ - Logical equivalence of 4.
 
@@ -68,11 +68,9 @@ R($\sqrt{x}$) "$\sqrt{x}$ is rational"
 **Negation Work**: 
 1. $\lnot(\forall x(I(x) \rightarrow R(\sqrt{x})))$
 2. $\equiv \lnot(\forall x(\lnot I(x) \lor R(\sqrt{x})))$ - Logical Equivalence to 1.
-3. $\equiv \lnot \forall x(\lnot (\lnot I(x) \lor R(\sqrt{x})))$ - Distributing out the negation of 2.
-4. $\equiv \lnot \forall x(\lnot (\lnot I(x)) \lnot \lor \lnot R(\sqrt{x}))$  - Distributing out the negation of 3.
-5. $\equiv \exists x (\lnot (\lnot I(x) \lor \lnot R(\sqrt{x})))$ - Universal quantifier to existential quantifier of 4.
-6. $\equiv \exists x(\lnot(\lnot I(x) \land \lnot R(\sqrt{x})))$ - DeMorgan's Law of 5.
-7. $\equiv \exists x(I(x) \land \lnot R(\sqrt{x}))$ - Double Negation of 6.
+3. $\equiv \exists x(\lnot  (\lnot I(x) \lor R(\sqrt{x})))$ - Negation of universal quantifier of 2.
+4. $\equiv \exists x(\lnot (\lnot I(x)) \land \lnot R(\sqrt{x}))$ - DeMorgan's Law of 3.
+5. $\exists x(I(x) \land \lnot R(\sqrt{x}))$ - Double negation of 4.
 
 ---
 
@@ -104,7 +102,7 @@ When simplified, $2 + 2y = 2y \equiv 2 = 0$, thus when x = 2 there does not exis
 This means that the entire statement is false.
 
 ---
-##### (c) $\exists x \forall yP(x,y)$ ===REVIEW THIS===
+##### (c) $\exists x \forall yP(x,y)$ 
 This statement is false.
 This statement states that there exists a value of x where all values of y result in P(x, y) evaluating to true. 
 This is false, as for any fixed x, the equation x + 2y = xy can only be satisfied by at most one value of y.
