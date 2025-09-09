@@ -154,6 +154,8 @@ $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
 4. $\equiv \exists z \forall n \exists m(\lnot(n \le z^2 \lor z < n + m))$ - Negation of the universal quantifier of 3.
 5. $\equiv \exists z \forall n \exists m(n > z^2 \land z \ge n + m)$ - Negation of Inequality Relations of 2.
 
+The original statement, $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$ is true. 
+
 ---
 
 # REVIEW
