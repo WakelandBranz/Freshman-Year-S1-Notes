@@ -28,6 +28,8 @@ If x were to equal -1, then the statement would evaluate to $(2(-1) \ge -1) \equ
  
 ---
 ##### (d) $\exists x (x^2 = e^x)$, where the domain is $\mathbb{R}$.
+
+===How?===
  
 ---
 
@@ -64,14 +66,13 @@ R($\sqrt{x}$) "$\sqrt{x}$ is rational"
 **English Negation**: There exists an integer x such that $\sqrt{x}$ is irrational.
 
 **Negation Work**: 
-1. $\forall x(I(x) \rightarrow R(\sqrt{x}))$
-2. $\equiv \forall x(\lnot I(x) \lor R(\sqrt{x}))$ - Logical Equivalence to 1.
-3. $\equiv \lnot (\forall x(\lnot I(x) \lor R(\sqrt{x})))$ - Distributing out the negation of 2.
-4. $\equiv \lnot \forall x(\lnot (\lnot I(x) \lor R(\sqrt{x})))$ - Distributing out the negation of 3.
-5. $\equiv \lnot \forall x(\lnot (\lnot I(x)) \lnot \lor \lnot R(\sqrt{x}))$  - Distributing out the negation of 4.
-6. $\equiv \exists x (\lnot (\lnot I(x) \lor \lnot R(\sqrt{x})))$ - Universal quantifier to existential quantifier of 5.
-7. $\equiv \exists x(\lnot(\lnot I(x) \land \lnot R(\sqrt{x})))$ - DeMorgan's Law of 6.
-8. $\equiv \exists x(I(x) \land \lnot R(\sqrt{x}))$ - Double Negation of 7.
+1. $\lnot(\forall x(I(x) \rightarrow R(\sqrt{x})))$
+2. $\equiv \lnot(\forall x(\lnot I(x) \lor R(\sqrt{x})))$ - Logical Equivalence to 1.
+3. $\equiv \lnot \forall x(\lnot (\lnot I(x) \lor R(\sqrt{x})))$ - Distributing out the negation of 2.
+4. $\equiv \lnot \forall x(\lnot (\lnot I(x)) \lnot \lor \lnot R(\sqrt{x}))$  - Distributing out the negation of 3.
+5. $\equiv \exists x (\lnot (\lnot I(x) \lor \lnot R(\sqrt{x})))$ - Universal quantifier to existential quantifier of 4.
+6. $\equiv \exists x(\lnot(\lnot I(x) \land \lnot R(\sqrt{x})))$ - DeMorgan's Law of 5.
+7. $\equiv \exists x(I(x) \land \lnot R(\sqrt{x}))$ - Double Negation of 6.
 
 ---
 
