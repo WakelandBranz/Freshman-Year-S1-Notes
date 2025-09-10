@@ -29,7 +29,8 @@ If x were to equal -1, then the statement would evaluate to $(2(-1) \ge -1) \equ
 ---
 ##### (d) $\exists x (x^2 = e^x)$, where the domain is $\mathbb{R}$.
 
-===How? - **LEARN INTERMEDIATE VALUE THEOREM FOR THIS**===
+$e^x$ is a continuous function.
+$x^2$ is a continuous function.
 This statement is true.
 f(x) = $e^x - x^2$
 
