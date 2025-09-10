@@ -107,12 +107,20 @@ R($\sqrt{x}$) = "$\sqrt{x}$ is rational"
 
 #### Let z have the domain of teachers at UNC
 
-$\exists x (\forall y T(x, y) \land \forall z \forall y(T(z, y)) \rightarrow z = x)$
+**Translation**: $\exists x (\forall y T(x, y) \land \forall z \forall y(T(z, y)) \rightarrow z = x)$
+**Negation**: 
 
  - $\exists x \forall yT(x, y)$
 	 - This part represents "There exists at least one teacher who teaches every class at UNC"
 - $\forall z \forall y(T(z,y)) \rightarrow z = x$
 	- This part represents exactly one teacher
+
+**Negation Work**:  
+1. $\lnot(\exists x (\forall y T(x, y) \land \forall z \forall y(T(z, y)) \rightarrow z = x)$
+2. $\equiv \forall x(\lnot(\forall y T(x, y) \land \forall z \forall y(T(z, y)) \rightarrow z = x)))$ - Negation of the existential quantifier of 1.
+3. $\equiv \forall x(\exists y(\lnot(T(x, y) \land \forall z \forall y(T(z, y)) \rightarrow z = x)))$ - Negation of the universal quantifier of 2.
+4. $\equiv \forall x(\exists y(\lnot T(x, y))\lor \lnot(\forall z \forall y(T(z, y)) \rightarrow z = x))$ - DeMorgan's Law of 3.
+5. $\equiv
 ---
 ### 4. Let P (x, y) be the statement x + 2y = xy, where x is an integer and y is a real number. Determine the truth value of each statement, with explanation.
 ##### (a) $\exists yP(4,y)$
@@ -137,7 +145,7 @@ Thus, since there is no x that works for all y, this statement is false.
 
 ---
 
-# NOT FULLY COMPLETE - MATT THINKS 5 IS TRUE
+# NOT FULLY COMPLETE - MATT THINKS 5 ORIGINAL IS TRUE
 ### 5. Let the universe for m and for n be the set of positive integers and let the universe for z be the set of all integers. Write the negation of the following statement without the symbol “¬” and determine, with explanation, whether the original statement or its negation is true.
 
 #### $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
@@ -177,4 +185,4 @@ The original statement, $\forall z \exists n \forall m (n \le z^2 \lor z < n + m
 ##### (b) $\forall y \exists x(S(x, y) \land A(y))$
 
 ***Rough Translation:*** For every movie there exists someone who saw it and the movie won an award.
-##### Translation: Every movie was seen by someone and won an award (?)
+##### Translation: Every movie was seen by someone and won an award 
