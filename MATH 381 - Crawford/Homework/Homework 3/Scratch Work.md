@@ -29,9 +29,12 @@ If x were to equal -1, then the statement would evaluate to $(2(-1) \ge -1) \equ
 ---
 ##### (d) $\exists x (x^2 = e^x)$, where the domain is $\mathbb{R}$.
 
-$e^x$ is a continuous function.
-$x^2$ is a continuous function.
 This statement is true.
+$e^x$ and $x^2$ are both continuous functions for all real numbers.
+The difference of continuous functions is continuous.
+Therefore, $f(x) = e^x - x^2$ is continuous for $\mathbb{R}$.
+$f(1) = e^0 - x^0 = 1 - 0 = 1$
+$f(-1) = even
 f(x) = $e^x - x^2$
 
 
