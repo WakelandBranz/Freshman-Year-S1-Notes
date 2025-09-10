@@ -107,8 +107,8 @@ R($\sqrt{x}$) = "$\sqrt{x}$ is rational"
 
 #### Let z have the domain of teachers at UNC
 
-**Translation**: $\exists x (\forall y T(x, y) \land \forall z( \forall y(T(z, y)) \rightarrow z = x))$
-**Negation**: $\forall x(\exists y(\lnot T(x, y)) \lor \exists z \exists y(T(x, y) \land \lnot z = x))$
+**Translation**: $\exists x (\forall y T(x, y) \land \forall z( \forall yT(z, y) \rightarrow z = x))$
+**Negation**: $forall x(\exists y \lnot T(x, y) \lor \exists z(\forall yT(z, y)  \land z \neq x))$
 
  - $\exists x \forall yT(x, y)$
 	 - This part represents "There exists at least one teacher who teaches every class at UNC"
@@ -131,7 +131,9 @@ R($\sqrt{x}$) = "$\sqrt{x}$ is rational"
 2. $\equiv \lnot (\exists x(\forall yT(x, y) \land \forall z (\lnot(\forall yT(z, y))) \lor z = x))$ - Logical equivalence to 1.
 3. $\equiv \forall x(\lnot (\forall yT(x, y) \land \forall z(\lnot(\forall yT(z, y))) \lor z = x))$ - Negation of the existential quantifier of 2.
 4. $\equiv \forall x(\exists y(\lnot(T(x, y) \land \forall z(\lnot (\forall yT(z, y))) \lor z = x)))$ - Negation of the universal quantifier of 3.
-5. $\equiv \forall x(\exists y \lnot T(x, y) \lor \lnot(\forall z(\lnot(\forall yT(z, y))) \lor z = x))$
+5. $\equiv \forall x(\exists y \lnot T(x, y) \lor \lnot(\forall z(\lnot(\forall yT(z, y))) \lor z = x))$ - DeMorgan's Law of 4.
+6. $\equiv \forall x(\exists y \lnot T(x, y) \lor \exists z(\lnot(\lnot(\forall yT(z, y))) \lor z = x))$ - Negation of the existential quantifier of 5.
+7. $\equiv \forall x(\exists y \lnot T(x, y) \lor \exists z(\forall yT(z, y))\lnot (\lor z = x))$ - Double negation of 6.
 
 ---
 ### 4. Let P (x, y) be the statement x + 2y = xy, where x is an integer and y is a real number. Determine the truth value of each statement, with explanation.
