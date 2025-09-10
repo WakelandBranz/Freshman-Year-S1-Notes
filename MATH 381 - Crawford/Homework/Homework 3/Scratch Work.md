@@ -34,7 +34,7 @@ $e^x$ and $x^2$ are both continuous functions for all real numbers.
 The difference of continuous functions is continuous.
 Therefore, $f(x) = e^x - x^2$ is continuous for $\mathbb{R}$.
 $f(x) = e^x - x^2$
-$f(0) = e^0 - x^0 = 1 - 0 = 1$
+$f(0) = e^0 - 0^2 = 1 - 0 = 1$
 $f(-1) = e^{-1} - (-1)^2 = 1/e - 1 \approx 0.368 - 1 = -0.632 < 0$
 $f(x)$ is continuous on the interval [-1, 0].
 $f(-1) < 0$ and $f(0) > 0$ thus 0 lies between $f(-1)$ and $f(0)$.
