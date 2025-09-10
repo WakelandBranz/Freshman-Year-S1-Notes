@@ -135,7 +135,7 @@ R($\sqrt{x}$) = "$\sqrt{x}$ is rational"
 6. $\equiv \forall x(\exists y \lnot T(x, y) \lor \exists z(\lnot(\lnot(\forall yT(z, y))) \lor z = x))$ - Negation of the existential quantifier of 5.
 7. $\equiv \forall x(\exists y \lnot T(x, y) \lor \exists z(\forall yT(z, y))\lnot (\lor z = x))$ - Double negation of 6.
 
-**Negation Work Try #3**:  
+**Negation Work Try #3**:    
 
 ---
 ### 4. Let P (x, y) be the statement x + 2y = xy, where x is an integer and y is a real number. Determine the truth value of each statement, with explanation.
