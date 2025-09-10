@@ -184,8 +184,6 @@ $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
 The original statement, $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$ is true. 
 
 ---
-
-# REVIEW
 ### 6. Let the universe for x be people and let the universe for y be movies. Translate the following statements to English without using any variables, given the following notation for predicates:
 
 #### S(x, y): x saw y
