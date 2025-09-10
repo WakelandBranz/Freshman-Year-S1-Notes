@@ -35,14 +35,13 @@ The difference of continuous functions is continuous.
 Therefore, $f(x) = e^x - x^2$ is continuous for $\mathbb{R}$.
 $f(x) = e^x - x^2$
 $f(0) = e^0 - x^0 = 1 - 0 = 1$
-$f(-1) = e^-1 - x^-1 = 1/e - 1 \approx 0.368 - 1 = -0.632 > 0$
+$f(-1) = e^{-1} - (-1)^2 = 1/e - 1 \approx 0.368 - 1 = -0.632 < 0$
 $f(x)$ is continuous on the interval [-1, 0].
 $f(-1) < 0$ and $f(0) > 0$ thus 0 lies between $f(-1)$ and $f(0)$.
 By the intermediate value theorem, there exists some value z such that $f(z) = 0$.
 $f(z) = 0$ means $e^z - z^2 = 0$
-Therefore $r
+Therefore $e^z = z^2$ proves $\exists x(x^2 = e^x)$ is true.
 
- 
 ---
 
 ### 2. Translate each of the following statements into logical expressions, introducing notation as needed for propositional functions and appropriate domains. Then negate the logical expression and translate the negation back into English.
