@@ -120,7 +120,11 @@ R($\sqrt{x}$) = "$\sqrt{x}$ is rational"
 2. $\equiv \forall x(\lnot(\forall y T(x, y) \land \forall z \forall y(T(z, y)) \rightarrow z = x)))$ - Negation of the existential quantifier of 1.
 3. $\equiv \forall x(\exists y(\lnot(T(x, y) \land \forall z \forall y(T(z, y)) \rightarrow z = x)))$ - Negation of the universal quantifier of 2.
 4. $\equiv \forall x(\exists y(\lnot T(x, y))\lor \lnot(\forall z \forall y(T(z, y)) \rightarrow z = x))$ - DeMorgan's Law of 3.
-5. $\equiv
+5. $\equiv \forall x(\exists y(\lnot T(x, y)) \lor \exists z(\lnot(\forall y(T(x, y)) \rightarrow z = x)))$ - Negation of the universal quantifier of 4.
+6. $\equiv \forall x(\exists y(\lnot T(x, y)) \lor \exists z \exists y(\lnot(T(x, y)) \rightarrow z = x))$ - Negation of the universal quantifier of 5.
+7. $\equiv \forall x(\exists y(\lnot T(x, y)) \lor \exists z \exists y(\lnot (\lnot T(x, y)) \lor z = x))$ - Logical equivalence of 6.
+8. $\equiv \forall x(\exists y(\lnot T(x, y)) \lor \exists z \exists y(T(x, y) (\lnot (\lor z = x))))$ - Double negation of 7.
+9. $\equiv \forall x(\exists y(\lnot T(x, y)) \lor \exists z \exists y(T(x, y) \land \lnot z = x))$ - DeMorgan's Law of 8.
 ---
 ### 4. Let P (x, y) be the statement x + 2y = xy, where x is an integer and y is a real number. Determine the truth value of each statement, with explanation.
 ##### (a) $\exists yP(4,y)$
