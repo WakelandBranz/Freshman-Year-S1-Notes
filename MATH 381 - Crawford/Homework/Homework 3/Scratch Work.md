@@ -189,6 +189,9 @@ $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
 5. $\equiv \exists z \forall n \exists m(n > z^2 \land z \ge n + m)$ - Negation of Inequality Relations of 2.
 
 The original statement, $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$ is true. 
+#### ***PF:***
+For this proof, 
+
 
 ---
 ### 6. Let the universe for x be people and let the universe for y be movies. Translate the following statements to English without using any variables, given the following notation for predicates:
