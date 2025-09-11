@@ -11,7 +11,7 @@ This is not possible in this case though--if the first proposition evaluates to 
 Since the first proposition being true implies that P(x) evaluates to true for all values of x, then there must exist an x for which P(x) will evaluate to true for the second proposition (all values of x will).
 
 ---
-##### (b) $\exists x P(x) \rightarrow \forall x$, where $P(x)$ is an arbitrary propositional function
+##### (b) $\exists x P(x) \rightarrow \forall xP(x)$, where $P(x)$ is an arbitrary propositional function
 
 This statement is false.
 This statement attempts to claim that if some values of x are true for P(x) then all values of x are true for P(x).

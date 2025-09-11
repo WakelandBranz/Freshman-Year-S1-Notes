@@ -7,12 +7,13 @@ This is not possible in this case though--if the first proposition evaluates to 
 Since the first proposition being true implies that P(x) evaluates to true for all values of x, then there must exist an x for which P(x) will evaluate to true for the second proposition (all values of x will).
 
 ---
-##### (b) $\exists x P(x) \rightarrow \forall x$, where $P(x)$ is an arbitrary propositional function.
+##### (b) $\exists x P(x) \rightarrow \forall xP(x)$, where $P(x)$ is an arbitrary propositional function.
 
 This statement is false.
 This statement attempts to claim that if some values of x are true for P(x) then all values of x are true for P(x).
 This cannot be true.
-If P(x) this does not imply that P(6), P(7), P(8), etc. would also evaluate as true.
+If P(x) is 'x = 5', then P(5) is true but P(6) is false.
+This does not imply that P(7), P(8), P(9), etc. would also evaluate as true.
 
 ---
 <div style="page-break-after: always;"></div>
