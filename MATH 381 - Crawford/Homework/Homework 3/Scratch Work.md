@@ -148,7 +148,9 @@ R($\sqrt{x}$) = "$\sqrt{x}$ is rational"
 3. $\equiv \forall x(\lnot (\forall yT(x, y)) \lor \lnot (\forall z(\forall yT(z, y) \rightarrow z = x)))$ - DeMorgan's Law of 2.
 4. $\equiv \forall x(\exists y\lnot T(x, y) \lor \lnot(\forall z(\forall yT(z, y) \forall z = x)))$ - Negation of the universal quantifier of 3.
 5. $\equiv \forall x(\exists y\lnot T(x, y) \lor \exists z\lnot(\forall yT(z, y) \rightarrow z = z))$ - Negation of the universal quantifier of 4.
-6. $\equiv \forall x(\exists y\lnotT(x, y) \lor \exists z(\forall ))
+6. $\equiv \forall x(\exists y\lnot T(x, y) \lor \exists z(\lnot(\lnot(\forall yT(z, y))) \lor \lnot(z = x)))$ - Logical equivalence of 5. 
+7. $\equiv \forall x(\exists y\lnot T(x, y) \lor \exists z(\forall yT(z, y) \lor \lnot(z = x)))$ - Double negation of 6.
+8. $\equiv \forall x(\exists y \lnot T(x, y) \lor \exists z(\forall yT(z, y)  \land z \neq x))$ - Negation of equality relation of 7.
 
 ---
 ### 4. Let P (x, y) be the statement x + 2y = xy, where x is an integer and y is a real number. Determine the truth value of each statement, with explanation.
