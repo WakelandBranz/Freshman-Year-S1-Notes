@@ -49,8 +49,6 @@ page break above me
 
 ##### (a) Some of the students in this class are not here today.
 
-(Some people are both students and absent/not here)
-
 S(x) = "x is a student in this class"
 H(x) = "x is here today."
 
@@ -74,7 +72,6 @@ R($\sqrt{x}$) "$\sqrt{x}$ is rational"
 
 **Translation**: $\forall x(I(x) \rightarrow R(\sqrt{x}))$
 **Negation**: $\exists x(I(x) \land \lnot R(\sqrt{x}))$
-
 **English Negation**: There exists an integer x such that $\sqrt{x}$ is irrational.
 
 **Negation Work**: 
@@ -84,4 +81,3 @@ R($\sqrt{x}$) "$\sqrt{x}$ is rational"
 4. $\equiv \exists x(\lnot (\lnot I(x)) \land \lnot R(\sqrt{x}))$ - DeMorgan's Law of 3.
 5. $\exists x(I(x) \land \lnot R(\sqrt{x}))$ - Double negation of 4.
 
----

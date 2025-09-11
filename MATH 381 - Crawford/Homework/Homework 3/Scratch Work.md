@@ -199,7 +199,7 @@ For this proof, $n=1$.
 	 - For any non-zero integer z, $z^2 \geq 1$, therefore this disjunct is always true.
 - Since the first disjunct is always true, the entire statement always evaluates to true therefore the second disjunct does not need to be evaluated.
 
-Therefore, the original statement is true.
+Therefore, the original statement is   true.
 
 ---
 ### 6. Let the universe for x be people and let the universe for y be movies. Translate the following statements to English without using any variables, given the following notation for predicates:
