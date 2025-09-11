@@ -193,11 +193,9 @@ Therefore the original statement is true.
 
 ##### (a) $\forall y(C(y) \rightarrow \exists xL(x, y))$ 
 
-***Rough Translation:*** For every movie, if it is a comedy movie then someone liked it.
 ##### Translation: Every comedy movie is liked by someone
 
 ---
 ##### (b) $\forall y \exists x(S(x, y) \land A(y))$
 
-***Rough Translation:*** For every movie there exists someone who saw it and the movie won an award.
 ##### Translation: Every movie was seen by someone and won an award 
