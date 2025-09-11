@@ -24,26 +24,41 @@ Thus $a + c$ is even.
 ---
 ### 4. Suppose that $x$ and $y$ are real numbers. Prove that if $x + y$ is irrational then $x$ is irrational or $y$ is irrational.
 
+**-PF-**
+
 ---
 ### 5. Prove that there are no positive integer solutions to $x^2 + x + 1 = y^2$
 
+**-PF-**
+
 ---
 ### 6. Prove that $\sqrt[3]2$ is irrational.
+
+**-PF-**
 
 ---
 ### 7. Show that the following statement about the real numbers $a$ and $b$ are equivalent:
 
 #### (a) $a < b$
 
+**-PF-**
+
 ---
 #### (b) $(a + b)/2 > a$
+
+**-PF-**
 
 ---
 #### (c) $(a + b)/2 < b$
 
+**-PF-**
+
 ---
 ### 8. Prove that either $2 * 10^500 + 15$ or $2 * 10^500 + 16$ is not a perfect square.
+
+**-PF-**
 
 ---
 ### 9. Prove or disprove: If $x$ and $y$ are rational numbers, then $x^y$ must be rational.
 
+**-PF-**
