@@ -12,7 +12,7 @@ Since the first proposition being true implies that P(x) evaluates to true for a
 This statement is false.
 This statement attempts to claim that if some values of x are true for P(x) then all values of x are true for P(x).
 This cannot be true.
-If P(x) were to be $x = 5$ then the first proposition would evaluate as true because there exists a case where $x = 5$ thus P(5) is true but P(6) is false so $\forall xP(x)$ is false.
+If P(5) were to evaluate as true this does not imply that P(6), P(7), P(8), etc. would also evaluate as true.
 
 ---
 ##### (c) $\forall x (2x \ge x)$, where the domain is $\mathbb{R}$.
@@ -22,6 +22,22 @@ This statement attempts to claim that 2x is always greater than or equal to x fo
 If $x \ge 0$ then this statement evaluates to true, but it is false otherwise. 
 If x were to equal -1, then the statement would evaluate to $(2(-1) \ge -1) \equiv (-2 \ge -1)$ which is false.
  
+---
+##### (d) $\exists x (x^2 = e^x)$, where the domain is $\mathbb{R}$.
+
+This statement is true.
+$e^x$ and $x^2$ are both continuous functions for all real numbers.
+The difference of continuous functions is continuous.
+Therefore, $f(x) = e^x - x^2$ is continuous for $\mathbb{R}$.
+$f(x) = e^x - x^2$
+$f(0) = e^0 - 0^2 = 1 - 0 = 1$
+$f(-1) = e^{-1} - (-1)^2 = 1/e - 1 \approx 0.368 - 1 = -0.632 < 0$
+$f(x)$ is continuous on the interval [-1, 0].
+$f(-1) < 0$ and $f(0) > 0$ thus 0 lies between $f(-1)$ and $f(0)$.
+By the intermediate value theorem, there exists some value z such that $f(z) = 0$.
+$f(z) = 0$ means $e^z - z^2 = 0$
+Therefore $e^z = z^2$ proves $\exists x(x^2 = e^x)$ is true.
+
 ---
 page break below me
 <div style="page-break-after: always;"></div>
