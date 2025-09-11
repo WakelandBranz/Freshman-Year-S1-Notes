@@ -168,8 +168,6 @@ This is false, as for any fixed x, the equation x + 2y = xy can only be satisfie
 Thus, since there is no x that works for all y, this statement is false.
 
 ---
-
-# NOT FULLY COMPLETE - MATT THINKS 5 ORIGINAL IS TRUE
 ### 5. Let the universe for m and for n be the set of positive integers and let the universe for z be the set of all integers. Write the negation of the following statement without the symbol “¬” and determine, with explanation, whether the original statement or its negation is true.
 
 #### $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
@@ -190,8 +188,16 @@ $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
 
 The original statement, $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$ is true. 
 #### ***PF:***
-For this proof, 
-
+For this proof, $n=1$. 
+##### ***Case 1: z = 0***
+- First disjunct: $(1 \leq 0)$
+	- **False**
+- Second disjunct: $(0 < 1 + m)$
+	- Since $m \geq 1$, this statement must be true $(0 < 1 + 1..\infty)$
+##### **Case 2: z $\neq$ 0**
+ - First disjunct: $(1 \leq z^2)$
+	 - For any non-zero integer z, $z^2 \geq 1$, therefore this disjunct is always true.
+- Since the first disjunct is always true, the entire statement always evaluates to true therefore the second disjunct does not need to be evaluated.
 
 ---
 ### 6. Let the universe for x be people and let the universe for y be movies. Translate the following statements to English without using any variables, given the following notation for predicates:
