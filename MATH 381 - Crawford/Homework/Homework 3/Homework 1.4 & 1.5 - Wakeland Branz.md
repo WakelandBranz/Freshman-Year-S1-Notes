@@ -80,4 +80,51 @@ R($\sqrt{x}$) "$\sqrt{x}$ is rational"
 3. $\equiv \exists x(\lnot  (\lnot I(x) \lor R(\sqrt{x})))$ - Negation of universal quantifier of 2.
 4. $\equiv \exists x(\lnot (\lnot I(x)) \land \lnot R(\sqrt{x}))$ - DeMorgan's Law of 3.
 5. $\exists x(I(x) \land \lnot R(\sqrt{x}))$ - Double negation of 4.
+---
+### 3. Let the domain for x be teachers at UNC and the domain for y be classes at UNC. Translate the following English statements into logical expressions, using the below:
+
+#### T(x, y): $x$ is teaching $y$
+#### M(y): $y$ is a math course
+
+#### x: Teachers at UNC
+#### y: Classes at UNC
+
+#### Then give the negation of your logical expression, simplifying as much as possible.
+
+##### (a) Every teacher at UNC teaches at least one math course.
+
+**Translation**: $\forall x \exists y(T(x, y) \land M(y))$
+**Negation**: $\exists x \forall y(\lnot T(x, y) \lor \lnot M(y))$
+
+**Negation Work**: 
+1. $\lnot(\forall x \exists y(T(x, y) \land M(y)))$
+2. $\equiv \exists x(\lnot(\exists y(T(x, y) \land M(y))))$ - Negation of the universal quantifier of 1.
+3. $\equiv \exists x \forall y(\lnot(T(x, y) \land M(y)))$ - Negation of the existential quantifier of 2.
+4. $\equiv \exists x \forall y(\lnot T(x, y) \lor \lnot M(y))$ - DeMorgan's Law of 2.
+
+---
+##### (b) There is exactly one teacher who teaches every class at UNC
+#### x: Teachers at UNC
+#### y: Classes at UNC
+
+#### Let z have the domain of teachers at UNC
+
+**Translation**: $\exists x (\forall y T(x, y) \land \forall z( \forall yT(z, y) \rightarrow z = x))$
+**Negation**: $\forall x(\exists y \lnot T(x, y) \lor \exists z(\forall yT(z, y)  \land z \neq x))$
+
+ - $\exists x \forall yT(x, y)$
+	 - This part represents "There exists at least one teacher who teaches every class at UNC"
+- $\forall z \forall y(T(z,y)) \rightarrow z = x$
+	- This part represents exactly one teacher
+
+**Negation Work**:
+1. $\lnot(\exists x(\forall yT(x, y) \land \forall z(\forall yT(z, y) \rightarrow z = x)))$
+2. $\equiv \forall x \lnot (\forall yT(x, y) \land \forall z(\forall yT(z, y) \rightarrow z = x))$ - Negation of the existential quantifier of 1.
+3. $\equiv \forall x(\lnot (\forall yT(x, y)) \lor \lnot (\forall z(\forall yT(z, y) \rightarrow z = x)))$ - DeMorgan's Law of 2.
+4. $\equiv \forall x(\exists y\lnot T(x, y) \lor \lnot(\forall z(\forall yT(z, y) \rightarrow z = x)))$ - Negation of the universal quantifier of 3.
+5. $\equiv \forall x(\exists y\lnot T(x, y) \lor \exists z\lnot(\forall yT(z, y) \rightarrow z = x))$ - Negation of the universal quantifier of 4.
+6. $\equiv \forall x(\exists y\lnot T(x, y) \lor \exists z(\lnot(\lnot(\forall yT(z, y)) \lor (z = x))))$ - Logical equivalence of 5. 
+7. $\equiv \forall x(\exists y\lnot T(x, y) \lor \exists z(\lnot (\lnot (\forall yT(z, y))) \land \lnot (z = x)))$ - DeMorgan's Law of 6.
+8. $\equiv \forall x(\exists y\lnot T(x, y) \lor \exists z(\forall yT(z, y) \land \lnot(z = x)))$ - Double negation of 7.
+9. $\equiv \forall x(\exists y \lnot T(x, y) \lor \exists z(\forall yT(z, y)  \land z \neq x))$ - Negation of equality relation of 8.
 

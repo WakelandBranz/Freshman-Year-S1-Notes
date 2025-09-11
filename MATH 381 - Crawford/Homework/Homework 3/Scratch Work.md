@@ -84,7 +84,6 @@ R($\sqrt{x}$) = "$\sqrt{x}$ is rational"
 5. $\exists x(I(x) \land \lnot R(\sqrt{x}))$ - Double negation of 4.
 
 ---
-
 ### 3. Let the domain for x be teachers at UNC and the domain for y be classes at UNC. Translate the following English statements into logical expressions, using the below:
 
 #### T(x, y): $x$ is teaching $y$
@@ -108,7 +107,6 @@ R($\sqrt{x}$) = "$\sqrt{x}$ is rational"
 
 ---
 ##### (b) There is exactly one teacher who teaches every class at UNC
-===JUST DO NEGATION===
 #### x: Teachers at UNC
 #### y: Classes at UNC
 
@@ -151,7 +149,7 @@ R($\sqrt{x}$) = "$\sqrt{x}$ is rational"
 6. $\equiv \forall x(\exists y\lnot T(x, y) \lor \exists z(\lnot(\lnot(\forall yT(z, y)) \lor (z = x))))$ - Logical equivalence of 5. 
 7. $\equiv \forall x(\exists y\lnot T(x, y) \lor \exists z(\lnot (\lnot (\forall yT(z, y))) \land \lnot (z = x)))$ - DeMorgan's Law of 6.
 8. $\equiv \forall x(\exists y\lnot T(x, y) \lor \exists z(\forall yT(z, y) \land \lnot(z = x)))$ - Double negation of 7.
-9. $\equiv \forall x(\exists y \lnot T(x, y) \lor \exists z(\forall yT(z, y)  \land z \neq x))$ - Negation of equality relation of 7.
+9. $\equiv \forall x(\exists y \lnot T(x, y) \lor \exists z(\forall yT(z, y)  \land z \neq x))$ - Negation of equality relation of 8.
 
 ---
 ### 4. Let P (x, y) be the statement x + 2y = xy, where x is an integer and y is a real number. Determine the truth value of each statement, with explanation.
