@@ -69,5 +69,6 @@
 |                              | $\Longleftrightarrow$           | iff (if and only if)           |                                 |                         |     |     |     |     |     |     |
 |                              | $\vdash$                        | syntactic entailment           |                                 |                         |     |     |     |     |     |     |
 |                              | $\models$                       | semantic entailment            |                                 |                         |     |     |     |     |     |     |
+|                              | $\exists !$                     | "There exists a unique x"      |                                 |                         |     |     |     |     |     |     |
 
 *All symbols are ready to copy‑paste into a LaTeX‑enabled environment (e.g., Obsidian MathJax).*
