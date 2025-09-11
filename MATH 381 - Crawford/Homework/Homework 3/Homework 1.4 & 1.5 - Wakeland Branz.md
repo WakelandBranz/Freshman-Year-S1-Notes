@@ -100,7 +100,7 @@ R($\sqrt{x}$) "$\sqrt{x}$ is rational"
 1. $\lnot(\forall x \exists y(T(x, y) \land M(y)))$
 2. $\equiv \exists x(\lnot(\exists y(T(x, y) \land M(y))))$ - Negation of the universal quantifier of 1.
 3. $\equiv \exists x \forall y(\lnot(T(x, y) \land M(y)))$ - Negation of the existential quantifier of 2.
-4. $\equiv \exists x \forall y(\lnot T(x, y) \lor \lnot M(y))$ - DeMorgan's Law of 2.
+4. $\equiv \exists x \forall y(\lnot T(x, y) \lor \lnot M(y))$ - DeMorgan's Law of 3.
 
 ---
 <div style="page-break-after: always;"></div>
