@@ -80,7 +80,6 @@ R($\sqrt{x}$) "$\sqrt{x}$ is rational"
 3. $\equiv \exists x(\lnot  (\lnot I(x) \lor R(\sqrt{x})))$ - Negation of universal quantifier of 2.
 4. $\equiv \exists x(\lnot (\lnot I(x)) \land \lnot R(\sqrt{x}))$ - DeMorgan's Law of 3.
 5. $\exists x(I(x) \land \lnot R(\sqrt{x}))$ - Double negation of 4.
----
 ### 3. Let the domain for x be teachers at UNC and the domain for y be classes at UNC. Translate the following English statements into logical expressions, using the below:
 
 #### T(x, y): $x$ is teaching $y$
@@ -103,6 +102,9 @@ R($\sqrt{x}$) "$\sqrt{x}$ is rational"
 4. $\equiv \exists x \forall y(\lnot T(x, y) \lor \lnot M(y))$ - DeMorgan's Law of 2.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
+
 ##### (b) There is exactly one teacher who teaches every class at UNC
 #### x: Teachers at UNC
 #### y: Classes at UNC
@@ -111,11 +113,6 @@ R($\sqrt{x}$) "$\sqrt{x}$ is rational"
 
 **Translation**: $\exists x (\forall y T(x, y) \land \forall z( \forall yT(z, y) \rightarrow z = x))$
 **Negation**: $\forall x(\exists y \lnot T(x, y) \lor \exists z(\forall yT(z, y)  \land z \neq x))$
-
- - $\exists x \forall yT(x, y)$
-	 - This part represents "There exists at least one teacher who teaches every class at UNC"
-- $\forall z \forall y(T(z,y)) \rightarrow z = x$
-	- This part represents exactly one teacher
 
 **Negation Work**:
 1. $\lnot(\exists x(\forall yT(x, y) \land \forall z(\forall yT(z, y) \rightarrow z = x)))$
@@ -127,4 +124,81 @@ R($\sqrt{x}$) "$\sqrt{x}$ is rational"
 7. $\equiv \forall x(\exists y\lnot T(x, y) \lor \exists z(\lnot (\lnot (\forall yT(z, y))) \land \lnot (z = x)))$ - DeMorgan's Law of 6.
 8. $\equiv \forall x(\exists y\lnot T(x, y) \lor \exists z(\forall yT(z, y) \land \lnot(z = x)))$ - Double negation of 7.
 9. $\equiv \forall x(\exists y \lnot T(x, y) \lor \exists z(\forall yT(z, y)  \land z \neq x))$ - Negation of equality relation of 8.
+---
+<div style="page-break-after: always;"></div>
+page break above me
 
+### 4. Let P (x, y) be the statement x + 2y = xy, where x is an integer and y is a real number. Determine the truth value of each statement, with explanation.
+##### (a) $\exists yP(4,y)$
+This statement is true.
+P(4, y) can be evaluated as $4 + 2y = 4y$. 
+Algebraically, this statement is equivalent to $4 = 2y$ which tells us that when y = 2 this statement is true.
+Since this statement asks if there exists a value where it evaluates to true, and since P(4, y) evaluates to true when y = 2, this statement is true.
+
+---
+##### (b) $\forall x \exists yP(x,y)$
+This statement is false.
+When x = 2, P(2, y) evaluates to $2 + 2y = 2y$. 
+When simplified, $2 + 2y = 2y \equiv 2 = 0$, thus when x = 2 there does not exist a value of y such that P(x, y) evaluates to true.
+This means that the entire statement is false.
+
+---
+##### (c) $\exists x \forall yP(x,y)$ 
+This statement is false.
+This statement states that there exists a value of x where all values of y result in P(x, y) evaluating to true. 
+This is false, as for any fixed x, the equation x + 2y = xy can only be satisfied by at most one value of y.
+Thus, since there is no x that works for all y, this statement is false.
+
+---
+<div style="page-break-after: always;"></div>
+page break above me
+
+### 5. Let the universe for m and for n be the set of positive integers an   d let the universe for z be the set of all integers. Write the negation of the following statement without the symbol “¬” and determine, with explanation, whether the original statement or its negation is true.
+
+#### $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
+
+**Negation**: $\exists z \forall n \exists m(n > z^2 \land z \ge n + m)$
+
+**Negation Work:**
+$\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
+1. $\lnot (\forall z \exists n \forall m (n \le z^2 \lor z < n + m))$
+2. $\equiv \exists z(\lnot (\exists n \forall m (n \le z^2 \lor z < n + m)))$ - Negation of the universal quantifier of 1.
+3. $\equiv \exists z \forall n (\lnot (\forall m (n \le z^2 \lor z < n + m))))$ - Negation of the existential quantifier of 2.
+4. $\equiv \exists z \forall n \exists m(\lnot(n \le z^2 \lor z < n + m))$ - Negation of the universal quantifier of 3.
+5. $\equiv \exists z \forall n \exists m(n > z^2 \land z \ge n + m)$ - Negation of Inequality Relations of 2.
+
+The original statement, $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$ is true. 
+#### ***PF:***
+For this proof, $n=1$. 
+##### ***Case 1: z = 0***
+- First disjunct: $(1 \leq 0)$
+	- **False**
+- Second disjunct: $(0 < 1 + m)$
+	- Since $m \geq 1$, this statement must be true $(0 < 1 + 1..\infty)$
+##### **Case 2: z $\neq$ 0**
+ - First disjunct: $(1 \leq z^2)$
+	 - For any non-zero integer z, $z^2 \geq 1$, therefore this disjunct is always true.
+- Since the first disjunct is always true, the entire statement always evaluates to true therefore the second disjunct does not need to be evaluated.
+
+Therefore the original statement is true.
+
+---
+<div style="page-break-after: always;"></div>
+page break above me
+### 6. Let the universe for x be people and let the universe for y be movies. Translate the following statements to English without using any variables, given the following notation for predicates:
+
+#### S(x, y): x saw y
+#### L(x, y): x liked y
+#### A(y): y won an award
+#### C(y): y is a comedy
+
+##### (a) $\forall y(C(y) \rightarrow \exists xL(x, y))$ 
+
+***Rough Translation:*** For every movie, if it is a comedy movie then someone liked it.
+##### Translation: Every comedy movie is liked by someone
+
+---
+##### (b) $\forall y \exists x(S(x, y) \land A(y))$
+
+***Rough Translation:*** For every movie there exists someone who saw it and the movie won an award.
+##### Translation: Every movie was seen by someone and won an award 
