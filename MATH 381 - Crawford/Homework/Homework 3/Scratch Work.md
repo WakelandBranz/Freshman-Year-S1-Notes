@@ -4,14 +4,14 @@
 ---
 ### 1. Determine if the following propositions are True or False. Provide an explanation for each one.
 
-##### (a) $\forall x P(x) \rightarrow \exists P(x)$, where P(x) is an arbitrary propositional function.
+##### (a) $\forall x P(x) \rightarrow \exists xP(x)$, where P(x) is an arbitrary propositional function.
 This statement is **true** (and a tautology).
 In order for this statement to evaluate to false, the first proposition must be true and the second must be false. 
 This is not possible in this case though--if the first proposition evaluates to true, the second must also evaluate to true.
 Since the first proposition being true implies that P(x) evaluates to true for all values of x, then there must exist an x for which P(x) will evaluate to true for the second proposition (all values of x will).
 
 ---
-##### (b) $\exists x P(x) \rightarrow \forall x P(x)$ is an arbitrary propositional function
+##### (b) $\exists x P(x) \rightarrow \forall x$, where $P(x)$ is an arbitrary propositional function
 
 This statement is false.
 This statement attempts to claim that if some values of x are true for P(x) then all values of x are true for P(x).
@@ -190,7 +190,7 @@ $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$
 2. $\equiv \exists z(\lnot (\exists n \forall m (n \le z^2 \lor z < n + m)))$ - Negation of the universal quantifier of 1.
 3. $\equiv \exists z \forall n (\lnot (\forall m (n \le z^2 \lor z < n + m))))$ - Negation of the existential quantifier of 2.
 4. $\equiv \exists z \forall n \exists m(\lnot(n \le z^2 \lor z < n + m))$ - Negation of the universal quantifier of 3.
-5. $\equiv \exists z \forall n \exists m(n > z^2 \land z \ge n + m)$ - Negation of Inequality Relations of 2.
+5. $\equiv \exists z \forall n \exists m(n > z^2 \land z \ge n + m)$ - Negation of Inequality Relations of 4.
 
 The original statement, $\forall z \exists n \forall m (n \le z^2 \lor z < n + m)$ is true. 
 #### ***PF:***
