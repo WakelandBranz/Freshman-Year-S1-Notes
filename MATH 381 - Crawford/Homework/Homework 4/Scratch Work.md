@@ -1,1 +1,3 @@
-Can do 1 through 6, can't do 7 through 9 yet.
+### 1. Prove that for integers $a, b,$ and $c$, if $a + b$ and $b + c$ are even, then $a + c$ is even.
+
+**-PF-**
