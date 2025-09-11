@@ -15,8 +15,11 @@ This cannot be true.
 If P(5) were to evaluate as true this does not imply that P(6), P(7), P(8), etc. would also evaluate as true.
 
 ---
-##### (c) $\forall x (2x \ge x)$, where the domain is $\mathbb{R}$.
+<div style="page-break-after: always;"></div>
+page break above me
 
+
+##### (c) $\forall x (2x \ge x)$, where the domain is $\mathbb{R}$.
 This statement is false.
 This statement attempts to claim that 2x is always greater than or equal to x for all real numbers but this is false for all negative numbers.
 If $x \ge 0$ then this statement evaluates to true, but it is false otherwise. 
@@ -39,15 +42,9 @@ $f(z) = 0$ means $e^z - z^2 = 0$
 Therefore $e^z = z^2$ proves $\exists x(x^2 = e^x)$ is true.
 
 ---
-page break below me
 <div style="page-break-after: always;"></div>
 page break above me
 
-##### (d) $\exists x (x^2 = e^x)$, where the domain is $\mathbb{R}$.
-
-===How?===
-
----
 ### 2. Translate each of the following statements into logical expressions, introducing notation as needed for propositional functions and appropriate domains. Then negate the logical expression and translate the negation back into English.
 
 ##### (a) Some of the students in this class are not here today.
