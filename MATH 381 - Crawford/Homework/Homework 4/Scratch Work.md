@@ -49,6 +49,8 @@ We want to show that $abc$ is even, meaning that $\exists k \in \mathbb{Z}$ such
 ### 6. Prove that $\sqrt[3]2$ is irrational.
 
 **-PF-**
+Assume that $\sqrt[3]{2}$ is rational.
+
 
 ---
 ### 7. Show that the following statement about the real numbers $a$ and $b$ are equivalent:
