@@ -55,6 +55,10 @@ $gcd(a, b) =$ a & b are coprime $= a \perp b$
 Assume for contradiction that $\sqrt[3]{2}$ is rational.
 Then $\exists a, b \in \mathbb{Z}$ and $b \neq 0$ where a and b are coprime such that $\sqrt[3]{2} = \frac{a}{b}$.
 Cubing both sides we get $2 = (\frac{a}{b})^3 = \frac{a^3}{b^3}$.
+Therefore $2b^3 = a^3$.
+This implies that $a^3$ is even because 2 times any number is even.
+Assume $\exists k \in \mathbb{Z}$ such that $2k = a$.
+Therefore $2b^3 = (2k)^3 = 8k^3$.
 
 
 ---
