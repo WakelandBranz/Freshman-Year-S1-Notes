@@ -50,7 +50,7 @@ We want to show that $abc$ is even, meaning that $\exists k \in \mathbb{Z}$ such
 
 **-PF-**
 Assume for contradiction that $\sqrt[3]{2}$ is rational.
-
+Then $\exists a, b \in \mathbb{Z}$ and $b \neq 0$ 
 
 ---
 ### 7. Show that the following statement about the real numbers $a$ and $b$ are equivalent:
