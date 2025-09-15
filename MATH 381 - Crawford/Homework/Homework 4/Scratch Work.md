@@ -56,10 +56,11 @@ Assume for contradiction that $\sqrt[3]{2}$ is rational.
 Then $\exists a, b \in \mathbb{Z}$ and $b \neq 0$ where a and b are coprime such that $\sqrt[3]{2} = \frac{a}{b}$.
 Cubing both sides we get $2 = (\frac{a}{b})^3 = \frac{a^3}{b^3}$.
 Therefore $2b^3 = a^3$.
-This implies that $a^3$ is even because 2 times any number is even.
-Assume $\exists k \in \mathbb{Z}$ such that $2k = a$.
-Therefore $2b^3 = (2k)^3 = 8k^3$.
-
+This implies that $a$ is even because 2 times any number is even and any even number cubed is also even.
+Assume $\exists k \in \mathbb{Z}$ such that $a = 2k$.
+Therefore $a^3 = (2k)^3 = 8k^3 = 2b^3$.
+Therefore $4k^3 = b^3$.
+This implies that $b$ is even because 4 times any number is even and any even number cubed is also even.
 
 ---
 ### 7. Show that the following statement about the real numbers $a$ and $b$ are equivalent:
