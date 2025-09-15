@@ -15,6 +15,8 @@ Thus $a + c$ is even.
 
 **-PF-**
 Assume that $x^2 \leq 1$.
+Taking the square root of both sides, we get $\sqrt{x^2} \leq \sqrt{1}$ which is equivalent to $|x| \leq 1$.
+This means that $-1 \leq x \leq 1$ or $x \in [-1, 1]$.
 
 
 ---
