@@ -20,7 +20,9 @@ This means that $-1 \leq x \leq 1$ or $x \in [-1, 1]$.
 We want to prove that if $x^2 - 7x > -10$. 
 Rearranging the inequality we get $x^2 - 7x + 10 > 0.$
 Factoring the left side, we get $(x - 5)(x - 2) > 0$.
-
+In order for this equation to be true, both $(x - 5)$ and $(x - 2)$ must have the same sign since having the same sign would result in a positive number.
+Both $(x - 5)$ and $(x - 2)$ have the same sign when $x > 5$ or when $x < 2$.
+Since we have $-1 \leq x \leq 1$, we know that both $(x - 5) < 0$ and $(x - 2) < 0$
 
 ---
 ### 3. Prove that if $a^2 + b^2 = c^2$, then $abc$ is even, where $a,b,c$ are any integers.
