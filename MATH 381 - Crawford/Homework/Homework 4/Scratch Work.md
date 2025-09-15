@@ -39,6 +39,8 @@ We want to show that $abc$ is even, meaning that $\exists k \in \mathbb{Z}$ such
 ### 4. Suppose that $x$ and $y$ are real numbers. Prove that if $x + y$ is irrational then $x$ is irrational or $y$ is irrational.
 
 **-PF-**
+Assume that $x, y \in \mathbb{R}$.
+We want to show that 
 
 ---
 ### 5. Prove that there are no positive integer solutions to $x^2 + x + 1 = y^2$
@@ -61,7 +63,8 @@ Assume $\exists k \in \mathbb{Z}$ such that $a = 2k$.
 Therefore $a^3 = (2k)^3 = 8k^3$.
 Therefore $4k^3 = b^3 = 2(2k^3)$.
 This means that $b^3$ is even which implies that $b$ is also even.
-Since both $a$ and $b$ are even, then 
+Since both $a$ and  are even, then the prior assumption that a and b are coprime is contradicted because they also share a common factor of 2.
+Therefore $\sqrt[3]{2}$ is irrational.
 
 ---
 ### 7. Show that the following statement about the real numbers $a$ and $b$ are equivalent:
