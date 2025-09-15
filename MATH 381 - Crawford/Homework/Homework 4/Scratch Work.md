@@ -48,9 +48,13 @@ We want to show that $abc$ is even, meaning that $\exists k \in \mathbb{Z}$ such
 ---
 ### 6. Prove that $\sqrt[3]2$ is irrational.
 
+Notes: 
+$gcd(a, b) =$ a & b are coprime $= a \perp b$
+
 **-PF-**
 Assume for contradiction that $\sqrt[3]{2}$ is rational.
-Then $\exists a, b \in \mathbb{Z}$ and $b \neq 0$ where a and b are coprime.
+Then $\exists a, b \in \mathbb{Z}$ and $b \neq 0$ where a and b are coprime such that $\sqrt[3]{2} = \frac{a}{b}$.
+Cubing both sides we get $2 = (\frac{a}{b})^3 = \frac{a^3}{b^3}$.
 
 
 ---
