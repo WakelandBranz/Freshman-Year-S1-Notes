@@ -17,6 +17,9 @@ Thus $a + c$ is even.
 Assume that $x^2 \leq 1$.
 Taking the square root of both sides, we get $\sqrt{x^2} \leq \sqrt{1}$ which is equivalent to $|x| \leq 1$.
 This means that $-1 \leq x \leq 1$ or $x \in [-1, 1]$.
+We want to prove that if $x^2 - 7x > -10$. 
+Rearranging the inequality we get $x^2 - 7x + 10 > 0.$
+Factoring the left side, we get $(x - 5)(x - 2) > 0$.
 
 
 ---
