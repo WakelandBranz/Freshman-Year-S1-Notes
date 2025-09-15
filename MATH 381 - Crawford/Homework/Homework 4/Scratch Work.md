@@ -14,6 +14,7 @@ Thus $a + c$ is even.
 ### 2. Prove that if $x^2 \leq 1$, then $x^2 - 7x > -10$.
 
 **-PF-**
+Assume that $x^2 \leq 1$.
 
 
 ---
