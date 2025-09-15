@@ -40,7 +40,7 @@ We want to show that $abc$ is even, meaning that $\exists k \in \mathbb{Z}$ such
 
 **-PF-**
 Assume that $x, y \in \mathbb{R}$.
-We want to show that 
+We want to show that $x + y$ is irrational  
 
 ---
 ### 5. Prove that there are no positive integer solutions to $x^2 + x + 1 = y^2$
