@@ -65,7 +65,7 @@ We want to show that $x + y$ is irrational
 ### 6. Prove that $\sqrt[3]2$ is irrational.
 
 Notes: 
-$gcd(a, b) =$ a & b are coprime $= a \perp b$
+$gcd(a, b) || gcf(a,b) =$ a & b are coprime $= a \perp b$
 
 **-PF-**
 Assume for contradiction that $\sqrt[3]{2}$ is rational.
