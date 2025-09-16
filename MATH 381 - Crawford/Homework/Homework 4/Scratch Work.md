@@ -55,7 +55,7 @@ Thus $abc$ is even.
 ### 4. Suppose that $x$ and $y$ are real numbers. Prove that if $x + y$ is irrational then $x$ is irrational or $y$ is irrational.
 
 **-PF-**
-Assume that $x, y \in \mathbb{Q}$ 
+Assume that $x, y \in \mathbb{Q}$. 
 We want to find, by contraposition, that if $x$ and $y$ are rational then $x + y$ is also rational.
 Then, $\exists a, b, c, d \in \mathbb{Z}$ with $b, d \neq 0$ and $gcf(a, b) = 1 = gcf(c, d)$ such that $x = \frac{a}{b}$ and $y = \frac{c}{d}$.
 Note, $x + y = \frac{a}{b} + \frac{c}{d} = \frac{ad + bc}{bd}$ and $ad + bc$ and $bd$ are integers and $bd \neq 0$ because neither $b$ nor $d$ were 0.
