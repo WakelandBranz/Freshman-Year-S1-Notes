@@ -54,7 +54,7 @@ Thus $abc$ is even.
 
 **-PF-**
 Assume that $x, y \in \mathbb{R}$.
-By contraposition, we want to prove that if $x + y$ is rational then $x$ is rational or $y$ is rational.
+By contraposition, we want to prove that if $x$ and $y$ are rational then $x + y$ is also rational.
 
 
 ---
