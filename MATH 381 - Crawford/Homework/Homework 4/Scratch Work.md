@@ -61,7 +61,9 @@ We want to show that $x + y$ is irrational
 
 **-PF-**
 Assume, for contradiction, $\exists x,y \in \mathbb{Z}^+$ such that $x^2 + x + 1 = y^2$.
-Subtracting 1 from both sides 
+Subtracting 1 from both sides we get $x^2 + x = y^2 - 1$.
+Simplifying this we get $x^2 + x = (y + 1)(y - 1)$.
+So, $x(x + 1) = (y + 1)(y - 1)$.
 
 ---
 ### 6. Prove that $\sqrt[3]2$ is irrational.
