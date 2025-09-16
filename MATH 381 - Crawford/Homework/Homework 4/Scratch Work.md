@@ -125,3 +125,6 @@ Therefore $\sqrt[3]{2}$ is irrational.
 This statement is false.
 This can be proven by a counterexample where $x = 2$ and $y = 1/2$.
 When $x = 2$ and $y = 1/2$, $x, y \in \mathbb{Q}$ which satisfies the requirement of $x$ and $y$ being rational numbers.
+Substituting these numbers into $x^y$ we get $2^{\frac{1}{2}} = \sqrt{2}$.
+Based on our previous proofs we know that $\sqrt2$ is irrational.
+Thus the statement "If $x$ and $y$ are rational numbers, then $x^y$ must be rational" is false.
