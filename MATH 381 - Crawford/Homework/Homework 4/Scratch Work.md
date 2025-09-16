@@ -106,6 +106,8 @@ Therefore $\sqrt[3]{2}$ is irrational.
 ---
 ### 8. Prove that either $2 * 10^{500} + 15$ or $2 * 10^{500} + 16$ is not a perfect square.
 
+SOLUTION IS SIMILAR TO HOW I COMPLETED #5
+
 **-PF-**
 
 ---
