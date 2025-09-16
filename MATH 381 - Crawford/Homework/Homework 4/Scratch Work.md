@@ -31,6 +31,8 @@ Therefore $x^2 - 7x > -10$.
 
 ===Ask Matt about the proof to this problem. I looked it up and it makes some sense, but I want to know more about pattern recognition on when to use modulus for proofs because it seems like a very valuable tool which I know how to use but I don't know when to use it.===
 
+### ===MODIFY THIS! CANNOT USE MODULUS YET!===
+
 **-PF-**
 Assume that $a^2 + b^2 = c^2$ and $a, b , c \in \mathbb{Z}$. 
 We want to show that $abc$ is even, meaning that $\exists k \in \mathbb{Z}$ such that $abc = 2k$.
@@ -55,7 +57,8 @@ Thus $abc$ is even.
 **-PF-**
 Assume, by contraposition, that if $x$ and $y$ are rational then $x + y$ is also rational.
 Then, $\exists a, b, c, d \in \mathbb{Z}$ with $b, d \neq 0$ and $gcf(a, b) = 1 = gcf(c, d)$ such that $x = \frac{a}{b}$ and $y = \frac{c}{d}$.
-So, $x + y = \frac{a}{b} + \frac{c}{d} = \frac{ad + bc}{bd}$.
+Note, $x + y = \frac{a}{b} + \frac{c}{d} = \frac{ad + bc}{bd}$ and $ad + bc$ and $bd$ are integers and $bd \neq 0$ because neither $b$ nor $d$ were 0.
+Thus $x + y$
 
 ---
 ### 5. Prove that there are no positive integer solutions to $x^2 + x + 1 = y^2$
