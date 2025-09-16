@@ -62,15 +62,17 @@ We want to show that $x + y$ is irrational
 **-PF-**
 Assume, for contradiction, $\exists x,y \in \mathbb{Z}^+$ such that $x^2 + x + 1 = y^2$.
 Subtracting 1 from both sides we get $x^2 + x = y^2 - 1$.
-Simplifying this we get $x^2 + x = (y + 1)(y - 1)$.
+Simplifying this we get $x^2 + x = (y + 1)(y - 1) = x(x + 1)$.
 So, $x(x + 1) = (y + 1)(y - 1)$.
-So, $x^2 < x^2 + x + 1 = y^2$ which implies $x^2 < y^2$ which implies $x < y$. *===This establishes our lower bound===*
-Comparing $x^2 + x + 1$ to the next perfect square yields $x^2 + x + 1 < x^2 + 2x + 1$ which is true given that $x \in \mathbb{Z}^+$. *===This establishes our upper bound===*
+So, given $x \in \mathbb{Z}^+$, $x^2 < x^2 + x + 1 = y^2$ which implies $x^2 < y^2$ which implies $x < y$. 
+*===This establishes our lower bound===*
+Comparing $x^2 + x + 1$ to the next perfect square yields $x^2 + x + 1 < x^2 + 2x + 1$ which is true given that $x \in \mathbb{Z}^+$. 
+*===This establishes our upper bound===*
 Simplifying we get $x + 1 < 2x + 1 = 0 < x$ which is true given that $x \in \mathbb{Z}^+$.
 Therefore $y^2 = x^2 + x + 1 < (x + 1)^2$ which implies $y < x + 1$.
 Using this we discover $x < y < x + 1$.
 This is a contradiction because $x, y \in \mathbb{Z}^+$ but $y$ cannot be an integer in order for $x < y < x + 1$ to hold true.
-Thus there are no positive integer solutions to $x^is 2 + 
+Thus there are no positive integer solutions to $x^2 + x + 1 = y^2$.
 
 ---
 ### 6. Prove that $\sqrt[3]2$ is irrational.
