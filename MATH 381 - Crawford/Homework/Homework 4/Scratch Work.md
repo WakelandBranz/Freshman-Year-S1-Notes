@@ -64,8 +64,9 @@ Assume, for contradiction, $\exists x,y \in \mathbb{Z}^+$ such that $x^2 + x + 1
 Subtracting 1 from both sides we get $x^2 + x = y^2 - 1$.
 Simplifying this we get $x^2 + x = (y + 1)(y - 1)$.
 So, $x(x + 1) = (y + 1)(y - 1)$.
-So, $x^2 < x^2 + x + 1 = y^2$ which implies $x^2 < y^2$ which implies $x < y$. ===This establishes our lower bound===
-
+So, $x^2 < x^2 + x + 1 = y^2$ which implies $x^2 < y^2$ which implies $x < y$. *===This establishes our lower bound===*
+Comparing $x^2 + x + 1$ to the next perfect square yields $x^2 + x + 1 < x^2 + 2x + 1$ which is true given that $x \in \mathbb{Z}^+$.
+Simplifying we get $x + 1 < 2x + 1 = 0 < x$ which is true given that $x \in \mathbb{Z}^+$.
 
 
 ---
