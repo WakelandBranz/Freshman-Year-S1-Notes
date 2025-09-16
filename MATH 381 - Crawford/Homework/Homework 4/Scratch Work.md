@@ -110,7 +110,10 @@ Therefore $\sqrt[3]{2}$ is irrational.
 
 $a \rightarrow b \rightarrow c \rightarrow a$
 **-PF-**
+$(1 \rightarrow 2)$: 
 
+$(2 \rightarrow 3)$:
+$(3 \rightarrow 1)$:
 
 ---
 ### 8. Prove that either $2 * 10^{500} + 15$ or $2 * 10^{500} + 16$ is not a perfect square.
