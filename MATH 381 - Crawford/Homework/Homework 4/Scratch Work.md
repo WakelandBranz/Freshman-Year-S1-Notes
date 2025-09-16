@@ -36,7 +36,11 @@ No idea where to go with this. Try contradiction.
 
 **-PF-**
 Assume that $a^2 + b^2 = c^2$ and $a, b , c \in \mathbb{Z}$. 
-By contradiction, we want to show that $abc$ is odd, meaning that $\exists k \in ]\m
+By contradiction, we want to show that $abc$ is odd.
+This means that a, b, and c are all odd, since if any a, b, or c was even then the product of $abc$ would be even.
+If $a$ is odd, then $\exists k \in \mathbb{Z}$ such that $a = 2k + 1$.
+Therefore, $a^2 = (2k + 1)(2k + 1) = 4k^2 + 4k + 1$. 
+
 
 ---
 ### 4. Suppose that $x$ and $y$ are real numbers. Prove that if $x + y$ is irrational then $x$ is irrational or $y$ is irrational.
