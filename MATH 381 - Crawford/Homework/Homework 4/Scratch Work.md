@@ -54,7 +54,7 @@ Thus $abc$ is even.
 
 **-PF-**
 Assume that $x, y \in \mathbb{R}$.
-We want to show that $x + y$ is irrational  
+We want to show that $x + y$ is irrational.
 
 ---
 ### 5. Prove that there are no positive integer solutions to $x^2 + x + 1 = y^2$
@@ -106,7 +106,7 @@ Therefore $\sqrt[3]{2}$ is irrational.
 ---
 ### 8. Prove that either $2 * 10^{500} + 15$ or $2 * 10^{500} + 16$ is not a perfect square.
 
-SOLUTION IS SIMILAR TO HOW I COMPLETED #5
+===SOLUTION IS SIMILAR TO HOW I COMPLETED #5 ACCORDING TO MATT===
 
 **-PF-**
 
