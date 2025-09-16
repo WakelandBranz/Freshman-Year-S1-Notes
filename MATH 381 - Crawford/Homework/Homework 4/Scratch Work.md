@@ -61,7 +61,7 @@ We want to show that $x + y$ is irrational
 
 **-PF-**
 Assume that there are positive integer solutions to $x^2 + x + 1 = y^2$.
-
+Simplifying $x^2 + x + 1 = y^2$ we get 
 
 ---
 ### 6. Prove that $\sqrt[3]2$ is irrational.
