@@ -57,7 +57,7 @@ Thus $abc$ is even.
 **-PF-**
 Assume that $x, y \in \mathbb{Q}$. 
 We want to find, by contraposition, that if $x$ and $y$ are rational then $x + y$ is also rational.
-Then, $\exists a, b, c, d \in \mathbb{Z}$ with $b, d \neq 0$ and $gcf(a, b) = 1 = gcf(c, d)$ such that $x = \frac{a}{b}$ and $y = \frac{c}{d}$.
+Then, $\exists a, b, c, d \in \mathbb{Z}$ with $b, d \neq 0$ such that $x = \frac{a}{b}$ and $y = \frac{c}{d}$ with all common factors of $\frac{a}{b}$ and $\frac{c}{d}$ cancelled.
 Note, $x + y = \frac{a}{b} + \frac{c}{d} = \frac{ad + bc}{bd}$ and $ad + bc$ and $bd$ are integers and $bd \neq 0$ because neither $b$ nor $d$ were 0.
 Thus, by contraposition, if $x + y$ is irrational, then $x$ is irrational or $y$ is irrational..
 
@@ -87,7 +87,7 @@ $gcd(a, b) || gcf(a,b) =$ a & b are coprime $= a \perp b$
 
 **-PF-**
 Assume for contradiction that $\sqrt[3]{2}$ is rational.
-Then $\exists a, b \in \mathbb{Z}$ and $b \neq 0$ where a and b are coprime such that $\sqrt[3]{2} = \frac{a}{b}$.
+Then $\exists a, b \in \mathbb{Z}$ and $b \neq 0$ such that $\sqrt[3]{2} = \frac{a}{b}$ with all common factors of $a$ and $b$ cancelled.
 Cubing both sides we get $2 = (\frac{a}{b})^3 = \frac{a^3}{b^3}$.
 Therefore $2b^3 = a^3$.
 This means that $a^3$ is even which implies that $a$ is also even.
