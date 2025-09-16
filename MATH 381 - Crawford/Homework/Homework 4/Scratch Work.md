@@ -43,7 +43,7 @@ This means that a, b, and c are all odd, since if any a, b, or c was even then t
 If $a$ is odd, then $\exists k \in \mathbb{Z}$ such that $a = 2k + 1$.
 Therefore, $a^2 = (2k + 1)(2k + 1) = 4k^2 + 4k + 1$. 
 Using this, we can deduce $4k^2 + 4k + 1 \equiv 1 \pmod{4}$.
-By the same logi
+By the same logic and continuing the same assumption that a, b, and c are all odd, we can similarly deduce that $b^2 \equiv 1 \pmod4$ and $c^2 \equiv 1 \pmod4$ 
 
 ---
 ### 4. Suppose that $x$ and $y$ are real numbers. Prove that if $x + y$ is irrational then $x$ is irrational or $y$ is irrational.
