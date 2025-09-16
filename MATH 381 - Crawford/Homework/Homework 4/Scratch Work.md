@@ -84,18 +84,11 @@ Therefore $\sqrt[3]{2}$ is irrational.
 ### 7. Show that the following statement about the real numbers $a$ and $b$ are equivalent:
 
 #### (a) $a < b$
-
-**-PF-**
-
----
 #### (b) $(a + b)/2 > a$
-
-**-PF-**
-
----
 #### (c) $(a + b)/2 < b$
 
 **-PF-**
+
 
 ---
 ### 8. Prove that either $2 * 10^500 + 15$ or $2 * 10^500 + 16$ is not a perfect square.
