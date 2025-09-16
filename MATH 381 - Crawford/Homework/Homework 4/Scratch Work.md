@@ -68,7 +68,7 @@ So, given $x \in \mathbb{Z}^+$, $x^2 < x^2 + x + 1 = y^2$ which implies $x^2 < y
 *===This establishes our lower bound===*
 Comparing $x^2 + x + 1$ to the next perfect square yields $x^2 + x + 1 < x^2 + 2x + 1$ which is true given that $x \in \mathbb{Z}^+$. 
 *===This establishes our upper bound===*
-Simplifying we get $x + 1 < 2x + 1 = 0 < x$ which is true given that $x \in \mathbb{Z}^+$.
+Simplifying we get $x + 1 < 2x + 1 \equiv 0 < x$ which is true given that $x \in \mathbb{Z}^+$.
 Therefore $y^2 = x^2 + x + 1 < (x + 1)^2$ which implies $y < x + 1$.
 Using this we discover $x < y < x + 1$.
 This is a contradiction because $x, y \in \mathbb{Z}^+$ but $y$ cannot be an integer in order for $x < y < x + 1$ to hold true.
