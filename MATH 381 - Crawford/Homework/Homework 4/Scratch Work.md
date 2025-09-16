@@ -60,6 +60,8 @@ We want to show that $x + y$ is irrational
 ### 5. Prove that there are no positive integer solutions to $x^2 + x + 1 = y^2$
 
 **-PF-**
+Assume that there are positive integer solutions to $x^2 + x + 1 = y^2$.
+
 
 ---
 ### 6. Prove that $\sqrt[3]2$ is irrational.
