@@ -53,8 +53,8 @@ Thus $abc$ is even.
 ### 4. Suppose that $x$ and $y$ are real numbers. Prove that if $x + y$ is irrational then $x$ is irrational or $y$ is irrational.
 
 **-PF-**
-Assume that $x, y \in \mathbb{R}$.
-By contraposition, we want to prove that if $x$ and $y$ are rational then $x + y$ is also rational.
+Assume, by contraposition, that if $x$ and $y$ are rational then $x + y$ is also rational.
+Then, $\exists a, b, c, d \in \mathbb{Z}$ with $b, d \neq 0$ and $gcf(a, b) = 1 = gcf(c, d)$.
 
 
 ---
