@@ -111,7 +111,7 @@ Therefore $\sqrt[3]{2}$ is irrational.
 **-PF-**
 We want to show that $a \implies b \implies c \implies a$.
 $(a \implies b)$: $a < b \equiv 2a < a + b \equiv a < \frac{a + b}{2}$
-$(b \implies c)$: $
+$(b \implies c)$: $\frac{a + b}{2} > a \equiv a + b > 2a \equiv b > a \equiv 2b > a + b \equiv b < \frac{a + b}{2}$
 $(c \implies a)$:
 
 ---
