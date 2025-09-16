@@ -46,7 +46,8 @@ Using this, we can deduce $4k^2 + 4k + 1 \equiv 1 \pmod{4}$.
 By the same logic and continuing the same assumption that a, b, and c are all odd, we can similarly deduce that $b^2 \equiv 1 \pmod4$ and $c^2 \equiv 1 \pmod4$.
 Therefore $a^2 + b^2 \equiv 2$ and $c^2 \equiv 1$.
 This contradicts our initial statement since $a^2 + b^2 = c^2 \equiv 1 + 1 = 1$ which is false.
-Therefore at least one of a, b, or c
+Therefore at least one of a, b, or c must be even.
+Thus $abc$ is even.
 
 ---
 ### 4. Suppose that $x$ and $y$ are real numbers. Prove that if $x + y$ is irrational then $x$ is irrational or $y$ is irrational.
