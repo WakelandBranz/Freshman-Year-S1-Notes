@@ -108,12 +108,11 @@ Therefore $\sqrt[3]{2}$ is irrational.
 #### (b) $(a + b)/2 > a$
 #### (c) $(a + b)/2 < b$
 
-$a \rightarrow b \rightarrow c \rightarrow a$
 **-PF-**
-$(1 \rightarrow 2)$: 
-
-$(2 \rightarrow 3)$:
-$(3 \rightarrow 1)$:
+We want to show that $a \implies b \implies c \implies a$.
+$(a \implies b)$: $a < b \equiv 2a < a + b \equiv a < \frac{a + b}{2}$
+$(b \implies c)$: $
+$(c \implies a)$:
 
 ---
 ### 8. Prove that either $2 * 10^{500} + 15$ or $2 * 10^{500} + 16$ is not a perfect square.
