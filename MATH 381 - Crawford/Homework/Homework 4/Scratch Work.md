@@ -29,6 +29,8 @@ Therefore $x^2 - 7x > -10$.
 ---
 ### 3. Prove that if $a^2 + b^2 = c^2$, then $abc$ is even, where $a,b,c$ are any integers.
 
+===Ask Matt about the proof to this problem. I looked it up and it makes some sense, but I want to know more about pattern recognition on when to use modulus for proofs because it seems like a very valuable tool which I know how to use but I don't know when to use 
+
 **-PF-**
 Assume that $a^2 + b^2 = c^2$ and $a, b , c \in \mathbb{Z}$. 
 We want to show that $abc$ is even, meaning that $\exists k \in \mathbb{Z}$ such that $abc = 2k$.
