@@ -108,6 +108,7 @@ Therefore $\sqrt[3]{2}$ is irrational.
 #### (b) $(a + b)/2 > a$
 #### (c) $(a + b)/2 < b$
 
+$a \rightarrow b \rightarrow c \rightarrow a$
 **-PF-**
 
 
