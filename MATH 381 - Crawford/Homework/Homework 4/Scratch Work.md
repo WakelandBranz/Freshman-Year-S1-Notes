@@ -54,8 +54,8 @@ Thus $abc$ is even.
 
 **-PF-**
 Assume, by contraposition, that if $x$ and $y$ are rational then $x + y$ is also rational.
-Then, $\exists a, b, c, d \in \mathbb{Z}$ with $b, d \neq 0$ and $gcf(a, b) = 1 = gcf(c, d)$.
-
+Then, $\exists a, b, c, d \in \mathbb{Z}$ with $b, d \neq 0$ and $gcf(a, b) = 1 = gcf(c, d)$ such that $x = \frac{a}{b}$ and $y = \frac{c}{d}$.
+So, $x + y = \frac{a}{b} + \frac{c}{d} = \frac{ad + bc}{bd}$.
 
 ---
 ### 5. Prove that there are no positive integer solutions to $x^2 + x + 1 = y^2$
