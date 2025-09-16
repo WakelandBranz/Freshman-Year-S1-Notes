@@ -54,7 +54,8 @@ Thus $abc$ is even.
 
 **-PF-**
 Assume that $x, y \in \mathbb{R}$.
-We want to show that $x + y$ is irrational.
+By contraposition, we want to prove that if $x + y$ is rational then $x$ is rational or $y$ is rational.
+
 
 ---
 ### 5. Prove that there are no positive integer solutions to $x^2 + x + 1 = y^2$
