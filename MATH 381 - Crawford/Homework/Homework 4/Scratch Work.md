@@ -52,17 +52,7 @@ Therefore at least one of a, b, or c must be even.
 Thus $abc$ is even.
 
 **-PF-**
-Assume that $a^2 + b^2 = c^2$ and $a, b , c \in \mathbb{Z}$. 
-By contradiction, we want to show that $abc$ is odd.
-This means that a, b, and c are all odd, since if any a, b, or c was even then the product of $abc$ would be even.
-If $a$ is odd, then $\exists k \in \mathbb{Z}$ such that $a = 2k + 1$.
-Therefore, $a^2 = (2k + 1)(2k + 1) = 4k^2 + 4k + 1$. 
-Using this, we can deduce $4k^2 + 4k + 1 \equiv 1$ when you get the remainder of $4k^2 + 4k + 1.
-By the same logic and continuing the same assumption that a, b, and c are all odd, we can similarly deduce that $b^2 \equiv 1 \pmod4$ and $c^2 \equiv 1 \pmod4$.
-Therefore $a^2 + b^2 \equiv 2$ and $c^2 \equiv 1$.
-This contradicts our initial statement since $a^2 + b^2 = c^2 \equiv 1 + 1 = 1$ which is false.
-Therefore at least one of a, b, or c must be even.
-Thus $abc$ is even.
+
 
 ---
 ### 4. Suppose that $x$ and $y$ are real numbers. Prove that if $x + y$ is irrational then $x$ is irrational or $y$ is irrational.
@@ -132,3 +122,6 @@ Therefore $\sqrt[3]{2}$ is irrational.
 ### 9. Prove or disprove: If $x$ and $y$ are rational numbers, then $x^y$ must be rational.
 
 **-PF-**
+This statement is false.
+This can be proven by a counterexample where $x = 2$ and $y = 1/2$.
+When $x = 2$ and $y = 1/2$, $x, y \in \mathbb{Q}$ which satisfies the requirement of $x$ and $y$ being rational numbers.
