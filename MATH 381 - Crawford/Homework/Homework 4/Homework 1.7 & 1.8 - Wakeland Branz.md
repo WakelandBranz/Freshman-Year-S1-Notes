@@ -30,10 +30,15 @@ Thus $(x - 5)(x - 2) > 0$.
 Therefore $x^2 - 7x > -10$.
 
 ---
-### 3. COMPLETE THIS RETARD
+<div style="page-break-after: always;"></div>
+page break above me
+
+### 3. COMPLETE THIS 
 
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 ### 4. Suppose that $x$ and $y$ are real numbers. Prove that if $x + y$ is irrational then $x$ is irrational or $y$ is irrational.
 
 **-PF-**
@@ -44,6 +49,9 @@ Note, $x + y = \frac{a}{b} + \frac{c}{d} = \frac{ad + bc}{bd}$ and $ad + bc$ and
 Thus, by contraposition, if $x + y$ is irrational, then $x$ is irrational or $y$ is irrational.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
+
 ### 5. Prove that there are no positive integer solutions to $x^2 + x + 1 = y^2$
 
 **-PF-**
@@ -60,6 +68,9 @@ This is a contradiction because $x, y \in \mathbb{Z}^+$ but $y$ cannot be an int
 Thus there are no positive integer solutions to $x^2 + x + 1 = y^2$.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
+
 ### 6. Prove that $\sqrt[3]2$ is irrational.
 
 Notes: 
@@ -79,6 +90,9 @@ Since both $a$ and  are even, then the prior assumption that a and b are coprime
 Therefore $\sqrt[3]{2}$ is irrational.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
+
 ### 7. Show that the following statement about the real numbers $a$ and $b$ are equivalent:
 
 #### (a) $a < b$
@@ -93,9 +107,15 @@ $(c \implies a)$: $\frac{a + b}{2} < b \equiv a + b < 2b \equiv a < b$
 This shows that (a), (b), (c) are all equivalent inequalities.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
+
 ### 8. COMPLETE THIS RETARD!
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
+
 ### 9. Prove or disprove: If $x$ and $y$ are rational numbers, then $x^y$ must be rational.
 
 **-PF-**
