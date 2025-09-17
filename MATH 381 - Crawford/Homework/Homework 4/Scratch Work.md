@@ -52,6 +52,8 @@ Therefore at least one of a, b, or c must be even.
 Thus $abc$ is even.
 
 **-PF-**
+Assume, for contradiction, that $a, b, c$ are all odd.
+This implies that $a^2, b^2, c^2$ are also all odd.
 
 
 ---
