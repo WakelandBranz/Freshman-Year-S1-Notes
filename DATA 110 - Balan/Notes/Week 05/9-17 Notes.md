@@ -10,4 +10,5 @@
 - Use appropriately scaled and labeled axes
 - Remove gridlines and chart borders
 - Use symbols and lines that are distinct and readable
-- Use color to convey infromation BUT make sure tha ti's still inter
+- Use color to convey information BUT make sure that it's still interpretable in black and white.
+
