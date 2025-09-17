@@ -12,3 +12,6 @@
 - Use symbols and lines that are distinct and readable
 - Use color to convey information BUT make sure that it's still interpretable in black and white.
 
+### Warning!
+- Poorly crafted visualizations can be difficult to understand
+- More importantly--poorly crafted visualizations can be (often unintentionally) misleading!
