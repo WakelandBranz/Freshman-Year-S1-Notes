@@ -55,10 +55,11 @@ Thus $abc$ is even.
 Assume, for contradiction, that $a, b, c \in \mathbb{Z}$ and are all odd.
 This implies that $a^2, b^2, c^2$ are also all odd.
 Since the sum of two odd integers are even, and since $a^2$ and $b^2$ are both odd, then $a^2 + b^2$ is even.
-This is a contradiction since $c^2$ is odd, so $a^2 + b^2 = c^2$ is false.
-Therefore our assumption that $a^2, b^2,$ and $c^2$ are all odd is false.
+This is a contradiction since we have $a^2 + b^2 = c^2$ where $a^2 + b^2$ is even and $c^2$ is odd.
+Therefore our assumption that $a, b,$ and $c$ are all odd is false.
 This means that one or more of $a, b, c$ must be even.
-
+Since at least one factor of $abc$ is even, the product of $abc$ must be even.
+Thus $abc$ must be even.
 
 ---
 ### 4. Suppose that $x$ and $y$ are real numbers. Prove that if $x + y$ is irrational then $x$ is irrational or $y$ is irrational.

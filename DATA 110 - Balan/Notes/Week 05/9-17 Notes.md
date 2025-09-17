@@ -14,4 +14,4 @@
 
 ### Warning!
 - Poorly crafted visualizations can be difficult to understand
-- More importantly--poorly crafted visualizations can be (often unintentionally) misleading!
+- More importantly--poorly crafted visualizations can be (often unintentionally) misleading!x
