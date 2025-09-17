@@ -1,3 +1,4 @@
+##### Homework 1.7 & 1.8 By Wakeland Branz
 ### 1. Prove that for integers $a, b,$ and $c$, if $a + b$ and $b + c$ are even, then $a + c$ is even.
 
 **-PF-**
@@ -11,9 +12,6 @@ So, $k \in \mathbb{Z}$ because $j, l, b \in \mathbb{Z}$.
 Thus $a + c$ is even.
 
 ---
-<div style="page-break-after: always;"></div>
-page break above me
-
 ### 2. Prove that if $x^2 \leq 1$, then $x^2 - 7x > -10$.
 
 **-PF-**
@@ -33,12 +31,19 @@ Therefore $x^2 - 7x > -10$.
 <div style="page-break-after: always;"></div>
 page break above me
 
-### 3. COMPLETE THIS 
+### 3. Prove that if $a^2 + b^2 = c^2$, then $abc$ is even, where $a,b,c$ are any integers.
 
+**-PF-**
+Assume, for contradiction, that $a, b, c \in \mathbb{Z}$ and are all odd.
+This implies that $a^2, b^2, c^2$ are also all odd.
+Since the sum of two odd integers are even, and since $a^2$ and $b^2$ are both odd, then $a^2 + b^2$ is even.
+This is a contradiction since we have $a^2 + b^2 = c^2$ where $a^2 + b^2$ is even and $c^2$ is odd.
+Therefore our assumption that $a, b,$ and $c$ are all odd is false.
+This means that one or more of $a, b, c$ must be even.
+Since at least one factor of $abc$ is even, $abc$ must be even.
+Thus $abc$ must be even.
 
 ---
-<div style="page-break-after: always;"></div>
-page break above me
 ### 4. Suppose that $x$ and $y$ are real numbers. Prove that if $x + y$ is irrational then $x$ is irrational or $y$ is irrational.
 
 **-PF-**
@@ -110,7 +115,7 @@ This shows that (a), (b), (c) are all equivalent inequalities.
 <div style="page-break-after: always;"></div>
 page break above me
 
-### 8. COMPLETE THIS RETARD!
+### 8. COMPLETE THIS!
 
 ---
 <div style="page-break-after: always;"></div>
