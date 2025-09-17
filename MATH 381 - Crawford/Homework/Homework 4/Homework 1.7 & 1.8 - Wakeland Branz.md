@@ -11,6 +11,9 @@ So, $k \in \mathbb{Z}$ because $j, l, b \in \mathbb{Z}$.
 Thus $a + c$ is even.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
+
 ### 2. Prove that if $x^2 \leq 1$, then $x^2 - 7x > -10$.
 
 **-PF-**
@@ -27,31 +30,7 @@ Thus $(x - 5)(x - 2) > 0$.
 Therefore $x^2 - 7x > -10$.
 
 ---
-### 3. Prove that if $a^2 + b^2 = c^2$, then $abc$ is even, where $a,b,c$ are any integers.
-
-===Ask Matt about the proof to this problem. I looked it up and it makes some sense, but I want to know more about pattern recognition on when to use modulus for proofs because it seems like a very valuable tool which I know how to use but I don't know when to use it.===
-
-### ===MODIFY THIS! CANNOT USE MODULUS YET!===
-
-**-PF-**
-Assume that $a^2 + b^2 = c^2$ and $a, b , c \in \mathbb{Z}$. 
-We want to show that $abc$ is even, meaning that $\exists k \in \mathbb{Z}$ such that $abc = 2k$.
-No idea where to go with this. Try contradiction.
-
-**- OLD PROOF, CAN'T USE MODULUS YET-**
-Assume that $a^2 + b^2 = c^2$ and $a, b , c \in \mathbb{Z}$. 
-By contradiction, we want to show that $abc$ is odd.
-This means that a, b, and c are all odd, since if any a, b, or c was even then the product of $abc$ would be even.
-If $a$ is odd, then $\exists k \in \mathbb{Z}$ such that $a = 2k + 1$.
-Therefore, $a^2 = (2k + 1)(2k + 1) = 4k^2 + 4k + 1$. 
-Using this, we can deduce $4k^2 + 4k + 1 \equiv 1 \pmod{4}$.
-By the same logic and continuing the same assumption that a, b, and c are all odd, we can similarly deduce that $b^2 \equiv 1 \pmod4$ and $c^2 \equiv 1 \pmod4$.
-Therefore $a^2 + b^2 \equiv 2$ and $c^2 \equiv 1$.
-This contradicts our initial statement since $a^2 + b^2 = c^2 \equiv 1 + 1 = 1$ which is false.
-Therefore at least one of a, b, or c must be even.
-Thus $abc$ is even.
-
-**-PF-**
+### 3. COMPLETE THIS RETARD
 
 
 ---
@@ -73,9 +52,7 @@ Subtracting 1 from both sides we get $x^2 + x = y^2 - 1$.
 Simplifying this we get $x^2 + x = (y + 1)(y - 1) = x(x + 1)$.
 So, $x(x + 1) = (y + 1)(y - 1)$.
 So, given $x \in \mathbb{Z}^+$, $x^2 < x^2 + x + 1 = y^2$ which implies $x^2 < y^2$ which implies $x < y$. 
-*===This establishes our lower bound===*
 Comparing $x^2 + x + 1$ to the next perfect square yields $x^2 + x + 1 < x^2 + 2x + 1$ which is true given that $x \in \mathbb{Z}^+$. 
-*===This establishes our upper bound===*
 Simplifying we get $x + 1 < 2x + 1 \equiv 0 < x$ which is true given that $x \in \mathbb{Z}^+$.
 Therefore $y^2 = x^2 + x + 1 < (x + 1)^2$ which implies $y < x + 1$.
 Using this we discover $x < y < x + 1$.
@@ -116,11 +93,7 @@ $(c \implies a)$: $\frac{a + b}{2} < b \equiv a + b < 2b \equiv a < b$
 This shows that (a), (b), (c) are all equivalent inequalities.
 
 ---
-### 8. Prove that either $2 * 10^{500} + 15$ or $2 * 10^{500} + 16$ is not a perfect square.
-
-===SOLUTION IS SIMILAR TO HOW I COMPLETED #5 ACCORDING TO MATT===
-
-**-PF-**
+### 8. COMPLETE THIS RETARD!
 
 ---
 ### 9. Prove or disprove: If $x$ and $y$ are rational numbers, then $x^y$ must be rational.
