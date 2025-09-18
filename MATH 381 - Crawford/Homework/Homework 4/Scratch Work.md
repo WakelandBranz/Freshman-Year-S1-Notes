@@ -128,6 +128,8 @@ This shows that (a), (b), (c) are all equivalent inequalities.
 ===SOLUTION IS SIMILAR TO HOW I COMPLETED #5 ACCORDING TO MATT===
 
 **-PF-**
+Assume for contradiction that $2 * 10^{500} + 15$ and $2 * 10^{500} + 16$ are both perfect squares.
+
 
 ---
 ### 9. Prove or disprove: If $x$ and $y$ are rational numbers, then $x^y$ must be rational.
