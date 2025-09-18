@@ -23,6 +23,9 @@ Since $n > 0 \implies n = 1$.
 
 ##### Prove if $x^2 \geq 1, \text{ then } x^2 -7x > -10$
 **-PF-**
-Assume $x^2 \geq 1$.
+Assume $x^2 \geq 1$ and $x \in \mathbb{Z}$.
 This means that $x \geq 1$.
-$x^2 -7x > -10 \equiv x^2 -7x + 10 
+$x^2 -7x > -10 \equiv x^2 -7x + 10 > 0$
+$(x - 2)(x - 5) > 0 \equiv x^2 -7x + 10 > 0$.
+In order for this statement to be true, $x > 5$ or $x < 2$.
+Since $x^2 \geq 1
