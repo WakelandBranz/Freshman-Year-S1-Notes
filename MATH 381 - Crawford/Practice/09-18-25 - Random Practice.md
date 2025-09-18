@@ -13,9 +13,16 @@ So, substituting $x$ and $y$ into the expression $x + y$ we get $\sqrt{ 2 } - \s
 Thus, since 0 is a rational number, this is proven.
 
 ##### Prove or disprove: 1 is the largest positive integer
-Let $n$ be the largest positive integer.
+**-PF-**
+Let $n$ be the largest positive integer. ===- THIS HAS NOT BEEN PROVEN TO EXIST YET HENCE WHY THIS IS WRONG BUT THE ARGUMENT IS VALID!!!===
 Then $n \geq 1$.
 Since $n \geq 1$, multiply on both sides by $n, n^2 \geq n$.
 But since $n$, by definition is the largest positive integer, $n \geq n^2 \implies n^2 = n$.
 Then $n = 0$ or $n = 1$.
 Since $n > 0 \implies n = 1$.
+
+##### Prove if $x^2 \geq 1, \text{ then } x^2 -7x > -10$
+**-PF-**
+Assume $x^2 \geq 1$.
+This means that $x \geq 1$.
+$x^2 -7x > -10 \equiv x^2 -7x + 10 
