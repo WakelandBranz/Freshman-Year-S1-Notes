@@ -129,6 +129,8 @@ This shows that (a), (b), (c) are all equivalent inequalities.
 
 **-PF-**
 Assume for contradiction that $2 * 10^{500} + 15$ and $2 * 10^{500} + 16$ are both perfect squares.
+Assume $n^2 = 2 * 10^{500} + 15$ and $m^2 = 2 * 10^{500} + 16$ and $n, m \in \mathbb{Z}$.
+So, $n^2 = m^2 + 1$.
 
 
 ---
