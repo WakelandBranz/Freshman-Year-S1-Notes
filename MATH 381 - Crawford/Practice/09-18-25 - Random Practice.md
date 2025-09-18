@@ -30,3 +30,7 @@ $(x - 2)(x - 5) > 0 \equiv x^2 -7x + 10 > 0$.
 In order for this statement to be true, $x > 5$ or $x < 2$.
 Since $x^2 \leq 1 \equiv -1 \leq x \leq 1$, and $x^2 -7x > -10$ is true when $x < 2$, all cases of $x^2 -7x > -10$ are satisfied.
 Thus if $x^2 \leq 1$ then $x^2 -7x > -10$.
+
+##### Sudoku Problem
+- Place the numbers 1-9 in each row, column, and 3x3 box so that there is only a single instance of each number in each row, column, and 3x3 box.
+- **Prove**
