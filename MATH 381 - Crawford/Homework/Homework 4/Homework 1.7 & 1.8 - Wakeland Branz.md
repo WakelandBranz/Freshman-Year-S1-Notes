@@ -74,9 +74,6 @@ Thus there are no positive integer solutions to $x^2 + x + 1 = y^2$.
 ---
 ### 6. Prove that $\sqrt[3]2$ is irrational.
 
-Notes: 
-$gcd(a, b) || gcf(a,b) =$ a & b are coprime $= a \perp b$
-
 **-PF-**
 Assume for contradiction that $\sqrt[3]{2}$ is rational.
 Then $\exists a, b \in \mathbb{Z}$ and $b \neq 0$ such that $\sqrt[3]{2} = \frac{a}{b}$ with all common factors of $a$ and $b$ cancelled.
@@ -131,3 +128,5 @@ When $x = 2$ and $y = 1/2$, $x, y \in \mathbb{Q}$, which satisfies the requireme
 Substituting these numbers into $x^y$ we get $2^{\frac{1}{2}} = \sqrt{2}$.
 Based on our previous proofs we know that $\sqrt2$ is irrational.
 Thus the statement "If $x$ and $y$ are rational numbers, then $x^y$ must be rational" is false.
+
+---
