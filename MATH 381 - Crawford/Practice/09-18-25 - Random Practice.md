@@ -9,6 +9,7 @@ So, $\frac{1}{x} = \frac{a}{b} \equiv b = ax$.
 **-PF-**
 We want to show that there exist irrational numbers $x$ and $y$ such that $x + y$ is rational.
 Towards an example, let $x = \sqrt{ 2 } \text{ and } y = -\sqrt{ 2 }$.
+We know that $\sqrt2$ is irrational so we must prove that $-\sqrt2$ is also irrational.
 So, substituting $x$ and $y$ into the expression $x + y$ we get $\sqrt{ 2 } - \sqrt{ 2 } = 0$.
 Thus, since 0 is a rational number, this is proven.
 
