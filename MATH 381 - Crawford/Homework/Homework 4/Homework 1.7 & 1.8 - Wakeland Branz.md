@@ -1,4 +1,3 @@
-##### Homework 1.7 & 1.8 By Wakeland Branz
 ### 1. Prove that for integers $a, b,$ and $c$, if $a + b$ and $b + c$ are even, then $a + c$ is even.
 
 **-PF-**
@@ -73,9 +72,6 @@ This is a contradiction because $x, y \in \mathbb{Z}^+$ but $y$ cannot be an int
 Thus there are no positive integer solutions to $x^2 + x + 1 = y^2$.
 
 ---
-<div style="page-break-after: always;"></div>
-page break above me
-
 ### 6. Prove that $\sqrt[3]2$ is irrational.
 
 Notes: 
@@ -112,10 +108,15 @@ $(c \implies a)$: $\frac{a + b}{2} < b \equiv a + b < 2b \equiv a < b$
 This shows that (a), (b), (c) are all equivalent inequalities.
 
 ---
-<div style="page-break-after: always;"></div>
-page break above me
+### 8. Prove that either $2 * 10^{500} + 15$ or $2 * 10^{500} + 16$ is not a perfect square.
 
-### 8. COMPLETE THIS!
+**-PF-**
+Assume, for contradiction, that $2 * 10^{500} + 15$ and $2 * 10^{500} + 16$ are both perfect squares.
+The only consecutive perfect squares are $0^2$ and $1^2$ because $0^2 = 0$ and $1^2 = 1$.
+Let $a = 2 * 10^{500} + 15$ and $b = 2 * 10^{500} + 16$.
+These are consecutive integers with $b = a + 1$.
+Therefore, since both $a > 1$ and $b > 1$ these cannot both be perfect squares.
+Thus either $2 * 10^{500} + 15$ or $2 * 10^{500} + 16$ is not a perfect square.
 
 ---
 <div style="page-break-after: always;"></div>
