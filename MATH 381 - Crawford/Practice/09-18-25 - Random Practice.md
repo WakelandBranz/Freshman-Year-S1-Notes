@@ -8,4 +8,6 @@ So, $\frac{1}{x} = \frac{a}{b} \equiv b = ax$.
 ##### Prove or disprove: There are irrational numbers $x$ and $y$ such that $x + y$ is rational.
 In other words, if $x$ and $y$ are irrational numbers, then $x$ + $y$ is rational.
 **-PF-**
-Towards contradiction, 
+We want to show that there exist irrational numbers $x$ and $y$ such that $x + y$ are rational.
+Towards an examp
+
