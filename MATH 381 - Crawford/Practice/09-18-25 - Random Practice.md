@@ -36,4 +36,4 @@ Thus if $x^2 \leq 1$ then $x^2 -7x > -10$.
 - **Prove that the 2x2s in each corner are the same numbers in the inner 16 boxes in whatever pattern he put up on the board**
 
 $\{ \{ 2, 6, 4, 6 \}, \{ 9, 5, 8 ,2 \}, \{ 8, 2, 1, 5 \}, \{ 4, 1, 7, 3 \}\}$
-
+${1, }
