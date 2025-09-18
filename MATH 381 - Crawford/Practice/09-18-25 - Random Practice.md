@@ -5,3 +5,7 @@ Assume $\frac{1}{x}$ is rational.
 Then, $\exists a, b \in \mathbb{Z}$ such that $\frac{1}{x} = \frac{a}{b} \text{ and } b \neq 0$.
 So, $\frac{1}{x} = \frac{a}{b} \equiv b = ax$.
 
+##### Prove or disprove: There are irrational numbers $x$ and $y$ such that $x + y$ is rational.
+In other words, if $x$ and $y$ are irrational numbers, then $x$ + $y$ is rational.
+**-PF-**
+Towards contradiction, 
