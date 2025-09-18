@@ -33,5 +33,6 @@ Thus if $x^2 \leq 1$ then $x^2 -7x > -10$.
 
 ##### Sudoku Problem
 - Place the numbers 1-9 in each row, column, and 3x3 box so that there is only a single instance of each number in each row, column, and 3x3 box.
-- **Prove that the 2x2s in each corner are the same numbers in the inner 16 boxes in whatever fuckass pattern he put up on the board**
-- 
+- **Prove that the 2x2s in each corner are the same numbers in the inner 16 boxes in whatever pattern he put up on the board**
+
+$\{\{1, 2, 3, 4\}, \{\}\}$
