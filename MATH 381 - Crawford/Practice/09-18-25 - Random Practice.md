@@ -21,11 +21,12 @@ But since $n$, by definition is the largest positive integer, $n \geq n^2 \impli
 Then $n = 0$ or $n = 1$.
 Since $n > 0 \implies n = 1$.
 
-##### Prove if $x^2 \geq 1, \text{ then } x^2 -7x > -10$
+##### Prove if $x^2 \leq 1, \text{ then } x^2 -7x > -10$
 **-PF-**
-Assume $x^2 \geq 1$ and $x \in \mathbb{Z}$.
-This means that $x \geq 1$.
+Assume $x^2 \leq 1$ and $x \in \mathbb{Z}$.
+This means that $x \leq 1$.
 $x^2 -7x > -10 \equiv x^2 -7x + 10 > 0$
 $(x - 2)(x - 5) > 0 \equiv x^2 -7x + 10 > 0$.
 In order for this statement to be true, $x > 5$ or $x < 2$.
-Since $x^2 \geq 1
+Since $x^2 \leq 1 \equiv x \leq 1$, and $x^2 -7x > -10$ is true when $x < 2$, all cases of $x^2 -7x > -10$ are satisfied.
+Thus if $x^2 \leq 1$ then $x^2 -7x > -10$.
