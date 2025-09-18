@@ -128,10 +128,11 @@ This shows that (a), (b), (c) are all equivalent inequalities.
 ===SOLUTION IS SIMILAR TO HOW I COMPLETED #5 ACCORDING TO MATT===
 
 **-PF-**
-Assume for contradiction that $2 * 10^{500} + 15$ and $2 * 10^{500} + 16$ are both perfect squares.
-Assume $n^2 = 2 * 10^{500} + 15$ and $m^2 = 2 * 10^{500} + 16$ and $n, m \in \mathbb{Z}$.
-So, $n^2 = m^2 + 1$.
-
+Assume, for contradiction, that $2 * 10^{500} + 15$ and $2 * 10^{500} + 16$ are both perfect squares.
+The only consecutive perfect squares are 0 and 1.
+Assume $n = 2 * 10^{500} + 15$ and $m = 2 * 10^{500} + 16$ and $n, m \in \mathbb{Z}$.
+Since $m = n + 1$, these are consecutive integers.
+Since both $n$ and $m$ are 
 
 ---
 ### 9. Prove or disprove: If $x$ and $y$ are rational numbers, then $x^y$ must be rational.
