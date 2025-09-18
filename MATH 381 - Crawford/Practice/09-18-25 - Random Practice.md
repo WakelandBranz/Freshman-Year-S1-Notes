@@ -13,4 +13,9 @@ So, substituting $x$ and $y$ into the expression $x + y$ we get $\sqrt{ 2 } - \s
 Thus, since 0 is a rational number, this is proven.
 
 ##### Prove or disprove: 1 is the largest positive integer
-Let $n$ be the largest positive int
+Let $n$ be the largest positive integer.
+Then $n \geq 1$.
+Since $n \geq 1$, multiply on both sides by $n, n^2 \geq n$.
+But since $n$, by definition is the largest positive integer, $n \geq n^2 \implies n^2 = n$.
+Then $n = 0$ or $n = 1$.
+Since $n > 0 \implies n = 1$.
