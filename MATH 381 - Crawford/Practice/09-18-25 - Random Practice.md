@@ -8,8 +8,9 @@ So, $\frac{1}{x} = \frac{a}{b} \equiv b = ax$.
 ##### Prove or disprove: There are irrational numbers $x$ and $y$ such that $x + y$ is rational.
 **-PF-**
 We want to show that there exist irrational numbers $x$ and $y$ such that $x + y$ is rational.
-Towards an example, let $x = \sqrt{ 2 } \text{ and } y = -\sqrt{ 2 }$.
-We know that $\sqrt2$ is irrational so we must prove that $-\sqrt2$ is also irrational.
+Towards an example, let $x = \sqrt{ 2 } \text{ and } y = -\sqrt{ 2 }$ meaning $x, y \not \in \mathbb{R}$.
 So, substituting $x$ and $y$ into the expression $x + y$ we get $\sqrt{ 2 } - \sqrt{ 2 } = 0$.
 Thus, since 0 is a rational number, this is proven.
 
+##### Prove or disprove: 1 is the largest positive integer
+Let $n$ be the largest positive int
