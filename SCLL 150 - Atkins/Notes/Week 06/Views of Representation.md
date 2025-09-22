@@ -22,3 +22,8 @@
 - **Key Idea**: Flexible approach depending on the issue.
 - **Role**: Sometimes follow constituents, sometimes act independently.
 - **Example**: Acting as a delegate on high-profile issues, but as a trustee on complex or low-interest matters.
+
+---
+### **Descriptive Model**
+
+ - The whole of the representatives proportionally 
