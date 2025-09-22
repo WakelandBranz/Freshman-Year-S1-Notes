@@ -26,4 +26,5 @@
 ---
 ### **Descriptive Model**
 
- - The whole of the representatives proportionally 
+ - The whole of the representatives are proportionally related to the people they represent.
+ - E.G. if 1/3 of people are farmers, 1/3 are carpenters, and 1/3 are white collar, then the representatives should be 1/3 farmers, 1/3 carpenters, and 1/3 white collar.
