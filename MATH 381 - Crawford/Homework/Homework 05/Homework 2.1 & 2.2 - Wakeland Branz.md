@@ -21,8 +21,9 @@ We want to show that $a \implies b \implies c \implies a$.
 	Assume $A \cap \overline B$.
 	Let $x \in U$.
 	We want to show $x \in \overline A \cup B$.
-	Assume, for contradiction, that $\overline A \cup B \neq U$.
-	This means that
+	We can assume $x \not \in \overline A$, and show that $x \in B$. 
+	===(Because if $x \in \overline A$, then $x \in \overline A \cup B$ which proves nothing).===
+	
 	
 ($c \implies a$):
 
