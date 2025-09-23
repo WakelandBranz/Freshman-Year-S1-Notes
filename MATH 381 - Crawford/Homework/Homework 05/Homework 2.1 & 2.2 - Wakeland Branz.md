@@ -14,13 +14,19 @@ We want to show that $a \implies b \implies c \implies a$.
 	Assume $A \subseteq B$.
 	(a) = $A \subseteq B$ which means that all elements of $A$ are present in $B$. 
 	(b) = $A \cap \overline B = \emptyset$ which means that there are no intersections between $A$ and $\overline B$. 
-	This means that since $A$ is contained within $B$, there are no intersections between $A$ and everything that is not contained within $B$.
+	Assume, for contradiction, that $A \cap \overline B \neq \emptyset$.
+	This means that since $A$ is co
 ($b \implies c$):
 ($c \implies a$):
 
 **-PF-**
 We want to show that $a \implies b \implies c \implies a$.
 ($a \implies b)$: 
+	Assume that $A \subseteq B$. 
+	We want to show that $A \cap \overline B = \emptyset$.
+	We show containment both ways.
+	We wrote $\emptyset \subseteq A \cap \overline B$ since $\emptyset$ is a subset of every set.
+	To show $A \cap \overline B \subseteq \emptyset$, it suffices to show there does not exist 
 ($b \implies c$):
 ($c \implies a$):
 
