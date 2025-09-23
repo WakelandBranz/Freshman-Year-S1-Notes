@@ -15,7 +15,7 @@ We want to show that $a \implies b \implies c \implies a$.
 	Assume, for contradiction, that $A \cap \overline B \neq \emptyset$.
 	This means that $A \subseteq B \implies \exists x \in A \cap \overline B$.
 	But since $A \subseteq B$, all values of $A$ are contained within $B$.
-	Since, by definition, if $x \in A$ and $x \not \in \overline B$, and if $then $x \in B$.
+	Since, by definition, if $x \in A$ and $x \not \in \overline B$, then $x \in B$.
 	So, $\not \exists x$ such that $A$ is not in $B$, contradicting $x$'s existence.
 	Thus $A \subseteq B \implies A \cap \overline B = \emptyset$.
 ($b \implies c$):
@@ -91,3 +91,5 @@ Define the symmetric difference of two sets $A$ and $B$, denoted $A \oplus B$, t
 ## Problem 7
 
 Write down all elements in the set $(A \times B) \times C$, where $A = {1, 2, 3}$, $B = {4, 5, 6}$ and $C = {7, 8}$.
+
+$A \times B = \{ \{ 1, 4 \}, \{ 1, 5 \} \}$
