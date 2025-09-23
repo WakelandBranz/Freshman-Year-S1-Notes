@@ -47,7 +47,6 @@ We want to show that $a \implies b \implies c \implies a$.
 **-PF-**
 We want to show that $a \implies b \implies c \implies a$.
 ($a \implies b)$: 
-	
 ($b \implies c$):
 ($c \implies a$):
 
@@ -107,4 +106,3 @@ $$\begin{flalign}
 \end{flalign}$$
 
 
-$$\begin{align} (A \times B) \times C = \{ &((1, 4), 7), ((1, 4), 8), ((1, 5), 7), ((1, 5), 8), ((1, 6), 7), ((1, 6), 8), \\ &((2, 4), 7), ((2, 4), 8), ((2, 5), 7), ((2, 5), 8), ((2, 6), 7), ((2, 6), 8), \\ &((3, 4), 7), ((3, 4), 8), ((3, 5), 7), ((3, 5), 8), ((3, 6), 7), ((3, 6), 8) \} \end{align}$$
