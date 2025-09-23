@@ -18,7 +18,9 @@ We want to show that $a \implies b \implies c \implies a$.
 	So, $\not \exists x$ such that $A$ is not in $B$, contradicting $x$'s existence.
 	Thus $A \subseteq B \implies A \cap \overline B = \emptyset$.
 ($b \implies c$):
-	Assume $A \cap \overline B = \emptyset$.
+	Assume $A \cap \overline B$.
+	Let $x \in U$.
+	We want to show $x \in \overline A \cup B$.
 	Assume, for contradiction, that $\overline A \cup B \neq U$.
 	This means that
 	
