@@ -8,7 +8,7 @@ Prove that the following are equivalent for any subset $A$ and $B$ of the same u
 
 (c) $\overline{A} \cup B = U$.
 
-**-PF-**
+**-PF (on the right track but wrong)-**
 We want to show that $a \implies b \implies c \implies a$.
 ($a \implies b)$: 
 	Assume $A \subseteq B$.
@@ -28,7 +28,7 @@ We want to show that $a \implies b \implies c \implies a$.
 	
 ($c \implies a$):
 
-**-PF-**
+**-PF- (he wrote this on the board)**
 We want to show that $a \implies b \implies c \implies a$.
 ($a \implies b)$: 
 	Assume that $A \subseteq B$. 
@@ -41,6 +41,13 @@ We want to show that $a \implies b \implies c \implies a$.
 	This contradicts $x$'s existence.
 	So $x$ cannot exist. 
 	So $A \cap \overline B \subseteq \emptyset \implies A \cap \overline B = \emptyset$.
+($b \implies c$):
+($c \implies a$):
+
+**-PF-**
+We want to show that $a \implies b \implies c \implies a$.
+($a \implies b)$: 
+	
 ($b \implies c$):
 ($c \implies a$):
 
@@ -92,4 +99,5 @@ Define the symmetric difference of two sets $A$ and $B$, denoted $A \oplus B$, t
 
 Write down all elements in the set $(A \times B) \times C$, where $A = {1, 2, 3}$, $B = {4, 5, 6}$ and $C = {7, 8}$.
 
-$A \times B = \{ \{ 1, 4 \}, \{ 1, 5 \} \}$
+$$A \times B = \{ (1, 4), (1, 5), (1, 6), (2, 4), (2, 5), (2, 6), (3, 4), (3, 5), (3, 6) \}
+$(A \times B) \times C = \{ (1, 4), (1, 5), (1, 6), (2, 4), (2, 5), (2, 6), (3, 4), (3, 5), (3, 6) \}$
