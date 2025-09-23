@@ -12,10 +12,9 @@ Prove that the following are equivalent for any subset $A$ and $B$ of the same u
 We want to show that $a \implies b \implies c \implies a$.
 ($a \implies b)$: 
 	Assume $A \subseteq B$.
-	(a) = $A \subseteq B$ which means that all elements of $A$ are present in $B$. 
-	(b) = $A \cap \overline B = \emptyset$ which means that there are no intersections between $A$ and $\overline B$. 
 	Assume, for contradiction, that $A \cap \overline B \neq \emptyset$.
-	This means that since $A$ is co
+	This means that $\exists x \in A \cap \overline B$.
+	
 ($b \implies c$):
 ($c \implies a$):
 
@@ -26,7 +25,12 @@ We want to show that $a \implies b \implies c \implies a$.
 	We want to show that $A \cap \overline B = \emptyset$.
 	We show containment both ways.
 	We wrote $\emptyset \subseteq A \cap \overline B$ since $\emptyset$ is a subset of every set.
-	To show $A \cap \overline B \subseteq \emptyset$, it suffices to show there does not exist 
+	To show $A \cap \overline B \subseteq \emptyset$, it suffices to show there does not exist any element in $A \cap \overline B$.
+	Assume $x \in A \cap \overline B$, then $x \exists \{ y \mid y \in A \cap y \not \in B \}$.
+	But since $A \subseteq B$, there are no elements in $A$ and not in $B$. 
+	This contradicts $x$'s existence.
+	So $x$ cannot exist. 
+	So $A \cap \overline B \subseteq \emptyset \implies A \cap \overline B = \emptyset$.
 ($b \implies c$):
 ($c \implies a$):
 
