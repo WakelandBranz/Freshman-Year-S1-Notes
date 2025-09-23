@@ -10,7 +10,9 @@ Prove that the following are equivalent for any subset $A$ and $B$ of the same u
 
 **-PF-**
 We want to show that $a \implies b \implies c \implies a$.
-
+($a \implies b)$: 
+($b \implies c$):
+($c \implies a$):
 
 ---
 ## Problem 2
