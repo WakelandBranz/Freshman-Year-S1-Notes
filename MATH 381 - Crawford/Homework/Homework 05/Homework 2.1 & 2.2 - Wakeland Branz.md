@@ -13,7 +13,7 @@ We want to show that $a \implies b \implies c \implies a$.
 ($a \implies b)$: 
 	Assume $A \subseteq B$.
 	Assume, for contradiction, that $A \cap \overline B \neq \emptyset$.
-	This means that $\exists x \in A \cap \overline B$.
+	This means that $A \subseteq B \implies \exists x \in A \cap \overline B$.
 	
 ($b \implies c$):
 ($c \implies a$):
@@ -26,7 +26,7 @@ We want to show that $a \implies b \implies c \implies a$.
 	We show containment both ways.
 	We wrote $\emptyset \subseteq A \cap \overline B$ since $\emptyset$ is a subset of every set.
 	To show $A \cap \overline B \subseteq \emptyset$, it suffices to show there does not exist any element in $A \cap \overline B$.
-	Assume $x \in A \cap \overline B$, then $x \exists \{ y \mid y \in A \cap y \not \in B \}$.
+	Assume $x \in A \cap \overline B$, then $x \in \{ y \mid y \in A \cap y \not \in B \}$.
 	But since $A \subseteq B$, there are no elements in $A$ and not in $B$. 
 	This contradicts $x$'s existence.
 	So $x$ cannot exist. 
