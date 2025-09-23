@@ -13,6 +13,11 @@ Prove that the following are equivalent for any subset $A$ and $B$ of the same u
 
 Prove or disprove: For any sets $A$, $B$, and $C$, if $A \cup B = A \cup C$, then $B = C$.
 
+**-PF-**
+We will disprove this using a counterexample.
+Let $A = \{ 1, 2, 3, 4 \}$, $B = \{ 2, 3 \}$, and $C = \{ 3, 4 \}$.
+In this case, $$
+
 ---
 ## Problem 3
 
