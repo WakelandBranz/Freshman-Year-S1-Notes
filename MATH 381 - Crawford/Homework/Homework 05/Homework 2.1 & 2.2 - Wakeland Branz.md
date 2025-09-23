@@ -16,7 +16,9 @@ Prove or disprove: For any sets $A$, $B$, and $C$, if $A \cup B = A \cup C$, the
 **-PF-**
 We will disprove this using a counterexample.
 Let $A = \{ 1, 2, 3, 4 \}$, $B = \{ 2, 3 \}$, and $C = \{ 3, 4 \}$.
-In this case, $$
+In this case, $A \cup B = \{ 1, 2, 3, 4 \}$ and $A \cup C = \{ 1, 2, 3, 4 \}$.
+Despite the fact that $A \cup B = A \cup C$, $B$ and $C$ are not equivalent.
+Thus we disprove that, for any sets $A$, $B$, and $C$, if $A \cup B = A \cup C$, then $B = C$.
 
 ---
 ## Problem 3
