@@ -12,7 +12,9 @@ Prove that the following are equivalent for any subset $A$ and $B$ of the same u
 We want to show that $a \implies b \implies c \implies a$.
 ($a \implies b)$: 
 	(a) = $A \subseteq B$ which means that all elements of $A$ are present in $B$ or all elements of $B$ are in $A$. 
-	(b) = $A \intersect \
+	(b) = $A \cap \overline B = \emptyset$ which means that there are no intersections between $A$ and $\overline B$. 
+	We assume that if $A \subseteq B$ then $A \cap \overline B = \emptyset$.
+	This means that since $A$ is contained within $B$, there are no intersections between $A$ and everything that is not contained within $B$.
 ($b \implies c$):
 ($c \implies a$):
 
