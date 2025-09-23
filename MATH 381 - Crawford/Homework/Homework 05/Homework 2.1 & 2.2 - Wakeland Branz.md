@@ -20,7 +20,7 @@ We want to show that $a \implies b \implies c \implies a$.
 ($b \implies c$):
 	Assume $A \cap \overline B = \emptyset$.
 	Assume, for contradiction, that $\overline A \cup B \neq U$.
-	This means that $A \cap \overline B = \emptyset \implies \not \exists x \in \overline A \cup B$.
+	This means that
 	
 ($c \implies a$):
 
