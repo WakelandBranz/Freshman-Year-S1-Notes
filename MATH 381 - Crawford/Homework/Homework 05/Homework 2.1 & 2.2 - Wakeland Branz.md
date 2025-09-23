@@ -15,6 +15,7 @@ We want to show that $a \implies b \implies c \implies a$.
 	Assume, for contradiction, that $A \cap \overline B \neq \emptyset$.
 	This means that $A \subseteq B \implies \exists x \in A \cap \overline B$.
 	But since $A \subseteq B$, all values of $A$ are contained within $B$.
+	Since, by definition, if $x \in A$ and $x \not \in \overline B$, then $x \in B$.
 	So, $\not \exists x$ such that $A$ is not in $B$, contradicting $x$'s existence.
 	Thus $A \subseteq B \implies A \cap \overline B = \emptyset$.
 ($b \implies c$):
