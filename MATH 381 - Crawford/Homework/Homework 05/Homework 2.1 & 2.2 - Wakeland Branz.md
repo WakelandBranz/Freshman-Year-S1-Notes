@@ -8,6 +8,10 @@ Prove that the following are equivalent for any subset $A$ and $B$ of the same u
 
 (c) $\overline{A} \cup B = U$.
 
+**-PF-**
+We want to show that $a \implies b \implies c \implies a$.
+
+
 ---
 ## Problem 2
 
