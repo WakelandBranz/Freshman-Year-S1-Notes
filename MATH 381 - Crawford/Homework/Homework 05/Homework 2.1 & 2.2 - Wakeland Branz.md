@@ -11,6 +11,14 @@ Prove that the following are equivalent for any subset $A$ and $B$ of the same u
 **-PF-**
 We want to show that $a \implies b \implies c \implies a$.
 ($a \implies b)$: 
+	(a) = $A \subseteq B$ which means that all elements of $A$ are present in $B$ or all elements of $B$ are in $A$. 
+	(b) = $A \intersect \
+($b \implies c$):
+($c \implies a$):
+
+**-PF-**
+We want to show that $a \implies b \implies c \implies a$.
+($a \implies b)$: 
 ($b \implies c$):
 ($c \implies a$):
 
