@@ -1,3 +1,8 @@
+ #### Antifederalists
  - Federalists want 6 year terms in the Senate
  - Federalists want 2 year terms in the House
- - Federalists believe it is crazy for the government to 
+
+#### Antifederalists
+ - Annual elections
+ - Regular rotation
+ - Recall punative in its design and execution
