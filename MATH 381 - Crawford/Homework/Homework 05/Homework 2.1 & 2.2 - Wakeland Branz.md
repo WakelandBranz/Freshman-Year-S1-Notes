@@ -83,6 +83,7 @@ For each $n \in \mathbb{Z}^+$, let $A_n = \left[\frac{1}{n}, 2 - \frac{n}{n+1}\r
 Prove that if $A \subseteq B$, then $\mathcal{P}(A) \subseteq \mathcal{P}(B)$, where $\mathcal{P}(X)$ indicates the power set of the set $X$.
 
 **-PF-**
+Assume that $A \subseteq B$.
 
 
 ---
