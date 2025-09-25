@@ -131,7 +131,7 @@ Define the symmetric difference of two sets $A$ and $B$, denoted $A \oplus B$, t
 
 #### (b) Sketch a Venn Diagram to represent $(A \oplus B) \cap B$.
 
-
+[thing](obsidian://open?vault=UNC-FreshmanS1Notes&file=Excalidraw%2FVenn%20Diagram%202.1%20%26%202.2%20Problem%206%20Part%20B)
 ---
 
 #### (c) Prove or Disprove: $(A \oplus B) \cap B = B$.
