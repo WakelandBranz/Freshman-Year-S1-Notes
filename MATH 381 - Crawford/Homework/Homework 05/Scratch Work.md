@@ -87,13 +87,12 @@ Using the membership table above, we can see that every time $Y$ is 1, $X$ is al
 By the definition of a proper subset, we can see that $Y \subseteq X$ but $Y \neq X$.
 Therefore, the relationship between $X$ and $Y$ is that $Y$ is a proper subset of $X$.
 
-
 ---
 ## Problem 4
 
 For each $n \in \mathbb{Z}^+$, let $A_n = \left[\frac{1}{n}, 2 - \frac{n}{n+1}\right] \subset \mathbb{R}$. Find, and prove, the sets:
 
-(a) $\bigcup_{n=1}^{\infty} A_n$;
+(a) $\bigcup_{n=1}^{\infty} A_n$i
 
 (b) $\bigcap_{n=1}^{\infty} A_n$.
 
