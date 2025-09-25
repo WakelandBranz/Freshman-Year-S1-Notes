@@ -72,16 +72,16 @@ Determine and prove the relationship between $X = A \cup (B \cap C)$ and $Y = A 
 Assume $A$, $B$, and $C$, are any subset of the same universe $U$.
 We will use a membership table to determine a relationship between $X$ and $Y$.
 
-| $A$ | $B$ | $C$ | $B \cap C$ | $A \cup (B \cap C)$ | $B \cup C$ | $A \cap (B \cup C)$ |
-| --- | --- | --- | ---------- | ------------------- | ---------- | ------------------- |
-| 1   | 1   | 1   | 1          | 1                   | 1          | 1                   |
-| 1   | 1   | 0   | 0          | 1                   | 1          | 1                   |
-| 1   | 0   | 0   | 0          | 1                   | 0          | 0                   |
-| 0   | 0   | 0   | 0          | 0                   | 0          | 0                   |
-| 0   | 0   | 1   | 0          | 0                   | 1          | 0                   |
-| 0   | 1   | 1   | 1          | 1                   | 1          | 0                   |
-| 1   | 0   | 1   | 0          | 1                   | 1          | 1                   |
-| 0   | 1   | 0   | 0          | 0                   | 1          | 0                   |
+| $A$ | $B$ | $C$ | $B \cap C$ | $(X) \text{ }A \cup (B \cap C)$ | $B \cup C$ | $A \cap (B \cup C)$ |
+| --- | --- | --- | ---------- | ------------------------------- | ---------- | ------------------- |
+| 1   | 1   | 1   | 1          | 1                               | 1          | 1                   |
+| 1   | 1   | 0   | 0          | 1                               | 1          | 1                   |
+| 1   | 0   | 0   | 0          | 1                               | 0          | 0                   |
+| 0   | 0   | 0   | 0          | 0                               | 0          | 0                   |
+| 0   | 0   | 1   | 0          | 0                               | 1          | 0                   |
+| 0   | 1   | 1   | 1          | 1                               | 1          | 0                   |
+| 1   | 0   | 1   | 0          | 1                               | 1          | 1                   |
+| 0   | 1   | 0   | 0          | 0                               | 1          | 0                   |
 
 Using the membership table above, we can see that every time $Y$ is 1, $X$ is also 1, but it is not true that every time $X$ is 1, $Y$ is also 1.
 By the definition of a proper subset, we can see that $Y \subseteq X$ but $Y \neq X$.
