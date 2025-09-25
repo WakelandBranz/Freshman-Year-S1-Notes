@@ -86,7 +86,12 @@ Prove that if $A \subseteq B$, then $\mathcal{P}(A) \subseteq \mathcal{P}(B)$, w
 Assume that $A \subseteq B$.
 Therefore, we know that all elements present in set $A$ are present in set $B$.
 A power set contains every subset of the elements of an arbitrary set.
-This means that if $A \subseteq B$, then $\mathcal{P}(B)$ will always contain the power set of $A$ because the contents of $A$ are present within $B$ thus every possible subset o
+This means that if $A \subseteq B$, then $\mathcal{P}(B)$ will always contain the power set of $A$ because the contents of $A$ are present within $B$ thus every possible subset of $B$ includes every possible subset of $A$.
+Thus, if $A \subseteq B$, then $\mathcal{P}(A) \subseteq \mathcal{P}(B)$.
+
+**-PF-**
+Assume $A \subseteq B$.
+
 
 ---
 ## Problem 6
