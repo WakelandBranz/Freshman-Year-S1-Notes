@@ -136,13 +136,18 @@ Define the symmetric difference of two sets $A$ and $B$, denoted $A \oplus B$, t
 
 #### (c) Prove or Disprove: $(A \oplus B) \cap B = B$.
 
+**-PF-**
+Assume, for counterexample, that $(A \oplus B) \cap B = B$.
+
 | $A$ | $B$ | $A \oplus B$ | $(A \oplus B) \cap B$ |
 | --- | --- | ------------ | --------------------- |
 | 1   | 1   | 0            | 0                     |
 | 1   | 0   | 1            | 0                     |
 | 0   | 1   | 1            | 1                     |
 | 0   | 0   | 0            | 0                     |
-Using the membership table above 
+Using the membership table above, we can see that when $B$ is 1, $(A \oplus B) \cap B$ is not always 1.
+This can be seen in row 1, where $B = 1$ and $(A \oplus B) \cap B = 0$.
+Therefore, $(A \oplus B) \cap B = B$ is false.
 
 ---
 ## Problem 7
