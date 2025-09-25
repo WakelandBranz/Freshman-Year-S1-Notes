@@ -68,16 +68,23 @@ Thus we disprove that, for any sets $A$, $B$, and $C$, if $A \cup B = A \cup C$,
 
 Determine and prove the relationship between $X = A \cup (B \cap C)$ and $Y = A \cap (B \cup C)$, where $A$, $B$, and $C$ are any subset of the same universe $U$.
 
+**-PF-**
+Assume $A$, $B$, and $C$, are any subset of the same universe $U$.
+We will use a membership table to determine a relationship between $X$ and $Y$.
+
 | $A$ | $B$ | $C$ | $B \cap C$ | $A \cup (B \cap C)$ | $B \cup C$ | $A \cap (B \cup C)$ |
 | --- | --- | --- | ---------- | ------------------- | ---------- | ------------------- |
-| 1   | 1   | 1   | 1          |                     |            |                     |
-| 1   | 1   | 0   | 0          |                     |            |                     |
-| 1   | 0   | 0   | 0          |                     |            |                     |
-| 0   | 0   | 0   | 0          |                     |            |                     |
-| 0   | 0   | 1   | 0          |                     |            |                     |
-| 0   | 1   | 1   | 1          |                     |            |                     |
-| 1   | 0   | 1   | 0          |                     |            |                     |
-| 0   | 1   | 0   | 0          |                     |            |                     |
+| 1   | 1   | 1   | 1          | 1                   | 1          | 1                   |
+| 1   | 1   | 0   | 0          | 1                   | 1          | 1                   |
+| 1   | 0   | 0   | 0          | 1                   | 0          | 0                   |
+| 0   | 0   | 0   | 0          | 0                   | 0          | 0                   |
+| 0   | 0   | 1   | 0          | 0                   | 1          | 0                   |
+| 0   | 1   | 1   | 1          | 1                   | 1          | 0                   |
+| 1   | 0   | 1   | 0          | 1                   | 1          | 1                   |
+| 0   | 1   | 0   | 0          | 0                   | 1          | 0                   |
+
+Using the membership table above, we can determine that 
+
 
 ---
 ## Problem 4
