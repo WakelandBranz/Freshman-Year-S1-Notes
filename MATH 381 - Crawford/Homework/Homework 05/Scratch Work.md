@@ -127,6 +127,7 @@ Define the symmetric difference of two sets $A$ and $B$, denoted $A \oplus B$, t
 #### (a) Using the identities in Section 2.2, prove that $A \oplus B = (A - B) \cup (B - A)$
 
 
+
 ---
 
 #### (b) Sketch a Venn Diagram to represent $(A \oplus B) \cap B$.
