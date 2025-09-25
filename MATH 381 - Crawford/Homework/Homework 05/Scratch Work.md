@@ -68,6 +68,8 @@ Thus we disprove that, for any sets $A$, $B$, and $C$, if $A \cup B = A \cup C$,
 
 Determine and prove the relationship between $X = A \cup (B \cap C)$ and $Y = A \cap (B \cup C)$, where $A$, $B$, and $C$ are any subset of the same universe $U$.
 
+
+
 ---
 ## Problem 4
 
