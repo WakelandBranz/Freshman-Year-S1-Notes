@@ -92,6 +92,8 @@ Therefore, the relationship between $X$ and $Y$ is that $Y$ is a proper subset o
 
 For each $n \in \mathbb{Z}^+$, let $A_n = \left[\frac{1}{n}, 2 - \frac{n}{n+1}\right] \subset \mathbb{R}$. Find, and prove, the sets:
 
+$\left\{  \frac{1}{1}, 1 - \frac{1}{2}  \right\}, \left\{ \frac{1}{2},   \right\}$
+
 (a) $\bigcup_{n=1}^{\infty} A_n$i
 
 (b) $\bigcap_{n=1}^{\infty} A_n$.
