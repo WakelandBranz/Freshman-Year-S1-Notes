@@ -138,7 +138,8 @@ Define the symmetric difference of two sets $A$ and $B$, denoted $A \oplus B$, t
 #### (c) Prove or Disprove: $(A \oplus B) \cap B = B$.
 
 **-PF-**
-We will use a membership table to prove or disprove the statement $(A \oplus B) \cap B = B$.
+
+We will use a membership table to disprove the statement $(A \oplus B) \cap B = B$.
 
 | $A$ | $B$ | $A \oplus B$ | $(A \oplus B) \cap B$ |
 | --- | --- | ------------ | --------------------- |
