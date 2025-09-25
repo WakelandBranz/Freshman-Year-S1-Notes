@@ -93,6 +93,7 @@ Thus, if $A \subseteq B$, then $\mathcal{P}(A) \subseteq \mathcal{P}(B)$.
 Assume $A \subseteq B$.
 Let $S \in A$. 
 We want to show $S \in \mathcal{P}(B$).
+Since $S \in \mathcal{P}(A)$, we know that $S \in A$.
 
 
 ---
