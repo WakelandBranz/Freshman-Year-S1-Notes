@@ -84,6 +84,8 @@ Prove that if $A \subseteq B$, then $\mathcal{P}(A) \subseteq \mathcal{P}(B)$, w
 
 **-PF-**
 Assume that $A \subseteq B$.
+Therefore, we know that all elements present in set $A$ 
+Given that the definition of a power set is the set of all subsets of a set, that means that the statement $\mathcal{P(A)} \subseteq \mathcal{P(B)}$ is 
 
 
 ---
