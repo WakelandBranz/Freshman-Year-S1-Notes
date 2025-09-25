@@ -93,9 +93,9 @@ Thus, if $A \subseteq B$, then $\mathcal{P}(A) \subseteq \mathcal{P}(B)$.
 Assume $A \subseteq B$.
 Let $S \in \mathcal{P}(A)$. 
 We want to show $S \in \mathcal{P}(B$).
-Since $S \in \mathcal{P}(A)$, we know that $S \in A$.
+Since $S \in \mathcal{P}(A)$, we know that $S \subseteq A$.
 Since $A \subseteq B$ and $S \subseteq A$, we know by hypothetical syllogism that $S \subseteq B$.
-Therefore, $S \subseteq \mathcal{P}(B)$.
+Therefore, $S \in \mathcal{P}(B)$.
 Since our arbitrary element $S$ worked for this scenario, it must work for all elements of $\mathcal{P}(A)$.
 
 ---
