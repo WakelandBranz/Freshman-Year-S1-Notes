@@ -124,11 +124,19 @@ Since our arbitrary element $S$ worked for this scenario, it must work for all e
 
 Define the symmetric difference of two sets $A$ and $B$, denoted $A \oplus B$, to be the set containing those elements in either $A$ or $B$, but not in both $A$ and $B$.
 
-(a) Using the identities in Section 2.2, prove that $A \oplus B = (A - B) \cup (B - A)$.
+#### (a) Using the identities in Section 2.2, prove that $A \oplus B = (A - B) \cup (B - A)$
 
-(b) Sketch a Venn Diagram to represent $(A \oplus B) \cap B$.
 
-(c) Prove or Disprove: $(A \oplus B) \cap B = B$.
+---
+
+#### (b) Sketch a Venn Diagram to represent $(A \oplus B) \cap B$.
+
+
+---
+
+#### (c) Prove or Disprove: $(A \oplus B) \cap B = B$.
+
+
 
 ---
 ## Problem 7
