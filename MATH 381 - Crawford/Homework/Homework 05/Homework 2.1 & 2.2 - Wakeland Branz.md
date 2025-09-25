@@ -100,7 +100,7 @@ Define the symmetric difference of two sets $A$ and $B$, denoted $A \oplus B$, t
 ---
 ## Problem 7
 
-Write down all elements in the set $(A \times B) \times C$, where $A = \{1, 2, 3\}$, $B = \{4, 5, \}$ and $C = \{7, 8\}$.
+Write down all elements in the set $(A \times B) \times C$, where $A = \{1, 2, 3\}$, $B = \{4, 5 \}$ and $C = \{7, 8\}$.
 
 $A \times B = \{ (1, 4), (1, 5), (1, 6), (2, 4), (2, 5), (2, 6), (3, 4), (3, 5), (3, 6) \}$
 $$\begin{flalign}
