@@ -84,7 +84,8 @@ We will use a membership table to determine a relationship between $X$ and $Y$.
 | 0   | 1   | 0   | 0          | 0                   | 1          | 0                   |
 
 Using the membership table above, we can see that every time $Y$ is 1, $X$ is also 1, but it is not true that $X$ is 1 every time $Y$ is 1.
-This demonstrates the relationship between $X$ and $Y$--$Y$ is a proper subset of $X$
+By the definition of a proper subset, we can see that $Y$ 
+Therefore, the relationship between $X$ and $Y$ is that $Y$ is a proper subset of $X$.
 
 
 ---
