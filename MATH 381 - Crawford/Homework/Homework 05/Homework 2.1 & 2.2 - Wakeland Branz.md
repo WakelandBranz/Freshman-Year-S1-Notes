@@ -94,7 +94,9 @@ Assume $A \subseteq B$.
 Let $S \in A$. 
 We want to show $S \in \mathcal{P}(B$).
 Since $S \in \mathcal{P}(A)$, we know that $S \in A$.
-
+Since $A \subseteq B$ and $S \subseteq A$, we know by hypothetical syllogism that $S \subseteq B$.
+Therefore, $S \subseteq \mathcal{P}(B)$.
+Since this 
 
 ---
 ## Problem 6
