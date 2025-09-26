@@ -96,6 +96,8 @@ $\left\{  \frac{1}{1}, 1 - \frac{1}{2}  \right\}, \left\{ \frac{1}{2},   \right\
 
 (a) $\bigcup_{n=1}^{\infty} A_n$i
 
+
+
 (b) $\bigcap_{n=1}^{\infty} A_n$.
 
 ---
