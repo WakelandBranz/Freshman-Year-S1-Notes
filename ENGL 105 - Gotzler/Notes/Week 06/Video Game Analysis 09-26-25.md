@@ -7,6 +7,5 @@
 	- Operator-Avatar - Figure in the narrative who opens the program
 - Presents the shifts of the avatars
 - Compares to time loop films like groundhog day
-- 
 #### Rhetorical Purpose
-- 
+- Didn't get to write anything about this
