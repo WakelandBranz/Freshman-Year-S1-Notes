@@ -127,8 +127,9 @@ Define the symmetric difference of two sets $A$ and $B$, denoted $A \oplus B$, t
 #### (a) Using the identities in Section 2.2, prove that $A \oplus B = (A - B) \cup (B - A)$
 
 **-PF-**
-Assume $A \oplus B$ be equal to the set containing 
-$A \oplus B = (A \cup B) - (A \cap B)$
+Assume $A \oplus B$ be equal to the set containing those elements in either $A$ or $B$, but not in both $A$ and $B$.
+This translates to $A \oplus B = (A \cup B) - (A \cap B)$.
+
 
 ---
 
