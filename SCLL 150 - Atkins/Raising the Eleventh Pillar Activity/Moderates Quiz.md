@@ -12,6 +12,6 @@ Federal government has a number of advantages which state governments cannot rep
 
 3. In what sense did Federalists think that Antifederalists were undermining the foundations of republicanism and that they, the Federalists, were actually saving the Revolution?
 
-The Federalists believed that the Antifederalists were delaying necessary reforms which undermined the entire purpose of the American Revolution. 
+The Federalists believed that the Antifederalists were delaying necessary reforms which undermined the entire purpose of the American Revolution. Under the Articles of Confederation, the National government was unable to pay Revolutionary War debts, states were fighting economic wars with each other, and the domestic stability of America was shaky. The Federalists saw this as a precursor to tyranny which would eventually lead to a dictatorship, completely undermining the Revolution and putting the people's liberty in danger. 
 
 ---
