@@ -6,7 +6,7 @@ The Antifederalists were so agitated about aristocracy because functional aristo
 
 2. Why should the federal government perform better than the state governments if both governments are structured the same way (e.g., separation of powers)?
 
-Federal government has a number of advantages which state governments cannot replicate even if their structures are identical. For example, James Madison argued in *Federalist 10* that a large republic works better than a small republic because there are more diverse factions which would disallow for a single faction to oppress minority factions. In small states there would be many more occa
+Federal government has a number of advantages which state governments cannot replicate even if their structures are identical. For example, James Madison argued in *Federalist 10* that a large republic works better than a small republic because there are more diverse factions which would disallow for a single faction to oppress minority factions. In small states there would be many more occasions of local majorities seizing and maintaining control due to the significantly lower population. Furthermore, the national government 
 
 ---
 
