@@ -1,0 +1,3 @@
+- Do the exam review material
+- Look over past homeworks 
+- Ask AI to make more exam review material similar to the already existing exam review material
