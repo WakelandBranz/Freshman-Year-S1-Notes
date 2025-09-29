@@ -1,6 +1,6 @@
 1. Why were Antifederalist writers so agitated about aristocracy, since there was no aristocracy in egalitarian America? Or was there? What was meant by aristocracy, and why was it thought dangerous?
 
-The Antifederalists were so agitated about aristocracy because functional aristocracy could exist without formal titles in the proposed Constitution. This is saying that, even though the new Constitution would not assign hereditary titles or provide legal privileges based on birth, 
+The Antifederalists were so agitated about aristocracy because functional aristocracy could exist without formal titles in the proposed Constitution. This is saying that, even though the new Constitution would not assign hereditary titles or provide legal privileges based on birth, it is still highly possible for wealthy, educated individuals with connections to dominate the new national government. There did already exist a form of aristocracy in America, but it was not formalized. The Antifederalists feared that the pree Constitution would 
 
 ---
 
