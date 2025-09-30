@@ -168,7 +168,7 @@ By the Commutative Law, $(B - A) \cup (A - B) = (A - B) \cup (B - A)$.
 So, $A \oplus B = (A \cup B) - (A \cap B) = (A - B) \cup (B - A)$, thus proving that they are equivalent.
 
 (b) Sketch a Venn Diagram to represent $(A \oplus B) \cap B$.
-![Homework 2.1 & 2.2 Venn Diagram.png](app://60360f1ea3fa1612128d5ee5ea6539ed5d18/Users/wakelandbranz/Documents/UNC/UNC%202025-2026/Semester%201/Class%20Notes%20Vault/UNC-FreshmanS1Notes/MATH%20381%20-%20Crawford/Images/Homework%202.1%20&%202.2%20Venn%20Diagram.png?1759193560504)
+![[Homework 2.1 & 2.2 Venn Diagram.png]]
 
 (c) Prove or Disprove: $(A \oplus B) \cap B = B$.
 
