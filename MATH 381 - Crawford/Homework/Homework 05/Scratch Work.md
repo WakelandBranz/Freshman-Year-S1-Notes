@@ -127,7 +127,11 @@ For each $n \in \mathbb{Z}^+$, let $A_n = \left[\frac{1}{n}, 2 - \frac{n}{n+1}\r
 
 (a) $\bigcup_{n=1}^{\infty} A_n$;
 $[\frac{1}{1}, 2 - \frac{1}{2}], [\frac{1}{2}, 2 - \frac{2}{3}], [\frac{1}{3}, 2 - \frac{3}{4}], [\frac{1}{4}, 2 - \frac{4}{5}]$
-$\bigcup_{n=1}^{\infty} A_n = \{ (0, \frac{3}{2}] \}$ 
+$\bigcup_{n=1}^{\infty} A_n = (0, \frac{3}{2}]$
+
+**-PF-**
+![[2.1 & 2.2 Numline.jpeg]]
+
 
 **-PF-**
 $A_{n}$ approaches but never reaches 0 since $\frac{1}{n}$ decreases for every subsequent $n$.
