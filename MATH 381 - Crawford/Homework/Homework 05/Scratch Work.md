@@ -125,7 +125,9 @@ Define the symmetric difference of two sets $A$ and $B$, denoted $A \oplus B$, t
 #### (a) Using the identities in Section 2.2, prove that $A \oplus B = (A - B) \cup (B - A)$
 
 **-PF-**
-Assume $A \o
+Assume $A \oplus B = (A - B) \cup (B - A)$.
+By the set difference definition, $(A - B) = \{x \mid x \in A \land x \not \in B \}$.
+Because of this we can rewrite our equation as $\{  \}$
 
 
 ---
