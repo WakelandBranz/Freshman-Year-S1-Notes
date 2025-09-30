@@ -49,6 +49,9 @@ We want to show that $a \implies b \implies c \implies a$.
 9. Therefore, $A \subseteq B$.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
+
 ## Problem 2
 
 Prove or disprove: For any sets $A$, $B$, and $C$, if $A \cup B = A \cup C$, then $B = C$.
@@ -115,6 +118,9 @@ Similarly, if $x > 1$, then $1 + \frac{1}{n+1}$ eventually becomes smaller than 
 Since only $1$ belongs to every $A_n$, we have $\bigcap_{n=1}^{\infty} A_n = {1}$.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
+
 ## Problem 5
 
 Prove that if $A \subseteq B$, then $\mathcal{P}(A) \subseteq \mathcal{P}(B)$, where $\mathcal{P}(X)$ indicates the power set of the set $X$.
@@ -129,6 +135,9 @@ Therefore, $S \in \mathcal{P}(B)$.
 Since our arbitrary element $S$ worked for this scenario, it must work for all elements of $\mathcal{P}(A)$.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
+
 ## Problem 6
 
 Define the symmetric difference of two sets $A$ and $B$, denoted $A \oplus B$, to be the set containing those elements in either $A$ or $B$, but not in both $A$ and $B$.
@@ -156,10 +165,36 @@ By the Commutative Law, $(B - A) \cup (A - B) = (A - B) \cup (B - A)$.
 So, $A \oplus B = (A \cup B) - (A \cap B) = (A - B) \cup (B - A)$, thus proving that they are equivalent.
 
 (b) Sketch a Venn Diagram to represent $(A \oplus B) \cap B$.
+![Homework 2.1 & 2.2 Venn Diagram.png](app://60360f1ea3fa1612128d5ee5ea6539ed5d18/Users/wakelandbranz/Documents/UNC/UNC%202025-2026/Semester%201/Class%20Notes%20Vault/UNC-FreshmanS1Notes/MATH%20381%20-%20Crawford/Images/Homework%202.1%20&%202.2%20Venn%20Diagram.png?1759193560504)
 
 (c) Prove or Disprove: $(A \oplus B) \cap B = B$.
 
+**-PF-**
+We will use a membership table to disprove the statement $(A \oplus B) \cap B = B$.
+
+| $A$ | $B$ | $A \oplus B$ | $(A \oplus B) \cap B$ |
+| --- | --- | ------------ | --------------------- |
+| 1   | 1   | 0            | 0                     |
+| 1   | 0   | 1            | 0                     |
+| 0   | 1   | 1            | 1                     |
+| 0   | 0   | 0            | 0                     |
+Using the membership table above, we can see that when $B$ is 1, $(A \oplus B) \cap B$ is not always 1.
+This can be seen in row 1, where $B = 1$ and $(A \oplus B) \cap B = 0$.
+Therefore, $(A \oplus B) \cap B = B$ is false.
+
 ---
+<div style="page-break-after: always;"></div>
+page break above me
+
 ## Problem 7
 
 Write down all elements in the set $(A \times B) \times C$, where $A = {1, 2, 3}$, $B = {4, 5, 6}$ and $C = {7, 8}$.
+
+$A \times B = \{ (1, 4), (1, 5), (1, 6), (2, 4), (2, 5), (2, 6), (3, 4), (3, 5), (3, 6) \}$
+$$\begin{flalign}
+(A \times B) \times C = \{ &((1, 4), 7), ((1, 4), 8), ((1, 5), 7), ((1, 5), 8), ((1, 6), 7), ((1, 6), 8), &\\
+&((2, 4), 7), ((2, 4), 8), ((2, 5), 7), ((2, 5), 8), ((2, 6), 7), ((2, 6), 8), &\\
+&((3, 4), 7), ((3, 4), 8), ((3, 5), 7), ((3, 5), 8), ((3, 6), 7), ((3, 6), 8) \} &
+\end{flalign}$$
+
+---
