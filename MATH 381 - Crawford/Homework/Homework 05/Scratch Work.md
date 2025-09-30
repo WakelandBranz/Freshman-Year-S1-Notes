@@ -24,8 +24,17 @@ We want to show that $a \implies b \implies c \implies a$.
 ($b \implies c$):
 1. Assume $A \cap \overline B = \emptyset$.
 2. To show $\overline A \cup B = U$, we need to show $U \subseteq \overline A \cup B$ and $\overline A \cup B \subseteq U$.
-3. Let $x$ be an arbitrary element of $U$.
-4. 
+3. $\overline A \cup B \subseteq U$ is automatic so we only need to prove $U \subseteq \overline A \cup B$.
+4. Let $x$ be an arbitrary element of $U$.
+5. Case 1: Suppose $x \in A$.
+	- Since $A \cap \overline B = \emptyset$ and $x \in A$, we cannot have $x \in \overline B$.
+	- Therefore, $x \in B$.
+	- Thus, $x \in \overline A \cup B$.
+6. Case 2: Suppose $x \not \in A$.
+	- Since $x \not \in A$, $x \in \overline A$.
+	- Thus, $x \in \overline A \cup B$.
+7. In all cases $x \in \overline A \cup B$.
+8. Since $x$ was arbitrary, 
 
 ($c \implies a$):
 1. 
