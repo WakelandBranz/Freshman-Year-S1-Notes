@@ -99,12 +99,12 @@ For each $n \in \mathbb{Z}^+$, let $A_n = \left[\frac{1}{n}, 2 - \frac{n}{n+1}\r
 (a) $\bigcup_{n=1}^{\infty} A_n$;
 
 $[\frac{1}{1}, 2 - \frac{1}{2}], [\frac{1}{2}, 2 - \frac{2}{3}], [\frac{1}{3}, 2 - \frac{3}{4}], [\frac{1}{4}, 2 - \frac{4}{5}]$
-$\bigcup_{n=1}^{\infty} A_n = \{ (0, \frac{3}{2}] \}$ 
+$\bigcup_{n=1}^{\infty} A_n = (0, \frac{3}{2}]$
 
 **-PF-**
 $A_{n}$ approaches but never reaches 0 since $\frac{1}{n}$ decreases for every subsequent $n$.
 $A_{n}$ reaches its greatest value, $\frac{3}{2}$ when $n = 1$.
-Thus, $\bigcup_{n=1}^{\infty} A_n = \{ (0, \frac{3}{2}] \}$.
+Thus, $\bigcup_{n=1}^{\infty} A_n = (0, \frac{3}{2}]$ .
 
 (b) $\bigcap_{n=1}^{\infty} A_n$.
 
@@ -118,7 +118,7 @@ The value $1$ is in every $A_n$ since $\frac{1}{n} \leq 1 \leq 1 + \frac{1}{n+1}
 Now consider any $x \neq 1$. 
 If $x < 1$, then as $n$ increases, $\frac{1}{n}$ eventually becomes larger than $x$, so $x$ is not in $A_n$ for large enough $n$. 
 Similarly, if $x > 1$, then $1 + \frac{1}{n+1}$ eventually becomes smaller than $x$, so $x$ is not in $A_n$ for large enough $n$.
-Since only $1$ belongs to every $A_n$, we have $\bigcap_{n=1}^{\infty} A_n = {1}$.
+Since only $1$ belongs to every $A_n$, we have $\bigcap_{n=1}^{\infty} A_n = \{ 1 \}$.
 
 ---
 <div style="page-break-after: always;"></div>
