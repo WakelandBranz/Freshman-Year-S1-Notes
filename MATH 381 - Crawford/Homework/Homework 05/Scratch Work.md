@@ -135,12 +135,13 @@ Thus, $\bigcup_{n=1}^{\infty} A_n = \{ (0, \frac{3}{2}] \}$.
 
 (b) $\bigcap_{n=1}^{\infty} A_n$.
 $\bigcap_{n=1}^{\infty} A_n = \{1\}$.
-We will establish two rules.
-Firstly, $A_n$ approaches but never reaches $0$ since $\frac{1}{n}$ is an infinitely decreasing number and $0 < n \leq 1$.
-Secondly, $A_n$ approaches but never reaches $1$ since $2 - \frac{n}{n + 1}$ is an infinitely decreasing number and $1 < 2 - \frac{n}{n + 1} \leq \frac{3}{2}$.
-This establishes that our interval will never end with $1$ but it will always end with a number greater than $1.$
-Since $A_n$ starts with $[\frac{1}{1}, 2 - \frac{1}{2}]$, we can exclude all values less than 1.
-Since $A_n$ positively approaches $0$ we can exclude all values 
+First, we simplify the right endpoint: $2 - \frac{n}{n+1} = 1 + \frac{1}{n+1}$.
+So $A_n = \left[\frac{1}{n}, 1 + \frac{1}{n+1}\right]$.
+The value $1$ is in every $A_n$ since $\frac{1}{n} \leq 1 \leq 1 + \frac{1}{n+1}$ for all $n \geq 1$.
+Now consider any $x \neq 1$. 
+If $x < 1$, then as $n$ increases, $\frac{1}{n}$ eventually becomes larger than $x$, so $x$ is not in $A_n$ for large enough $n$. 
+Similarly, if $x > 1$, then $1 + \frac{1}{n+1}$ eventually becomes smaller than $x$, so $x$ is not in $A_n$ for large enough $n$.
+Since only $1$ belongs to every $A_n$, we have $\bigcap_{n=1}^{\infty} A_n = {1}$.
 
 ---
 ## Problem 5
