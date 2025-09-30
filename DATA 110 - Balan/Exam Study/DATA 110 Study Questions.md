@@ -9,7 +9,7 @@ Text = "Hello World"
 print(text.lower())
 ```
 
-a. HELLO WORLD b. hello world c. Helloworld d. The code gives an error.
+a. HELLO WORLD b. hello world c. Helloworld ===d. The code gives an error.===
 
 ---
 
@@ -23,6 +23,7 @@ if x < 10 and y > 5:
 ```
 
 **ANSWER:**
+```condition met```
 
 ---
 
