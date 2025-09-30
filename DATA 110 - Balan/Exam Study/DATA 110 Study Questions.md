@@ -66,7 +66,8 @@ What is one function you could use to help you determine whether there are entri
 Suppose that you run the code `df.head(3)`. What does this command return? How would the output change if we used `df.tail(3)` instead?
 
 **ANSWER:**
-When you run the code df.head(3), the first three rows and their corresponding data are returned.
+When you run the code df.head(3), df's first three rows and their corresponding data are returned.
+When you run the code df.tail(3), df's last three rows and their corresponding data are returned.
 
 ---
 
