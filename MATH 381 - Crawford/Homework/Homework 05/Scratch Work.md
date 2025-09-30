@@ -22,7 +22,10 @@ We want to show that $a \implies b \implies c \implies a$.
 8. Therefore our supposition was false and $A \cap \overline B = \emptyset$.
 
 ($b \implies c$):
-1. 
+1. Assume $A \cap \overline B = \emptyset$.
+2. To show $\overline A \cup B = U$, we need to show $U \subseteq \overline A \cup B$ and $\overline A \cup B \subseteq U$.
+3. Let $x$ be an arbitrary element of $U$.
+4. 
 
 ($c \implies a$):
 1. 
