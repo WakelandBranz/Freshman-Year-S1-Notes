@@ -24,8 +24,6 @@ We want to show that $a \implies b \implies c \implies a$.
 	We want to show $x \in \overline A \cup B$.
 	We can assume $x \not \in \overline A$, and show that $x \in B$. 
 	===(Because if $x \in \overline A$, then $x \in \overline A \cup B$ which proves nothing).===
-	
-	
 ($c \implies a$):
 
 **-PF- (he wrote this on the board)**
@@ -95,8 +93,6 @@ For each $n \in \mathbb{Z}^+$, let $A_n = \left[\frac{1}{n}, 2 - \frac{n}{n+1}\r
 $\left\{  \frac{1}{1}, 1 - \frac{1}{2}  \right\}, \left\{ \frac{1}{2},   \right\}$
 
 (a) $\bigcup_{n=1}^{\infty} A_n$i
-
-
 
 (b) $\bigcap_{n=1}^{\infty} A_n$.
 
