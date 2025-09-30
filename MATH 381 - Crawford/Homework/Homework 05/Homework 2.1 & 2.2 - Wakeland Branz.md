@@ -8,10 +8,58 @@ Prove that the following are equivalent for any subset $A$ and $B$ of the same u
 
 (c) $\overline{A} \cup B = U$.
 
+**-PF-**
+We want to show that $a \implies b \implies c \implies a$.
+
+($a \implies b)$: 
+1. Assume $A \subseteq B$.
+2. Suppose for contradiction that $A \cap \overline B \neq \emptyset$.
+3. Then there exists some element $x$ such that $x \in A \cap \overline B$.
+4. By definition of intersection, $x \in A$ and $x \in \overline B$.
+5. Since $x \in \overline B$, by definition of the complement we know $x \not \in B$.
+6. But since $A \subseteq B$ and $x \in A$, we must have $x \in B$.
+7. This is a contradiction, as we now have $x \in B$ and $x \not \in B$.
+8. Therefore our supposition was false and $A \cap \overline B = \emptyset$.
+
+($b \implies c$):
+1. Assume $A \cap \overline B = \emptyset$.
+2. To show $\overline A \cup B = U$, we need to show $U \subseteq \overline A \cup B$ and $\overline A \cup B \subseteq U$.
+3. $\overline A \cup B \subseteq U$ is automatic so we only need to prove $U \subseteq \overline A \cup B$.
+4. Let $x$ be an arbitrary element of $U$.
+5. Case 1: Suppose $x \in A$.
+	- Since $A \cap \overline B = \emptyset$ and $x \in A$, we cannot have $x \in \overline B$.
+	- Since $x \not \in \overline B$, $x \in B$.
+	- Thus, $x \in \overline A \cup B$.
+6. Case 2: Suppose $x \not \in A$.
+	- Since $x \not \in A$, $x \in \overline A$.
+	- Thus, $x \in \overline A \cup B$.
+7. In all cases $x \in \overline A \cup B$.
+8. Since $x$ was arbitrary, $U \subseteq \overline A \cup B$.
+9. Therefore, $\overline A \cup B = U$.
+
+($c \implies a$):
+1. Assume $\overline A \cup B = U$.
+2. Let $x$ be an arbitrary element of $A$.
+3. Since $x \in A$ and $A \subseteq U$, we have $x \in U$.
+4. Since $\overline A \cup B = U$, we know $x \in \overline A \cup B$.
+5. By definition of union, $x \in \overline A$ or $x \in B$.
+6. Since $x \in A$, $x \not \in \overline A$.
+7. Therefore $x$ must be an element of $B$.
+8. Since $x$ was arbitrary, every element of $A$ must be in $B$.
+9. Therefore, $A \subseteq B$.
+
 ---
 ## Problem 2
 
 Prove or disprove: For any sets $A$, $B$, and $C$, if $A \cup B = A \cup C$, then $B = C$.
+
+**-PF-**
+We will assume that for any sets $A$, $B$, and $C$, if $A \cup B = A \cup C$, then $B = C$.
+We will disprove this using a counterexample.
+Let $A = \{ 1, 2, 3, 4 \}$, $B = \{ 2, 3 \}$, and $C = \{ 3, 4 \}$.
+In this case, $A \cup B = \{ 1, 2, 3, 4 \}$ and $A \cup C = \{ 1, 2, 3, 4 \}$.
+Despite the fact that $A \cup B = A \cup C$, $B$ and $C$ are not equivalent.
+Thus we disprove that, for any sets $A$, $B$, and $C$, if $A \cup B = A \cup C$, then $B = C$.
 
 ---
 ## Problem 3
