@@ -155,7 +155,7 @@ d. Extra Large (XL)
 
 The owner of the store is considering a move to online-only. Based on the bar chart shown below, do you think that this is a good idea? Why or why not?
 
-**ANSWER:** No, this is not a good idea. The bar chart shown below indicates a trend that depicts the store's Online storefront gets the least sales of the different s
+**ANSWER:** No, this is not a good idea. The bar chart shown below indicates a trend that depicts the store's Online storefront gets the least sales of the different categories of storefronts. If the owner were to move to online-only, then the business owner would likely make less money than they are now because their sales would decrease tremendously.
 
 ![[Pasted image 20250929203334.png]]
 
@@ -165,7 +165,10 @@ The owner of the store is considering a move to online-only. Based on the bar ch
 
 Which most closely describes the distribution of age?
 
-a. Skewed to the Left b. Symmetric c. Skewed to the Right d. Bi-modal
+a. Skewed to the Left 
+===b. Symmetric ===
+c. Skewed to the Right 
+d. Bi-modal
 
 ![[Pasted image 20250929203318.png]]
 
@@ -175,7 +178,7 @@ a. Skewed to the Left b. Symmetric c. Skewed to the Right d. Bi-modal
 
 What would be the best measure of center for describing the distribution of price (mean, median or mode)? Why?
 
-**ANSWER:**
+**ANSWER:** Median is the best measure of center for describing the distribution of price. The data is skewed with 
 
 ![[Pasted image 20250929203311.png]]
 
