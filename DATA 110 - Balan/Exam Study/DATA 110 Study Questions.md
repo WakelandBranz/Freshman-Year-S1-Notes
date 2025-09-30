@@ -203,6 +203,6 @@ d. Both a and b.
 
 The store owner is still considering a move to online only. He decides to compare the revenue from each store location to try to determine if there are any differences in the sales across the two brick and mortar stores and the online store. What conclusions can you reach based on the comparative boxplot below?
 
-**ANSWER:** Both mall and downtown store locations have a median value that is greater than that of online stores. Furthermore, there are outliers present that drive significant revenue in both downtown and mall store locations but not in the online store. This indicates that it 
+**ANSWER:** Both mall and downtown store locations have a median value that is greater than that of online stores. Furthermore, there are outliers present that drive significant revenue in both downtown and mall store locations but not in the online store. This indicates that it would not be a positive move to switch to an online-only store model.
 
 ![[Pasted image 20250929203219.png]]
