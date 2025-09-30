@@ -45,7 +45,7 @@ We want to show that $a \implies b \implies c \implies a$.
 5. By definition of union, $x \in \overline A$ or $x \in B$.
 6. Since $x \in A$, $x \not \in \overline A$.
 7. Therefore $x$ must be an element of $B$.
-8. Since $x \in A$ and $x \in B$, every element of $A$ must be in $B$.
+8. Since $x$ was arbitrary, every element of $A$ must be in $B$.
 9. Therefore, $A \subseteq B$.
 
 **-PF-** ===he wrote this on the board===
