@@ -133,7 +133,7 @@ So, $\frac{1}{n} \leq x \space \forall n$ and $x \leq 1 + \frac{1}{n + 1}$.
 So, $x \geq 1$ and $x \leq \\lim_{ n \to \infty } 1 + \frac{1}{n + 1}$.
 So, $x \geq 1$ and $x \leq 1$.
 Therefore $x = 1$.
-Therefore $\bigcap_{n=1}^{\infty} A_n$
+Therefore $\bigcap_{n=1}^{\infty} A_n = \{ 1 \}$.
 
 ---
 ## Problem 5
