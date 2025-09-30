@@ -137,10 +137,13 @@ Applying the definition of set differences we get $(A \cup B) - (A \cap B) = (A 
 Applying DeMorgan's Law, we get $(A \cup B) \cap \overline{(A \cap B)} = (A \cup B) \cap (\overline A \cup \overline B)$.
 Applying the Distributive Law, we get $(A \cup B) \cap (\overline A \cup \overline B) = ((A \cup B) \cap \overline A) \cup ((A \cup B) \cap \overline B)$.
 Applying the Associative Law to each side of the equation we get $(\overline A \cap (A \cup B)) \cup (\overline B \cap (A \cup B))$.
-Applying the Distributive Law again but individually to each side, we get the following.
-$(\overline A \cap (A \cup B)) = (\overline A \cap A) \cup (\overline A \cap B) = \emptyset \cup (\overline A \cap B)$.
-By the Identity Law, $\emptyset \cup (\overline A \cap B) = (\overline A \cap B)$.
-By the definition of set differences this 
+Applying the Distributive Law to the left side of the equation we get the following.
+$(\overline A \cap (A \cup B)) = (\overline A \cap A) \cup (\overline A \cap B)$.
+By the Complement Law, $(\overline A \cap A) \cup (\overline A \cap B) = \emptyset \cup (\overline A \cap B)$
+By the Identity Law, $\emptyset \cup (\overline A \cap B) = \overline A \cap B$.
+By the Associative Law $\overline A \cap B = B \cap \overline A$.
+By the definition of set differences $B \cap \overline A = B - A$.
+$(\overline B \cap (A \cup B)) = 
 
 ---
 
