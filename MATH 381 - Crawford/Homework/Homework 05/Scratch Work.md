@@ -133,7 +133,7 @@ This translates to $A \oplus B = (A \cup B) - (A \cap B)$.
 
 #### (b) Sketch a Venn Diagram to represent $(A \oplus B) \cap B$.
 
-[thing](obsidian://open?vault=UNC-FreshmanS1Notes&file=Excalidraw%2FVenn%20Diagram%202.1%20%26%202.2%20Problem%206%20Part%20B)
+[thing](obsidian://open?vault=UNC-FreshmanS1Notes&file=MATH%20381%20-%20Crawford%2FImages%2FVenn%20Diagram%202.1%20%26%202.2%20Problem%206%20Part%20B)
 
 ---
 
