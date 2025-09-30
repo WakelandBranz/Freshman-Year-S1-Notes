@@ -84,7 +84,8 @@ A small chain of retail stores sells t-shirts featuring popular music artists (T
 
 Before beginning your analysis, you run `df.info()` and `df.head()`. This produces the following output:
 
-![Screenshot of df.info() and df.head() output](media/image1.png)
+![[Pasted image 20250929203410.png]]
+![[Pasted image 20250929203401.png]]
 
 ---
 
@@ -134,7 +135,7 @@ Based on the bar chart shown below, what is the mode of the distribution of shir
 
 a. Small (S) b. Medium (M) c. Large (L) d. Extra Large (XL)
 
-![Bar chart of shirt size distribution](media/image2.png)
+![[Pasted image 20250929203339.png]]
 
 ---
 
@@ -144,7 +145,7 @@ The owner of the store is considering a move to online-only. Based on the bar ch
 
 **ANSWER:**
 
-![Bar chart of store location distribution](media/image3.png)
+![[Pasted image 20250929203334.png]]
 
 ---
 
@@ -154,7 +155,7 @@ Which most closely describes the distribution of age?
 
 a. Skewed to the Left b. Symmetric c. Skewed to the Right d. Bi-modal
 
-![Histogram of customer age distribution](media/image4.png)
+![[Pasted image 20250929203318.png]]
 
 ---
 
@@ -164,7 +165,7 @@ What would be the best measure of center for describing the distribution of pric
 
 **ANSWER:**
 
-![Histogram of sales price distribution](media/image5.png)
+![[Pasted image 20250929203311.png]]
 
 ---
 
@@ -172,7 +173,7 @@ What would be the best measure of center for describing the distribution of pric
 
 Consider the boxplot illustrating the distribution of sales price:
 
-![Boxplot of sales price distribution](media/image6.png)
+![[Pasted image 20250929203230.png]]
 
 Which of the following statements is true of this distribution?
 
@@ -186,4 +187,4 @@ The store owner is still considering a move to online only. He decides to compar
 
 **ANSWER:**
 
-![Comparative boxplot of revenue by store location](media/image7.png)
+![[Pasted image 20250929203219.png]]
