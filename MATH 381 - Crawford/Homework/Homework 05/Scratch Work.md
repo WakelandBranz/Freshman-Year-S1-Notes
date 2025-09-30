@@ -138,7 +138,9 @@ $\bigcap_{n=1}^{\infty} A_n = \{1\}$.
 We will establish two rules.
 Firstly, $A_n$ approaches but never reaches $0$ since $\frac{1}{n}$ is an infinitely decreasing number and $0 < n \leq 1$.
 Secondly, $A_n$ approaches but never reaches $1$ since $2 - \frac{n}{n + 1}$ is an infinitely decreasing number and $1 < 2 - \frac{n}{n + 1} \leq \frac{3}{2}$.
-This establishes that our interval will never end with $1$ but it will end with a number greater than $1,$ 
+This establishes that our interval will never end with $1$ but it will always end with a number greater than $1.$
+Since $A_n$ starts with $[\frac{1}{1}, 2 - \frac{1}{2}]$, we can exclude all values less than 1.
+Since $A_n$ positively approaches $0$ we can exclude all values 
 
 ---
 ## Problem 5
