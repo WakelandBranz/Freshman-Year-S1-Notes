@@ -125,9 +125,10 @@ Therefore, the relationship between $X$ and $Y$ is that $Y$ is a proper subset o
 
 For each $n \in \mathbb{Z}^+$, let $A_n = \left[\frac{1}{n}, 2 - \frac{n}{n+1}\right] \subset \mathbb{R}$. Find, and prove, the sets:
 
-$[\frac{1}{1}, 2 - \frac{1}{2}], [\frac{1}{2}, 2 - \frac{2}{3}], [\frac{1}{3}, 2 - \frac{3}{4}], [\frac{1}{4}, ]
+$[\frac{1}{1}, 2 - \frac{1}{2}], [\frac{1}{2}, 2 - \frac{2}{3}], [\frac{1}{3}, 2 - \frac{3}{4}], [\frac{1}{4}, 2 - \frac{4}{5}]$
 
-(a) $\bigcup_{n=1}^{\infty} A_n$i
+(a) $\bigcup_{n=1}^{\infty} A_n$;
+
 
 (b) $\bigcap_{n=1}^{\infty} A_n$.
 
