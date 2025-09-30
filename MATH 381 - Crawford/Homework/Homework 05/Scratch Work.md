@@ -136,8 +136,9 @@ Assume $A \oplus B = (A \cup B) - (A \cap B)$.
 Applying the definition of set differences we get $(A \cup B) - (A \cap B) = (A \cup B) \cap \overline{(A \cap B)}$.
 Applying DeMorgan's Law, we get $(A \cup B) \cap \overline{(A \cap B)} = (A \cup B) \cap (\overline A \cup \overline B)$.
 Applying the Distributive Law, we get $(A \cup B) \cap (\overline A \cup \overline B) = ((A \cup B) \cap \overline A) \cup ((A \cup B) \cap \overline B)$.
+Applying the Associative Law to each side of the equation we get $(\overline A \cap (A \cup B)) \cup (\overline B \cap (A \cup B))$.
 Applying the Distributive Law again but individually to each side, we get the following.
-$((A \cup B) \cap \overline A) = ()$
+$(\overline A \cap (A \cup B))$
 
 ---
 
