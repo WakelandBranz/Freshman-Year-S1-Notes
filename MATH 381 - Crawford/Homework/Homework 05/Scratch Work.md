@@ -127,7 +127,10 @@ Define the symmetric difference of two sets $A$ and $B$, denoted $A \oplus B$, t
 **-PF-**
 Assume $A \oplus B = (A - B) \cup (B - A)$.
 By the set difference definition, $(A - B) = \{x \mid x \in A \land x \not \in B \}$.
-Because of this we can rewrite our equation as $\{  \}$
+So, we can rewrite our equation as $\{ x \mid x \in A \land x \not \in B \} \cup (B - A)$.
+By the set difference definition, $(B - A) = \{ x \mid x \in B \land x \not \in A \}$.
+So, we can rewrite our equation as $\{ x \mid x \in A \land x \not \in B \} \cup \{ x \mid x \in B \land x \not \in A \}$.
+This tells us that 
 
 
 ---
