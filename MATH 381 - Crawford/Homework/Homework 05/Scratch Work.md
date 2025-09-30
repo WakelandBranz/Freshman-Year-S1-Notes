@@ -125,16 +125,20 @@ Therefore, the relationship between $X$ and $Y$ is that $Y$ is a proper subset o
 
 For each $n \in \mathbb{Z}^+$, let $A_n = \left[\frac{1}{n}, 2 - \frac{n}{n+1}\right] \subset \mathbb{R}$. Find, and prove, the sets:
 
-$[\frac{1}{1}, 2 - \frac{1}{2}], [\frac{1}{2}, 2 - \frac{2}{3}], [\frac{1}{3}, 2 - \frac{3}{4}], [\frac{1}{4}, 2 - \frac{4}{5}]$
-
 (a) $\bigcup_{n=1}^{\infty} A_n$;
+$[\frac{1}{1}, 2 - \frac{1}{2}], [\frac{1}{2}, 2 - \frac{2}{3}], [\frac{1}{3}, 2 - \frac{3}{4}], [\frac{1}{4}, 2 - \frac{4}{5}]$
 $\bigcup_{n=1}^{\infty} A_n = \{ (0, \frac{3}{2}] \}$ 
+
+**-PF-**
 $A_{n}$ approaches but never reaches 0 since $\frac{1}{n}$ decreases for every subsequent $n$.
 $A_{n}$ reaches its greatest value, $\frac{3}{2}$ when $n = 1$.
 Thus, $\bigcup_{n=1}^{\infty} A_n = \{ (0, \frac{3}{2}] \}$.
 
 (b) $\bigcap_{n=1}^{\infty} A_n$.
+$[\frac{1}{1}, 2 - \frac{1}{2}], [\frac{1}{2}, 2 - \frac{2}{3}], [\frac{1}{3}, 2 - \frac{3}{4}], [\frac{1}{4}, 2 - \frac{4}{5}]$
 $\bigcap_{n=1}^{\infty} A_n = \{1\}$.
+
+**-PF-**
 First, we simplify the right endpoint: $2 - \frac{n}{n+1} = 1 + \frac{1}{n+1}$.
 So $A_n = \left[\frac{1}{n}, 1 + \frac{1}{n+1}\right]$.
 The value $1$ is in every $A_n$ since $\frac{1}{n} \leq 1 \leq 1 + \frac{1}{n+1}$ for all $n \geq 1$.

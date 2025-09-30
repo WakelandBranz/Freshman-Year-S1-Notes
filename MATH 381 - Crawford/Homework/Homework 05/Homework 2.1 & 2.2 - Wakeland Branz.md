@@ -66,6 +66,25 @@ Thus we disprove that, for any sets $A$, $B$, and $C$, if $A \cup B = A \cup C$,
 
 Determine and prove the relationship between $X = A \cup (B \cap C)$ and $Y = A \cap (B \cup C)$, where $A$, $B$, and $C$ are any subset of the same universe $U$.
 
+**-PF-**
+Assume $A$, $B$, and $C$, are any subset of the same universe $U$.
+We will use a membership table to determine a relationship between $X$ and $Y$.
+
+| $A$ | $B$ | $C$ | $B \cap C$ | $(X) \text{ }A \cup (B \cap C)$ | $B \cup C$ | $A \cap (B \cup C)$ |
+| --- | --- | --- | ---------- | ------------------------------- | ---------- | ------------------- |
+| 1   | 1   | 1   | 1          | 1                               | 1          | 1                   |
+| 1   | 1   | 0   | 0          | 1                               | 1          | 1                   |
+| 1   | 0   | 0   | 0          | 1                               | 0          | 0                   |
+| 0   | 0   | 0   | 0          | 0                               | 0          | 0                   |
+| 0   | 0   | 1   | 0          | 0                               | 1          | 0                   |
+| 0   | 1   | 1   | 1          | 1                               | 1          | 0                   |
+| 1   | 0   | 1   | 0          | 1                               | 1          | 1                   |
+| 0   | 1   | 0   | 0          | 0                               | 1          | 0                   |
+
+Using the membership table above, we can see that every time $Y$ is 1, $X$ is also 1, but it is not true that every time $X$ is 1, $Y$ is also 1.
+By the definition of a proper subset, we can see that $Y \subseteq X$ but $Y \neq X$.
+Therefore, the relationship between $X$ and $Y$ is that $Y$ is a proper subset of $X$.
+
 ---
 ## Problem 4
 
@@ -73,12 +92,41 @@ For each $n \in \mathbb{Z}^+$, let $A_n = \left[\frac{1}{n}, 2 - \frac{n}{n+1}\r
 
 (a) $\bigcup_{n=1}^{\infty} A_n$;
 
+$[\frac{1}{1}, 2 - \frac{1}{2}], [\frac{1}{2}, 2 - \frac{2}{3}], [\frac{1}{3}, 2 - \frac{3}{4}], [\frac{1}{4}, 2 - \frac{4}{5}]$
+$\bigcup_{n=1}^{\infty} A_n = \{ (0, \frac{3}{2}] \}$ 
+
+**-PF-**
+$A_{n}$ approaches but never reaches 0 since $\frac{1}{n}$ decreases for every subsequent $n$.
+$A_{n}$ reaches its greatest value, $\frac{3}{2}$ when $n = 1$.
+Thus, $\bigcup_{n=1}^{\infty} A_n = \{ (0, \frac{3}{2}] \}$.
+
 (b) $\bigcap_{n=1}^{\infty} A_n$.
+
+$[\frac{1}{1}, 2 - \frac{1}{2}], [\frac{1}{2}, 2 - \frac{2}{3}], [\frac{1}{3}, 2 - \frac{3}{4}], [\frac{1}{4}, 2 - \frac{4}{5}]$
+$\bigcap_{n=1}^{\infty} A_n = \{1\}$.
+
+**-PF-**
+First, we simplify the right endpoint: $2 - \frac{n}{n+1} = 1 + \frac{1}{n+1}$.
+So $A_n = \left[\frac{1}{n}, 1 + \frac{1}{n+1}\right]$.
+The value $1$ is in every $A_n$ since $\frac{1}{n} \leq 1 \leq 1 + \frac{1}{n+1}$ for all $n \geq 1$.
+Now consider any $x \neq 1$. 
+If $x < 1$, then as $n$ increases, $\frac{1}{n}$ eventually becomes larger than $x$, so $x$ is not in $A_n$ for large enough $n$. 
+Similarly, if $x > 1$, then $1 + \frac{1}{n+1}$ eventually becomes smaller than $x$, so $x$ is not in $A_n$ for large enough $n$.
+Since only $1$ belongs to every $A_n$, we have $\bigcap_{n=1}^{\infty} A_n = {1}$.
 
 ---
 ## Problem 5
 
 Prove that if $A \subseteq B$, then $\mathcal{P}(A) \subseteq \mathcal{P}(B)$, where $\mathcal{P}(X)$ indicates the power set of the set $X$.
+
+**-PF-**
+Assume $A \subseteq B$.
+Let $S \in \mathcal{P}(A)$. 
+We want to show $S \in \mathcal{P}(B$).
+Since $S \in \mathcal{P}(A)$, we know that $S \subseteq A$.
+Since $A \subseteq B$ and $S \subseteq A$, we know by hypothetical syllogism that $S \subseteq B$.
+Therefore, $S \in \mathcal{P}(B)$.
+Since our arbitrary element $S$ worked for this scenario, it must work for all elements of $\mathcal{P}(A)$.
 
 ---
 ## Problem 6
@@ -86,6 +134,26 @@ Prove that if $A \subseteq B$, then $\mathcal{P}(A) \subseteq \mathcal{P}(B)$, w
 Define the symmetric difference of two sets $A$ and $B$, denoted $A \oplus B$, to be the set containing those elements in either $A$ or $B$, but not in both $A$ and $B$.
 
 (a) Using the identities in Section 2.2, prove that $A \oplus B = (A - B) \cup (B - A)$.
+
+**-PF-**
+From the definition, $A \oplus B = (A \cup B) - (A \cap B)$.
+Applying the definition of set differences we get $(A \cup B) - (A \cap B) = (A \cup B) \cap \overline{(A \cap B)}$.
+Applying DeMorgan's Law, we get $(A \cup B) \cap \overline{(A \cap B)} = (A \cup B) \cap (\overline A \cup \overline B)$.
+Applying the Distributive Law, we get $(A \cup B) \cap (\overline A \cup \overline B) = ((A \cup B) \cap \overline A) \cup ((A \cup B) \cap \overline B)$.
+Applying the Associative Law to each side of the equation we get $(\overline A \cap (A \cup B)) \cup (\overline B \cap (A \cup B))$.
+Applying the Distributive Law to the left side of the equation we get the following: $(\overline A \cap (A \cup B)) = (\overline A \cap A) \cup (\overline A \cap B)$.
+By the Complement Law, $(\overline A \cap A) \cup (\overline A \cap B) = \emptyset \cup (\overline A \cap B)$.
+By the Identity Law, $\emptyset \cup (\overline A \cap B) = \overline A \cap B$.
+By the Commutative Law $\overline A \cap B = B \cap \overline A$.
+By the definition of set differences, $B \cap \overline A = B - A$.
+Applying the Distributive Law to the right side of the equation we get the following: $(\overline B \cap (A \cup B)) = (\overline B \cap A) \cup (\overline B \cap B)$.
+By the Complement Law, $(\overline B \cap A) \cup (\overline B \cap B) = (\overline B \cap A) \cup \emptyset$.
+By the Identity Law, $(\overline B \cap A) \cup \emptyset = \overline B \cap A$.
+By the Commutative Law, $\overline B \cap A = A \cap \overline B$.
+By the definition of set differences, $A \cap \overline B = A - B$.
+So, $A \oplus B = (B - A) \cup (A - B)$.
+By the Commutative Law, $(B - A) \cup (A - B) = (A - B) \cup (B - A)$.
+So, $A \oplus B = (A \cup B) - (A \cap B) = (A - B) \cup (B - A)$, thus proving that they are equivalent.
 
 (b) Sketch a Venn Diagram to represent $(A \oplus B) \cap B$.
 
