@@ -135,7 +135,8 @@ Thus, $\bigcup_{n=1}^{\infty} A_n = \{ (0, \frac{3}{2}] \}$.
 
 (b) $\bigcap_{n=1}^{\infty} A_n$.
 $\bigcap_{n=1}^{\infty} A_n = \{1\}$.
-$A_{n}$ approaches but never reaches $1$ as $n$ increases
+$A_{n}$ approaches but never reaches $1$ as $n$ increases.
+Furthermore, $A_{N}$
 
 ---
 ## Problem 5
