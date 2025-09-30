@@ -28,16 +28,20 @@ We want to show that $a \implies b \implies c \implies a$.
 4. Let $x$ be an arbitrary element of $U$.
 5. Case 1: Suppose $x \in A$.
 	- Since $A \cap \overline B = \emptyset$ and $x \in A$, we cannot have $x \in \overline B$.
-	- Therefore, $x \in B$.
+	- Since $x \not \in \overline B$, $x \in B$.
 	- Thus, $x \in \overline A \cup B$.
 6. Case 2: Suppose $x \not \in A$.
 	- Since $x \not \in A$, $x \in \overline A$.
 	- Thus, $x \in \overline A \cup B$.
 7. In all cases $x \in \overline A \cup B$.
-8. Since $x$ was arbitrary, 
+8. Since $x$ was arbitrary, $U \subseteq \overline A \cup B$.
+9. Therefore, $\overline A \cup B = U$.
 
 ($c \implies a$):
-1. 
+1. Assume $\overline A \cup B = U$.
+2. Let $x$ be an arbitrary element of $A$.
+3. Since $x \in A$ and $A \subseteq U$, we have $x \in U$.
+4. 
 
 **-PF-** ===he wrote this on the board===
 We want to show that $a \implies b \implies c \implies a$.
