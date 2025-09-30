@@ -35,7 +35,10 @@ What does this code return?
 df.isna().sum()
 ```
 
-a. Total number of rows in the dataframe b. Number of missing values for each column in the dataframe c. Number of non-missing values for each column in the dataframe d. Number of unique values for each column in the dataframe
+a. Total number of rows in the dataframe 
+===b. Number of missing values for each column in the dataframe=== 
+c. Number of non-missing values for each column in the dataframe 
+d. Number of unique values for each column in the dataframe
 
 ---
 
@@ -43,7 +46,9 @@ a. Total number of rows in the dataframe b. Number of missing values for each co
 
 In Pandas, `df.info()` can be used to generate:
 
-a. Summary statistics for each numeric column b. Data types and non-null counts for each column c. Frequency counts for each categorical column
+===a. Summary statistics for each numeric column=== 
+b. Data types and non-null counts for each column 
+c. Frequency counts for each categorical column
 
 ---
 
@@ -52,6 +57,7 @@ a. Summary statistics for each numeric column b. Data types and non-null counts 
 What is one function you could use to help you determine whether there are entries that have been miscoded or misspelled for a categorical column in a data frame?
 
 **ANSWER:**
+***don't know***
 
 ---
 
@@ -60,6 +66,7 @@ What is one function you could use to help you determine whether there are entri
 Suppose that you run the code `df.head(3)`. What does this command return? How would the output change if we used `df.tail(3)` instead?
 
 **ANSWER:**
+When you run the code df.head(3), the first three rows and their corresponding data are returned.
 
 ---
 
