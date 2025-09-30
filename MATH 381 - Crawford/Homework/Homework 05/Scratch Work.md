@@ -8,6 +8,29 @@ Prove that the following are equivalent for any subset $A$ and $B$ of the same u
 
 (c) $\overline{A} \cup B = U$.
 
+**-PF-**
+We want to show that $a \implies b \implies c \implies a$.
+($a \implies b)$: 
+	Assume that $A \subseteq B$. 
+	We want to show that $A \cap \overline B = \emptyset$.
+	We show containment both ways.
+	We wrote $\emptyset \subseteq A \cap \overline B$ since $\emptyset$ is a subset of every set.
+	To show $A \cap \overline B \subseteq \emptyset$, it suffices to show there does not exist any element in $A \cap \overline B$.
+	Assume $x \in A \cap \overline B$, then $x \in \{ y \mid y \in A \cap y \not \in B \}$.
+	But since $A \subseteq B$, there are no elements in $A$ and not in $B$. 
+	This contradicts $x$'s existence.
+	So $x$ cannot exist. 
+	So $A \cap \overline B \subseteq \emptyset \implies A \cap \overline B = \emptyset$.
+($b \implies c$):
+	
+($c \implies a$):
+
+**-PF-**
+We want to show that $a \implies b \implies c \implies a$.
+($a \implies b)$: 
+($b \implies c$):
+($c \implies a$):
+
 **-PF (on the right track but wrong)-**
 We want to show that $a \implies b \implies c \implies a$.
 ($a \implies b)$: 
@@ -24,28 +47,6 @@ We want to show that $a \implies b \implies c \implies a$.
 	We want to show $x \in \overline A \cup B$.
 	We can assume $x \not \in \overline A$, and show that $x \in B$. 
 	===(Because if $x \in \overline A$, then $x \in \overline A \cup B$ which proves nothing).===
-($c \implies a$):
-
-**-PF- (he wrote this on the board)**
-We want to show that $a \implies b \implies c \implies a$.
-($a \implies b)$: 
-	Assume that $A \subseteq B$. 
-	We want to show that $A \cap \overline B = \emptyset$.
-	We show containment both ways.
-	We wrote $\emptyset \subseteq A \cap \overline B$ since $\emptyset$ is a subset of every set.
-	To show $A \cap \overline B \subseteq \emptyset$, it suffices to show there does not exist any element in $A \cap \overline B$.
-	Assume $x \in A \cap \overline B$, then $x \in \{ y \mid y \in A \cap y \not \in B \}$.
-	But since $A \subseteq B$, there are no elements in $A$ and not in $B$. 
-	This contradicts $x$'s existence.
-	So $x$ cannot exist. 
-	So $A \cap \overline B \subseteq \emptyset \implies A \cap \overline B = \emptyset$.
-($b \implies c$):
-($c \implies a$):
-
-**-PF-**
-We want to show that $a \implies b \implies c \implies a$.
-($a \implies b)$: 
-($b \implies c$):
 ($c \implies a$):
 
 ---
