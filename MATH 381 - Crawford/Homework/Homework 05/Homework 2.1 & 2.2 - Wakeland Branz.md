@@ -126,23 +126,14 @@ $[\frac{1}{1}, 2 - \frac{1}{2}], [\frac{1}{2}, 2 - \frac{2}{3}], [\frac{1}{3}, 2
 $\bigcap_{n=1}^{\infty} A_n = \{1\}$.
 
 **-PF-**
-Let $x \in \bigcup^\infty_{n=1} A_n$ and $A_n = [\frac{1}{n}, 1 + \frac{1}{n + 1}]$.
+Let $\bigcap_{n=1}^{\infty} A_n$ and $A_n = [\frac{1}{n}, 1 + \frac{1}{n + 1}]$.
 So, $x \in A_n \forall n$.
 So, $\frac{1}{n} \leq x \leq 1 + \frac{1}{n + 1} \forall n$.
 So, $\frac{1}{n} \leq x \space \forall n$ and $x \leq 1 + \frac{1}{n + 1}$.
 So, $x \geq 1$ and $x \leq \\lim_{ n \to \infty } 1 + \frac{1}{n + 1}$.
 So, $x \geq 1$ and $x \leq 1$.
 Therefore $x = 1$.
-Therefore $\bigcup^\infty_{n=1} A_n = \{ 1 \}.$
-
-**-OLD OLD OLD PF-**
-First, we simplify the right endpoint: $2 - \frac{n}{n+1} = 1 + \frac{1}{n+1}$.
-So $A_n = \left[\frac{1}{n}, 1 + \frac{1}{n+1}\right]$.
-The value $1$ is in every $A_n$ since $\frac{1}{n} \leq 1 \leq 1 + \frac{1}{n+1}$ for all $n \geq 1$.
-Now consider any $x \neq 1$. 
-If $x < 1$, then as $n$ increases, $\frac{1}{n}$ eventually becomes larger than $x$, so $x$ is not in $A_n$ for large enough $n$. 
-Similarly, if $x > 1$, then $1 + \frac{1}{n+1}$ eventually becomes smaller than $x$, so $x$ is not in $A_n$ for large enough $n$.
-Since only $1$ belongs to every $A_n$, we have $\bigcap_{n=1}^{\infty} A_n = \{ 1 \}$.
+Therefore $\bigcap_{n=1}^{\infty} A_n$
 
 ---
 <div style="page-break-after: always;"></div>
