@@ -102,7 +102,7 @@ Before beginning your analysis, you run `df.info()` and `df.head()`. This produc
 
 How many rows are in the data set?
 
-**ANSWER:**
+**ANSWER:** 200 rows are in the data set
 
 ---
 
@@ -110,7 +110,7 @@ How many rows are in the data set?
 
 Do any of the columns have missing values? How can you tell?
 
-**ANSWER:**
+**ANSWER:** No, none of the columns have missing values. This is because the output of df.info() indicates that there are 200 non-null values for each column, meaning that every one of the 9 columns have all of their 200 rows filled in completely.
 
 ---
 
@@ -118,7 +118,7 @@ Do any of the columns have missing values? How can you tell?
 
 Should artist be treated as nominal, ordinal, or interval?
 
-**ANSWER:**
+**ANSWER:** Nominal?
 
 ---
 
