@@ -11,12 +11,16 @@ Prove that the following are equivalent for any subset $A$ and $B$ of the same u
 **-PF-**
 We want to show that $a \implies b \implies c \implies a$.
 ($a \implies b)$: 
-	1. Assume $A \subseteq B$.
-	2. Suppose for contradiction that $A \cap \overline B \neq \emptyset$.
-	3. Then there exists some element $x$ such that $x \in A \cap \overline B$.
-	4. By definition of intersection, $x \in A$ and $x \in \overline B$.
-	5. Since $x \
+1. Assume $A \subseteq B$.
+2. Suppose for contradiction that $A \cap \overline B \neq \emptyset$.
+3. Then there exists some element $x$ such that $x \in A \cap \overline B$.
+4. By definition of intersection, $x \in A$ and $x \in \overline B$.
+5. Since $x \in \overline B$, by definition of the complement we know $x \not \in B$.
+6. But since $A \subseteq B$ and $x \in A$, we must have $x \in B$.
+7. This is a contradiction, as we now have $x \in B$ and $x \not \in B$.
+8. Therefore our supposition was false and $A \cap \overline B = \emptyset$.
 ($b \implies c$):
+9. 
 ($c \implies a$):
 
 **-PF-** ===he wrote this on the board===
