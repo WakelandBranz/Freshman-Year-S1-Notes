@@ -178,7 +178,7 @@ d. Bi-modal
 
 What would be the best measure of center for describing the distribution of price (mean, median or mode)? Why?
 
-**ANSWER:** Median is the best measure of center for describing the distribution of price. The data is skewed with 
+**ANSWER:** Median is the best measure of center for describing the distribution of price. The data is not nominal so mode would not be a good measure of center. The data is heavily skewed with outliers so mean is also not a good measure of center.
 
 ![[Pasted image 20250929203311.png]]
 
@@ -192,7 +192,10 @@ Consider the boxplot illustrating the distribution of sales price:
 
 Which of the following statements is true of this distribution?
 
-a. There are outliers present in the distribution. b. 50% of sales prices are greater than $25. c. 50% of the sales prices are less than $15. d. Both a and b.
+===a. There are outliers present in the distribution. ===
+b. 50% of sales prices are greater than $25. 
+c. 50% of the sales prices are less than $15. 
+d. Both a and b.
 
 ---
 
@@ -200,6 +203,6 @@ a. There are outliers present in the distribution. b. 50% of sales prices are gr
 
 The store owner is still considering a move to online only. He decides to compare the revenue from each store location to try to determine if there are any differences in the sales across the two brick and mortar stores and the online store. What conclusions can you reach based on the comparative boxplot below?
 
-**ANSWER:**
+**ANSWER:** Both mall and downtown store locations have a median value that is greater than that of online stores. Furthermore, there are outliers present that drive significant revenue in both downtown and mall store locations but not in the online store. This indicates that it 
 
 ![[Pasted image 20250929203219.png]]
