@@ -41,7 +41,11 @@ We want to show that $a \implies b \implies c \implies a$.
 1. Assume $\overline A \cup B = U$.
 2. Let $x$ be an arbitrary element of $A$.
 3. Since $x \in A$ and $A \subseteq U$, we have $x \in U$.
-4. 
+4. Since $\overline A \cup B = U$, we know $x \in \overline A \cup B$.
+5. By definition of union, $x \in \overline A$ or $x \in B$.
+6. Since $x \in A$, $x \not \in \overline A$.
+7. Therefore $x$ must be an element of $B$.
+8. 
 
 **-PF-** ===he wrote this on the board===
 We want to show that $a \implies b \implies c \implies a$.
