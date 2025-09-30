@@ -133,6 +133,8 @@ This tells us that the set $(A - B) \cup (B - A)$ is all elements $x$ such that 
 
 **-PF-**
 Assume $A \oplus B = (A \cup B) - (A \cap B)$.
+Applying the definition of set differences we get $(A \cup B) - (A \cap B) = (A \cup B) \cap \overline{(A \cap B)}$.
+Applying DeMorgan's Law, we get $(A \cup B) \cap \overline{(A \cap B)} = (A \cup B) \cap ($
 
 ---
 
