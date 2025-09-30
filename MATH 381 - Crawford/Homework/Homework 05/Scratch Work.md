@@ -129,9 +129,13 @@ $[\frac{1}{1}, 2 - \frac{1}{2}], [\frac{1}{2}, 2 - \frac{2}{3}], [\frac{1}{3}, 2
 
 (a) $\bigcup_{n=1}^{\infty} A_n$;
 $\bigcup_{n=1}^{\infty} A_n = \{ (0, \frac{3}{2}] \}$ 
-$A_{n}$ approaches but never reaches 0 since $\frac{1}{n}$ decreases 
+$A_{n}$ approaches but never reaches 0 since $\frac{1}{n}$ decreases for every subsequent $n$.
+$A_{n}$ reaches its greatest value, $\frac{3}{2}$ when $n = 1$.
+Thus, $\bigcup_{n=1}^{\infty} A_n = \{ (0, \frac{3}{2}] \}$.
 
 (b) $\bigcap_{n=1}^{\infty} A_n$.
+$\bigcap_{n=1}^{\infty} A_n = \{1\}$.
+$A_{n}$ approaches but never reaches $1$ as $n$ increases
 
 ---
 ## Problem 5
