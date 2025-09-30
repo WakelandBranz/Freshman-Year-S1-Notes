@@ -1,3 +1,8 @@
 **-PF-**
 Let $x \in (-\infty, 0] \cup (\frac{3}{2}, \infty)$.
 We want to show that $x \not \in \bigcup^\infty_{n = 1} A_{n}.$
+Since $x \in (-\infty, 0] \cup (\frac{3}{2}, \infty)$, $x \not \in A_n$ for every $n$.
+So, $x \not \in [  \frac{1}{n}, 1 + \frac{1}{n + 1} ]$ for every $n$.
+So, $x < \frac{1}{n}$ or $x > 1 + \frac{1}{n + 1}$ for every $n$.
+Since $0 < \frac{1}{n} \space \forall n$, $\{ x \mid x \leq 0 \}$ satisfies $x < \frac{1}{n} \forall n$.
+For $x > \frac{3}{2} = 1 + \frac{1}{2} = 1 + $
