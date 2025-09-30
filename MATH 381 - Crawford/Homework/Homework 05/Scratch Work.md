@@ -11,6 +11,17 @@ Prove that the following are equivalent for any subset $A$ and $B$ of the same u
 **-PF-**
 We want to show that $a \implies b \implies c \implies a$.
 ($a \implies b)$: 
+	1. Assume $A \subseteq B$.
+	2. Suppose for contradiction that $A \cap \overline B \neq \emptyset$.
+	3. Then there exists some element $x$ such that $x \in A \cap \overline B$.
+	4. By definition of intersection, $x \in A$ and $x \in \overline B$.
+	5. Since $x \
+($b \implies c$):
+($c \implies a$):
+
+**-PF-** ===he wrote this on the board===
+We want to show that $a \implies b \implies c \implies a$.
+($a \implies b)$: 
 	Assume that $A \subseteq B$. 
 	We want to show that $A \cap \overline B = \emptyset$.
 	We show containment both ways.
@@ -23,12 +34,6 @@ We want to show that $a \implies b \implies c \implies a$.
 	So $A \cap \overline B \subseteq \emptyset \implies A \cap \overline B = \emptyset$.
 ($b \implies c$):
 	
-($c \implies a$):
-
-**-PF-**
-We want to show that $a \implies b \implies c \implies a$.
-($a \implies b)$: 
-($b \implies c$):
 ($c \implies a$):
 
 **-PF (on the right track but wrong)-**
