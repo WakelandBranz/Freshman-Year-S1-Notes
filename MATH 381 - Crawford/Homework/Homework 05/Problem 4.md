@@ -18,6 +18,11 @@ Case 2: $x \in (0, 1)$.
 	Then $x \in A_n$.
 ***(b)***
 **-PF-**
-Let $x \in \bigcup^\infty_{n=1} A_n$.
+Let $x \in \bigcup^\infty_{n=1} A_n$ and $A_n = [\frac{1}{n}, 1 + \frac{1}{n + 1}]$.
 So, $x \in A_n \forall n$.
-So, $\frac{1}{n} \leq x \leq 1 + \frac{1}{n + 1} \forall n$
+So, $\frac{1}{n} \leq x \leq 1 + \frac{1}{n + 1} \forall n$.
+So, $\frac{1}{n} \leq x \space \forall n$ and $x \leq 1 + \frac{1}{n + 1}$.
+So, $x \geq 1$ and $x \leq \\lim_{ n \to \infty } 1 + \frac{1}{n + 1}$.
+So, $x \geq 1$ and $x \leq 1$.
+Therefore $x = 1$.
+Therefore $\bigcup^\infty_{n=1} A_n = \{ 1 \}$
