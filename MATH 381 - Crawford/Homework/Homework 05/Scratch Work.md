@@ -131,7 +131,7 @@ $\bigcup_{n=1}^{\infty} A_n = (0, \frac{3}{2}]$
 
 **-PF-**
 ![[2.1 & 2.2 Numline.jpeg]]
-From the diagram, observe that $A_n = [ \frac{1}{n}, 1 + \frac{1}{n + 1}]$.
+From the diagram, observe that $A_n = [ \frac{1}{n}, 1 + \frac{1}{n + 1}].$
 
 
 **-PF-**
