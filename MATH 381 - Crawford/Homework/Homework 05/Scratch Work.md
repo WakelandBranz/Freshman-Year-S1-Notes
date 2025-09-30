@@ -135,7 +135,9 @@ This tells us that the set $(A - B) \cup (B - A)$ is all elements $x$ such that 
 Assume $A \oplus B = (A \cup B) - (A \cap B)$.
 Applying the definition of set differences we get $(A \cup B) - (A \cap B) = (A \cup B) \cap \overline{(A \cap B)}$.
 Applying DeMorgan's Law, we get $(A \cup B) \cap \overline{(A \cap B)} = (A \cup B) \cap (\overline A \cup \overline B)$.
-Applying the Distributive Law, we get $((A \cup B) \cap \overline A) \cup ($
+Applying the Distributive Law, we get $(A \cup B) \cap (\overline A \cup \overline B) = ((A \cup B) \cap \overline A) \cup ((A \cup B) \cap \overline B)$.
+Applying the Distributive Law again but individually to each side, we get the following.
+$((A \cup B) \cap \overline A) = ()$
 
 ---
 
