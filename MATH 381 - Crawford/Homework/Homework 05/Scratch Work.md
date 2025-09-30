@@ -140,12 +140,16 @@ Applying the Associative Law to each side of the equation we get $(\overline A \
 Applying the Distributive Law to the left side of the equation we get the following: $(\overline A \cap (A \cup B)) = (\overline A \cap A) \cup (\overline A \cap B)$.
 By the Complement Law, $(\overline A \cap A) \cup (\overline A \cap B) = \emptyset \cup (\overline A \cap B)$.
 By the Identity Law, $\emptyset \cup (\overline A \cap B) = \overline A \cap B$.
-By the Associative Law $\overline A \cap B = B \cap \overline A$.
-By the definition of set differences $B \cap \overline A = B - A$.
+By the Commutative Law $\overline A \cap B = B \cap \overline A$.
+By the definition of set differences, $B \cap \overline A = B - A$.
 Applying the Distributive Law to the right side of the equation we get the following: $(\overline B \cap (A \cup B)) = (\overline B \cap A) \cup (\overline B \cap B)$.
 By the Complement Law, $(\overline B \cap A) \cup (\overline B \cap B) = (\overline B \cap A) \cup \emptyset$.
 By the Identity Law, $(\overline B \cap A) \cup \emptyset = \overline B \cap A$.
-By the Associative Law, 
+By the Commutative Law, $\overline B \cap A = A \cap \overline B$.
+By the definition of set differences, $A \cap \overline B = A - B$.
+So, $A \oplus B = (B - A) \cup (A - B)$.
+By the Commutative Law, $(B - A) \cup (A - B) = (A - B) \cup (B - A)$.
+So, $A \oplus B = (A \cup B) - (A \cap B) = (A - B) \cup (B - A)$, thus proving that they are equivalent.
 
 ---
 
