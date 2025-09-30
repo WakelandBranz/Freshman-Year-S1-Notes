@@ -135,8 +135,9 @@ Thus, $\bigcup_{n=1}^{\infty} A_n = \{ (0, \frac{3}{2}] \}$.
 
 (b) $\bigcap_{n=1}^{\infty} A_n$.
 $\bigcap_{n=1}^{\infty} A_n = \{1\}$.
-$A_{n}$ approaches but never reaches $1$ as $n$ increases.
-Furthermore, $A_{N}$
+We will establish three rules.
+Firstly, $A_n$ approaches but never reaches $0$ since $\frac{1}{n}$ is an infinitely decreasing number and $0 < n \leq 1$.
+Secondly, $A_n$ approaches but never reaches $1$ since $2 - \frac{n}{n + 1}$ is an infinitely decreasing number and $1 < 2 - n\n + 1$
 
 ---
 ## Problem 5
