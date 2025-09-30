@@ -125,8 +125,7 @@ Define the symmetric difference of two sets $A$ and $B$, denoted $A \oplus B$, t
 #### (a) Using the identities in Section 2.2, prove that $A \oplus B = (A - B) \cup (B - A)$
 
 **-PF-**
-Assume $A \oplus B$ be equal to the set containing those elements in either $A$ or $B$, but not in both $A$ and $B$.
-This translates to $A \oplus B = (A \cup B) - (A \cap B)$.
+Assume $A \o
 
 
 ---
@@ -134,7 +133,7 @@ This translates to $A \oplus B = (A \cup B) - (A \cap B)$.
 #### (b) Sketch a Venn Diagram to represent $(A \oplus B) \cap B$.
 
 [thing](obsidian://open?vault=UNC-FreshmanS1Notes&file=MATH%20381%20-%20Crawford%2FImages%2FVenn%20Diagram%202.1%20%26%202.2%20Problem%206%20Part%20B)
-
+![[Homework 2.1 & 2.2 Venn Diagram.png]]
 ---
 
 #### (c) Prove or Disprove: $(A \oplus B) \cap B = B$.
