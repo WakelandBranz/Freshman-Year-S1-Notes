@@ -10,12 +10,14 @@ For $x > \frac{3}{2} = 1 + \frac{1}{2} = 1 + \frac{1}{1 + 1}$, so $x \not \in A_
 For any $x \in (-\infty, 0] \cup (\frac{3}{2}, \infty), \space x \not \in \bigcup^\infty_{n=1} A_n.$
 So, $\bigcup^\infty_{n=1} A_n \subseteq (0, \frac{3}{2}]$.
 We want to show $(0, \frac{3}{2}] \subseteq \bigcup^\infty_{n=1} A_n.$
-Case 1: 
-	$x \in [1, \frac{3}{2}].$
+Case 1: $x \in [1, \frac{3}{2}].$
 	If $x \in [1, \frac{3}{2}]$ then $x \in A_1$ then $x \in \bigcup^\infty_{n=1} A_n$.
-Case 2: 
-	$x \in (0, 1)$.
-	Let $x \in (0, 1).
-
+Case 2: $x \in (0, 1)$.
+	Let $x \in (0, 1)$.
+	Let $n \in \mathbb{Z^+}$ be such that $n > \frac{1}{x} \rightarrow x > \frac{1}{n}$.
+	Then $x \in A_n$.
 ***(b)***
 **-PF-**
+Let $x \in \bigcup^\infty_{n=1} A_n$.
+So, $x \in A_n \forall n$.
+So, $\frac{1}{n} \leq x \leq 1 + \frac{1}{n + 1} \forall n$
