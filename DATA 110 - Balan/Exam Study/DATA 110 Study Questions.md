@@ -126,7 +126,7 @@ Should artist be treated as nominal, ordinal, or interval?
 
 Should price be treated as nominal, ordinal, or interval?
 
-**ANSWER:**
+**ANSWER:** Interval?
 
 ---
 
@@ -134,7 +134,7 @@ Should price be treated as nominal, ordinal, or interval?
 
 Should transaction_id be treated as nominal, ordinal, or interval?
 
-**ANSWER:**
+**ANSWER:** Nominal
 
 ---
 
@@ -142,7 +142,10 @@ Should transaction_id be treated as nominal, ordinal, or interval?
 
 Based on the bar chart shown below, what is the mode of the distribution of shirt size?
 
-a. Small (S) b. Medium (M) c. Large (L) d. Extra Large (XL)
+a. Small (S) 
+===b. Medium (M) ===
+c. Large (L) 
+d. Extra Large (XL)
 
 ![[Pasted image 20250929203339.png]]
 
@@ -152,7 +155,7 @@ a. Small (S) b. Medium (M) c. Large (L) d. Extra Large (XL)
 
 The owner of the store is considering a move to online-only. Based on the bar chart shown below, do you think that this is a good idea? Why or why not?
 
-**ANSWER:**
+**ANSWER:** No, this is not a good idea. The bar chart shown below indicates a trend that depicts the store's Online storefront gets the least sales of the different s
 
 ![[Pasted image 20250929203334.png]]
 
