@@ -10,6 +10,7 @@ Prove that the following are equivalent for any subset $A$ and $B$ of the same u
 
 **-PF-**
 We want to show that $a \implies b \implies c \implies a$.
+
 ($a \implies b)$: 
 1. Assume $A \subseteq B$.
 2. Suppose for contradiction that $A \cap \overline B \neq \emptyset$.
@@ -19,9 +20,12 @@ We want to show that $a \implies b \implies c \implies a$.
 6. But since $A \subseteq B$ and $x \in A$, we must have $x \in B$.
 7. This is a contradiction, as we now have $x \in B$ and $x \not \in B$.
 8. Therefore our supposition was false and $A \cap \overline B = \emptyset$.
+
 ($b \implies c$):
-9. 
+1. 
+
 ($c \implies a$):
+1. 
 
 **-PF-** ===he wrote this on the board===
 We want to show that $a \implies b \implies c \implies a$.
