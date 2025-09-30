@@ -136,9 +136,6 @@ Therefore $x = 1$.
 Therefore $\bigcap_{n=1}^{\infty} A_n$
 
 ---
-<div style="page-break-after: always;"></div>
-page break above me
-
 ## Problem 5
 
 Prove that if $A \subseteq B$, then $\mathcal{P}(A) \subseteq \mathcal{P}(B)$, where $\mathcal{P}(X)$ indicates the power set of the set $X$.
