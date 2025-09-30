@@ -132,7 +132,7 @@ So, we can rewrite our equation as $\{ x \mid x \in A \land x \not \in B \} \cup
 This tells us that the set $(A - B) \cup (B - A)$ is all elements $x$ such that $\exists x \in A \land x \not \in B$ or $\exists x \in B \land x \not \in A$.
 
 **-PF-**
-Assume $A \oplus B = (A \cup B) - (A \cap B)$.
+From the definition, $A \oplus B = (A \cup B) - (A \cap B)$.
 Applying the definition of set differences we get $(A \cup B) - (A \cap B) = (A \cup B) \cap \overline{(A \cap B)}$.
 Applying DeMorgan's Law, we get $(A \cup B) \cap \overline{(A \cap B)} = (A \cup B) \cap (\overline A \cup \overline B)$.
 Applying the Distributive Law, we get $(A \cup B) \cap (\overline A \cup \overline B) = ((A \cup B) \cap \overline A) \cup ((A \cup B) \cap \overline B)$.
