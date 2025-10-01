@@ -1,4 +1,5 @@
 - No heatmaps
 - No py syntax questions
 - No standard deviation
+- No definitions
 - 
