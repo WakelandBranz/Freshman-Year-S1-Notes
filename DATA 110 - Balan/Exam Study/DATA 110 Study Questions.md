@@ -22,8 +22,7 @@ if x < 10 and y > 5:
     print("condition met")
 ```
 
-**ANSWER:**
-```condition met```
+**ANSWER:** 'condition met'
 
 ---
 
@@ -36,7 +35,7 @@ df.isna().sum()
 ```
 
 a. Total number of rows in the dataframe 
-===b. Number of missing values for each column in the dataframe=== 
+===b. Number of missing values for each column in the dataframe ===
 c. Number of non-missing values for each column in the dataframe 
 d. Number of unique values for each column in the dataframe
 
@@ -46,8 +45,8 @@ d. Number of unique values for each column in the dataframe
 
 In Pandas, `df.info()` can be used to generate:
 
-===a. Summary statistics for each numeric column=== 
-b. Data types and non-null counts for each column 
+a. Summary statistics for each numeric column 
+===b. Data types and non-null counts for each column ===
 c. Frequency counts for each categorical column
 
 ---
@@ -57,7 +56,6 @@ c. Frequency counts for each categorical column
 What is one function you could use to help you determine whether there are entries that have been miscoded or misspelled for a categorical column in a data frame?
 
 **ANSWER:**
-***don't know***
 
 ---
 
@@ -66,8 +64,6 @@ What is one function you could use to help you determine whether there are entri
 Suppose that you run the code `df.head(3)`. What does this command return? How would the output change if we used `df.tail(3)` instead?
 
 **ANSWER:**
-When you run the code df.head(3), df's first three rows and their corresponding data are returned.
-When you run the code df.tail(3), df's last three rows and their corresponding data are returned.
 
 ---
 
@@ -93,8 +89,7 @@ A small chain of retail stores sells t-shirts featuring popular music artists (T
 
 Before beginning your analysis, you run `df.info()` and `df.head()`. This produces the following output:
 
-![[Pasted image 20250929203410.png]]
-![[Pasted image 20250929203401.png]]
+![Screenshot of df.info() and df.head() output](media/image1.png)
 
 ---
 
@@ -102,7 +97,7 @@ Before beginning your analysis, you run `df.info()` and `df.head()`. This produc
 
 How many rows are in the data set?
 
-**ANSWER:** 200 rows are in the data set
+**ANSWER:**
 
 ---
 
@@ -110,7 +105,7 @@ How many rows are in the data set?
 
 Do any of the columns have missing values? How can you tell?
 
-**ANSWER:** No, none of the columns have missing values. This is because the output of df.info() indicates that there are 200 non-null values for each column, meaning that every one of the 9 columns have all of their 200 rows filled in completely.
+**ANSWER:**
 
 ---
 
@@ -118,7 +113,7 @@ Do any of the columns have missing values? How can you tell?
 
 Should artist be treated as nominal, ordinal, or interval?
 
-**ANSWER:** Nominal?
+**ANSWER:**
 
 ---
 
@@ -126,7 +121,7 @@ Should artist be treated as nominal, ordinal, or interval?
 
 Should price be treated as nominal, ordinal, or interval?
 
-**ANSWER:** Interval?
+**ANSWER:**
 
 ---
 
@@ -134,7 +129,7 @@ Should price be treated as nominal, ordinal, or interval?
 
 Should transaction_id be treated as nominal, ordinal, or interval?
 
-**ANSWER:** Nominal
+**ANSWER:**
 
 ---
 
@@ -142,12 +137,9 @@ Should transaction_id be treated as nominal, ordinal, or interval?
 
 Based on the bar chart shown below, what is the mode of the distribution of shirt size?
 
-a. Small (S) 
-===b. Medium (M) ===
-c. Large (L) 
-d. Extra Large (XL)
+a. Small (S) b. Medium (M) c. Large (L) d. Extra Large (XL)
 
-![[Pasted image 20250929203339.png]]
+![Bar chart of shirt size distribution](media/image2.png)
 
 ---
 
@@ -155,9 +147,9 @@ d. Extra Large (XL)
 
 The owner of the store is considering a move to online-only. Based on the bar chart shown below, do you think that this is a good idea? Why or why not?
 
-**ANSWER:** No, this is not a good idea. The bar chart shown below indicates a trend that depicts the store's Online storefront gets the least sales of the different categories of storefronts. If the owner were to move to online-only, then the business owner would likely make less money than they are now because their sales would decrease tremendously.
+**ANSWER:**
 
-![[Pasted image 20250929203334.png]]
+![Bar chart of store location distribution](media/image3.png)
 
 ---
 
@@ -165,12 +157,9 @@ The owner of the store is considering a move to online-only. Based on the bar ch
 
 Which most closely describes the distribution of age?
 
-a. Skewed to the Left 
-===b. Symmetric ===
-c. Skewed to the Right 
-d. Bi-modal
+a. Skewed to the Left b. Symmetric c. Skewed to the Right d. Bi-modal
 
-![[Pasted image 20250929203318.png]]
+![Histogram of customer age distribution](media/image4.png)
 
 ---
 
@@ -178,9 +167,9 @@ d. Bi-modal
 
 What would be the best measure of center for describing the distribution of price (mean, median or mode)? Why?
 
-**ANSWER:** Median is the best measure of center for describing the distribution of price. The data is not nominal so mode would not be a good measure of center. The data is heavily skewed with outliers so mean is also not a good measure of center.
+**ANSWER:**
 
-![[Pasted image 20250929203311.png]]
+![Histogram of sales price distribution](media/image5.png)
 
 ---
 
@@ -188,14 +177,11 @@ What would be the best measure of center for describing the distribution of pric
 
 Consider the boxplot illustrating the distribution of sales price:
 
-![[Pasted image 20250929203230.png]]
+![Boxplot of sales price distribution](media/image6.png)
 
 Which of the following statements is true of this distribution?
 
-===a. There are outliers present in the distribution. ===
-b. 50% of sales prices are greater than $25. 
-c. 50% of the sales prices are less than $15. 
-d. Both a and b.
+a. There are outliers present in the distribution. b. 50% of sales prices are greater than $25. c. 50% of the sales prices are less than $15. d. Both a and b.
 
 ---
 
@@ -203,6 +189,6 @@ d. Both a and b.
 
 The store owner is still considering a move to online only. He decides to compare the revenue from each store location to try to determine if there are any differences in the sales across the two brick and mortar stores and the online store. What conclusions can you reach based on the comparative boxplot below?
 
-**ANSWER:** Both mall and downtown store locations have a median value that is greater than that of online stores. Furthermore, there are outliers present that drive significant revenue in both downtown and mall store locations but not in the online store. This indicates that it would not be a positive move to switch to an online-only store model.
+**ANSWER:**
 
-![[Pasted image 20250929203219.png]]
+![Comparative boxplot of revenue by store location](media/image7.png)
