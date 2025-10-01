@@ -140,7 +140,9 @@ Should transaction_id be treated as nominal, ordinal, or interval?
 Based on the bar chart shown below, what is the mode of the distribution of shirt size?
 
 a. Small (S) 
-b. Medium (M) c. Large (L) d. Extra Large (XL)
+===b. Medium (M) ===
+c. Large (L) 
+d. Extra Large (XL)
 
 ![Bar chart of shirt size distribution](media/image2.png)
 
@@ -151,6 +153,7 @@ b. Medium (M) c. Large (L) d. Extra Large (XL)
 The owner of the store is considering a move to online-only. Based on the bar chart shown below, do you think that this is a good idea? Why or why not?
 
 **ANSWER:**
+No, this is not a good move. Online stores have the least transactions of all store location types (downtown, mall, online), so the owner would lose a significant amount of customers by making this move.
 
 ![Bar chart of store location distribution](media/image3.png)
 
@@ -160,7 +163,10 @@ The owner of the store is considering a move to online-only. Based on the bar ch
 
 Which most closely describes the distribution of age?
 
-a. Skewed to the Left b. Symmetric c. Skewed to the Right d. Bi-modal
+a. Skewed to the Left 
+===b. Symmetric ===
+c. Skewed to the Right
+d. Bi-modal
 
 ![Histogram of customer age distribution](media/image4.png)
 
@@ -171,6 +177,7 @@ a. Skewed to the Left b. Symmetric c. Skewed to the Right d. Bi-modal
 What would be the best measure of center for describing the distribution of price (mean, median or mode)? Why?
 
 **ANSWER:**
+Median would be the best measure of center because it is resistant to outliers unlike the mean and it is suitable for this typ
 
 ![Histogram of sales price distribution](media/image5.png)
 
