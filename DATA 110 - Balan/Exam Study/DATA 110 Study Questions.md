@@ -55,7 +55,7 @@ c. Frequency counts for each categorical column
 
 What is one function you could use to help you determine whether there are entries that have been miscoded or misspelled for a categorical column in a data frame?
 
-**ANSWER:**
+**ANSWER:** df.value_counts()
 
 ---
 
@@ -64,6 +64,7 @@ What is one function you could use to help you determine whether there are entri
 Suppose that you run the code `df.head(3)`. What does this command return? How would the output change if we used `df.tail(3)` instead?
 
 **ANSWER:**
+df.head()
 
 ---
 
