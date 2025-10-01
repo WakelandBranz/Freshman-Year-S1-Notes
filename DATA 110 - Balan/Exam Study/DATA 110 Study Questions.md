@@ -64,7 +64,8 @@ What is one function you could use to help you determine whether there are entri
 Suppose that you run the code `df.head(3)`. What does this command return? How would the output change if we used `df.tail(3)` instead?
 
 **ANSWER:**
-df.head()
+df.head(3) returns the first 3 rows and their columns.
+df.tail(3) returns the last 3 rows and their columns.
 
 ---
 
@@ -98,7 +99,7 @@ Before beginning your analysis, you run `df.info()` and `df.head()`. This produc
 
 How many rows are in the data set?
 
-**ANSWER:**
+**ANSWER:** 200 rows
 
 ---
 
@@ -106,7 +107,7 @@ How many rows are in the data set?
 
 Do any of the columns have missing values? How can you tell?
 
-**ANSWER:**
+**ANSWER:** No because df.info() returned a table which displays 200 non-null values for every row. This means that all 200 rows have all data filled in.
 
 ---
 
@@ -114,7 +115,7 @@ Do any of the columns have missing values? How can you tell?
 
 Should artist be treated as nominal, ordinal, or interval?
 
-**ANSWER:**
+**ANSWER:** nominal
 
 ---
 
@@ -122,7 +123,7 @@ Should artist be treated as nominal, ordinal, or interval?
 
 Should price be treated as nominal, ordinal, or interval?
 
-**ANSWER:**
+**ANSWER:** interval
 
 ---
 
@@ -130,7 +131,7 @@ Should price be treated as nominal, ordinal, or interval?
 
 Should transaction_id be treated as nominal, ordinal, or interval?
 
-**ANSWER:**
+**ANSWER:** nominal
 
 ---
 
@@ -138,7 +139,8 @@ Should transaction_id be treated as nominal, ordinal, or interval?
 
 Based on the bar chart shown below, what is the mode of the distribution of shirt size?
 
-a. Small (S) b. Medium (M) c. Large (L) d. Extra Large (XL)
+a. Small (S) 
+b. Medium (M) c. Large (L) d. Extra Large (XL)
 
 ![Bar chart of shirt size distribution](media/image2.png)
 
