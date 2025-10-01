@@ -199,6 +199,6 @@ Which of the following statements is true of this distribution?
 
 The store owner is still considering a move to online only. He decides to compare the revenue from each store location to try to determine if there are any differences in the sales across the two brick and mortar stores and the online store. What conclusions can you reach based on the comparative boxplot below?
 
-**ANSWER:** Although all three storefront types make similar amounts of revenue, online storefronts still have a lower median revenue than both mall and downtown store locations. Beyond this, there are some outliers which are high earning store locations in 
+**ANSWER:** Although all three storefront types make similar amounts of revenue, online storefronts still have a lower median revenue than both mall and downtown store locations. Beyond this, there are some outliers which are high earning store locations: one at a mall and two at are downtown. It is not a smart business decision to transition to an online only storefront.
 
 ![Comparative boxplot of revenue by store location](media/image7.png)
