@@ -118,6 +118,7 @@ Nominal
 The 'size' column contains values: S, M, L, XL. Should this be treated as nominal, ordinal, or interval?
 
 **Answer:**
+Ordinal
 
 ---
 
@@ -134,7 +135,7 @@ Which artist generates the most revenue?
 
 - [ ] a. Beyonce
 - [ ] b. Drake
-- [ ] c. Taylor Swift
+- [x] c. Taylor Swift
 - [ ] d. BTS
 
 ---
@@ -143,7 +144,7 @@ Which artist generates the most revenue?
 
 A histogram shows the distribution of units sold per transaction. Most transactions (about 120) involve 1 unit, about 80 involve 2 units, about 40 involve 3 units, and about 20 involve 4+ units. What can you conclude?
 
-- [ ] a. Most transactions involve purchasing 1 shirt
+- [x] a. Most transactions involve purchasing 1 shirt
 - [ ] b. Most transactions involve purchasing 2 shirts
 - [ ] c. The distribution is uniform
 - [ ] d. The distribution is bimodal
@@ -155,7 +156,7 @@ A histogram shows the distribution of units sold per transaction. Most transacti
 Looking at a histogram of customer age, the distribution shows the highest frequencies around ages 25-35, with the tail extending toward younger ages (15-20). This distribution is:
 
 - [ ] a. Right-skewed (positively skewed)
-- [ ] b. Left-skewed (negatively skewed)
+- [x] b. Left-skewed (negatively skewed)
 - [ ] c. Approximately symmetric
 - [ ] d. Bimodal
 
@@ -166,6 +167,7 @@ Looking at a histogram of customer age, the distribution shows the highest frequ
 A histogram of revenue per transaction shows most values clustered between $15-$75, with a few extreme values at $150-$200. Would the mean or median be a better measure of center? Why?
 
 **Answer:**
+Median because medians are resistant to outliers.
 
 ---
 
@@ -174,7 +176,7 @@ A histogram of revenue per transaction shows most values clustered between $15-$
 A boxplot comparing price by gender shows all three groups (F, M, Nonbinary) have similar medians around $20 and similar box sizes, with one outlier in the female category at $50. Which statement is TRUE?
 
 - [ ] a. There is high variability in prices across all gender groups
-- [ ] b. The median price is similar across all three gender groups
+- [x] b. The median price is similar across all three gender groups
 - [ ] c. Male customers pay significantly more on average
 - [ ] d. There are no outliers in the data
 
@@ -201,7 +203,7 @@ If you calculate `df['price'].mean()` and get 23.45, and `df['price'].median()` 
 Management wants to know: "Do customers buy more units per transaction when shopping online versus in-store?" What type of visualization would be most appropriate to answer this question?
 
 - [ ] a. A histogram of units_sold
-- [ ] b. A comparative boxplot of units_sold by store location
+- [x] b. A comparative boxplot of units_sold by store location
 - [ ] c. A bar chart of store locations
 - [ ] d. A scatter plot of price versus units_sold
 
