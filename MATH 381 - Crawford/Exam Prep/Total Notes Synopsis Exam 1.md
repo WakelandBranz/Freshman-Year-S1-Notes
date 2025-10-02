@@ -81,6 +81,7 @@ A proposition whose truth value depends on its component propositions.
 ### Logical Equivalence (p ≡ q)
 Two propositions are logically equivalent when p ↔ q is a tautology.
 
+
 **Example:** p → q ≡ ¬p ∨ q
 
 ## 2. Predicates and Quantifiers
