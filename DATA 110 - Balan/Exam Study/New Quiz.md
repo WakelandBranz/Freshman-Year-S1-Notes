@@ -85,7 +85,10 @@ Gets the mean salary of all of the departments
 
 According to best practices for data visualization, which of the following should you do?
 
-a. Use as many colors as possible b. Include gridlines for precision c. Maximize the data-to-ink ratio d. Use small fonts to fit more information
+a. Use as many colors as possible 
+===b. Include gridlines for precision ===
+c. Maximize the data-to-ink ratio 
+d. Use small fonts to fit more information
 
 ---
 
@@ -93,7 +96,7 @@ a. Use as many colors as possible b. Include gridlines for precision c. Maximize
 
 What is the mode of a distribution?
 
-a. The average value b. The middle value c. The most frequently occurring value d. The range of values
+a. The average value b. The middle value ===c. The most frequently occurring value=== d. The range of values
 
 ---
 
@@ -101,7 +104,7 @@ a. The average value b. The middle value c. The most frequently occurring value 
 
 Which type of chart is most appropriate for visualizing the distribution of a single categorical variable?
 
-a. Scatterplot b. Histogram c. Bar chart d. Line chart
+a. Scatterplot b. Histogram c. ===Bar chart=== d. Line chart
 
 ---
 
