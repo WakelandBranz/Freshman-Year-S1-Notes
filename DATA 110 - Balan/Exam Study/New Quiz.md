@@ -4,7 +4,7 @@
 
 What data scale should be used for customer satisfaction ratings (Very Unsatisfied, Unsatisfied, Neutral, Satisfied, Very Satisfied)?
 
-a. Nominal b. Ordinal c. Interval d. Boolean
+a. Nominal b. ===Ordinal=== c. Interval d. Boolean
 
 ---
 
@@ -12,7 +12,7 @@ a. Nominal b. Ordinal c. Interval d. Boolean
 
 Which Python data type would be most appropriate for storing the value `3.14159`?
 
-a. int b. float c. bool d. str
+a. int b. ===float=== c. bool d. str
 
 ---
 
@@ -20,7 +20,10 @@ a. int b. float c. bool d. str
 
 What does `df.describe()` return?
 
-a. Data types for each column b. Summary statistics for numeric columns c. Frequency counts for categorical columns d. The first 5 rows of the dataframe
+a. Data types for each column 
+===b. Summary statistics for numeric columns ===
+c. Frequency counts for categorical columns 
+d. The first 5 rows of the dataframe
 
 **ANSWER:**
 
@@ -31,6 +34,8 @@ a. Data types for each column b. Summary statistics for numeric columns c. Frequ
 Write the correct syntax to find the maximum value in a column called `revenue` in a dataframe called `sales`.
 
 **ANSWER:**
+
+sales['revenue'].max()
 
 ---
 
@@ -51,7 +56,7 @@ else:
     print("F")
 ```
 
-a. A b. B c. C d. F
+a. A b. ===B=== c. C d. F
 
 ---
 
@@ -59,7 +64,7 @@ a. A b. B c. C d. F
 
 Which function would you use to find all unique values and their frequencies in a categorical column?
 
-a. df.unique() b. df.count() c. df.value_counts() d. df.sum()
+a. df.unique() b. df.count() c. ===df.value_counts()=== d. df.sum()
 
 ---
 
@@ -72,6 +77,7 @@ df.groupby('department').salary.mean()
 ```
 
 **ANSWER:**
+Gets the mean salary of all of the departments
 
 ---
 
