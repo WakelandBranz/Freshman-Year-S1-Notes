@@ -1,6 +1,8 @@
-#### Remember what r represents!
+#### Remember what r represents (correlation)!
  - r = 1
 	 - Linear positive relationship
 - r = -1
 	- Linear negative relationship
 - **Just describes the linearity of the data.**
+
+#### df.corr() shows correlation between two data points (r value)
