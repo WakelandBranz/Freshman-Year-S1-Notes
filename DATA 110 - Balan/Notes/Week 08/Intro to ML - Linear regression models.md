@@ -11,5 +11,6 @@
 ```Python
 # Drop ordinal and nominal data, leaving only interval data
 columns_to_drop = ['Id', 'Yearbuilt', 'YearRemodAdd', 'YrSold']
-correlation_matrix = df.drop(columns = columns_to_drop).select_dtypes(include='number').corr()
+correlation_matrix = df.drop(columns =       columns_to_drop).select_dtypes(include='number').corr()
 ```
+
