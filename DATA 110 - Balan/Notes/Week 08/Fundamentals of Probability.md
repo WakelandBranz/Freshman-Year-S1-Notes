@@ -72,4 +72,23 @@ Equivalently, two events $A$ and $B$ are independent if and only if:
 
 > For any two events $A$ and $B$
 
-$P(A \cap B)
+$P(A \cap B) = P(A \mid B) * P(B)$
+
+> If events $A$ and $B$ are independent, then
+
+$P(A \cap B) = P(A) * P(B)$
+
+---
+
+### Example
+
+Apple products have become a household name in America with 51% of all households  
+owning at least one Apple product (CNN, March 19, 2012). The probability of owning  
+an Apple product is 61% for households with kids and 48% for households without  
+kids. Suppose that 68% of households have kids and the rest are without kids.  
+
+ - What is the probability that a household selected at random has kids and owns at  least one Apple product?  
+	 - $P( 1A \cap K) = P(1A \mid K) * P(K) = \frac{P(1A \cup K)}{P(K)} * P(K) = 0.41$
+ - What is the probability that a household selected at random does not own an Apple  product?  
+ - Are having kids and owning an Apple product mutually exclusive events? Why or  why not?  
+ - Are having kids and owning an Apple product independent events? Why or why not?
