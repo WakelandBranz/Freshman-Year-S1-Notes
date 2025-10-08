@@ -30,4 +30,19 @@ The **sample space** is the set of all possible outcomes of an experiment.
 ### **Some Basic Relationships of Probability**
 
  - The **complement** of event $A$ (denoted by $\overline A$ or $A^c$) consists of everything in the sample space that is NOT in $A$.
- - 
+ - The **union** ($\cup$) of two events $A$ and $B$ consists of all of the outcomes that are in $A$ or $B$ or both.
+ - The **intersection** ($\cap$) of two events $A$ and $B$ consists of all of the outcomes that are in **BOTH** $A$ and $B$.
+ - Two events $A$ and $B$ are **mutually exclusive** if they have no outcomes in common (e.g., the intersection of $A$ and $B$ is empty). IN other words, the events $A$ and $B$ cannot occur simultaneously.
+
+---
+
+### Law of Addition
+
+For any two events $A$ and $B$
+ - $P ( A \cup B) = P(A) + P(B) - P(A \cap B)$
+
+If two $A$ and $B$ are mutually exclusive, then
+ - $P (A \cup B) = P(A) + P(B)$
+
+---
+
