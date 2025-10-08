@@ -51,4 +51,12 @@ If two $A$ and $B$ are mutually exclusive, then
 The probability of an event $A$ **given** that event $B$ has occurred is a **conditional probability** and is denoted by $P ( A \mid B)$ 
 
 For any two events $A$ and $B$:
-	$P(A \mid B) = P$
+	$P(A \mid B) = \frac{P(A \cup B)}{P(B)}$
+and
+	$P (A \mid B) = \frac{P(A \cup B)}{P(A)}$
+
+---
+
+### Independence
+
+If knowing that an event
