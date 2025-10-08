@@ -59,4 +59,17 @@ and
 
 ### Independence
 
-If knowing that an event
+If knowing that an event $B$ has occurred does **NOT** affect the probability that event $A$ will occur, then events $A$ and $B$ are **independent events**.
+
+Equivalently, two events $A$ and $B$ are independent if and only if:
+
+> $P (A \mid B) = P(A)$ or
+> $P (B \mid A) = P(A)$
+
+---
+
+### Law of Multiplication
+
+> For any two events $A$ and $B$
+
+$P(A \cap B)
