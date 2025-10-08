@@ -46,3 +46,9 @@ If two $A$ and $B$ are mutually exclusive, then
 
 ---
 
+### Conditional Probability
+
+The probability of an event $A$ **given** that event $B$ has occurred is a **conditional probability** and is denoted by $P ( A \mid B)$ 
+
+For any two events $A$ and $B$:
+	$P(A \mid B) = P$
