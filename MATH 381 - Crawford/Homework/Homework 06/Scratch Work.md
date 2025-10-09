@@ -18,9 +18,15 @@ Determine, with proof, if the following functions from $\mathbb{Z}$ to $\mathbb{
 
 **(a)** $f(n) = n^2 + 1$
 
+Neither injective **nor** surjective
+
 **(b)** $f(n) = n^3$
 
+Injective
+
 **(c)** $f(n) = \lceil \frac{n}{2} \rceil$ where $\lceil x \rceil$ denotes the smallest integer greater than or equal to $x$.
+
+Neither injective **nor** surjective
 
 ---
 
