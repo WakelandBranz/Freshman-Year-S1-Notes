@@ -50,6 +50,8 @@ $f(n) = $
 
 **(c)** both injective and surjective, but is not equal to the identity function;
 
+$f(n) = $
+
 **(d)** is neither injective nor surjective.
 
 ---

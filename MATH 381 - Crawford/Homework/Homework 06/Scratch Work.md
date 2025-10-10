@@ -54,19 +54,19 @@ $f(n) = n + 1$
 
 **(b)** surjective, but not injective;
 
-$f(n) = n - (n \bmod 2)$
+$f(n) = $
 
 ---
 
 **(c)** both injective and surjective, but is not equal to the identity function;
 
-
+$f(n) = $
 
 ---
 
 **(d)** is neither injective nor surjective.
 
-
+$f(n) = n - (n \bmod 2)$
 
 ---
 
