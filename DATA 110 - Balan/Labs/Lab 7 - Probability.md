@@ -61,19 +61,19 @@ A study of speeding violations and mobile phone usage yielded the following info
 
 **i.** What is the probability that a person selected at random is a mobile phone user?
 
-$\frac{305}{755}$
+$\frac{305}{755} \approx 0.403$
 
 **ii.** What is the probability that a person had a speeding violation in the past year?
 
-$\frac{70}{755}$
+$\frac{70}{755} \approx 0.09$
 
 **iii.** What is the probability that a person had no speeding violation in the past year and was a mobile phone user?
 
-$\frac{280}{755}$
+$\frac{280}{755} \approx 0.371$
 
 **iv.** If a person is a mobile phone user, what is the probability that they had a speeding violation in the past year?
 
-$\frac{25}{305}$
+$\frac{25}{305} \approx 0.082$
 
 ---
 
@@ -93,4 +93,4 @@ $1 - 0.54 = 0.46$
 
 ## Challenge Problem
 
-The probability that a homeowner who holds both liability and property insurance coverage will file a liability claim is 0.04, and the probability that they will file a property claim is 0.1. The probability that a member of this class will file a liability claim but not a property claim is 0.01. What is the probability that a randomly selected homeowner who holds both liability and property insurance coverage will not file a claim of either type?
+The probability that a homeowner who holds both liability and property insurance coverage will file a liability claim is 0.04, and the probability that they will file a property claim is 0.1. The probability that a member of this class will file a liability claim but not a property claim is 0.01. What is the probability that a randomly selected homeowner who holds both liability and property insurance coverage will not file a claim of either type?x
