@@ -15,9 +15,11 @@ You and your friend decide to get your cars inspected. You are informed that 70%
 
 **i.** What is the probability that your car doesn't pass inspection?
 
-0.3
+$0.3$
 
 **ii.** What is the probability that both of the cars pass inspection?
+
+$0.7 * 0.7 = 0.49$
 
 ---
 
@@ -27,13 +29,23 @@ Real estate ads suggest that 65% of homes for sale have garages, 20% have swimmi
 
 **i.** A pool or a garage?
 
+$P(pool) \cup P(garage) = P(pool) + P(garage) - P(both) = 0.65 + 0.2 - 0.18 = 0.67$
+
 **ii.** Neither a pool nor a garage?
+
+
 
 **iii.** Given that a home for sale has a garage, what's the probability that it also has a pool?
 
+
+
 **iv.** Are having a garage and a pool independent events?
 
+
+
 **v.** Are having a garage and a pool mutually exclusive events?
+
+
 
 ---
 
