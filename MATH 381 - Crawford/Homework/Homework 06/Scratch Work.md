@@ -55,9 +55,8 @@ $f(n) = n + 1$
 **(b)** surjective, but not injective;
 
 $$f(n) = \begin{cases} 
-   1 & \text{if } n = 0
-\\ 0 & \text{if } n = 1
-\\ n & \text{if } n \geq 2 
+   0 & \text{if } n < 2
+\\ n - 1 & \text{if } n \geq 2 
 \end{cases}$$
 
 ---
