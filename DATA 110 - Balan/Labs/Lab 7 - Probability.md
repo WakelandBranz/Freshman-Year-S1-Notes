@@ -2,8 +2,10 @@
 
 The probability that a new microwave oven will stop working in less than 2 years is 0.05. The probability that a new microwave oven is damaged during delivery and stops working in less than 2 years is 0.04. The probability that a new microwave oven is damaged during delivery is 0.10. If a new microwave oven is damaged during delivery, what is the probability that it stops working in less than 2 years?
 
-P(b) = The probability that a new microwave oven will stop working in less than 2 years = 0.05
-P(d)
+P(a) = The probability that a new microwave oven will stop working in less than 2 years = 0.05
+P(b) = The probability that a new microwave oven is damaged during delivery = 0.10
+
+P(a | b) = $\frac{P(a \mid b)}{P(b)} = \frac{0.04}{0.1} = 0.40$ 
 
 ---
 
@@ -12,6 +14,8 @@ P(d)
 You and your friend decide to get your cars inspected. You are informed that 70% of cars pass inspection. If the event of your car's passing is independent of your friend's car:
 
 **i.** What is the probability that your car doesn't pass inspection?
+
+0.3
 
 **ii.** What is the probability that both of the cars pass inspection?
 
