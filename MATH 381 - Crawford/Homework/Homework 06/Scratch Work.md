@@ -54,16 +54,20 @@ $f(n) = n + 1$
 
 **(b)** surjective, but not injective;
 
-$f(n) = $
+$$f(n) = \begin{cases} 
+   1 & \text{if } n = 0
+\\ 0 & \text{if } n = 1
+\\ n & \text{if } n \geq 2 
+\end{cases}$$
 
 ---
 
 **(c)** both injective and surjective, but is not equal to the identity function;
 
 $$f(n) = \begin{cases} 
-1 & \text{if } n = 0  \
-
-n & \text{if } n \geq 2 
+   1 & \text{if } n = 0
+\\ 0 & \text{if } n = 1
+\\ n & \text{if } n \geq 2 
 \end{cases}$$
 
 ---
