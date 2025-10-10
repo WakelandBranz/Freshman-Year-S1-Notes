@@ -40,7 +40,11 @@ Give an example of a function from $\mathbb{N}$ to $\mathbb{N}$ that is
 
 **(a)** injective, but not surjective;
 
+$f(n) = n + 1$
+
 **(b)** surjective, but not injective;
+
+
 
 **(c)** both injective and surjective, but is not equal to the identity function;
 
