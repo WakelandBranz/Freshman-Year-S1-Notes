@@ -33,11 +33,11 @@ $P(pool) \cup P(garage) = P(pool) + P(garage) - P(both) = 0.65 + 0.2 - 0.18 = 0.
 
 **ii.** Neither a pool nor a garage?
 
-
+$P(pool) \cup P(garage) = 0.67 \rightarrow P(neither) = 1 - P(pool) \cup P(garage) = 1 - 0.67 = 0.33$
 
 **iii.** Given that a home for sale has a garage, what's the probability that it also has a pool?
 
-
+$P(garage \mid pool) = \frac{P(pool) \cup P(garage)}{P(garage)} = \frac{0.18}{0.65} \$
 
 **iv.** Are having a garage and a pool independent events?
 
