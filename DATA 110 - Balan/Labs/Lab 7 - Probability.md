@@ -93,4 +93,4 @@ $1 - 0.54 = 0.46$
 
 ## Challenge Problem
 
-The probability that a homeowner who holds both liability and property insurance coverage will file a liability claim is 0.04, and the probability that they will file a property claim is 0.1. The probability that a member of this class will file a liability claim but not a property claim is 0.01. What is the probability that a randomly selected homeowner who holds both liability and property insurance coverage will not file a claim of either type?x
+The probability that a homeowner who holds both liability and property insurance coverage will file a liability claim is 0.04, and the probability that they will file a property claim is 0.1. The probability that a member of this class will file a liability claim but not a property claim is 0.01. What is the probability that a randomly selected homeowner who holds both liability and property insurance coverage will not file a claim of either type?
