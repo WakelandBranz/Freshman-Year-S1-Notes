@@ -38,6 +38,8 @@ Determine, with proof, if the following functions from $\mathbb{Z} \times \mathb
 
 Give an example of a function from $\mathbb{N}$ to $\mathbb{N}$ that is
 
+**Note, my definition of $\mathbb{N}$ includes 0**
+
 **(a)** injective, but not surjective;
 
 $f(n) = n + 1$
