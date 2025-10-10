@@ -60,7 +60,11 @@ $f(n) = $
 
 **(c)** both injective and surjective, but is not equal to the identity function;
 
-$f(n) = $
+$$f(n) = \begin{cases} 
+1 & \text{if } n = 0  \
+
+n & \text{if } n \geq 2 
+\end{cases}$$
 
 ---
 
