@@ -46,7 +46,7 @@ $f(n) = n + 1$
 
 **(b)** surjective, but not injective;
 
-
+$f(n) = $
 
 **(c)** both injective and surjective, but is not equal to the identity function;
 
