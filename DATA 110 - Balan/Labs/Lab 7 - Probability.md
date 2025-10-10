@@ -37,15 +37,15 @@ $P(pool) \cup P(garage) = 0.67 \rightarrow P(neither) = 1 - P(pool) \cup P(garag
 
 **iii.** Given that a home for sale has a garage, what's the probability that it also has a pool?
 
-$P(garage \mid pool) = \frac{P(pool) \cup P(garage)}{P(garage)} = \frac{0.18}{0.65} \$
+$P(garage \mid pool) = \frac{P(pool) \cup P(garage)}{P(garage)} = \frac{0.18}{0.65} \approx 0.2769$
 
 **iv.** Are having a garage and a pool independent events?
 
-
+No, they are not independent events.
 
 **v.** Are having a garage and a pool mutually exclusive events?
 
-
+$P(\text{garage and pool}) = 0.18$ so not mutually exclusive
 
 ---
 
@@ -61,11 +61,19 @@ A study of speeding violations and mobile phone usage yielded the following info
 
 **i.** What is the probability that a person selected at random is a mobile phone user?
 
+
+
 **ii.** What is the probability that a person had a speeding violation in the past year?
+
+
 
 **iii.** What is the probability that a person had no speeding violation in the past year and was a mobile phone user?
 
+
+
 **iv.** If a person is a mobile phone user, what is the probability that they had a speeding violation in the past year?
+
+
 
 ---
 
