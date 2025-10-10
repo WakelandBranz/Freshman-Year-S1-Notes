@@ -53,27 +53,27 @@ $P(\text{garage and pool}) = 0.18$ so not mutually exclusive
 
 A study of speeding violations and mobile phone usage yielded the following information:
 
-||Speeding violation last year|No speeding violation last year|Total|
-|---|--:|--:|--:|
-|Mobile phone user|25|280|305|
-|Not mobile phone user|45|405|450|
-|**Total**|**70**|**685**|**755**|
+| User Type             | Speeding violation last year | No speeding violation last year |   Total |
+| --------------------- | ---------------------------: | ------------------------------: | ------: |
+| Mobile phone user     |                           25 |                             280 |     305 |
+| Not mobile phone user |                           45 |                             405 |     450 |
+| **Total**             |                       **70** |                         **685** | **755** |
 
 **i.** What is the probability that a person selected at random is a mobile phone user?
 
-
+$\frac{305}{755}$
 
 **ii.** What is the probability that a person had a speeding violation in the past year?
 
-
+$\frac{70}{755}$
 
 **iii.** What is the probability that a person had no speeding violation in the past year and was a mobile phone user?
 
-
+$\frac{280}{755}$
 
 **iv.** If a person is a mobile phone user, what is the probability that they had a speeding violation in the past year?
 
-
+$\frac{25}{305}$
 
 ---
 
@@ -83,7 +83,11 @@ The Eco Pulse survey from the marketing communications firm Shelton Group asked 
 
 **a.** What is the probability that a randomly selected person will feel guilty for either wasting food or leaving lights on when not in a room?
 
+$0.39 + 0.27 - 0.12 = 0.54$
+
 **b.** What is the probability that a randomly selected person will not feel guilty for either of these reasons?
+
+$1 - 0.54 = 0.46$
 
 ---
 
