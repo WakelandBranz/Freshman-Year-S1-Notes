@@ -112,4 +112,12 @@ The key difference: **PMF** gives you the probability of an exact value, while *
 
 A student majoring in data science is trying to decide on the number of companies to which she should apply for a job. Given her work experience and grades, she expects that the probability of receiving a job offer from any individual company is 75%. Suppose that the student decides to apply to 6 companies.
 
-1. 
+1. What is the probability that the student receives exactly 1 job offer?
+ ```Python
+	binom.pdf(1, 6, 0.75)
+	```
+   2. What is the probability that the student receives more than 2 job offers?
+```Python
+	1 - binom.cdf(2, 6, 0.75)
+```
+3. What is the probability that the student receives more than 2 job offers?
