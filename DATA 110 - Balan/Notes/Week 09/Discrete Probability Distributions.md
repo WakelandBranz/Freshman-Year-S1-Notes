@@ -11,4 +11,6 @@
 
 ---
 
-### 
+### Binomial Distribution
+
+Many 
