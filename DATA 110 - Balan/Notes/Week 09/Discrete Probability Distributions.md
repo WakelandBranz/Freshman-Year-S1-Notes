@@ -13,4 +13,15 @@
 
 ### Binomial Distribution
 
-Many 
+Many problems in probability concern the repetition of an experiment having two possible outcomes. Each repetition of the experiment is called a **Bernoulli Trial**.
+
+Suppose:
+ - Each trial has **exactly two possible outcomes** referred to as a success and a failure. 
+ - The trials are **independent**.
+ - The probability of a success, denoted by **p**, is the same for every trial.
+ - Your experiment consists of **n** trials.
+If the random variable **X** represents the number of successes out of n trials, we say that X has a **binomial distribution.**
+
+Let X be the total number of successes in **n Bernoulli trials** and let **p** be the probability of a success on each trial. Then the probability distribution of the random variable X is given by
+
+$P(X = k) = _{n}C_{k} * p^k * (1 - p)^{n - k}$
