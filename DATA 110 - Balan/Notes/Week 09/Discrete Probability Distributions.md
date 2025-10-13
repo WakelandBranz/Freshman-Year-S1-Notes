@@ -34,3 +34,9 @@ The random variable X is called a **binomial random variable** and is said to ha
 
 How do you count the number of ways to get k successes out of n trials? Remember, it's all about counting!
 
+$\binom{n}{k} = {}_n C_k = \frac{n!}{k!(n-k)!}$
+
+$_nC_k$ is referred to as the combination function. You read it as "n choose k."
+
+---
+
