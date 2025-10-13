@@ -24,4 +24,13 @@ If the random variable **X** represents the number of successes out of n trials,
 
 Let X be the total number of successes in **n Bernoulli trials** and let **p** be the probability of a success on each trial. Then the probability distribution of the random variable X is given by
 
-$P(X = k) = _{n}C_{k} * p^k * (1 - p)^{n - k}$
+$P(X = k) = _{n}C_{k} \cdot p^k \cdot (1 - p)^{n - k}$
+
+The random variable X is called a **binomial random variable** and is said to have the **binomial distribution** with parameters ***n*** and ***p***.
+
+---
+
+### Binomial Coefficient
+
+How do you count the number of ways to get k successes out of n trials? Remember, it's all about counting!
+
