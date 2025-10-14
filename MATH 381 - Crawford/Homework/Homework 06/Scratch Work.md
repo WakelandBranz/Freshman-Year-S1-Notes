@@ -92,7 +92,8 @@ Suppose $g : A \to B$ and $f : B \to C$ are functions. Prove
 
 WTS that if $f \circ g$ is surjective, then $f$ is also surjective.
 Assume $f \circ g$ is surjective.
-By definition, since $g: A \rightarrow B$ and $f: B \rightarrow C$, 
+Since $g: A \rightarrow B$ and $f: B \rightarrow C$, $f \circ g: A \rightarrow C$.
+
 
 **(b)** If $f \circ g$ is injective, then $g$ must also be.
 
