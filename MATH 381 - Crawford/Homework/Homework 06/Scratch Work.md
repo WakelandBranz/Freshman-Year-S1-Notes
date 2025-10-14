@@ -21,7 +21,8 @@ Determine, with proof, if the following functions from $\mathbb{Z}$ to $\mathbb{
 Neither injective **nor** surjective
 
 WTS that $f(n) = n^2 + 1$ is neither injective nor surjective.
-For a counterexample, 
+To prove that $f(n)$ from $\mathbb{Z} \rightarrow \mathbb{Z}$ is not injective, we can use a counterexample.
+
 
 **(b)** $f(n) = n^3$
 
@@ -85,6 +86,8 @@ $f(n) = n - (n \bmod 2)$
 Suppose $g : A \to B$ and $f : B \to C$ are functions. Prove
 
 **(a)** If $f \circ g$ is surjective, then $f$ must also be.
+
+WTS that if  is surjective, then $f$ is also surjective.
 
 **(b)** If $f \circ g$ is injective, then $g$ must also be.
 
