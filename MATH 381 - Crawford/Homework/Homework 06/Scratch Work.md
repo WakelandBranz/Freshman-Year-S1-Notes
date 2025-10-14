@@ -77,7 +77,10 @@ $$f(n) = \begin{cases}
 
 **(d)** is neither injective nor surjective.
 
-$f(n) = n - (n \bmod 2)$
+$$f(n) = \begin{cases} 
+   0 & \text{if } n < 3
+\\ n^2 & \text{if } n \geq 3 
+\end{cases}$$
 
 ---
 
