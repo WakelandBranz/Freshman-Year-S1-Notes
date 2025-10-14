@@ -20,6 +20,9 @@ Determine, with proof, if the following functions from $\mathbb{Z}$ to $\mathbb{
 
 Neither injective **nor** surjective
 
+WTS that $f(n) = n^2 + 1$ is neither injective nor surjective.
+For a counterexample, 
+
 **(b)** $f(n) = n^3$
 
 Injective
