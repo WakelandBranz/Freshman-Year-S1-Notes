@@ -48,9 +48,12 @@ But since these two cases have different preimages resulting in the same image, 
 Thus $f(m, n) = 2m - n$ is not injective.
 
 WTS that $f(m, n) = 2m - n$ is surjective. 
-Suppose $\exists x \in \mathbb{Z}$ s.t. $x = m, n$.
-So, substituting $x$ for $m$ and $n$ we get $f(m, n) = 2x - x = x$.
-Since $f(m, n)$ is equal to our arbitrary integer $x$, and since $x \in \mathbb{Z}$, the range of $f(m, n)$ is $\mathbb{Z}$ which is equal to the codomain of $f(m, n)$.
+Let $y \in \mathbb{Z}$ be arbitrary.
+We want to find $m, n \in \mathbb{Z}$ s.t. $f(m, n) = y$.
+We need $f(m, n) = 2m - n = y$.
+For this example, let $m = 0$ and $n = -y$.
+So, $f(m, n) = 2(0) - (-y) = y$.
+Since there is a case where $f(m, n) = y$ and $y \in \mathbb{Z}$ and $y$ is an arbitrary number,
 Therefore $f(m, n)$ is surjective.
 
 **(b)** $f(m, n) = m^2 - n^2$
