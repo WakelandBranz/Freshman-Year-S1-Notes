@@ -40,6 +40,7 @@ Determine, with proof, if the following functions from $\mathbb{Z} \times \mathb
 
 **(a)** $f(m, n) = 2m - n$
 
+
 **(b)** $f(m, n) = m^2 - n^2$
 
 **(c)** $f(m, n) = |m| - |n|$
