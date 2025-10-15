@@ -34,7 +34,7 @@ What is the probability that fewer than 3 of them will not work?
 binom.cdf(2, 14, 0.1)
 ```
 
-$\binom{14}{2} \left( \frac{1}{10} \right)^2 * (\frac{9}{10})^{12} = 0.84164001871338$
+$0.84164001871338$
 
 ---
 
