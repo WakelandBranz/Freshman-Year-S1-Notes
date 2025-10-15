@@ -50,6 +50,7 @@ Thus $f(m, n) = 2m - n$ is not injective.
 WTS that $f(m, n) = 2m - n$ is surjective. 
 
 
+
 **(b)** $f(m, n) = m^2 - n^2$
 
 Assume, for contradiction, that $f(m, n) = m^2 - n^2 \text{ from } \mathbb{Z} \text{ x } \mathbb{Z} \text{ to } \mathbb{Z}$ is injective.
