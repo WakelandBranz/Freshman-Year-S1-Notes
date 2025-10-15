@@ -93,9 +93,15 @@ The Department of Parks and Recreation recently conducted a survey designed to g
 
 What is the probability that a resident selected at random utilizes the greenway for both biking and jogging?
 
+$0.42 + 0.33 - (0.42 * 0.33) = 0.6114$
+
 ### 5b. (2 points)
 
 Are biking and jogging mutually exclusive events?
+
+$P(Biking \mid Jogging) = \frac{0.33 * 0.42}{0.42}$
+
+$P(Jogging \mid Biking) = $
 
 ### 5c. (2 points)
 
