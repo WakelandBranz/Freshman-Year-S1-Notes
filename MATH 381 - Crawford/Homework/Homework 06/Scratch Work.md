@@ -48,7 +48,9 @@ But since these two cases have different preimages resulting in the same image, 
 Thus $f(m, n) = 2m - n$ is not injective.
 
 WTS that $f(m, n) = 2m - n$ is surjective. 
-Suppose $\exists $
+Suppose $\exists x \in \mathbb{Z}$ s.t. $x = m, n$.
+So, substituting $x$ for $m$ and $n$ we get $f(m, n) = 2x - x = x$.
+Since $f(m, n)$ is equal to our arbitrary integer $x$, 
 
 
 **(b)** $f(m, n) = m^2 - n^2$
