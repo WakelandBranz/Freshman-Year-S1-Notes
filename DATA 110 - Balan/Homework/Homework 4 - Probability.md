@@ -10,15 +10,29 @@ A company maintains a pool of loaner laptops for special projects. Each laptop h
 
 What is the probability that exactly half of them won't work?
 
+```Python
+binom.pmf(7, 14, 0.1)
+```
 
+$()$
 
 ### 1b. (2 points)
 
 What is the probability that all of them will work?
 
+```Python
+binom.pmf(0, 14, 0.1)
+```
+
+
+
 ### 1c. (2 points)
 
 What is the probability that fewer than 3 of them will not work?
+
+```Python
+binom.cdf(2, 14, 0.1)
+```
 
 ---
 

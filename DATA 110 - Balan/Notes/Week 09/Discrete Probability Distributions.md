@@ -114,7 +114,7 @@ A student majoring in data science is trying to decide on the number of companie
 
 1. What is the probability that the student receives exactly 1 job offer?
  ```Python
-	binom.pdf(1, 6, 0.75)
+	binom.pmf(1, 6, 0.75)
 	```
    2. What is the probability that the student receives more than 2 job offers?
 ```Python
