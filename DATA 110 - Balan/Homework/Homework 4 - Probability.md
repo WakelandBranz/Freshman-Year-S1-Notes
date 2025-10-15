@@ -99,7 +99,7 @@ $0.42 + 0.33 - (0.42 * 0.33) = 0.6114$
 
 Are biking and jogging mutually exclusive events?
 
-
+No. You can bike and jog on the greenway.
 
 ### 5c. (2 points)
 
