@@ -43,9 +43,18 @@ Determine, with proof, if the following functions from $\mathbb{Z} \times \mathb
 Assume, for contradiction, that $f(m, n) = 2m - n \text{ from } \mathbb{Z} \text{ x } \mathbb{Z} \text{ to } \mathbb{Z}$ is injective.
 For counterexample, we have two cases.
 Case 1: $m = 2, n = 4 \rightarrow f(2, 4) = 2(2) - 4 = 0$.
-Case 2: $
+Case 2: $m = 1, n = 2 \rightarrow f(1, 2) = 2(1) - 2 = 0$.
+But since these two cases have different preimages resulting in the same image, this is a contradiction.
+Thus $f(m, n) = 2m - n$ is not injective.
 
 **(b)** $f(m, n) = m^2 - n^2$
+
+Assume, for contradiction, that $f(m, n) = m^2 - n^2 \text{ from } \mathbb{Z} \text{ x } \mathbb{Z} \text{ to } \mathbb{Z}$ is injective.
+For counterexample, we have two cases.
+Case 1: $m = 2, n = 2 \rightarrow f(2, 4) = 2^2 - 2^2 = 0$.
+Case 2: $m = 1, n = 1 \rightarrow f(1, 1) = 1^2 - 1^2 = 0$.
+But since these two cases have different preimages resulting in the same image, this is a contradiction.
+Thus $f(m, n) = 2m - n$ is not injective.
 
 **(c)** $f(m, n) = |m| - |n|$
 
