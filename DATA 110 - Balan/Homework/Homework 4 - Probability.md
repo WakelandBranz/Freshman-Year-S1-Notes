@@ -43,9 +43,9 @@ $0.84164001871338$
 You are planning to purchase a toy robot for your nephew's birthday. The robot has 5 electronic components. There is a 1% probability that any one of the components will be defective. If two or more of the components are defective, the robot will not function properly. What is the probability that the toy robot you purchase for your nephew will not function properly when he takes it out of the box?
 
 ```Python
-1 - binom.cdf(2, 5, 0.01)
+1 - binom.cdf(1, 5, 0.01)
 ```
-$\binom{5}{2}$
+$0.0009801496000000354$
 
 ---
 
@@ -56,6 +56,8 @@ A survey of a magazine's subscribers indicates that 50% of the subscribers own a
 ### 3a. (2 points)
 
 What is the probability that a randomly selected subscriber owns both a car and a house?
+
+
 
 ### 3b. (2 points)
 
