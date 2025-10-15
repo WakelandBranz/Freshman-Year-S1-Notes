@@ -14,7 +14,7 @@ What is the probability that exactly half of them won't work?
 binom.pmf(7, 14, 0.1)
 ```
 
-$()$
+$\left( \frac{1}{10} \right)^7 * \left( \frac{9}{10} \right)^7$ =
 
 ### 1b. (2 points)
 
