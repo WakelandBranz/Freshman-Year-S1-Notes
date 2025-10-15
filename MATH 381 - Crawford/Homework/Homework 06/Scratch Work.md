@@ -51,7 +51,7 @@ WTS that $f(m, n) = 2m - n$ is surjective.
 Let $y \in \mathbb{Z}$ be arbitrary.
 We want to find $m, n \in \mathbb{Z}$ s.t. $f(m, n) = y$.
 We need $f(m, n) = 2m - n = y$.
-Let $m = 0$ and $n = -y$.
+Let $m = 0, n = -y$.
 So, $f(m, n) = 2(0) - (-y) = y$.
 Since there is a case where $f(m, n) = y$ and $y \in \mathbb{Z}$ and $y$ is an arbitrary number, $f(m, n)$ is surjective.
 
@@ -66,7 +66,10 @@ Thus $f(m, n) = m^2 - n^2$ is not injective.
 
 WTS that $f(m, n)$ is not surjective.
 Assume, for contradiction, that $f(m, n)$ is surjective.
-Let $m = -1$ and 
+Suppose there exists $y \in \mathbb{Z}$ s.t. $f(m, n) = -2$.
+So, $m^2 - n^2 = -2$.
+But 
+
 
 **(c)** $f(m, n) = |m| - |n|$
 
