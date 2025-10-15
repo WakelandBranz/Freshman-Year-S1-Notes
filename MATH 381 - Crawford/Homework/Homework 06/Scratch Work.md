@@ -59,6 +59,8 @@ Case 2: $m = 1, n = 1 \rightarrow f(1, 1) = 1^2 - 1^2 = 0$.
 But since these two cases have different preimages resulting in the same image, this is a contradiction.
 Thus $f(m, n) = m^2 - n^2$ is not injective.
 
+
+
 **(c)** $f(m, n) = |m| - |n|$
 
 Assume, for contradiction, that $f(m, n) = |m| - |n| \text{ from } \mathbb{Z} \text{ x } \mathbb{Z} \text{ to } \mathbb{Z}$ is injective.
