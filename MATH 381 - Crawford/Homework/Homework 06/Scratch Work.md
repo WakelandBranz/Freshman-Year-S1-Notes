@@ -68,7 +68,8 @@ WTS that $f(m, n)$ is not surjective.
 Assume, for contradiction, that $f(m, n)$ is surjective.
 Suppose there exists $y \in \mathbb{Z}$ s.t. $f(m, n) = 2$.
 So, $m^2 - n^2 = 2 \rightarrow (m + n)(m - n) = 2$.
-
+There are 4 cases where this statement will hold true.
+Case 1: 
 
 **(c)** $f(m, n) = |m| - |n|$
 
