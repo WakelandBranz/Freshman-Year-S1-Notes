@@ -48,7 +48,7 @@ But since these two cases have different preimages resulting in the same image, 
 Thus $f(m, n) = 2m - n$ is not injective.
 
 WTS that $f(m, n) = 2m - n$ is surjective. 
-
+Suppose $\exists $
 
 
 **(b)** $f(m, n) = m^2 - n^2$
