@@ -68,8 +68,6 @@ WTS that $f(m, n)$ is not surjective.
 Assume, for contradiction, that $f(m, n)$ is surjective.
 Suppose there exists $y \in \mathbb{Z}$ s.t. $f(m, n) = 2$.
 So, $m^2 - n^2 = 2 \rightarrow (m + n)(m - n) = 2$.
-This shows that $m > n$ because if $m \leq n$ $(m - n) \leq 0$ meaning that this equation cannot equal 2.
-
 
 
 **(c)** $f(m, n) = |m| - |n|$
