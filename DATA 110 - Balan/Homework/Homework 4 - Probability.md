@@ -43,8 +43,9 @@ $\binom{14}{2} \left( \frac{1}{10} \right)^2 * (\frac{9}{10})^{12} = 0.841640018
 You are planning to purchase a toy robot for your nephew's birthday. The robot has 5 electronic components. There is a 1% probability that any one of the components will be defective. If two or more of the components are defective, the robot will not function properly. What is the probability that the toy robot you purchase for your nephew will not function properly when he takes it out of the box?
 
 ```Python
-binom.cdf(2, 5, 0.01)
+1 - binom.cdf(2, 5, 0.01)
 ```
+$\binom{5}{2}$
 
 ---
 
