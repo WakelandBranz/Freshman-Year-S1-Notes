@@ -99,13 +99,15 @@ $0.42 + 0.33 - (0.42 * 0.33) = 0.6114$
 
 Are biking and jogging mutually exclusive events?
 
-$P(Biking \mid Jogging) = \frac{0.33 * 0.42}{0.42}$
 
-$P(Jogging \mid Biking) = $
 
 ### 5c. (2 points)
 
 Are biking and jogging independent events?
+
+$P(Biking \mid Jogging) = \frac{0.33 + 0.42}{0.42}$
+
+$P(Jogging \mid Biking) = \frac{0.42 + 0.33}{0.33}$
 
 ---
 
