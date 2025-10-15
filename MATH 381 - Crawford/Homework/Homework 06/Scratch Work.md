@@ -50,8 +50,8 @@ Thus $f(m, n) = 2m - n$ is not injective.
 WTS that $f(m, n) = 2m - n$ is surjective. 
 Suppose $\exists x \in \mathbb{Z}$ s.t. $x = m, n$.
 So, substituting $x$ for $m$ and $n$ we get $f(m, n) = 2x - x = x$.
-Since $f(m, n)$ is equal to our arbitrary integer $x$, 
-
+Since $f(m, n)$ is equal to our arbitrary integer $x$, and since $x \in \mathbb{Z}$, the range of $f(m, n)$ is $\mathbb{Z}$ which is equal to the codomain of $f(m, n)$.
+Therefore $f(m, n)$ is surjective.
 
 **(b)** $f(m, n) = m^2 - n^2$
 
