@@ -69,13 +69,19 @@ $0.5$
 
 What is the probability that a randomly selected subscriber owns either a house or a car?
 
-$
+$0.5 + 0.8 - 0.45 = 0.85$
 
 ---
 
 ## Problem 4 (3 points)
 
 In a four-cylinder engine, there are four spark plugs. If any one of them malfunctions, the car will idle roughly and power will be lost. Suppose that for a certain brand of spark plugs, the probability that a spark plug will function properly after 5000 miles is 0.9. Assuming that the spark plugs operate independently, what is the probability that the car will idle roughly after 5000 miles?
+
+```Python
+binom.cdf(3, 4, 0.9)
+```
+
+$0.3439$
 
 ---
 
