@@ -93,7 +93,7 @@ The Department of Parks and Recreation recently conducted a survey designed to g
 
 What is the probability that a resident selected at random utilizes the greenway for both biking and jogging?
 
-$P(Jog \cup Bike) = P(Jog \mid Bike) * P(Bike) = 0.29 * 0.42 = 0.1218$
+$P(Jog \cap Bike) = P(Jog \mid Bike) * P(Bike) = 0.29 * 0.42 = 0.1218$
 
 ### 5b. (2 points)
 
@@ -120,12 +120,30 @@ There is a 14% chance that a Noodles and Company customer will order bread with 
 
 What is the probability that more than 5 will order bread?
 
+```Python
+1 - binom.cdf(5, 10, 0.14)
+```
+
+$0.000950481671658232$
+
 ### 6b. (2 points)
 
 What is the probability that no more than 2 will order bread?
 
+```Python
+binom.cdf(2, 10, 0.14)
+```
+
+$0.8454701748323683$
+
 ### 6c. (2 points)
 
 What is the probability that none of the 10 will order bread?
+
+```Python
+binom.cdf(0, 10, 0.14)
+```
+
+$0.22130157888803065$
 
 ---
