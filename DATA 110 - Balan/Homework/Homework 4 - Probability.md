@@ -57,15 +57,19 @@ A survey of a magazine's subscribers indicates that 50% of the subscribers own a
 
 What is the probability that a randomly selected subscriber owns both a car and a house?
 
-
+$0.5 * 0.9 = 0.45$
 
 ### 3b. (2 points)
 
 What is the probability that a randomly selected subscriber does not own a house?
 
+$0.5$
+
 ### 3c. (2 points)
 
 What is the probability that a randomly selected subscriber owns either a house or a car?
+
+$
 
 ---
 
