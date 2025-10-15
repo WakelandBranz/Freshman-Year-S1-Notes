@@ -93,7 +93,7 @@ The Department of Parks and Recreation recently conducted a survey designed to g
 
 What is the probability that a resident selected at random utilizes the greenway for both biking and jogging?
 
-$0.42 + 0.33 - (0.42 * 0.33) = 0.6114$
+$P(Jog \cup Bike) = P(Jog \mid Bike) * P(Bike) = 0.29 * 0.42 = 0.1218$
 
 ### 5b. (2 points)
 
@@ -105,9 +105,10 @@ No. You can bike and jog on the greenway.
 
 Are biking and jogging independent events?
 
-$P(Biking \mid Jogging) = \frac{0.33 + 0.42}{0.42}$
+$P(Jog \mid Bike) = 0.29$$
+$P(Jog) = 0.33$
 
-$P(Jogging \mid Biking) = \frac{0.42 + 0.33}{0.33}$
+$P(Jog \mid Bike) \neq P(Jog)$ therefore biking and jogging are not independent events.
 
 ---
 
