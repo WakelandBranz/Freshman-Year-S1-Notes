@@ -47,7 +47,8 @@ Case 2: $m = 1, n = 2 \rightarrow f(1, 2) = 2(1) - 2 = 0$.
 But since these two cases have different preimages resulting in the same image, this is a contradiction.
 Thus $f(m, n) = 2m - n$ is not injective.
 
-WTS 
+WTS that $f(m, n) = 2m - n$ is surjective. 
+
 
 **(b)** $f(m, n) = m^2 - n^2$
 
