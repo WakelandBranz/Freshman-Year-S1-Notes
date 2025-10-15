@@ -40,7 +40,10 @@ Determine, with proof, if the following functions from $\mathbb{Z} \times \mathb
 
 **(a)** $f(m, n) = 2m - n$
 
-
+Assume, for contradiction, that $f(m, n) = 2m - n \text{ from } \mathbb{Z} \text{ x } \mathbb{Z} \text{ to } \mathbb{Z}$ is injective.
+For counterexample, we have two cases.
+Case 1: $m = 2, n = 4 \rightarrow f(2, 4) = 2(2) - 4 = 0$.
+Case 2: $
 
 **(b)** $f(m, n) = m^2 - n^2$
 
