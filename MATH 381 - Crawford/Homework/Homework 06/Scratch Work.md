@@ -45,7 +45,7 @@ Therefore, since we proved $n = \tilde{n}$, $n^3$ is injective.
 
 We will use a counterexample to prove that $f(n) = n^3$ is not surjective.
 Consider $y = 10$ in the codomain $\mathbb{Z}$.
-For $f(n)$ to be surjective, there must exist some  such that f(n)=10f(n) = 10 f(n)=10.
+For $f(n)$ to be surjective, there must exist some $n \in \mathbb{Z}$ such that $f(n)=10$.
 So, $n^3 = 10 \rightarrow n = \sqrt[3]{ 10 }$.
 Since $\sqrt[3]{ 10 } \not \in \mathbb{Z}$, there is no integer $n$ that maps to 10.
 Therefore, $f(n) = n^3$ is not surjective.
