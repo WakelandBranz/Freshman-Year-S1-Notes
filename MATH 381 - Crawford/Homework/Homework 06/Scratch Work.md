@@ -19,21 +19,24 @@ Determine, with proof, if the following functions from $\mathbb{Z}$ to $\mathbb{
 **(a)** $f(n) = n^2 + 1$
 
 WTS that $f(n) = n^2 + 1$ is neither injective nor surjective.
-To prove that  from  is not injective, we can use a counterexample.
+To prove that $f(n)$ from $\mathbb{Z} \rightarrow \mathbb{Z}$ is not injective, we can use a counterexample.
 Take two cases.
 Case 1: $n = -1$
 Since $n = -1$, $f(-1) = (-1)^2 + 1 = 2$.
 Case 2: $n = 1$
 Since $n = 1, f(1) = 1^2 + 1 = 2$.
 Since $f(1) = f(-1) = 2$, $n^2 + 1$ is not injective.
+
 To prove that $f(n)$ from $\mathbb{Z} \rightarrow \mathbb{Z}$ is not surjective, we can use a counterexample where $n^2 + 1 = 3$.
 So, $n^2 + 1 = 3 \rightarrow n^2 = 2 \rightarrow n = \sqrt{ 2 }$.
 Since $\sqrt 2 \not \in \mathbb{Z}$ and there is no integer $n$ such that $f(n) = 3$, $n^2 + 1$ cannot be surjective.
 
-
 **(b)** $f(n) = n^3$
 
 Injective
+
+WTS that $f(n) = n^3$ is injective but not surjective.
+To prove that $f(n) = n^3$ is injective, 
 
 **(c)** $f(n) = \lceil \frac{n}{2} \rceil$ where $\lceil x \rceil$ denotes the smallest integer greater than or equal to $x$.
 
