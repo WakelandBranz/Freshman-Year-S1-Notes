@@ -37,6 +37,8 @@ Injective
 
 WTS that $f(n) = n^3$ is injective but not surjective.
 We will use the contrapositive to prove that $f(n) = n^3$ is injective.
+So, assume $f(n) = f(\tilde{n})$.
+Therefore, $n^3 = \tilde{n^3} \rightarrow \sqrt[3]{ n^3 } =$
 
 **(c)** $f(n) = \lceil \frac{n}{2} \rceil$ where $\lceil x \rceil$ denotes the smallest integer greater than or equal to $x$.
 
