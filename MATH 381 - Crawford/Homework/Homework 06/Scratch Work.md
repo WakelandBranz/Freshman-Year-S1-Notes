@@ -105,9 +105,6 @@ Assume, for contradiction, that $f(m, n)$ is surjective.
 Suppose there exists $y \in \mathbb{Z}$ s.t. $y = 10$ and $f(m, n) = y$.
 So, $m^2 - n^2 = 10 \rightarrow (m + n)(m - n) = 2$.
 There are 4 cases where this statement will hold true.
-Case 1: 
-
-DO THIS LATER
 
 **(c)** $f(m, n) = |m| - |n|$
 
@@ -126,12 +123,12 @@ Consider the following cases:
 Case 1: $y \geq 0$
 For $y \geq 0$, set $n = 0$.
 So, $|m| - 0 = y \rightarrow m = y$.
-Thus for $y \geq 0, \exists m, n$ $f(m, n)$ is surjective for $y \geq 0$.
+Thus for $y \geq 0, \exists m, n$ s.t. $f(m, n) = y$.
 Case 2: $y < 0$
 For $y < 0$, set $m = 0$.
 So, $0 - |n| = y \rightarrow -|n| = y \rightarrow |n| = -y$.
 Since $y < 0, -y > 0$ thus $n = -y$.
-Thus $f(m, n)$ is surjective for $y < 0$.
+Thus for $y < 0$ $\exists m, n$ s.t. $f(m, n) = y$.
 Therefore since $\exists m, n$ s.t. $f(m, n) = y$, it is surjective.
 
 ---
