@@ -240,6 +240,11 @@ Let $f : A \to B$ be a function and $S, T \subseteq A$. Prove that
 
 WTS that the image of $f(S \cup T)$ equals the image of $f(S) \cup f(T)$.
 Let $y \in f(S \cup T)$ be arbitrary.
+So, $y \in f(x)$ for some $x \in S \cup T$.
+Therefore $x \in S$ or $x \in T$.
+This creates two cases.
+Case 1: $x \in S$
+If $x \in S$, $y = f(x) \in f(S)$, so $y \in F(S)
 
 
 **(b)** $f(S \cap T) \subseteq f(S) \cap f(T)$, but equality need not hold in general.
