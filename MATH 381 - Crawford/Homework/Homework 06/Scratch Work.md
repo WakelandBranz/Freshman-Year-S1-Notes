@@ -95,7 +95,7 @@ Since there is a case where $f(m, n) = y$ and $y \in \mathbb{Z}$ and $y$ is an a
 
 Assume, for contradiction, that $f(m, n) = m^2 - n^2 \text{ from } \mathbb{Z} \text{ x } \mathbb{Z} \text{ to } \mathbb{Z}$ is injective.
 For counterexample, we have two cases.
-Case 1: $m = 2, n = 2 \rightarrow f(2, 4) = 2^2 - 2^2 = 0$.
+Case 1: $m = 2, n = 2 \rightarrow f(2, 2) = 2^2 - 2^2 = 0$.
 Case 2: $m = 1, n = 1 \rightarrow f(1, 1) = 1^2 - 1^2 = 0$.
 But since these two cases have different preimages resulting in the same image, this is a contradiction.
 Thus $f(m, n) = m^2 - n^2$ is not injective.
@@ -103,8 +103,11 @@ Thus $f(m, n) = m^2 - n^2$ is not injective.
 WTS that $f(m, n)$ is not surjective.
 Assume, for contradiction, that $f(m, n)$ is surjective.
 Suppose there exists $y \in \mathbb{Z}$ s.t. $y = 10$ and $f(m, n) = y$.
-So, $m^2 - n^2 = 10 \rightarrow (m + n)(m - n) = 2$.
+So, $m^2 - n^2 = 2 \rightarrow (m + n)(m - n) = 2$.
 There are 4 cases where this statement will hold true.
+Case 1: $(m + n) = 2, (m - n) = 1$
+Solving for m in the first equivalence we get $(m + n) = 2 \rightarrow m = 2 - n$.
+Solving for m int he s
 
 **(c)** $f(m, n) = |m| - |n|$
 
