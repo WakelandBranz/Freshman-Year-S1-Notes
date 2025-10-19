@@ -109,26 +109,26 @@ There are 4 cases where this statement will hold true.
 Case 1: $(m + n) = 2, (m - n) = 1$
 Solving for $m$ in the first equivalence we get $(m + n) = 2 \rightarrow m = 2 - n$.
 Solving for $m$ in the second equivalence we get $(m - n) = 1 \rightarrow m = 1 + n$.
-Setting $m$ in the two cases equivalent we get $2 - n = 1 + n \rightarrow 1 = 2$ which is impossible.
-Since $m$ is not equivalent in these equivalences this is not a possible case.
+Setting $m$ in the two cases equivalent we get $2 - n = 1 + n \rightarrow 2n = 1 \rightarrow n = \frac{1}{2}$.
+Since $n = \frac{1}{2}$ and $\frac{1}{2} \not \in \mathbb{Z}$, this is not a possible case.
 
 Case 2: $(m + n) = 1, (m - n) = 2$
 Solving for $m$ in the first equivalence we get $(m + n) = 1 \rightarrow m = 1 - n$.
 Solving for $m$ in the second equivalence we get $(m - n) = 2 \rightarrow m = n + 2$.
-Setting $m$ in the two cases equivalent we get $1 - n = n + 2 \rightarrow 1 = 2$ which is impossible.
-Since $m$ is not equivalent in these equivalences this is not a possible case.
+Setting $m$ in the two cases equivalent we get $1 - n = n + 2 \rightarrow 2n = -1 \rightarrow n = -\frac{1}{2}$.
+Since $n = -\frac{1}{2}$ and $-\frac{1}{2} \not \in \mathbb{Z}$, this is not a possible case.
 
 Case 3: $(m + n) = -2, (m - n) = -1$
 Solving for $m$ in the first equivalence we get $(m + n) = -2 \rightarrow m = -2 - n$.
 Solving for $m$ in the second equivalence we get $(m - n) = -1 \rightarrow m = -1 + n$.
-Setting  in the two cases equivalent we get $-2 - n = -1 + n \rightarrow -2 = -1$ which is impossible.
-Since $m$ is not equivalent in these equivalences this is not a possible case.
+Setting  in the two cases equivalent we get $-2 - n = -1 + n \rightarrow 2n = -1 \rightarrow n = -\frac{1}{2}$.
+Since $n = -\frac{1}{2}$ and $-\frac{1}{2} \not \in \mathbb{Z}$, this is not a possible case.
 
 Case 4: $(m + n) = -1, (m - n) = -2$
 Solving for $m$ in the first equivalence we get $(m + n) = -1 \rightarrow m = -1 - n$.
 Solving for $m$ in the second equivalence we get $(m - n) = -2 \rightarrow m = -2 + n$.
 Setting the two cases equivalent we get $-1 - n = -2 + n \rightarrow -1 = -2$ which is impossible.
-Since $m$ is not equivalent in these equivalences this is not a possible case.
+Since $n = \frac{1}{2}$ and $\frac{1}{2} \not \in \mathbb{Z}$, this is not a possible case.
 
 Since none of the four cases are possible, $f(m, n)$ has no preimages when it equals 2 so $f(m, n) = m^2 - n^2$ is not surjective.
 
