@@ -119,10 +119,11 @@ But since these two cases have different preimages resulting in the same image, 
 Thus $f(m, n) = |m| - |n|$ is not injective.
 
 To prove that $f(n) = |m| - |n|$ is surjective we will use a direct proof.
-Let $y \in \mathbb{Z}$ be arbitrary.
-Set $n = 2y$.
-So, $f(n) = \lceil \frac{2y}{2} \rceil = \lceil y \rceil = y$.
-Therefore, every $y$ in the codomain has a preimage, so $f(n)$ is surjective.
+Let $x, y \in \mathbb{Z}$ be arbitrary.
+Set $m = x$ and $n = y$.
+So, $f(n) = |x| - |y|$.
+Since both $2x$ and $2y$ are absolute values, they are always positive.
+So, $|x|$ is always positive and $-(|y|)$ is always negative.
 
 ---
 
