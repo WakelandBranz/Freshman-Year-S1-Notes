@@ -36,7 +36,7 @@ Since $\sqrt 2 \not \in \mathbb{Z}$ and there is no integer $n$ such that $f(n) 
 Injective
 
 WTS that $f(n) = n^3$ is injective but not surjective.
-To prove that $f(n) = n^3$ is injective, 
+We will use the contrapositive to prove that $f(n) = n^3$ is injective.
 
 **(c)** $f(n) = \lceil \frac{n}{2} \rceil$ where $\lceil x \rceil$ denotes the smallest integer greater than or equal to $x$.
 
