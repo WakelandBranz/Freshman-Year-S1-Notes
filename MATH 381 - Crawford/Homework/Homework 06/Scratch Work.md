@@ -238,6 +238,9 @@ Let $f : A \to B$ be a function and $S, T \subseteq A$. Prove that
 
 **(a)** $f(S \cup T) = f(S) \cup f(T)$
 
+WTS that the image of $f(S \cup T)$ equals the image of $f(S) \cup f(T)$.
+
+
 **(b)** $f(S \cap T) \subseteq f(S) \cap f(T)$, but equality need not hold in general.
 
 ---
