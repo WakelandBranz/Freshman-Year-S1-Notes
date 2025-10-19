@@ -113,17 +113,20 @@ DO THIS LATER
 
 Assume, for contradiction, that $f(m, n) = |m| - |n| \text{ from } \mathbb{Z} \text{ x } \mathbb{Z} \text{ to } \mathbb{Z}$ is injective.
 For counterexample, we have two cases.
-Case 1: $m = 2, n = 2 \rightarrow f(2, 4) = |2| - |2| = 0$.
-Case 2: $m = -2, n = -2 \rightarrow f(1, 2) = |-2| - |-2| = 0$.
+Case 1: $m = 2, n = 2 \rightarrow f(2, 2) = |2| - |2| = 0$.
+Case 2: $m = -2, n = -2 \rightarrow f(-2, -2) = |-2| - |-2| = 0$.
 But since these two cases have different preimages resulting in the same image, this is a contradiction.
 Thus $f(m, n) = |m| - |n|$ is not injective.
 
-To prove that $f(n) = |m| - |n|$ is surjective we will use a direct proof.
-Let $x, y \in \mathbb{Z}$ be arbitrary.
-Set $m = x$ and $n = y$.
-So, $f(n) = |x| - |y|$.
-Since both $2x$ and $2y$ are absolute values, they are always positive.
-So, $|x|$ is always positive and $-(|y|)$ is always negative.
+To prove that $f(m, n) = |m| - |n|$ is surjective we will use a direct proof.
+Let $y \in \mathbb{Z}$ be arbitrary.
+Set $f(m, n) = y$.
+So, $f(m, n) = |m| - |n| = y$.
+Consider the following cases:
+Case 1: $y \geq 0$
+For $y \geq 0$, set $n = 0$.
+So, $|m| - 0 = y \rightarrow |m| = y \rightarrow m = y$.
+Thus $f(m, n)$ is surjective for 
 
 ---
 
