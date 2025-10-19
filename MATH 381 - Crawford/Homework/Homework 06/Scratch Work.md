@@ -125,13 +125,14 @@ So, $f(m, n) = |m| - |n| = y$.
 Consider the following cases:
 Case 1: $y \geq 0$
 For $y \geq 0$, set $n = 0$.
-So, $|m| - 0 = y \rightarrow |m| = y \rightarrow m = y$.
-Thus $f(m, n)$ is surjective for $y \geq 0$.
+So, $|m| - 0 = y \rightarrow m = y$.
+Thus for $y \geq 0, \exists m, n$ $f(m, n)$ is surjective for $y \geq 0$.
 Case 2: $y < 0$
 For $y < 0$, set $m = 0$.
-So, $0 - |n| = y \rightarrow -|n| = y \rightarrow |n| = -y \rightarrow n$.
+So, $0 - |n| = y \rightarrow -|n| = y \rightarrow |n| = -y$.
+Since $y < 0, -y > 0$ thus $n = -y$.
 Thus $f(m, n)$ is surjective for $y < 0$.
-Therefore since $f(m, n) = y$ it is surjective.
+Therefore since $\exists m, n$ s.t. $f(m, n) = y$, it is surjective.
 
 ---
 
