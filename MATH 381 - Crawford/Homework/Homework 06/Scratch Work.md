@@ -127,7 +127,7 @@ Since $n = -\frac{1}{2}$ and $-\frac{1}{2} \not \in \mathbb{Z}$, this is not a p
 Case 4: $(m + n) = -1, (m - n) = -2$
 Solving for $m$ in the first equivalence we get $(m + n) = -1 \rightarrow m = -1 - n$.
 Solving for $m$ in the second equivalence we get $(m - n) = -2 \rightarrow m = -2 + n$.
-Setting the two cases equivalent we get $-1 - n = -2 + n \rightarrow -1 = -2$ which is impossible.
+Setting the two cases equivalent we get $-1 - n = -2 + n \rightarrow 2n = 1 \rightarrow n = 1/2$.
 Since $n = \frac{1}{2}$ and $\frac{1}{2} \not \in \mathbb{Z}$, this is not a possible case.
 
 Since none of the four cases are possible, $f(m, n)$ has no preimages when it equals 2 so $f(m, n) = m^2 - n^2$ is not surjective.
