@@ -33,6 +33,8 @@ To prove that $f(n)$ from $\mathbb{Z} \rightarrow \mathbb{Z}$ is not surjective,
 So, $n^2 + 1 = 3 \rightarrow n^2 = 2 \rightarrow n = \sqrt{ 2 }$.
 Since $\sqrt 2 \not \in \mathbb{Z}$ and there is no integer $n$ such that $f(n) = 3$, $n^2 + 1$ cannot be surjective.
 
+---
+
 **(b)** $f(n) = n^3$
 
 **-PF-**
@@ -49,6 +51,8 @@ For $f(n)$ to be surjective, there must exist some $n \in \mathbb{Z}$ such that 
 So, $n^3 = 10 \rightarrow n = \sqrt[3]{ 10 }$.
 Since $\sqrt[3]{ 10 } \not \in \mathbb{Z}$, there is no integer $n$ that maps to 10.
 Therefore, $f(n) = n^3$ is not surjective.
+
+---
 
 **(c)** $f(n) = \lceil \frac{n}{2} \rceil$ where $\lceil x \rceil$ denotes the smallest integer greater than or equal to $x$.
 
@@ -76,6 +80,8 @@ Determine, with proof, if the following functions from $\mathbb{Z} \times \mathb
 
 **(a)** $f(m, n) = 2m - n$
 
+***-PF-***
+
 Assume, for contradiction, that $f(m, n) = 2m - n \text{ from } \mathbb{Z} \text{ x } \mathbb{Z} \text{ to } \mathbb{Z}$ is injective.
 For counterexample, we have two cases.
 Case 1: $m = 2, n = 4 \rightarrow f(2, 4) = 2(2) - 4 = 0$.
@@ -91,7 +97,11 @@ Let $m = 0, n = -y$.
 So, $f(m, n) = 2(0) - (-y) = y$.
 Since there is a case where $f(m, n) = y$ and $y \in \mathbb{Z}$ and $y$ is an arbitrary number, $f(m, n)$ is surjective.
 
+---
+
 **(b)** $f(m, n) = m^2 - n^2$
+
+***-PF-***
 
 Assume, for contradiction, that $f(m, n) = m^2 - n^2 \text{ from } \mathbb{Z} \text{ x } \mathbb{Z} \text{ to } \mathbb{Z}$ is injective.
 For counterexample, we have two cases.
@@ -132,7 +142,11 @@ Since $n = \frac{1}{2}$ and $\frac{1}{2} \not \in \mathbb{Z}$, this is not a pos
 
 Since none of the four cases are possible, $f(m, n)$ has no preimages when it equals 2 so $f(m, n) = m^2 - n^2$ is not surjective.
 
+---
+
 **(c)** $f(m, n) = |m| - |n|$
+
+***-PF-***
 
 Assume, for contradiction, that $f(m, n) = |m| - |n| \text{ from } \mathbb{Z} \text{ x } \mathbb{Z} \text{ to } \mathbb{Z}$ is injective.
 For counterexample, we have two cases.
@@ -237,3 +251,4 @@ $$f^{-1}(S) = {a \in A \mid f(a) \in S}$$
 Note that this can be defined whether or not $f$ is an invertible function.
 
 Prove that for subsets $S, T \subseteq B$, $f^{-1}(S \cup T) = f^{-1}(S) \cup f^{-1}(T)$.
+
