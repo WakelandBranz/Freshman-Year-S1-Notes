@@ -52,8 +52,6 @@ Therefore, $f(n) = n^3$ is not surjective.
 
 **(c)** $f(n) = \lceil \frac{n}{2} \rceil$ where $\lceil x \rceil$ denotes the smallest integer greater than or equal to $x$.
 
-Neither injective **nor** surjective
-
 **-PF-**
 
 WTS that $f(n) = \lceil \frac{n}{2} \rceil$ is not injective but is surjective.
@@ -65,7 +63,7 @@ $f(2) = \lceil \frac{2}{2} \rceil = 1$.
 Since $f(1) = f(2) = 1$, $f(n) = \lceil \frac{n}{2} \rceil$ is not injective.
 
 To prove that $f(n) = \lceil \frac{n}{2} \rceil$ is surjective we will use a direct proof.
-Let there exist $y$ s.t. $\exists y \in \mathbb{Z}$ and $n = 2y$.
+Let there be an arbitrary $ $\exists y \in \mathbb{Z}$ s.t. $n = 2y$.
 So, $f(n) = \lceil \frac{2y}{2} \rceil = \lceil y \rceil = y$.
 Therefore, every $y$ in the codomain has a preimage, so $f(n)$ is surjective.
 
@@ -103,10 +101,12 @@ Thus $f(m, n) = m^2 - n^2$ is not injective.
 
 WTS that $f(m, n)$ is not surjective.
 Assume, for contradiction, that $f(m, n)$ is surjective.
-Suppose there exists $y \in \mathbb{Z}$ s.t. $f(m, n) = 2$.
-So, $m^2 - n^2 = 2 \rightarrow (m + n)(m - n) = 2$.
+Suppose there exists $y \in \mathbb{Z}$ s.t. $y = 10$ and $f(m, n) = y$.
+So, $m^2 - n^2 = 10 \rightarrow (m + n)(m - n) = 2$.
 There are 4 cases where this statement will hold true.
 Case 1: 
+
+DO THIS LATER
 
 **(c)** $f(m, n) = |m| - |n|$
 
