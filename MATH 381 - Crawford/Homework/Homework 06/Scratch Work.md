@@ -56,7 +56,7 @@ Neither injective **nor** surjective
 
 **-PF-**
 
-WTS that $f(n) = \lceil \frac{n}{2} \rceil$ is neither injective nor surjective.
+WTS that $f(n) = \lceil \frac{n}{2} \rceil$ is not injective but is surjective.
 To prove that $f(n) = \lceil \frac{n}{2} \rceil$ is not injective we will use a counterexample.
 Case 1: $n = 1$.
 $f(1) = \lceil \frac{1}{2} \rceil = 1$.
