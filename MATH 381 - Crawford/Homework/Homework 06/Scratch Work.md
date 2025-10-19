@@ -239,14 +239,26 @@ Let $f : A \to B$ be a function and $S, T \subseteq A$. Prove that
 **(a)** $f(S \cup T) = f(S) \cup f(T)$
 
 WTS that the image of $f(S \cup T)$ equals the image of $f(S) \cup f(T)$.
+We will prove $f(S \cup T) \subseteq f(S) \cup f(T)$.
 Let $y \in f(S \cup T)$ be arbitrary.
-So, $y \in f(x)$ for some $x \in S \cup T$.
+So, $y = f(x)$ for some $x \in S \cup T$.
 So $x \in S$ or $x \in T$.
 This creates two cases.
 Case 1: $x \in S$
 If $x \in S$, $y = f(x) \in f(S)$, so $y \in f(S) \cup f(T)$.
 Case 2:
 If $x \in T$, $y = f(x) \in f(T)$, so $y \in f(S) \cup f(T)$.
+
+Now we will prove $f(S) \cup f(T) \subseteq f(S \cup T)$.
+Let $y \in f(S) \cup f(T)$ be arbitrary.
+So, $y \in f(S)$ or $y  \in f(T)$.
+This creates two cases.
+Case 1: $y \in f(S)$
+
+
+Case 2: $y \in f(T)$
+
+
 Therefore, since there exists an arbitrary $y$ s.t. $y \in f(S \cup T)$ and $y \in f(S) \cup f(T)$, $f(S \cup T) = f(S) \cup f(T)$.
 
 
