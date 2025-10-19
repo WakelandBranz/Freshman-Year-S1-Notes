@@ -120,13 +120,18 @@ Thus $f(m, n) = |m| - |n|$ is not injective.
 
 To prove that $f(m, n) = |m| - |n|$ is surjective we will use a direct proof.
 Let $y \in \mathbb{Z}$ be arbitrary.
-Set $f(m, n) = y$.
+We want to find $m, n$ s.t. $f(m, n) = y$.
 So, $f(m, n) = |m| - |n| = y$.
 Consider the following cases:
 Case 1: $y \geq 0$
 For $y \geq 0$, set $n = 0$.
 So, $|m| - 0 = y \rightarrow |m| = y \rightarrow m = y$.
-Thus $f(m, n)$ is surjective for 
+Thus $f(m, n)$ is surjective for $y \geq 0$.
+Case 2: $y < 0$
+For $y < 0$, set $m = 0$.
+So, $0 - |n| = y \rightarrow -|n| = y \rightarrow |n| = -y \rightarrow n$.
+Thus $f(m, n)$ is surjective for $y < 0$.
+Therefore since $f(m, n) = y$ it is surjective.
 
 ---
 
