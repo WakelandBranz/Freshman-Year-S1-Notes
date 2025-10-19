@@ -21,8 +21,8 @@ Determine, with proof, if the following functions from $\mathbb{Z}$ to $\mathbb{
 Neither injective **nor** surjective
 
 WTS that $f(n) = n^2 + 1$ is neither injective nor surjective.
-To prove that $f(n)$ from $\mathbb{Z} \rightarrow \mathbb{Z}$ is not injective, we can use a counterexample.
-
+To prove that $f(n)$ from $\mathbb{Z} \rightarrow \mathbb{Z}$ is not injective, we can use a counterexample where $n^2 + 1 = 3$.
+So, $n^2 + 1 = 3 \rightarrow n^2 = 2 \rightarrow n $
 
 **(b)** $f(n) = n^3$
 
