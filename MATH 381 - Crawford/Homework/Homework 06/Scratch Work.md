@@ -251,15 +251,17 @@ If $x \in T$, $y = f(x) \in f(T)$, so $y \in f(S) \cup f(T)$.
 
 Now we will prove $f(S) \cup f(T) \subseteq f(S \cup T)$.
 Let $y \in f(S) \cup f(T)$ be arbitrary.
+So, $y = f(x)
+
 So, $y \in f(S)$ or $y  \in f(T)$.
 This creates two cases.
 Case 1: $y \in f(S)$
-
+If $y \in f(S)$, $y(S \cup T)$.
 
 Case 2: $y \in f(T)$
 
 
-Therefore, since there exists an arbitrary $y$ s.t. $y \in f(S \cup T)$ and $y \in f(S) \cup f(T)$, $f(S \cup T) = f(S) \cup f(T)$.
+Therefore, since both inclusions hold, $f(S \cup T) = f(S) \cup f(T)$.
 
 
 **(b)** $f(S \cap T) \subseteq f(S) \cap f(T)$, but equality need not hold in general.
