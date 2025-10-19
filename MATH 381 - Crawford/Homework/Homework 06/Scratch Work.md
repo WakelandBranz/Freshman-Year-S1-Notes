@@ -21,8 +21,17 @@ Determine, with proof, if the following functions from $\mathbb{Z}$ to $\mathbb{
 Neither injective **nor** surjective
 
 WTS that $f(n) = n^2 + 1$ is neither injective nor surjective.
-To prove that $f(n)$ from $\mathbb{Z} \rightarrow \mathbb{Z}$ is not injective, we can use a counterexample where $n^2 + 1 = 3$.
-So, $n^2 + 1 = 3 \rightarrow n^2 = 2 \rightarrow n $
+To prove that  from  is not injective, we can use a counterexample.
+Take two cases.
+Case 1: $n = -1$
+Since $n = -1$, $f(-1) = (-1)^2 + 1 = 2$.
+Case 2: $n = 1$
+Since $n = 1, f(1) = 1^2 + 1
+
+To prove that $f(n)$ from $\mathbb{Z} \rightarrow \mathbb{Z}$ is not surjective, we can use a counterexample where $n^2 + 1 = 3$.
+So, $n^2 + 1 = 3 \rightarrow n^2 = 2 \rightarrow n = \sqrt{ 2 }$.
+Since $\sqrt 2 \not \in \mathbb{Z}$, $n^2 + 1$ cannot be injective.
+
 
 **(b)** $f(n) = n^3$
 
