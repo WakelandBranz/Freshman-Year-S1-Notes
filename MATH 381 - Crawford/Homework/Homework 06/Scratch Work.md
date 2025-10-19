@@ -33,12 +33,15 @@ Since $\sqrt 2 \not \in \mathbb{Z}$ and there is no integer $n$ such that $f(n) 
 
 **(b)** $f(n) = n^3$
 
-Injective
-
 WTS that $f(n) = n^3$ is injective but not surjective.
 We will use the contrapositive to prove that $f(n) = n^3$ is injective.
 So, assume $f(n) = f(\tilde{n})$.
-Therefore, $n^3 = \tilde{n^3} \rightarrow \sqrt[3]{ n^3 } =$
+So, $n^3 = \tilde{n^3} \rightarrow \sqrt[3]{ n^3 } = \sqrt[3]{ \tilde{n^3} } \rightarrow n = \tilde{n}$.
+Therefore, since we proved $n = \tilde{n}$, $n^3$ is injective.
+We will use a counterexample to prove that $f(n) = n^3$ is surjective.
+Let $f(n) = 10$.
+So, $n^3 = 10 \rightarrow n = \sqrt[3]{ 10 }$.
+Since $\sqrt[3]{ 10 } \not \in \mathbb{Z}$, $f(\sqrt[3]{ 10 })$ is not in the function's image thus it is not surjective.
 
 **(c)** $f(n) = \lceil \frac{n}{2} \rceil$ where $\lceil x \rceil$ denotes the smallest integer greater than or equal to $x$.
 
