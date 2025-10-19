@@ -65,9 +65,9 @@ $f(2) = \lceil \frac{2}{2} \rceil = 1$.
 Since $f(1) = f(2) = 1$, $f(n) = \lceil \frac{n}{2} \rceil$ is not injective.
 
 To prove that $f(n) = \lceil \frac{n}{2} \rceil$ is surjective we will use a direct proof.
-Let there exist $y$ s.t. $\exists y \in \mathbb{Z}$.
-We need to find an $n$ s.t. $f(n) = y$.
-$\lceil \frac{n}{2} \rceil$
+Let there exist $y$ s.t. $\exists y \in \mathbb{Z}$ and $n = 2y$.
+So, $f(n) = \lceil \frac{2y}{2} \rceil = \lceil y \rceil = y$.
+Therefore, every $y$ in the codomain has a preimage, so $f(n)$ is surjective.
 
 ---
 
