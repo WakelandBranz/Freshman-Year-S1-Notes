@@ -18,6 +18,8 @@ Determine, with proof, if the following functions from $\mathbb{Z}$ to $\mathbb{
 
 **(a)** $f(n) = n^2 + 1$
 
+**-PF-**
+
 WTS that $f(n) = n^2 + 1$ is neither injective nor surjective.
 To prove that $f(n)$ from $\mathbb{Z} \rightarrow \mathbb{Z}$ is not injective, we can use a counterexample.
 Take two cases.
@@ -33,19 +35,26 @@ Since $\sqrt 2 \not \in \mathbb{Z}$ and there is no integer $n$ such that $f(n) 
 
 **(b)** $f(n) = n^3$
 
+**-PF-**
+
 WTS that $f(n) = n^3$ is injective but not surjective.
 We will use the contrapositive to prove that $f(n) = n^3$ is injective.
 So, assume $f(n) = f(\tilde{n})$.
-So, $n^3 = \tilde{n^3} \rightarrow \sqrt[3]{ n^3 } = \sqrt[3]{ \tilde{n^3} } \rightarrow n = \tilde{n}$.
+So, $n^3 = \tilde{n}^3 \rightarrow \sqrt[3]{ n^3 } = \sqrt[3]{ \tilde{n}^3 } \rightarrow n = \tilde{n}$.
 Therefore, since we proved $n = \tilde{n}$, $n^3$ is injective.
-We will use a counterexample to prove that $f(n) = n^3$ is surjective.
-Let $f(n) = 10$.
+
+We will use a counterexample to prove that $f(n) = n^3$ is not surjective.
+Consider $y = 10$ in the codomain $\mathbb{Z}$.
+For $f(n)$ to be surjective, there must exist some  such that f(n)=10f(n) = 10 f(n)=10.
 So, $n^3 = 10 \rightarrow n = \sqrt[3]{ 10 }$.
-Since $\sqrt[3]{ 10 } \not \in \mathbb{Z}$, $f(\sqrt[3]{ 10 })$ is not in the function's image thus it is not surjective.
+Since $\sqrt[3]{ 10 } \not \in \mathbb{Z}$, there is no integer $n$ that maps to 10.
+Therefore, $f(n) = n^3$ is not surjective.
 
 **(c)** $f(n) = \lceil \frac{n}{2} \rceil$ where $\lceil x \rceil$ denotes the smallest integer greater than or equal to $x$.
 
 Neither injective **nor** surjective
+
+**-PF-**
 
 ---
 
