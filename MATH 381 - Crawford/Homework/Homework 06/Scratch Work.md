@@ -56,6 +56,16 @@ Neither injective **nor** surjective
 
 **-PF-**
 
+WTS that $f(n) = \lceil \frac{n}{2} \rceil$ is neither injective nor surjective.
+To prove that $f(n) = \lceil \frac{n}{2} \rceil$ is not injective we will use a counterexample.
+Case 1: $n = 1$.
+$f(1) = \lceil \frac{1}{2} \rceil = 1$.
+Case 2: $n = 2$
+$f(2) = \lceil \frac{2}{2} \rceil = 1$.
+Since $f(1) = f(2) = 1$, $f(n) = \lceil \frac{n}{2} \rceil$ is not injective.
+
+To prove that 
+
 ---
 
 ## 3. Injective/Surjective Functions from $\mathbb{Z} \times \mathbb{Z}$ to $\mathbb{Z}$
