@@ -4,7 +4,12 @@
 
 For a universal set $U$ and a subset $A \subseteq U$, we define the characteristic function of $A$, written as $\chi_A : U \to {0, 1}$, to be the function
 
-$$\chi_A(x) = \begin{cases} 1 & \text{if } x \in A \ 0 & \text{if } x \notin A \end{cases}$$
+$$
+h(x) = \begin{cases}
+1 & \text{if } x \in A \\
+0 & \text{if } x \not \in A
+\end{cases}
+$$
 
 **(a)** If $A = [0, 2) \subset \mathbb{R}$, sketch the graph of $\chi_A$.
 
@@ -12,8 +17,8 @@ $$\chi_A(x) = \begin{cases} 1 & \text{if } x \in A \ 0 & \text{if } x \notin A \
 
 **(b)** If $A = [0, 2) \subset \mathbb{R}$, determine $\chi_A^{-1}(0)$, $\chi_A^{-1}(1)$, and $\chi_A^{-1}(2)$.
 
-$\chi_A^{-1}(0) = U$
-$\chi_A^{-1}(1) = U$
+$\chi_A^{-1}(0) = (-\infty, 0) \cup [2, \infty)$
+$\chi_A^{-1}(1) = [0, 2)$
 $\chi_A^{-1}(2) = \emptyset$
 
 
