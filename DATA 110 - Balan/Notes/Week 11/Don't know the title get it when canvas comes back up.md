@@ -17,3 +17,13 @@
 
 ---
 ### Sampling Bias
+**Sampling bias** occurs when some samples are selected with a higher probability than others thereby not yielding a representative sample.
+ - Undercoverage or exclusion bias occurs when a portion of the population of interest is not accurately represented in the sample
+ - Self-selection/voluntary response bias occurs when respondents with specific characteristics are more willing to take part in research
+ - Non-response or participation bias occurs when a group of respondents refuses to participate or drop out
+ - Survivorship bias occurs when the sample is focused on those who pass the selection criteria
+
+---
+### Probabilistic Sampling Methods
+ - Simple random sampling is when each member of the population has an equal chance of being selected
+ - Stratified random sampling identifies subgroup
