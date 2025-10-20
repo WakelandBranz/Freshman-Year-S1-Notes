@@ -25,5 +25,5 @@
 
 ---
 ### Probabilistic Sampling Methods
- - Simple random sampling is when each member of the population has an equal chance of being selected
- - Stratified random sampling identifies subgroup
+ - **Simple random sampling** is when each member of the population has an equal chance of being selected
+ - **Stratified random sampling** identifies subgroups within a population and selects the sample in such a way to ensure that there is equal representation from each subgroup.
