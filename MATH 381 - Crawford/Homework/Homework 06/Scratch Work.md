@@ -14,7 +14,7 @@ $$\chi_A(x) = \begin{cases} 1 & \text{if } x \in A \ 0 & \text{if } x \notin A \
 
 $\chi_A^{-1}(0) = U$
 $\chi_A^{-1}(1) = U$
-$\chi_A^{-1}(2) = 
+$\chi_A^{-1}(2) = \emptyset$
 
 
 ---
