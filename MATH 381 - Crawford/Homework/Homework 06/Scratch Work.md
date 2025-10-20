@@ -8,7 +8,11 @@ $$\chi_A(x) = \begin{cases} 1 & \text{if } x \in A \ 0 & \text{if } x \notin A \
 
 **(a)** If $A = [0, 2) \subset \mathbb{R}$, sketch the graph of $\chi_A$.
 
+![[Pasted image 20251020122120.png]]
+
 **(b)** If $A = [0, 2) \subset \mathbb{R}$, determine $\chi_A^{-1}(0)$, $\chi_A^{-1}(1)$, and $\chi_A^{-1}(2)$.
+
+
 
 ---
 
