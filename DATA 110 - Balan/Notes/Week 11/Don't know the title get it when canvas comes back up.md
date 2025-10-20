@@ -51,4 +51,6 @@
 10. DE
 	1. 83.5
 
-Average of all means - 
+Range of all means - 77-83.5
+Average of all means - 80
+Sample mean = population mean
