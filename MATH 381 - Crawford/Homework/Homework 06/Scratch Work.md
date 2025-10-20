@@ -21,7 +21,6 @@ $\chi_A^{-1}(0) = (-\infty, 0) \cup [2, \infty)$
 $\chi_A^{-1}(1) = [0, 2)$
 $\chi_A^{-1}(2) = \emptyset$
 
-
 ---
 
 ## 2. Injective/Surjective Functions from $\mathbb{Z}$ to $\mathbb{Z}$
