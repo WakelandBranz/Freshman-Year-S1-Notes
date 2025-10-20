@@ -27,3 +27,28 @@
 ### Probabilistic Sampling Methods
  - **Simple random sampling** is when each member of the population has an equal chance of being selected
  - **Stratified random sampling** identifies subgroups within a population and selects the sample in such a way to ensure that there is equal representation from each subgroup.
+
+---
+### Sample Exercise
+1. AB
+	1. 77
+2. AC
+	1. 77.5
+3. AD
+	1. 78.5
+4. AE
+	1. 81
+5. BC
+	1. 78.5
+6. BD
+	1. 79.5
+7. BE
+	1. 82
+8. CD
+	1. 80
+9. CE
+	1. 82.5
+10. DE
+	1. 83.5
+
+Average of all means - 
