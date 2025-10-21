@@ -277,6 +277,8 @@ Therefore, since both inclusions hold, $f(S \cup T) = f(S) \cup f(T)$.
 
 **(b)** $f(S \cap T) \subseteq f(S) \cap f(T)$, but equality need not hold in general.
 
+
+
 ---
 
 ## 7. Inverse Images of Sets
