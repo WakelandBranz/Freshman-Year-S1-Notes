@@ -263,8 +263,17 @@ Assume $f  \circ g: A \to C$ is a bijection.
 This means $f \circ g$ is both injective and surjective.
 WTS $g$ is surjective iff $f$ is injective.
 Assume $g: A \to B$ is surjective.
-Let $x \in B$ s.t. $f(x) = f(y)$.
-Since $g$ is surjective, there exists $
+Let $b_1, b_2 \in B$ s.t. $f(b_1) = f(b_2)$.
+Since $g$ is surjective, there exists $a_1, a_2 \in A$ s.t. $g(a_1) = b_1$ and $g(a_2) = b_2$.
+Then $(f \circ g)(a_1) = f(g(1_1)) = f(b_1) = f(b_2) = f(g(a_2)) = (f \circ g)(a_2)$.
+Since $f \circ g$ is injective, we have $a_1 = a_2$.
+So $g(a_1) = g(a_2)$, which means $b_1 = b_2$.
+Therefore $f$ is injectiver.
+
+WTS $f$ is injective iff $g$ is surjective.
+Assume $f: B \to C$ is injective.
+Let $b \in B$ be arbitrary.
+Since $f(b)
 
 **(d)** Give an example where $f \circ g$ is surjective, but $g$ is not.
 
