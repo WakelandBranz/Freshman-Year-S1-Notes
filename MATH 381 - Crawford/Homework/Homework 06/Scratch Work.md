@@ -290,6 +290,8 @@ Since $x \in S$ we have $y \in f(S)$.
 Since $x \in T$ we have $y \in f(T)$.
 Therefore $y \in f(S) \cap f(T)$.
 
+We will use a counterexample to prove $f(S) \cap f(T) \subseteq f(S \cap T)$ is not true for all cases.
+Take $f: \{ 1, 2 \} \to {x}$ such that $f(1) = x$ and $f(2) = x$.
 
 
 
