@@ -2,13 +2,26 @@
 
 For a universal set $U$ and a subset $A \subseteq U$, we define the characteristic function of $A$, written as $\chi_A : U \to {0, 1}$, to be the function
 
-$$\chi_A(x) = \begin{cases} 1 & \text{if } x \in A \ 0 & \text{if } x \notin A \end{cases}$$
+$$
+h(x) = \begin{cases}
+1 & \text{if } x \in A \\
+0 & \text{if } x \not \in A
+\end{cases}
+$$
 
 **(a)** If $A = [0, 2) \subset \mathbb{R}$, sketch the graph of $\chi_A$.
 
+![[Pasted image 20251020122120.png]]
+
 **(b)** If $A = [0, 2) \subset \mathbb{R}$, determine $\chi_A^{-1}(0)$, $\chi_A^{-1}(1)$, and $\chi_A^{-1}(2)$.
 
+$\chi_A^{-1}(0) = (-\infty, 0) \cup [2, \infty)$
+$\chi_A^{-1}(1) = [0, 2)$
+$\chi_A^{-1}(2) = \emptyset$
+
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ## 2. Injective/Surjective Functions from $\mathbb{Z}$ to $\mathbb{Z}$
 
@@ -16,9 +29,59 @@ Determine, with proof, if the following functions from $\mathbb{Z}$ to $\mathbb{
 
 **(a)** $f(n) = n^2 + 1$
 
+**-PF-**
+
+WTS that $f(n) = n^2 + 1$ is neither injective nor surjective.
+To prove that $f(n)$ from $\mathbb{Z} \rightarrow \mathbb{Z}$ is not injective, we can use a counterexample.
+Take two cases.
+Case 1: $n = -1$
+Since $n = -1$, $f(-1) = (-1)^2 + 1 = 2$.
+Case 2: $n = 1$
+Since $n = 1, f(1) = 1^2 + 1 = 2$.
+Since $f(1) = f(-1) = 2$, $n^2 + 1$ is not injective.
+
+To prove that $f(n)$ from $\mathbb{Z} \rightarrow \mathbb{Z}$ is not surjective, we can use a counterexample where $n^2 + 1 = 3$.
+So, $n^2 + 1 = 3 \rightarrow n^2 = 2 \rightarrow n = \sqrt{ 2 }$.
+Since $\sqrt 2 \not \in \mathbb{Z}$ and there is no integer $n$ such that $f(n) = 3$, $n^2 + 1$ cannot be surjective.
+
+---
+
 **(b)** $f(n) = n^3$
 
+**-PF-**
+
+WTS that $f(n) = n^3$ is injective but not surjective.
+We will use the contrapositive to prove that $f(n) = n^3$ is injective.
+So, assume $f(n) = f(\tilde{n})$.
+So, $n^3 = \tilde{n}^3 \rightarrow \sqrt[3]{ n^3 } = \sqrt[3]{ \tilde{n}^3 } \rightarrow n = \tilde{n}$.
+Therefore, since we proved $n = \tilde{n}$, $n^3$ is injective.
+
+We will use a counterexample to prove that $f(n) = n^3$ is not surjective.
+Consider $y = 10$ in the codomain $\mathbb{Z}$.
+For $f(n)$ to be surjective, there must exist some $n \in \mathbb{Z}$ such that $f(n)=10$.
+So, $n^3 = 10 \rightarrow n = \sqrt[3]{ 10 }$.
+Since $\sqrt[3]{ 10 } \not \in \mathbb{Z}$, there is no integer $n$ that maps to 10.
+Therefore, $f(n) = n^3$ is not surjective.
+
+---
+
 **(c)** $f(n) = \lceil \frac{n}{2} \rceil$ where $\lceil x \rceil$ denotes the smallest integer greater than or equal to $x$.
+
+**-PF-**
+
+WTS that $f(n) = \lceil \frac{n}{2} \rceil$ is not injective but is surjective.
+To prove that $f(n) = \lceil \frac{n}{2} \rceil$ is not injective we will use a counterexample.
+Case 1: $n = 1$.
+$f(1) = \lceil \frac{1}{2} \rceil = 1$.
+Case 2: $n = 2$
+$f(2) = \lceil \frac{2}{2} \rceil = 1$.
+Since $f(1) = f(2) = 1$, $f(n) = \lceil \frac{n}{2} \rceil$ is not injective.
+
+To prove that $f(n) = \lceil \frac{n}{2} \rceil$ is surjective we will use a direct proof.
+Let $y \in \mathbb{Z}$ be arbitrary.
+Set $n = 2y$.
+So, $f(n) = \lceil \frac{2y}{2} \rceil = \lceil y \rceil = y$.
+Therefore, every $y$ in the codomain has a preimage, so $f(n)$ is surjective.
 
 ---
 
@@ -28,9 +91,96 @@ Determine, with proof, if the following functions from $\mathbb{Z} \times \mathb
 
 **(a)** $f(m, n) = 2m - n$
 
+***-PF-***
+
+Assume, for contradiction, that $f(m, n) = 2m - n \text{ from } \mathbb{Z} \text{ x } \mathbb{Z} \text{ to } \mathbb{Z}$ is injective.
+For counterexample, we have two cases.
+Case 1: $m = 2, n = 4 \rightarrow f(2, 4) = 2(2) - 4 = 0$.
+Case 2: $m = 1, n = 2 \rightarrow f(1, 2) = 2(1) - 2 = 0$.
+But since these two cases have different preimages resulting in the same image, this is a contradiction.
+Thus $f(m, n) = 2m - n$ is not injective.
+
+WTS that $f(m, n) = 2m - n$ is surjective. 
+Let $y \in \mathbb{Z}$ be arbitrary.
+We want to find $m, n \in \mathbb{Z}$ s.t. $f(m, n) = y$.
+We need $f(m, n) = 2m - n = y$.
+Let $m = 0, n = -y$.
+So, $f(m, n) = 2(0) - (-y) = y$.
+Since there is a case where $f(m, n) = y$ and $y \in \mathbb{Z}$ and $y$ is an arbitrary number, $f(m, n)$ is surjective.
+
+---
+
 **(b)** $f(m, n) = m^2 - n^2$
 
+***-PF-***
+
+Assume, for contradiction, that $f(m, n) = m^2 - n^2 \text{ from } \mathbb{Z} \text{ x } \mathbb{Z} \text{ to } \mathbb{Z}$ is injective.
+For counterexample, we have two cases.
+Case 1: $m = 2, n = 2 \rightarrow f(2, 2) = 2^2 - 2^2 = 0$.
+Case 2: $m = 1, n = 1 \rightarrow f(1, 1) = 1^2 - 1^2 = 0$.
+But since these two cases have different preimages resulting in the same image, this is a contradiction.
+Thus $f(m, n) = m^2 - n^2$ is not injective.
+
+WTS that $f(m, n)$ is not surjective.
+Assume, for contradiction, that $f(m, n)$ is surjective.
+Suppose there exists $y \in \mathbb{Z}$ s.t. $y = 2$ and $f(m, n) = y$.
+So, $m^2 - n^2 = 2 \rightarrow (m + n)(m - n) = 2$.
+There are 4 cases where this statement will hold true.
+
+Case 1: $(m + n) = 2, (m - n) = 1$
+Solving for $m$ in the first equivalence we get $(m + n) = 2 \rightarrow m = 2 - n$.
+Solving for $m$ in the second equivalence we get $(m - n) = 1 \rightarrow m = 1 + n$.
+Setting $m$ in the two cases equivalent we get $2 - n = 1 + n \rightarrow 2n = 1 \rightarrow n = \frac{1}{2}$.
+Since $n = \frac{1}{2}$ and $\frac{1}{2} \not \in \mathbb{Z}$, this is not a possible case.
+
+Case 2: $(m + n) = 1, (m - n) = 2$
+Solving for $m$ in the first equivalence we get $(m + n) = 1 \rightarrow m = 1 - n$.
+Solving for $m$ in the second equivalence we get $(m - n) = 2 \rightarrow m = n + 2$.
+Setting $m$ in the two cases equivalent we get $1 - n = n + 2 \rightarrow 2n = -1 \rightarrow n = -\frac{1}{2}$.
+Since $n = -\frac{1}{2}$ and $-\frac{1}{2} \not \in \mathbb{Z}$, this is not a possible case.
+
+Case 3: $(m + n) = -2, (m - n) = -1$
+Solving for $m$ in the first equivalence we get $(m + n) = -2 \rightarrow m = -2 - n$.
+Solving for $m$ in the second equivalence we get $(m - n) = -1 \rightarrow m = -1 + n$.
+Setting  in the two cases equivalent we get $-2 - n = -1 + n \rightarrow 2n = -1 \rightarrow n = -\frac{1}{2}$.
+Since $n = -\frac{1}{2}$ and $-\frac{1}{2} \not \in \mathbb{Z}$, this is not a possible case.
+
+Case 4: $(m + n) = -1, (m - n) = -2$
+Solving for $m$ in the first equivalence we get $(m + n) = -1 \rightarrow m = -1 - n$.
+Solving for $m$ in the second equivalence we get $(m - n) = -2 \rightarrow m = -2 + n$.
+Setting the two cases equivalent we get $-1 - n = -2 + n \rightarrow 2n = 1 \rightarrow n = 1/2$.
+Since $n = \frac{1}{2}$ and $\frac{1}{2} \not \in \mathbb{Z}$, this is not a possible case.
+
+Since none of the four cases are possible, $f(m, n)$ has no preimages when it equals 2 so $f(m, n) = m^2 - n^2$ is not surjective.
+
+---
+
 **(c)** $f(m, n) = |m| - |n|$
+
+***-PF-***
+
+Assume, for contradiction, that $f(m, n) = |m| - |n| \text{ from } \mathbb{Z} \text{ x } \mathbb{Z} \text{ to } \mathbb{Z}$ is injective.
+For counterexample, we have two cases.
+Case 1: $m = 2, n = 2 \rightarrow f(2, 2) = |2| - |2| = 0$.
+Case 2: $m = -2, n = -2 \rightarrow f(-2, -2) = |-2| - |-2| = 0$.
+But since these two cases have different preimages resulting in the same image, this is a contradiction.
+Thus $f(m, n) = |m| - |n|$ is not injective.
+
+To prove that $f(m, n) = |m| - |n|$ is surjective we will use a direct proof.
+Let $y \in \mathbb{Z}$ be arbitrary.
+We want to find $m, n$ s.t. $f(m, n) = y$.
+So, $f(m, n) = |m| - |n| = y$.
+Consider the following cases:
+Case 1: $y \geq 0$
+For $y \geq 0$, set $n = 0$.
+So, $|m| - 0 = y \rightarrow m = y$.
+Thus for $y \geq 0, \exists m, n$ s.t. $f(m, n) = y$.
+Case 2: $y < 0$
+For $y < 0$, set $m = 0$.
+So, $0 - |n| = y \rightarrow -|n| = y \rightarrow |n| = -y$.
+Since $y < 0, -y > 0$ thus $n = -y$.
+Thus for $y < 0$ $\exists m, n$ s.t. $f(m, n) = y$.
+Therefore since $\exists m, n$ s.t. $f(m, n) = y$, it is surjective.
 
 ---
 
@@ -38,21 +188,37 @@ Determine, with proof, if the following functions from $\mathbb{Z} \times \mathb
 
 Give an example of a function from $\mathbb{N}$ to $\mathbb{N}$ that is
 
-**Note, my definition of $\mathbb{N}$ includes 0**
-
 **(a)** injective, but not surjective;
 
 $f(n) = n + 1$
 
+---
+
 **(b)** surjective, but not injective;
 
-$f(n) = $
+$$f(n) = \begin{cases} 
+   0 & \text{if } n < 2
+\\ n - 1 & \text{if } n \geq 2 
+\end{cases}$$
+
+---
 
 **(c)** both injective and surjective, but is not equal to the identity function;
 
-$f(n) = $
+$$f(n) = \begin{cases} 
+   1 & \text{if } n = 0
+\\ 0 & \text{if } n = 1
+\\ n & \text{if } n \geq 2 
+\end{cases}$$
+
+---
 
 **(d)** is neither injective nor surjective.
+
+$$f(n) = \begin{cases} 
+   0 & \text{if } n < 3
+\\ n^2 & \text{if } n \geq 3 
+\end{cases}$$
 
 ---
 
@@ -62,11 +228,73 @@ Suppose $g : A \to B$ and $f : B \to C$ are functions. Prove
 
 **(a)** If $f \circ g$ is surjective, then $f$ must also be.
 
+***-PF-***
+
+Assume $f \circ g: A \to C$ is surjective.
+WTS that $f: B \to C$ is surjective.
+Let $c  \in C$ be arbitrary.
+Since $f \circ g$ is surjective, there exists some $a \in A$ s.t. $(f \circ  g)(a) = c$.
+This means $(f \circ g)(a) = f(g(a)) = c$.
+Let $b = g(a)$.
+Note that $b \in B$ since $g: A \to B$.
+So $f(b) = f(g(a)) = c$.
+Thus for arbitrary $c \in C$, we found $b \in B$ s.t. $f(b) = c$.
+Therefore $f$ is surjective.
+
+---
+
 **(b)** If $f \circ g$ is injective, then $g$ must also be.
+
+***-PF-***
+
+Assume $f \circ g: A \to C$ is injective.
+WTS that $g: A \to B$ is injective.
+Let $x$ and $y$ be arbitrary elements in $A$ s.t. $g(x) = g(y)$.
+Since $g(x) = g(y)$, we know $f(g(x)) = f(g(y))$.
+Thus, by the definition of composition, $(f \circ g)(x) = (f \circ g)(y)$.
+Since $f \circ g$ is injective, we have $x = y$.
+So, if $g(x) = g(y)$, then $x = y$.
+Therefore $g$ is injective.
+
+---
 
 **(c)** If $f \circ g$ is a bijection, then $g$ is surjective if and only if $f$ is injective.
 
+***-PF-***
+
+Assume $f  \circ g: A \to C$ is a bijection.
+This means $f \circ g$ is both injective and surjective.
+WTS $g$ is surjective iff $f$ is injective.
+Assume $g: A \to B$ is surjective.
+Let $b_1, b_2 \in B$ s.t. $f(b_1) = f(b_2)$.
+Since $g$ is surjective, there exists $a_1, a_2 \in A$ s.t. $g(a_1) = b_1$ and $g(a_2) = b_2$.
+Then $(f \circ g)(a_1) = f(g(a_1)) = f(b_1) = f(b_2) = f(g(a_2)) = (f \circ g)(a_2)$.
+Since $f \circ g$ is injective, we have $a_1 = a_2$.
+So $g(a_1) = g(a_2)$, which means $b_1 = b_2$.
+Therefore $f$ is injective.
+
+WTS $f$ is injective iff $g$ is surjective.
+Assume $f: B \to C$ is injective.
+Let $b \in B$ be arbitrary.
+Since $f(b) \in C$ and $f \circ g$ is surjective, there exists $a \in A$ s.t. $(f \circ g)(a) = f(b)$.
+This means $f(g(a)) = f(b)$.
+Since $f$ injective, we have $g(a) = b$.
+Thus for arbitrary $b \in B$ there exists $a \in A$ s.t. $g(a) = b$.
+Therefore $g$ is surjective.
+
+---
+
 **(d)** Give an example where $f \circ g$ is surjective, but $g$ is not.
+
+***-PF-***
+
+Let $A = \{ 1 \}, B = \{ 1, 2\}$ and $C = \{  1\}$.
+Define $g: A \to B$ by $g(1) = 1$.
+Define $f: B \to C$ by $f(1) = 1$ and $f(2) = 1$.
+Then $(f \circ g): A \to C$ is defined by $(f \circ g)(1) = f(g(1)) = f(1) = 1$.
+Since every element in $C$ (just the element 1) has a preimage under $f \circ g$, the composition $f \circ g$ is surjective.
+However, $g$ is not surjective because there is no $a \in A$ s.t. $g(a) = 2$.
+Therefore this is an example where $f \circ g$ is surjective but $g$ is not.
 
 ---
 
@@ -76,7 +304,56 @@ Let $f : A \to B$ be a function and $S, T \subseteq A$. Prove that
 
 **(a)** $f(S \cup T) = f(S) \cup f(T)$
 
+***-PF-***
+
+WTS that the image of $f(S \cup T)$ equals the image of $f(S) \cup f(T)$.
+We will prove $f(S \cup T) \subseteq f(S) \cup f(T)$.
+Let $y \in f(S \cup T)$ be arbitrary.
+So, $y = f(x)$ for some $x \in S \cup T$.
+So $x \in S$ or $x \in T$.
+This creates two cases.
+Case 1: $x \in S$
+If $x \in S$, $y = f(x) \in f(S)$, so $y \in f(S) \cup f(T)$.
+Case 2: $x \in T$
+If $x \in T$, $y = f(x) \in f(T)$, so $y \in f(S) \cup f(T)$.
+
+Now we will prove $f(S) \cup f(T) \subseteq f(S \cup T)$.
+Let $y \in f(S) \cup f(T)$ be arbitrary.
+If $y \in f(S)$, then $y = f(x)$ for some $x \in S$.
+If $y \in f(T)$, then $y = f(x)$ for some $x \in T$.
+So $x \in S$ or $x \in T$.
+This creates two cases.
+Case 1: $y \in f(S)$
+If $y \in f(S)$, then $x \in S$ so $x \in S \cup T$.
+Since $x \in S \cup T$ and $y = f(x)$, $y \in f(S \cup T)$.
+Case 2: $y \in f(T)$
+If $y \in f(T)$, then $x \in T$ so $x \in S \cup T$.
+Since $x \in S \cup T$ and $y = f(x)$, $y \in f(S \cup T)$.
+Therefore, since both inclusions hold, $f(S \cup T) = f(S) \cup f(T)$.
+
+---
+
 **(b)** $f(S \cap T) \subseteq f(S) \cap f(T)$, but equality need not hold in general.
+
+***Note***
+Show that first half ***IS*** a subset of second half, show that second half ***ISN'T*** a subset of the first half
+
+***-PF-***
+
+Let $y \in f(S \cap T)$ be arbitrary.
+By definition of the image, there exists $x \in S \cap T$ such that $f(x) = y$.
+Since $x \in S \cap T$, then $x \in S$ and $x \in T$.
+Since $x \in S$ we have $y \in f(S)$.
+Since $x \in T$ we have $y \in f(T)$.
+Therefore $y \in f(S) \cap f(T)$.
+
+We will use a counterexample to prove $f(S) \cap f(T) \subseteq f(S \cap T)$ is not true for all cases.
+Take $f: \{ 1, 2 \} \to \{ a \}$ such that $f(1) = a$ and $f(2) = a$.
+Let $S = \{ 1 \}$ and $T = \{ 2 \}$.
+So, $S \cap T = \emptyset$ so $f(S \cap T) = f(\emptyset) = \emptyset$.
+So, $f(S) = \{ a \}$ and $f(T) = \{ a \}$ so $f(S) \cap f(T) = \{ a \}$.
+But $\{ a \} \neq \emptyset$.
+Therefore $f(S) \cap f(T) \subseteq f(S \cap T)$ cannot be true.
 
 ---
 
@@ -89,3 +366,27 @@ $$f^{-1}(S) = {a \in A \mid f(a) \in S}$$
 Note that this can be defined whether or not $f$ is an invertible function.
 
 Prove that for subsets $S, T \subseteq B$, $f^{-1}(S \cup T) = f^{-1}(S) \cup f^{-1}(T)$.
+
+***-PF-***
+
+Let $x \in f^{-1}(S \cup T)$ be arbitrary.
+By the definition of the inverse image, $f(x) \in S \cup T$.
+By the definition of union, $f(x) \in S$ or $f(x) \in T$.
+This creates 2 cases.
+Case 1: $f(x) \in S$
+If $f(x) \in S$, then $x \in f^{-1}(S)$, meaning $x \in f^{-1}(S) \cup f^{-1}(T)$.
+Case 2: $f(x) \in T$
+If $f(x) \in T$, then $x \in f^{-1}(T)$ meaning $x\in f^{-1}(S) \cup f^{-1}(T)$.
+Therefore $f^{-1}(S \cup T) \subseteq f^{-1}(S) \cup f^{-1}(T)$.
+
+Let $y \in f^{-1}(S) \cup f^{-1}(T)$ be arbitrary.
+By the definition of union, $y \in f^{-1}(S)$ or $y \in f^{-1}(T)$.
+By the definition of inverse functions, $f(y) \in S$ or $f(y) \in T$.
+This creates 2 cases.
+Case 1: $f(y) \in S$
+If $f(y) \in S$, and $S \subseteq S \cup T$, then $f(y) \in S \cup T$ so $y \in f^{-1}(S \cup T)$.
+Case 2: $f(y) \in T$
+If $f(y) \in T$, and $T \subseteq S \cup T$, then $f(y) \in S \cup T$ so $y \in f^{-1}(S \cup T)$.
+Therefore $f^{-1}(S) \cup f^{-1}(T) \subseteq f^{-1}(S \cup T)$.
+
+Since we have proven that both inclusions hold, $f^{-1}(S \cup T) = f^{-1}(S) \cup f^{-1}(T)$ for subsets $S, T \subseteq B$.
