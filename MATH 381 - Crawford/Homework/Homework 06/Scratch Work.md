@@ -250,14 +250,21 @@ WTS that $g: A \to B$ is injective.
 Let $x$ and $y$ be arbitrary elements in $A$ s.t. $g(x) = g(y)$.
 Since $g(x) = g(y)$, we know $f(g(x)) = f(g(y))$.
 Thus, by the definition of composition, $(f \circ g)(x) = (f \circ g)(y)$.
-Since $f \circ g$ is injective, we have $x = y$
+Since $f \circ g$ is injective, we have $x = y$.
+So, if $g(x) = g(y)$, then $x = y$.
+Therefore $g$ is injective.
 
 
 **(c)** If $f \circ g$ is a bijection, then $g$ is surjective if and only if $f$ is injective.
 
 ***-PF-***
 
-
+Assume $f  \circ g: A \to C$ is a bijection.
+This means $f \circ g$ is both injective and surjective.
+WTS $g$ is surjective iff $f$ is injective.
+Assume $g: A \to B$ is surjective.
+Let $x \in B$ s.t. $f(x) = f(y)$.
+Since $g$ is surjective, there exists $
 
 **(d)** Give an example where $f \circ g$ is surjective, but $g$ is not.
 
