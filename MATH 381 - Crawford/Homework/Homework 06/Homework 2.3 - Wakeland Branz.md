@@ -84,6 +84,8 @@ So, $f(n) = \lceil \frac{2y}{2} \rceil = \lceil y \rceil = y$.
 Therefore, every $y$ in the codomain has a preimage, so $f(n)$ is surjective.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ## 3. Injective/Surjective Functions from $\mathbb{Z} \times \mathbb{Z}$ to $\mathbb{Z}$
 
@@ -109,6 +111,8 @@ So, $f(m, n) = 2(0) - (-y) = y$.
 Since there is a case where $f(m, n) = y$ and $y \in \mathbb{Z}$ and $y$ is an arbitrary number, $f(m, n)$ is surjective.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 **(b)** $f(m, n) = m^2 - n^2$
 
@@ -183,6 +187,8 @@ Thus for $y < 0$ $\exists m, n$ s.t. $f(m, n) = y$.
 Therefore since $\exists m, n$ s.t. $f(m, n) = y$, it is surjective.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ## 4. Examples of Functions from $\mathbb{N}$ to $\mathbb{N}$
 
@@ -221,6 +227,8 @@ $$f(n) = \begin{cases}
 \end{cases}$$
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ## 5. Function Composition Properties
 
@@ -257,6 +265,8 @@ So, if $g(x) = g(y)$, then $x = y$.
 Therefore $g$ is injective.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 **(c)** If $f \circ g$ is a bijection, then $g$ is surjective if and only if $f$ is injective.
 
@@ -297,6 +307,8 @@ However, $g$ is not surjective because there is no $a \in A$ s.t. $g(a) = 2$.
 Therefore this is an example where $f \circ g$ is surjective but $g$ is not.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ## 6. Images of Sets Under Functions
 
@@ -332,11 +344,10 @@ Since $x \in S \cup T$ and $y = f(x)$, $y \in f(S \cup T)$.
 Therefore, since both inclusions hold, $f(S \cup T) = f(S) \cup f(T)$.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 **(b)** $f(S \cap T) \subseteq f(S) \cap f(T)$, but equality need not hold in general.
-
-***Note***
-Show that first half ***IS*** a subset of second half, show that second half ***ISN'T*** a subset of the first half
 
 ***-PF-***
 
@@ -356,6 +367,8 @@ But $\{ a \} \neq \emptyset$.
 Therefore $f(S) \cap f(T) \subseteq f(S \cap T)$ cannot be true.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ## 7. Inverse Images of Sets
 
