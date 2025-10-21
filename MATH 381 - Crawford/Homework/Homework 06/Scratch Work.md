@@ -274,6 +274,7 @@ If $y \in f(T)$, then $x \in T$ so $x \in S \cup T$.
 Since $x \in S \cup T$ and $y = f(x)$, $y \in f(S \cup T)$.
 Therefore, since both inclusions hold, $f(S \cup T) = f(S) \cup f(T)$.
 
+---
 
 **(b)** $f(S \cap T) \subseteq f(S) \cap f(T)$, but equality need not hold in general.
 
