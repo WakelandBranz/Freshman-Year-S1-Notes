@@ -295,7 +295,7 @@ Note that this can be defined whether or not $f$ is an invertible function.
 Prove that for subsets $S, T \subseteq B$, $f^{-1}(S \cup T) = f^{-1}(S) \cup f^{-1}(T)$.
 
 ***Notes***
-$f^{-1}: A \rightarrow B$.
+$f^{-1}: B \rightarrow A$
 
 WTS that $f^{-1}(S \cup T) = f^{-1}(S) \cup f^{-1}(T)$ through containment.
 Let $y \in $
