@@ -237,6 +237,8 @@ By definition, since $f \circ g$ is surjective, $\forall c \in C, \exists a \in 
 
 **(b)** If $f \circ g$ is injective, then $g$ must also be.
 
+
+
 **(c)** If $f \circ g$ is a bijection, then $g$ is surjective if and only if $f$ is injective.
 
 **(d)** Give an example where $f \circ g$ is surjective, but $g$ is not.
