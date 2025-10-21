@@ -95,3 +95,6 @@ By the definition of inverse functions, $f^{-1}(S \cup T)$ is the set of numbers
 Therefore, $x$ is in the preimage of $S \cup T$.
 Let $y \in S \cup T$ be arbitrary s.t. $x = f^{-1}(y)$.
 Therefore, $y$ is the preimage of $x$.
+This creates 2 cases.
+Case 1: $y \in S$
+If $y \in S$, then $x \in f^{-1}(S)$ meaning $f^{-1}(S)
