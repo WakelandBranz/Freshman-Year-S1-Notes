@@ -296,7 +296,7 @@ Show that first half ***IS*** a subset of second half, show that second half ***
 ***-PF-***
 
 Let $y \in f(S \cap T)$ be arbitrary.
-Let $x$ be arbitrary s.t. $f(x) = y$ for some $x \in S \cap T$.
+By definition of the image, there exists $x \in S \cap T$ such that $f(x) = y$.
 Since $x \in S \cap T$, then $x \in S$ and $x \in T$.
 Since $x \in S$ we have $y \in f(S)$.
 Since $x \in T$ we have $y \in f(T)$.
