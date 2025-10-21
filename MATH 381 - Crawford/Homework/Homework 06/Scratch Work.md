@@ -298,11 +298,12 @@ Prove that for subsets $S, T \subseteq B$, $f^{-1}(S \cup T) = f^{-1}(S) \cup f^
 $f^{-1}: B \rightarrow A$
 
 Let $x \in f^{-1}(S \cup T)$ be arbitrary.
-Let $y \in S \cup T$ be arbitrary s.t. $x = f^{-1}(y)$.
+By the definition of the inverse image, $f(x) = S \cup T$.
+By the definition of union, $f(x) \in S$ or $f(x) \in T$.
 This creates 2 cases.
-Case 1: $y \in S$
-If $y \in S$, then $x \in f^{-1}(S)$ meaning $f^{-1}(S \cup T) \subseteq f^{-1}(S) \cup f^{-1}(T)$.
+Case 1: $f(x) \in S$
+If $f(x) \in S$, then $x \in f meaning $f^{-1}(S \cup T) \subseteq f^{-1}(S) \cup f^{-1}(T)$.
 Case 2: $y \in T$
-If $y \in T$, then $x \in f^{-1}(T)$ meaning $f^{-1}(S) \subseteq f^{-1}(T) \in f^{-1}(S \cup T)$.
+If $f(x) \in T$, then $x \in f^{-1}(T)$ meaning $f^{-1}(S) \subseteq f^{-1}(T) \in f^{-1}(S \cup T)$.
 
 
