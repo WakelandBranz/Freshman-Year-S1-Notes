@@ -275,12 +275,21 @@ Assume $f: B \to C$ is injective.
 Let $b \in B$ be arbitrary.
 Since $f(b) \in C$ and $f \circ g$ is surjective, there exists $a \in A$ s.t. $(f \circ g)(a) = f(b)$.
 This means $f(g(a)) = f(b)$.
-Since $f$ si injectvei,w e have $
+Since $f$ injective, we have $g(a) = b$.
+Thus for arbitrary $b \in B$ there exists $a \in A$ s.t. $g(a) = b$.
+Therefore $g$ is surjective.
 
 **(d)** Give an example where $f \circ g$ is surjective, but $g$ is not.
 
 ***-PF-***
 
+Let $A = \{ 1 \}, B = \{ 1, 2, 3 \}$ and $C = \{  1\}$.
+Define $g: A \to B$ by $g(1) = 1$.
+Define $f: B \to C$ by $f(1) = 1$ and $f(2) = 1$.
+Then $(f \circ g): A \to C$ is defined by $(f \circ g)(1) = f(g(1)) = f(1) = 1$.
+Since every element in $C$ (just the element 1) has a preimage under $f \circ g$, the composition $f \circ g$ is surjective.
+However, $g$ is not surjective because there is no $a \in A$ s.t. $g(a) = 2$.
+Therefore this is an example where $f \circ g$ is surjective but $g$ is not.
 
 
 ---
