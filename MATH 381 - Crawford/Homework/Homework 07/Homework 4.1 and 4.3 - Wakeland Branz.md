@@ -12,6 +12,8 @@
 
 ### 3. Show that if $n$ is any integer, then $n^2$ is congruent modulo 4 to either 0 or 1.
 
+WTS that any integer squared, when$\pmod{4}$ is applied to it, 0 or 1 is always the answer.
+
 
 
 ---
