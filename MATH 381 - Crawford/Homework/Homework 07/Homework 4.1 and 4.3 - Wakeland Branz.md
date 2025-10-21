@@ -19,15 +19,15 @@ This creates two cases.
 
 Case 1: $n^2 = 4k^2$
 Since $n^2 = 4k^2$,  $n^2 \pmod{4} = 4k^2 \pmod{4}$.
-Any number multiplied by 4 is divisible by 4, thus  $\pmod{4}$ .
+Any number multiplied by 4 is divisible by 4, thus  $4k^2 \pmod{4} = 0$ .
 So, when $n^2 = 4k^2$, $n^2 \pmod{4} = 0$.
 
 Case 2: $n^2 = 4k^2 + 4k + 1$.
 Since $n^2 = 4k^2 + 4k + 1$,  $n^2 \pmod{4} = (4k^2 + 4k + 1) \pmod{4} = [4(k^2 + k) + 1] \pmod{4}$
-Any number multiplied by 4 is divisible by 4, thus the modulus of said number is equal to 0.
-But since this number is any arbitrary number multiplied by 4 plus 1, the modulus of said number is equal to 1.
+Any number multiplied by 4 is divisible by 4, thus the modulus of $4(k^2 + k) \pmod{4} = 0$.
+But since this number is any arbitrary number multiplied by 4 plus 1, so $[4(k^2 + k) + 1] \pmod{4} = 1$.
 
-Since both cases prove 
+Since both cases prove that if $n$ is any integer, then $n^2$ is congruent modulo 4 to either 0 or 1, this holds true.
 
 ---
 
