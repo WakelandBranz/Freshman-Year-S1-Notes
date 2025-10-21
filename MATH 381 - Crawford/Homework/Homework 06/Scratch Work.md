@@ -308,6 +308,6 @@ By the definition of union, $y \in f^{-1}(S)$ or $y \in f^{-1}(T)$.
 By the definition of inverse functions, $f(y) \in S$ or $f(y) \in T$.
 This creates two cases.
 Case 1: $f(y) \in S$
-
-Case 2: $y \in f^{-1}(T)$
+If $f(y) \in S$, then $S \in S \cup T$ so 
+Case 2: $f(y) \in T$
 
