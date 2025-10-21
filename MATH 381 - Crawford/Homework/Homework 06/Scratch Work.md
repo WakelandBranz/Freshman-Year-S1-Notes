@@ -230,11 +230,6 @@ Suppose $g : A \to B$ and $f : B \to C$ are functions. Prove
 
 ***-PF-***
 
-WTS that if $f \circ g$ is surjective, then $f$ is also surjective.
-Assume $f \circ g$ is surjective.
-Since $g: A \rightarrow B$ and $f: B \rightarrow C$, $f \circ g: A \rightarrow C$.
-From this we know that $f$'s codomain equals $f \circ g$'s codomain.
-By definition, since $f \circ g$ is surjective, $\forall c \in C, \exists a \in A$ such that $f(g(a)) = c$.
 
 
 **(b)** If $f \circ g$ is injective, then $g$ must also be.
@@ -247,9 +242,13 @@ By definition, since $f \circ g$ is surjective, $\forall c \in C, \exists a \in 
 
 ***-PF-***
 
+
+
 **(d)** Give an example where $f \circ g$ is surjective, but $g$ is not.
 
 ***-PF-***
+
+
 
 ---
 
