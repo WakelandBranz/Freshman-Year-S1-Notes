@@ -297,8 +297,12 @@ Prove that for subsets $S, T \subseteq B$, $f^{-1}(S \cup T) = f^{-1}(S) \cup f^
 ***Notes***
 $f^{-1}: B \rightarrow A$
 
-WTS that $f^{-1}(S \cup T) = f^{-1}(S) \cup f^{-1}(T)$ through containment.
-Let $y \in $
-
+Let $x \in f^{-1}(S \cup T)$ be arbitrary.
+Let $y \in S \cup T$ be arbitrary s.t. $x = f^{-1}(y)$.
+This creates 2 cases.
+Case 1: $y \in S$
+If $y \in S$, then $x \in f^{-1}(S)$ meaning $f^{-1}(S \cup T) \subseteq f^{-1}(S) \cup f^{-1}(T)$.
+Case 2: $y \in T$
+If $y \in T$, then $x \in f^{-1}(T)$ meaning $f^{-1}(S) \subseteq f^{-1}(T) \in f^{-1}(S \cup T)$.
 
 
