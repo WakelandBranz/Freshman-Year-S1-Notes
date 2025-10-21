@@ -299,9 +299,9 @@ By the definition of the inverse image, $f(x) \in S \cup T$.
 By the definition of union, $f(x) \in S$ or $f(x) \in T$.
 This creates 2 cases.
 Case 1: $f(x) \in S$
-If $f(x) \in S$, then $x \in f^{-1}(S)$, meaning $x \subseteq f^{-1}(S) \cup f^{-1}(T)$.
+If $f(x) \in S$, then $x \in f^{-1}(S)$, meaning $x \in f^{-1}(S) \cup f^{-1}(T)$.
 Case 2: $f(x) \in T$
-If $f(x) \in T$, then $x \in f^{-1}(T)$ meaning $x\subseteq f^{-1}(S) \cup f^{-1}(T)$.
+If $f(x) \in T$, then $x \in f^{-1}(T)$ meaning $x\in f^{-1}(S) \cup f^{-1}(T)$.
 Therefore $f^{-1}(S \cup T) \subseteq f^{-1}(S) \cup f^{-1}(T)$
 
 Let $y \in f^{-1}(S) \cup f^{-1}(T)$ be arbitrary.
@@ -309,9 +309,9 @@ By the definition of union, $y \in f^{-1}(S)$ or $y \in f^{-1}(T)$.
 By the definition of inverse functions, $f(y) \in S$ or $f(y) \in T$.
 This creates two cases.
 Case 1: $f(y) \in S$
-If $f(y) \in S$, and $S \subseteq S \cup T$, then $f(y) \subseteq S \cup T$ so $y \subseteq f^{-1}(S \cup T)$.
+If $f(y) \in S$, and $S \subseteq S \cup T$, then $f(y) \in S \cup T$ so $y \in f^{-1}(S \cup T)$.
 Case 2: $f(y) \in T$
-If $f(y) \in T$, and $T \subseteq S \cup T$, then $f(y) \subseteq S \cup T$ so $y \subseteq f^{-1}(S \cup T)$.
-Therefore $f^{-1}(S) \cup f^{-1}(T) \subseteq f^{-1}(S \cup T)$
+If $f(y) \in T$, and $T \subseteq S \cup T$, then $f(y) \in S \cup T$ so $y \in f^{-1}(S \cup T)$.
+Therefore $f^{-1}(S) \cup f^{-1}(T) \subseteq f^{-1}(S \cup T)$.
 
 Since we have proven that both inclusions hold, $f^{-1}(S \cup T) = f^{-1}(S) \cup f^{-1}(T)$ for subsets $S, T \subseteq B$.
