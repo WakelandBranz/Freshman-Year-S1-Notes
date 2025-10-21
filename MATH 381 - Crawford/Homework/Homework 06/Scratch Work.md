@@ -273,7 +273,9 @@ Therefore $f$ is injectiver.
 WTS $f$ is injective iff $g$ is surjective.
 Assume $f: B \to C$ is injective.
 Let $b \in B$ be arbitrary.
-Since $f(b)
+Since $f(b) \in C$ and $f \circ g$ is surjective, there exists $a \in A$ s.t. $(f \circ g)(a) = f(b)$.
+This means $f(g(a)) = f(b)$.
+Since $f$ si injectvei,w e have $
 
 **(d)** Give an example where $f \circ g$ is surjective, but $g$ is not.
 
