@@ -228,6 +228,8 @@ Suppose $g : A \to B$ and $f : B \to C$ are functions. Prove
 
 **(a)** If $f \circ g$ is surjective, then $f$ must also be.
 
+***-PF-***
+
 WTS that if $f \circ g$ is surjective, then $f$ is also surjective.
 Assume $f \circ g$ is surjective.
 Since $g: A \rightarrow B$ and $f: B \rightarrow C$, $f \circ g: A \rightarrow C$.
@@ -237,11 +239,17 @@ By definition, since $f \circ g$ is surjective, $\forall c \in C, \exists a \in 
 
 **(b)** If $f \circ g$ is injective, then $g$ must also be.
 
+***-PF-***
+
 
 
 **(c)** If $f \circ g$ is a bijection, then $g$ is surjective if and only if $f$ is injective.
 
+***-PF-***
+
 **(d)** Give an example where $f \circ g$ is surjective, but $g$ is not.
+
+***-PF-***
 
 ---
 
@@ -250,6 +258,8 @@ By definition, since $f \circ g$ is surjective, $\forall c \in C, \exists a \in 
 Let $f : A \to B$ be a function and $S, T \subseteq A$. Prove that
 
 **(a)** $f(S \cup T) = f(S) \cup f(T)$
+
+***-PF-***
 
 WTS that the image of $f(S \cup T)$ equals the image of $f(S) \cup f(T)$.
 We will prove $f(S \cup T) \subseteq f(S) \cup f(T)$.
@@ -283,6 +293,8 @@ Therefore, since both inclusions hold, $f(S \cup T) = f(S) \cup f(T)$.
 ***Note***
 Show that first half ***IS*** a subset of second half, show that second half ***ISN'T*** a subset of the first half
 
+***-PF-***
+
 Let $y \in f(S \cap T)$ be arbitrary.
 Let $x$ be arbitrary s.t. $f(x) = y$ for some $x \in S \cap T$.
 Since $x \in S \cap T$, then $x \in S$ and $x \in T$.
@@ -291,10 +303,12 @@ Since $x \in T$ we have $y \in f(T)$.
 Therefore $y \in f(S) \cap f(T)$.
 
 We will use a counterexample to prove $f(S) \cap f(T) \subseteq f(S \cap T)$ is not true for all cases.
-Take $f: \{ 1, 2 \} \to {x}$ such that $f(1) = x$ and $f(2) = x$.
-Let $S = {1}$ and $T = 2$.
+Take $f: \{ 1, 2 \} \to \{ a \}$ such that $f(1) = a$ and $f(2) = a$.
+Let $S = \{ 1 \}$ and $T = \{ 2 \}$.
 So, $S \cap T = \emptyset$ so $f(S \cap T) = f(\emptyset) = \emptyset$.
-But $f(S) = x$ and $f(T) = x$ so $f(S) \cap f(T) = {x}$. 
+So, $f(S) = \{ a \}$ and $f(T) = \{ a \}$ so $f(S) \cap f(T) = \{ a \}$.
+But $\{ a \} \neq \emptyset$.
+Therefore $f(S) \cap f(T) \subseteq f(S \cap T)$ cannot be true.
 
 
 
@@ -310,6 +324,8 @@ $$f^{-1}(S) = {a \in A \mid f(a) \in S}$$
 Note that this can be defined whether or not $f$ is an invertible function.
 
 Prove that for subsets $S, T \subseteq B$, $f^{-1}(S \cup T) = f^{-1}(S) \cup f^{-1}(T)$.
+
+***-PF-***
 
 Let $x \in f^{-1}(S \cup T)$ be arbitrary.
 By the definition of the inverse image, $f(x) \in S \cup T$.
