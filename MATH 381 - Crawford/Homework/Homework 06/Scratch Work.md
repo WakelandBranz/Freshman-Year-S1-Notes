@@ -237,11 +237,20 @@ Since $f \circ g$ is surjective, there exists some $a \in A$ s.t. $(f \circ  g)(
 This means $(f \circ g)(a) = f(g(a)) = c$.
 Let $b = g(a)$.
 Note that $b \in B$ since $g: A \to B$.
+So $f(b) = f(g(a)) = c$.
+Thus for arbitrary $c \in C$, we found $b \in B$ s.t. $f(b) = c$.
+Therefore $f$ is surjective.
 
 **(b)** If $f \circ g$ is injective, then $g$ must also be.
 
 ***-PF-***
 
+Assume $f \circ g: A \to C$ is injective.
+WTS that $g: A \to B$ is injective.
+Let $x$ and $y$ be arbitrary elements in $A$ s.t. $g(x) = g(y)$.
+Since $g(x) = g(y)$, we know $f(g(x)) = f(g(y))$.
+Thus, by the definition of composition, $(f \circ g)(x) = (f \circ g)(y)$.
+Since $f \circ g$ is injective, we have $x = y$
 
 
 **(c)** If $f \circ g$ is a bijection, then $g$ is surjective if and only if $f$ is injective.
