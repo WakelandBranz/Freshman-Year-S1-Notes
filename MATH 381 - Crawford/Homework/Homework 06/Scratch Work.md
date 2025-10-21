@@ -283,8 +283,10 @@ Therefore, since both inclusions hold, $f(S \cup T) = f(S) \cup f(T)$.
 ***Note***
 Show that first half ***IS*** a subset of second half, show that second half ***ISN'T*** a subset of the first half
 
-Let $x \in f(S \cap T)$ be arbitrary.
-So, 
+Let $y \in f(S \cap T)$ be arbitrary.
+Let $x$ be arbitrary s.t. $y = f(x)$ for some $x \in S \cup T$.
+If $x \in S$ and $y = f(x)$, then $y \in f(S)$ so $y \in f(S) \
+
 
 ---
 
