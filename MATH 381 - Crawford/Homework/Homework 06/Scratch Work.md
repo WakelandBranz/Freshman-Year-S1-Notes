@@ -230,7 +230,13 @@ Suppose $g : A \to B$ and $f : B \to C$ are functions. Prove
 
 ***-PF-***
 
-
+Assume $f \circ g: A \to C$ is surjective.
+WTS that $f: B \to C$ is surjective.
+Let $c  \in C$ be arbitrary.
+Since $f \circ g$ is surjective, there exists some $a \in A$ s.t. $(f \circ  g)(a) = c$.
+This means $(f \circ g)(a) = f(g(a)) = c$.
+Let $b = g(a)$.
+Note that $b \in B$ since $g: A \to B$.
 
 **(b)** If $f \circ g$ is injective, then $g$ must also be.
 
