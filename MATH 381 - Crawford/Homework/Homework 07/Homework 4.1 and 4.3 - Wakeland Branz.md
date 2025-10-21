@@ -16,13 +16,18 @@ WTS that any integer squared, when$\pmod{4}$ is applied to it, 0 or 1 is always 
 Since $n$ is any integer, $\exists k \in \mathbb{Z}$ s.t. $n$ either equals $2k$ or $2k + 1$.
 This means that $n^2$ either equals $(2k)^2 = 4k^2$ or $(2k + 1)^2 = 4k^2 + 4k + 1$.
 This creates two cases.
+
 Case 1: $n^2 = 4k^2$
 Since $n^2 = 4k^2$,  $n^2 \pmod{4} = 4k^2 \pmod{4}$.
-Any number multiplied by 4 is divisible by 4, thus the modulus of said number is equal to 0.
+Any number multiplied by 4 is divisible by 4, thus  $\pmod{4}$ .
 So, when $n^2 = 4k^2$, $n^2 \pmod{4} = 0$.
+
 Case 2: $n^2 = 4k^2 + 4k + 1$.
-Since $n^2 = 4k^2 + 4k + 1$,  $n^2 \pmod{4} = (4k^2 + 4k + 1) \pmod{4}$
+Since $n^2 = 4k^2 + 4k + 1$,  $n^2 \pmod{4} = (4k^2 + 4k + 1) \pmod{4} = [4(k^2 + k) + 1] \pmod{4}$
 Any number multiplied by 4 is divisible by 4, thus the modulus of said number is equal to 0.
+But since this number is any arbitrary number multiplied by 4 plus 1, the modulus of said number is equal to 1.
+
+Since both cases prove 
 
 ---
 
