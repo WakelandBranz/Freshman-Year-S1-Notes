@@ -310,9 +310,6 @@ So, $f(S) = \{ a \}$ and $f(T) = \{ a \}$ so $f(S) \cap f(T) = \{ a \}$.
 But $\{ a \} \neq \emptyset$.
 Therefore $f(S) \cap f(T) \subseteq f(S \cap T)$ cannot be true.
 
-
-
-
 ---
 
 ## 7. Inverse Images of Sets
