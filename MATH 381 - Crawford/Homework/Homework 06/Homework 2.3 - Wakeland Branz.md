@@ -89,3 +89,7 @@ $$f^{-1}(S) = {a \in A \mid f(a) \in S}$$
 Note that this can be defined whether or not $f$ is an invertible function.
 
 Prove that for subsets $S, T \subseteq B$, $f^{-1}(S \cup T) = f^{-1}(S) \cup f^{-1}(T)$.
+
+Let $x \in f^{-1}(S \cup T)$ be arbitrary.
+By the definition of inverse functions, $f^{-1}(S \cup T)$ is the set of numbers which map to the preimage of $S \cup T$.
+Therefore, $x$ is in the preimage of $S \cup T$.
