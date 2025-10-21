@@ -280,7 +280,11 @@ Therefore, since both inclusions hold, $f(S \cup T) = f(S) \cup f(T)$.
 
 **(b)** $f(S \cap T) \subseteq f(S) \cap f(T)$, but equality need not hold in general.
 
+***Note***
+Show that first half ***IS*** a subset of second half, show that second half ***ISN'T*** a subset of the first half
 
+Let $x \in f(S \cap T)$ be arbitrary.
+So, 
 
 ---
 
@@ -302,12 +306,12 @@ Case 1: $f(x) \in S$
 If $f(x) \in S$, then $x \in f^{-1}(S)$, meaning $x \in f^{-1}(S) \cup f^{-1}(T)$.
 Case 2: $f(x) \in T$
 If $f(x) \in T$, then $x \in f^{-1}(T)$ meaning $x\in f^{-1}(S) \cup f^{-1}(T)$.
-Therefore $f^{-1}(S \cup T) \subseteq f^{-1}(S) \cup f^{-1}(T)$
+Therefore $f^{-1}(S \cup T) \subseteq f^{-1}(S) \cup f^{-1}(T)$.
 
 Let $y \in f^{-1}(S) \cup f^{-1}(T)$ be arbitrary.
 By the definition of union, $y \in f^{-1}(S)$ or $y \in f^{-1}(T)$.
 By the definition of inverse functions, $f(y) \in S$ or $f(y) \in T$.
-This creates two cases.
+This creates 2 cases.
 Case 1: $f(y) \in S$
 If $f(y) \in S$, and $S \subseteq S \cup T$, then $f(y) \in S \cup T$ so $y \in f^{-1}(S \cup T)$.
 Case 2: $f(y) \in T$
