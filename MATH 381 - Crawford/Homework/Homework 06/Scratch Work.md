@@ -265,10 +265,10 @@ WTS $g$ is surjective iff $f$ is injective.
 Assume $g: A \to B$ is surjective.
 Let $b_1, b_2 \in B$ s.t. $f(b_1) = f(b_2)$.
 Since $g$ is surjective, there exists $a_1, a_2 \in A$ s.t. $g(a_1) = b_1$ and $g(a_2) = b_2$.
-Then $(f \circ g)(a_1) = f(g(1_1)) = f(b_1) = f(b_2) = f(g(a_2)) = (f \circ g)(a_2)$.
+Then $(f \circ g)(a_1) = f(g(a_1)) = f(b_1) = f(b_2) = f(g(a_2)) = (f \circ g)(a_2)$.
 Since $f \circ g$ is injective, we have $a_1 = a_2$.
 So $g(a_1) = g(a_2)$, which means $b_1 = b_2$.
-Therefore $f$ is injectiver.
+Therefore $f$ is injective.
 
 WTS $f$ is injective iff $g$ is surjective.
 Assume $f: B \to C$ is injective.
@@ -283,7 +283,7 @@ Therefore $g$ is surjective.
 
 ***-PF-***
 
-Let $A = \{ 1 \}, B = \{ 1, 2, 3 \}$ and $C = \{  1\}$.
+Let $A = \{ 1 \}, B = \{ 1, 2\}$ and $C = \{  1\}$.
 Define $g: A \to B$ by $g(1) = 1$.
 Define $f: B \to C$ by $f(1) = 1$ and $f(2) = 1$.
 Then $(f \circ g): A \to C$ is defined by $(f \circ g)(1) = f(g(1)) = f(1) = 1$.
