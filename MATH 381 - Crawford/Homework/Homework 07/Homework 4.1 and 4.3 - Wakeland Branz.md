@@ -13,7 +13,11 @@
 ### 3. Show that if $n$ is any integer, then $n^2$ is congruent modulo 4 to either 0 or 1.
 
 WTS that any integer squared, when$\pmod{4}$ is applied to it, 0 or 1 is always the answer.
-
+Since $n$ is any integer, $\exists k \in \mathbb{Z}$ s.t. $n$ either equals $2k$ or $2k + 1$.
+This means that $n^2$ either equals $(2k)^2 = 4k^2$ or $(2k + 1)^2 = 4k^2 + 4k + 1$.
+This creates two cases.
+Case 1: $n^2 = 4k^2$
+Since $n^2 = 4k^2$, we can apply $
 
 
 ---
