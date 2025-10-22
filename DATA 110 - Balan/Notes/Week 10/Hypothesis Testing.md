@@ -21,7 +21,14 @@ A snack-food company produces a 454-gram bag of pretzels. Although the net weigh
 
 What are the null and alternative hypotheses?
 
- - $H_0: \text{ The mean weights of the bags is 454 grams.}$
- - $H_a: \text{ The mean weights of the bags is different from 454 grams.}$
+ - $H_0: \text{ The mean weights of the bags is 454 grams.} \to \mu = 454g$
+ - $H_a: \text{ The mean weights of the bags is different from 454 grams.} \to \mu \neq 454g$
 
 ---
+### Define the Hypotheses
+A random sample of 30 families in a small city was selected and asked to report their monthly health insurance premium. The average monthly premium for the sample of $700.00 with a standard deviation of $150.00. Do the data show that the average monthly health insurance premium has increased from the 2021 average of $550.00?
+
+What are the null and alternative hypotheses?
+
+- $H_0: \text{ The average premium is \$550.00} \to \mu = \$550.00$
+ - $H_a: \text{ The average premium is greater than $.} \to \mu \neq \$550.0$
