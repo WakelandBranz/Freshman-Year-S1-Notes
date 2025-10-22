@@ -51,3 +51,10 @@ Should the insurance company be concerned?
 
  - $H_{0}: \text{Average claim amount is \$1500.}$
  - $H_{a}: \text{Average claim amount is concern > \$1500 > something}$
+
+---
+### What is a p-value
+A p-value is the probability of obtaining a value more extreme than the value of the test statistic (where "more extreme" is determined by the form of the alternative hypothesis).
+
+A p-value can be used to arrive at a conclusion for a hypothesis test as follows:
+ - Establish a si
