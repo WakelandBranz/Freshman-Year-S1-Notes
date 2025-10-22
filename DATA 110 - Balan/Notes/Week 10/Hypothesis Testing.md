@@ -31,4 +31,7 @@ A random sample of 30 families in a small city was selected and asked to report 
 What are the null and alternative hypotheses?
 
 - $H_0: \text{ The average premium is \$550.00} \to \mu = \$550.00$
- - $H_a: \text{ The average premium is greater than $.} \to \mu \neq \$550.0$
+ - $H_a: \text{ The average premium is greater than \$550.00.} \to \mu > \$550.0$
+
+---
+### 5-Step Hypothesis Testing Process
