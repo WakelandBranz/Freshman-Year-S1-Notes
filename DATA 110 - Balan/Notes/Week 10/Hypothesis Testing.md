@@ -49,5 +49,5 @@ They decide to randomly select 40 claims and they find that the average claim am
 
 Should the insurance company be concerned?
 
- - $H_{0}: \text{ Average claim amount is \$1500.}$
- - $H_{a}: \text{ concern Average claim amount is concern > \$1500 > something}$
+ - $H_{0}: \text{Average claim amount is \$1500.}$
+ - $H_{a}: \text{Average claim amount is concern > \$1500 > something}$
