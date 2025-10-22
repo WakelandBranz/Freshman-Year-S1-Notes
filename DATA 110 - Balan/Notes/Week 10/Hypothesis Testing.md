@@ -35,3 +35,19 @@ What are the null and alternative hypotheses?
 
 ---
 ### 5-Step Hypothesis Testing Process
+ - State the null and alternative hypotheses
+ - Define a test statistic
+ - Compute the value of the test statistic - software can do this!
+ - Assess the evidence (using p-values)
+ - State your conclusion (in non-technical terms)
+
+---
+### Example
+An insurance company is reviewing its current policy rates. When they originally set the rates last year, they believed that the average claim amount was $1500. They are concerned that the true mean claim amount is actually higher than this based on recent claims that have been filed int he last 3 months. If that's the case, then they could potentially lose a lot of money!
+
+They decide to randomly select 40 claims and they find that the average claim amount based on that sample is to be $2098 with a standard deviation of $581.
+
+Should the insurance company be concerned?
+
+ - $H_{0}: \text{ Average claim amount is \$1500.}$
+ - $H_{a}: \text{ concern Average claim amount is concern > \$1500 > something}$
