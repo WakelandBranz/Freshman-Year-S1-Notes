@@ -57,4 +57,8 @@ Should the insurance company be concerned?
 A p-value is the probability of obtaining a value more extreme than the value of the test statistic (where "more extreme" is determined by the form of the alternative hypothesis).
 
 A p-value can be used to arrive at a conclusion for a hypothesis test as follows:
- - Establish a si
+ - Establish a significance level $\alpha$ (probability of rejecting the null hypothesis if it is actually true)
+ - Reject the null hypothesis if the p-value is less than $\alpha$
+ - Fail to reject the null hypothesis if the p-value is greater than $\alpha$.
+
+---
