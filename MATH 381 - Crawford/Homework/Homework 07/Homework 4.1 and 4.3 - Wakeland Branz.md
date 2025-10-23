@@ -42,8 +42,12 @@ Let $a = 620, b = 140$.
 $a, b \in \mathbb{Z}$.
 Let $q, r \in \mathbb{Z}$ be unique arbitrary numbers s.t. $a = bq + r$.
 So, $620 = 140q + r$.
-$\to 620 = 140(1) + 480$.
-$\to 480 = $
+$\to 620 = 140(4) + 60$.
+$\to 140 = 60q + r$
+$\to 140 = 60(2) + 20$
+$\to 60 = 20q + r$
+$\to 60 = 20(3) + 0$
+Since $r$ is now equal to 0, the algorithm terminates and $gcd()
 
 
 
