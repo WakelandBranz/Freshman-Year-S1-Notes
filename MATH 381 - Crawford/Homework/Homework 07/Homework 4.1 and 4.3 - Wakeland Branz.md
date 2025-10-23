@@ -2,6 +2,8 @@
 
 (1) $2x - 4 \equiv 0 \pmod{6}$
 
+$\forall x \in \mathbb{Z} \text{ s.t. } x \pmod 3 = 1$
+
 (2) $3 + 2x \equiv -2 \pmod{7}$
 
 ---
