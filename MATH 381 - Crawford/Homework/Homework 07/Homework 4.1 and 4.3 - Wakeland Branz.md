@@ -41,7 +41,9 @@ Since both cases prove that if $n$ is any integer, then $n^2$ is congruent modul
 Let $a = 620, b = 140$.
 $a, b \in \mathbb{Z}$.
 Let $q, r \in \mathbb{Z}$ be unique arbitrary numbers s.t. $a = bq + r$.
-So, $620 = 140q + r \to 140(4) + 60 = 620$.
+So, $620 = 140q + r$.
+$\to 620 = 140(1) + 480$.
+$\to 480 = $
 
 
 
