@@ -40,7 +40,8 @@ Since both cases prove that if $n$ is any integer, then $n^2$ is congruent modul
 
 Let $a = 620, b = 140$.
 $a, b \in \mathbb{Z}$.
-
+Let $q, r \in \mathbb{Z}$ be unique arbitrary numbers s.t. $a = bq + r$.
+$620 = 140q + r$.
 
 ---
 
