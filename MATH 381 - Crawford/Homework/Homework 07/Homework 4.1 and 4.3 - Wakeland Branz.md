@@ -7,7 +7,7 @@ $\forall x \in \mathbb{Z} \text{ s.t. } x \pmod 3 = 1$
 
 (2) $3 + 2x \equiv -2 \pmod{7}$
 
-
+$-2 \mid (3 + 2x -2)
 
 ---
 
