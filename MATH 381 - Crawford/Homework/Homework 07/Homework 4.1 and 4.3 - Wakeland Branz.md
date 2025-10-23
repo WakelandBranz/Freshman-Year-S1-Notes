@@ -2,12 +2,12 @@
 
 (1) $2x - 4 \equiv 0 \pmod{6}$
 
-$6 \mid (2x-4+0) \to 3\mid x + 2$
-$\forall x \in \mathbb{Z} \text{ s.t. } x \pmod 3 = 1$
+$6 \mid (2x-4+0) \to 6 \mid 2(x - 2) \to 3 \mid x - 2 \to x - 2 \equiv 0 \pmod 3$
+So, $x \equiv 2 \pmod 3$.
 
 (2) $3 + 2x \equiv -2 \pmod{7}$
 
-$-2 \mid (3 + 2x -2)
+
 
 ---
 
