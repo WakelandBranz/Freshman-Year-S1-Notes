@@ -64,9 +64,6 @@ Since $r$ is now equal to 0, the algorithm terminates and $gcd(620, 140) = 20$.
 
 (1) Find integers $x$ and $y$ satisfying $307x + 220y = 1$.
 
-First, I will find $gcf(307, 220)$.
-Let $a = 307, b = 140$.
-$a, b \in \mathbb{Z}$.
-Let $q, r \in \mathbb{Z}$ be unique arbitrary numbers s.t. $a = bq + r$.
+
 
 (2) Use the equation found in (1) to determine the multiplicative inverse of 307 in $\mathbb{Z}_{220}$.
