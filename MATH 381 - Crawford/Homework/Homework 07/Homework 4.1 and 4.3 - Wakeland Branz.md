@@ -5,8 +5,10 @@
 $6 \mid (2x-4+0) \to 6 \mid 2(x - 2) \to 2(3) \mid 2(x - 2)$
 We can prove that both of these sides have a common factor of 2.
 Since $2 \mid 6 = 6/2 = 3$, and 3 is an integer, $2 \mid 6$.
+Since $2 \mid 2(x - 2) = \frac{2(x-2)}{2} = x-2,$ $2 \mid 2(x - 2)$.
+Both $2 \mid 6$ and $2 \mid 2(x - 2)$ are true, so both sides have a common factor of 2, so we can simplify both sides by dividing 6 by 2 and $2(x - 2)$ by 2.
 So, $2(3) \mid 2(x - 2) \to 3 \mid x - 2 \to x - 2 \equiv 0 \pmod 3$
-So, $x \equiv 2 \pmod 3$.
+Therefore, $x \equiv 2 \pmod 3$.
 
 (2) $3 + 2x \equiv -2 \pmod{7}$
 
@@ -61,5 +63,10 @@ Since $r$ is now equal to 0, the algorithm terminates and $gcd(620, 140) = 20$.
 ### 6. The numbers 307 and 220 are relatively prime.
 
 (1) Find integers $x$ and $y$ satisfying $307x + 220y = 1$.
+
+First, I will find $gcf(307, 220)$.
+Let $a = 307, b = 140$.
+$a, b \in \mathbb{Z}$.
+Let $q, r \in \mathbb{Z}$ be unique arbitrary numbers s.t. $a = bq + r$.
 
 (2) Use the equation found in (1) to determine the multiplicative inverse of 307 in $\mathbb{Z}_{220}$.
