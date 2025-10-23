@@ -38,6 +38,10 @@ Since both cases prove that if $n$ is any integer, then $n^2$ is congruent modul
 
 ### 4. Use the Euclidean algorithm to find $\gcd(620, 140)$.
 
+Let $a = 620, b = 140$.
+$a, b \in \mathbb{Z}$.
+
+
 ---
 
 ### 5. Show that an integer $a \in \mathbb{Z}_n$ has a multiplicative inverse, that is, an element $a^{-1} \in \mathbb{Z}_n$ with $a \cdot_n a^{-1} = 1$, if and only if $a$ and $n$ are relatively prime.
