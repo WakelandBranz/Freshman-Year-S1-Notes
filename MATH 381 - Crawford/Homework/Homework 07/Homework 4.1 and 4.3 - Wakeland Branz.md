@@ -12,7 +12,7 @@ Therefore, $x \equiv 2 \pmod 3$.
 
 (2) $3 + 2x \equiv -2 \pmod{7}$
 
-$7 \mid (3 + 2x - 2) \to 7 \mid (2x + 1) \to 2x + 1 \equiv 0 \pmod{7} \to$
+$7 \mid (3 + 2x - 2) \to 7 \mid (2x + 1) \to 2x + 1 \equiv 0 \pmod{7} \to x \equiv -\frac{1}{2} \pmod 7$
 
 ---
 
