@@ -18,6 +18,10 @@ $7 \mid (3 + 2x + 2) \to 7 \mid (2x + 5) \to 2x + 5 \equiv 0 \pmod{7} \to x \equ
 
 ### 2. Prove that for all integers $n \geq 0$, $10^n \equiv 1 \pmod{9}$. Then, use that result to show that a positive integer is divisible by 9 if and only if the sum of its digits is divisible by 9.
 
+**-PF-**
+
+
+
 ---
 
 ### 3. Show that if $n$ is any integer, then $n^2$ is congruent modulo 4 to either 0 or 1.
