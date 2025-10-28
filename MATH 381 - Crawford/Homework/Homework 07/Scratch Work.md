@@ -29,18 +29,11 @@ $\implies \underbrace{(1 \times 1 \dots \times 1)}_{\text{ n times}} \pmod{9} = 
 
 
 Now we WTS that for $m \in \mathbb{Z^+}$, $9 \mid m \iff 9 \mid \text{the sum of m's digits}$.
-Let $k =$ the number of m's digits.
+Let $k =$ the number of $m$'s digits.
 We will represent $m$ as its individual digits with $d_{k}$ being the leftmost digit of $m$. 
-So, $m = (d_{k} \times 10^k) + (d_{k - 1} \times 10^) \dots d_{1}, d_{0}.$
-So, $m = 
-
-**OLD BS IGNORE**
-WTS that for $n \in \mathbb{Z}$ and $n \geq 0$, $10^n \equiv 1 \pmod{9}$.
-Since $10^n \equiv 1 \pmod{9}$, then by the property of modular exponentiation, $[10^n \equiv 1 \pmod{9}] = [10^n \equiv 1^n \pmod{9}].$
-Since $10 = 9 + 1$, $10 \equiv 1 \pmod{9}$.
-So, following this logic, $10^n \pmod{9} \equiv 1^n \pmod{9} \equiv 1 \pmod{9} = 1$. 
-Since we have shown $10^n \pmod{9} = 1$, we can rewrite the equivalence to be $1 \equiv 1 \pmod{9}$.
-Thus for all integers $n \geq 0$, $10^n \equiv 1 \pmod{9}$.
+So, $m = (d_{k} \times 10^k) + (d_{k - 1} \times 10^{k - 1}) \dots (d_{1} \times 10^1), (d_{0} \times 10^0).$
+If $9 \mid m$, then $m \pmod{9} = 0$.
+So in order to prove that 
 
 ---
 
