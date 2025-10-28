@@ -37,7 +37,7 @@ If $9 \mid m$, then $m \pmod{9} = [(d_{k} \times 10^k) + (d_{k - 1} \times 10^{k
 $\implies [(d_{k} \times 10^k) \pmod{9} + (d_{k - 1} \times 10^{k - 1}) \pmod{9} \dots + (d_{1} \times 10^1) \pmod{9} + (d_{0} \times 10^0) \pmod{9}] \pmod{9}$
 We have proven that any $10^k \pmod{9} = 1$ already, so we can substitute that into our equivalence. 
 So $m = [(d_{k} \times 1) + (d_{k - 1} \times 1) \dots (d_{1} \times 1), (d_{0} \times 1)] \equiv 0 \pmod{9}$.
-Therefore a positive integer is divisible by 9 if and only if the sum of its di
+Therefore a positive integer is divisible by 9 if and only if the sum of its digits is divisible by 9.
 
 
 ---
