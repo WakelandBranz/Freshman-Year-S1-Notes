@@ -19,12 +19,15 @@ $7 \mid (3 + 2x + 2) \to 7 \mid (2x + 5) \to 2x + 5 \equiv 0 \pmod{7} \to x \equ
 ### 2. Prove that for all integers $n \geq 0$, $10^n \equiv 1 \pmod{9}$. Then, use that result to show that a positive integer is divisible by 9 if and only if the sum of its digits is divisible by 9.
 
 **-PF-**
+
 WTS that for $n \geq 0$, $10^n \equiv 1 \pmod{9}$ for $n \in \mathbb{Z}$.
-So, $10^n \equiv 1 \pmod{9} \leftrightarrow 10^n \pmod{9} = 1 \pmod{9}$.
+So, $10^n \equiv 1 \pmod{9} \iff 10^n \pmod{9} = 1 \pmod{9}$.
 From $10^n$ we know $10^n = \underbrace{(10 \times 10 \dots \times 10)}_{\text{n times}}$.
 Therefore $10^n \pmod{9} = \underbrace{(10 \times 10 \dots \times 10)}_{\text{n times}} \pmod{9}$.
 Therefore $\underbrace{(10 \times 10 \dots 10)}_{\text{n times}} \pmod{9} = \underbrace{((10 \pmod{9}) \times (10 \pmod{9}) \dots \times (10 \pmod{9)})}_{\text{n times}} \pmod{9}$.
-Therefore $\underbrace{((10 \pmod{9}) \times (10 \pmod{9}) \dots (10 \pmod{9)})}_{\text{n times}} \pmod{9} = (\underbrace{1 \times 1 \dots \times 1}_{\text{ n times}})$
+Therefore $\underbrace{((10 \pmod{9}) \times (10 \pmod{9}) \dots (10 \pmod{9)})}_{\text{n times}} \pmod{9} = \underbrace{(1 \times 1 \dots \times 1)}_{\text{ n times}} \pmod{9} = 1$.
+
+Now we WTS that for $n \in \mathbb{Z}$, $n \mid 9 \iff \text{n }$
 
 **OLD BS IGNORE**
 WTS that for $n \in \mathbb{Z}$ and $n \geq 0$, $10^n \equiv 1 \pmod{9}$.
