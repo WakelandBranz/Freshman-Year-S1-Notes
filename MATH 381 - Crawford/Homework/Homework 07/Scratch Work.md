@@ -77,6 +77,7 @@ $41 = 5(8) + 1$
 $5 = (1)q + r$
 $5 = (1)(5) + 0$
 
-$1 = 41 - 5(8)\$
+$1 = 41 - 5(8) \rightarrow 1 = 41 (46 - 41)(8) \to 1 = 8(46) - 9(41)$
+$\to 1 = 8(46) - 9(87 - 46) \to 1 = 
 
 (2) Use the equation found in (1) to determine the multiplicative inverse of 307 in $\mathbb{Z}_{220}$.
