@@ -28,12 +28,16 @@ $\implies \underbrace{((10 \pmod{9}) \times (10 \pmod{9}) \dots \times (10 \pmod
 $\implies \underbrace{(1 \times 1 \dots \times 1)}_{\text{ n times}} \pmod{9} = 1$
 
 
-Now we WTS that for $m \in \mathbb{Z^+}$, $9 \mid m \iff 9 \mid \text{the sum of m's digits}$.
+Now we WTS that for an arbitrary $m$, $m \in \mathbb{Z^+}$, $9 \mid m \iff 9 \mid \text{the sum of m's digits}$.
+Assume $9 \mid m$.
 Let $k =$ the number of $m$'s digits.
 We will represent $m$ as its individual digits with $d_{k}$ being the leftmost digit of $m$. 
 So, $m = (d_{k} \times 10^k) + (d_{k - 1} \times 10^{k - 1}) \dots (d_{1} \times 10^1), (d_{0} \times 10^0).$
 If $9 \mid m$, then $m \pmod{9} = 0$.
-So in order to prove that 
+So we must prove that 
+
+So in order to prove that the sum of its digits is divisible by 9 we must prove that $m \pmod{9} = 0$.
+
 
 ---
 
