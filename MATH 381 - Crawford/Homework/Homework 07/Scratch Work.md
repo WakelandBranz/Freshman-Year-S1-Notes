@@ -32,9 +32,10 @@ Now we WTS that for an arbitrary $m$, $m \in \mathbb{Z^+}$, $9 \mid m \iff 9 \mi
 Assume $9 \mid m$.
 Let $k =$ the number of $m$'s digits.
 We will represent $m$ as its individual digits with $d_{k}$ being the leftmost digit of $m$. 
-So, $m = (d_{k} \times 10^k) + (d_{k - 1} \times 10^{k - 1}) \dots (d_{1} \times 10^1), (d_{0} \times 10^0).$
-If $9 \mid m$, then $m \pmod{9} = 0$.
-So we must prove that 
+So, $m = (d_{k} \times 10^k) + (d_{k - 1} \times 10^{k - 1}) \dots + (d_{1} \times 10^1) + (d_{0} \times 10^0).$
+If $9 \mid m$, then $m \pmod{9} = [(d_{k} \times 10^k) + (d_{k - 1} \times 10^{k - 1}) \dots (d_{1} \times 10^1), (d_{0} \times 10^0)] \pmod{9} = 0$.
+$\implies [(d_{k} \times 10^k) \pmod{9} + (d_{k - 1} \times 10^{k - 1}) \pmod{9} \dots (d_{1} \times 10^1) + (d_{0} \times 10^0)] \pmod{9}$
+
 
 So in order to prove that the sum of its digits is divisible by 9 we must prove that $m \pmod{9} = 0$.
 
