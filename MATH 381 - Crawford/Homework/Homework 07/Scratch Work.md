@@ -64,6 +64,17 @@ Since $r$ is now equal to 0, the algorithm terminates and $gcd(620, 140) = 20$.
 
 (1) Find integers $x$ and $y$ satisfying $307x + 220y = 1$.
 
-
+$307 = 220q + r$
+$307 = 220(1) + 87$
+$220 = 87q + r$
+$220 = 87(2) + 46$
+$87 = 46q + r$
+$87 = 46(1) + 41$
+$46 = 41q + r$
+$46 = 41(1) + 5$
+$41 = 5q + r$
+$41 = 5(8) + 1$
+$5 = (1)q + r$
+$5 = (1)(5) + 0$
 
 (2) Use the equation found in (1) to determine the multiplicative inverse of 307 in $\mathbb{Z}_{220}$.
