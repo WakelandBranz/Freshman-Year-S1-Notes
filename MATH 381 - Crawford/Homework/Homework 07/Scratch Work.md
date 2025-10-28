@@ -21,8 +21,9 @@ $7 \mid (3 + 2x + 2) \to 7 \mid (2x + 5) \to 2x + 5 \equiv 0 \pmod{7} \to x \equ
 **-PF-**
 
 WTS that for $n \in \mathbb{Z}$ and $n \geq 0$, $10^n \equiv 1 \pmod{9}$.
-Since $10^n \pmod{9} \equiv 1^n \pmod{9}$, we can rewrite the equivalence to be $1^n \equiv 1 \pmod{9}$.
-$1$ to any power will always equal $1$, so $1^n \equiv 1 \pmod{9}$.
+Since $10 = 9 + 1$, so $10 \equiv 1 \pmod{9}$.
+$1$ to any power will always equal $1$, so $1^n = 1$.
+Since we have shown $10^n \pmod{9} = 1$, we can rewrite the equivalence to be $1 \equiv 1 \pmod{9}$.
 
 
 ---
