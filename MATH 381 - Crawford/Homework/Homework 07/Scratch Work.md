@@ -23,13 +23,13 @@ $7 \mid (3 + 2x + 2) \to 7 \mid (2x + 5) \to 2x + 5 \equiv 0 \pmod{7} \to x \equ
 WTS that for $n \geq 0$, $10^n \equiv 1 \pmod{9}$ for $n \in \mathbb{Z}$.
 So, $10^n \equiv 1 \pmod{9} \iff 10^n \pmod{9} = 1 \pmod{9} = 1$.
 From $10^n$ we know $10^n = \underbrace{(10 \times 10 \dots \times 10)}_{\text{n times}}$.
-Therefore $10^n \pmod{9} = \underbrace{(10 \times 10 \dots \times 10)}_{\text{n times}} \pmod{9}$.
-$\implies \underbrace{((10 \pmod{9}) \times (10 \pmod{9}) \dots \times (10 \pmod{9)})}_{\text{n times}} \pmod{9}$.
-$\implies \underbrace{(1 \times 1 \dots \times 1)}_{\text{ n times}} \pmod{9} = 1$.
+$$\text{Therefore }10^n \pmod{9} = \underbrace{(10 \times 10 \dots \times 10)}_{\text{n times}} \pmod{9}$$
+$$\implies \underbrace{((10 \pmod{9}) \times (10 \pmod{9}) \dots \times (10 \pmod{9)})}_{\text{n times}} \pmod{9}$$
+$$\implies \underbrace{(1 \times 1 \dots \times 1)}_{\text{ n times}} \pmod{9} = 1$$
 
 
-Now we WTS that for $n \in \mathbb{Z}$, $9 \mid n \iff 9 \mid \text{the sum of n's digits}$.
-$\sum$
+Now we WTS that for $m \in \mathbb{Z^+}$, $9 \mid m \iff 9 \mid \text{the sum of m's digits}$.
+
 
 **OLD BS IGNORE**
 WTS that for $n \in \mathbb{Z}$ and $n \geq 0$, $10^n \equiv 1 \pmod{9}$.
