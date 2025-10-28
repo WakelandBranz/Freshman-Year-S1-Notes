@@ -29,7 +29,10 @@ $\implies \underbrace{(1 \times 1 \dots \times 1)}_{\text{ n times}} \pmod{9} = 
 
 
 Now we WTS that for $m \in \mathbb{Z^+}$, $9 \mid m \iff 9 \mid \text{the sum of m's digits}$.
-Let $\exists k \in \mathbb{Z}$ s.t. $k =$ the number of m's digits.
+Let $k =$ the number of m's digits.
+We will represent $m$ as its individual digits with $k$ being the leftmost digit of $m$. 
+So, $m = \{ d_{k} + d_{k - 1} \dots d_{1}, d_{0} \}.$
+
 
 **OLD BS IGNORE**
 WTS that for $n \in \mathbb{Z}$ and $n \geq 0$, $10^n \equiv 1 \pmod{9}$.
