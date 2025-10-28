@@ -20,8 +20,9 @@ $7 \mid (3 + 2x + 2) \to 7 \mid (2x + 5) \to 2x + 5 \equiv 0 \pmod{7} \to x \equ
 
 **-PF-**
 WTS that for $n \geq 0$, $10^n \equiv 1 \pmod{9}$ for $n \in \mathbb{Z}$.
-So, $10^n \equiv 1 \pmod{9} \leftrightarrow 10^n \pmod{9} = 1 \pmod{9}$
-
+So, $10^n \equiv 1 \pmod{9} \leftrightarrow 10^n \pmod{9} = 1 \pmod{9}$.
+From $10^n$ we know $10^n = \underbrace{(10 \times 10 \times 10 \dots 10)}_{\text{n times}}$.
+Therefore $10^n \pmod
 
 
 **OLD BS IGNORE**
