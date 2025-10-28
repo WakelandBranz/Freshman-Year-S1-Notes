@@ -64,6 +64,7 @@ Since $r$ is now equal to 0, the algorithm terminates and $gcd(620, 140) = 20$.
 
 (1) Find integers $x$ and $y$ satisfying $307x + 220y = 1$.
 
+Firstly, use the Euclidian algorithm to prove that these are relatively prime. 
 $307 = 220q + r$
 $307 = 220(1) + 87$
 $220 = 87q + r$
@@ -77,8 +78,8 @@ $41 = 5(8) + 1$
 $5 = (1)q + r$
 $5 = (1)(5) + 0$
 
-
-$1 = 41 - 5(8) \rightarrow 1 = 41 - (46 - 41)(8) \to 1 = 9(41) - 8(46)$ $\to 1 = 9(87 - 46) - 8(46) \to 1 = 9(87) - 17(46)$ $\to 1 = 9(87) - 17(220 - 2(87)) \to 1 = 43(87) - 17(220)$ $\to 1 = 43(307 - 220) - 17(220) \to 1 = 43(307) - 60(220)$
+Now we will use our Euclidian algorithm in reverse to find integers $x$ and $y$ satisfying $307x + 220y = 1$.
+$1 = 41 - 5(8) \rightarrow 1 = 41 - (46 - 41)(8) \to 1 = 9(41) - 8(46)$ $\to 1 = 9(87 - 46) - 8(46) \to 1 = 9(87) - 17(46)$ $\to 1 = 9(87) - 17(220 - 2(87)) \to 1 = 43(87) - 17(220)$ $\to 1 = 43(307 - 220) - 17(220) \to 1 = 43(307) - 60(220) \to 307(43) + 220(-60) = 1$
 
 **Answer: $x = 43, y = -60$**
 
