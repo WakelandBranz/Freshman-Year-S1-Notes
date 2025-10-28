@@ -77,4 +77,9 @@ $41 = 5(8) + 1$
 $5 = (1)q + r$
 $5 = (1)(5) + 0$
 
+$1 = 41 - 5(8)$
+$1 = 41 - 40$
+
+I want to make this equation look similar to $307x + 220y = 1$
+
 (2) Use the equation found in (1) to determine the multiplicative inverse of 307 in $\mathbb{Z}_{220}$.
