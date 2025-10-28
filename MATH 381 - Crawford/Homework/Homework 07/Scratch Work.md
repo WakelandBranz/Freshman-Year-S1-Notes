@@ -27,7 +27,7 @@ So, following this logic, $10^n \pmod{9} \equiv 1^n \pmod{9} \equiv 1 \pmod{9} =
 Since we have shown $10^n \pmod{9} = 1$, we can rewrite the equivalence to be $1 \equiv 1 \pmod{9}$.
 Thus for all integers $n \geq 0$, $10^n \equiv 1 \pmod{9}$.
 
-So, towards contradiction, assume that a positive integer is not 
+
 
 
 ---
