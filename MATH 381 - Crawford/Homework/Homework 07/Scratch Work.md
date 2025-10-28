@@ -78,7 +78,11 @@ $5 = (1)q + r$
 $5 = (1)(5) + 0$
 
 $1 = 41 - 5(8)$
-$1 = 41 - 40$
+
+Since we know $5 = q + r$ we can substitute.
+$1 = 41 - 8(q + r)$
+$1 = 41 - 8q - 8r$ 
+$-40 = -(8q + 8r) \rightarrow 40 = 8q + 8r$
 
 I want to make this equation look similar to $307x + 220y = 1$
 
