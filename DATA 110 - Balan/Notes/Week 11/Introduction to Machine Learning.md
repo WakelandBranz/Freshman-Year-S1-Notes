@@ -74,6 +74,8 @@ Machine Learning, explained (MIT Sloan School of Management)
 
 **CRISP-DM**
 
+Cross-Industry Standard Process for Data Mining
+
 [Diagram showing the CRISP-DM process cycle]
 
 ---
