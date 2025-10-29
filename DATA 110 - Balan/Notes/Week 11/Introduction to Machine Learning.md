@@ -44,31 +44,17 @@ How GI, AI, DL, and ML Fit Together (LinkedIn)
 
 ## Some Terminology
 
-Machine Learning, explained (MIT Sloan School of Management)
-
----
-
-## Some Terminology
-
-**Supervised Learning**
+***Supervised Learning***
 
 Model is trained on historical data that includes a known (or labelled) outcomes
 
-Machine Learning, explained (MIT Sloan School of Management)
-
----
-
-## Some Terminology
-
-**Regression vs Classification**
+***Regression vs Classification***
 
 **Regression:** Outcomes are numeric
 
 **Classification:** Outcomes are binary or categorical
 
-[Diagrams showing regression and classification examples]
-
-Machine Learning, explained (MIT Sloan School of Management)
+https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained
 
 ---
 
