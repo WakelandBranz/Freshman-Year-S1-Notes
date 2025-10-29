@@ -56,19 +56,11 @@ Model is trained on historical data that includes a known (or labelled) outcomes
 
 https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained
 
----
-
-## Some Terminology
-
 **Unsupervised Learning**
 
 Model is trained on historical data that does NOT include known (or labelled) outcomes
 
 Machine Learning, explained (MIT Sloan School of Management)
-
----
-
-## Some Terminology
 
 **Reinforcement Learning**
 
