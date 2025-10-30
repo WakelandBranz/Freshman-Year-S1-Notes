@@ -114,4 +114,4 @@ In $\mathbb{Z_{220}}$, our equation can be represented as $307(43) + 220(-60) \e
 This can be represented as $307(43) \equiv 1 \pmod{220}$ because $220(-60) \pmod{220} = 0$.
 This gives us the multiplicative inverse of $43$ for $307 \in \mathbb{Z_{220}}$.
 We can verify this with the following.
-$307(43) = 13201$ and $220(-60) = -13200 \to 13201 $
+$307(43) = 13201$ and $220(-60) = -13200 \to 13201 + (-13200) = 1 \equiv 1 \pmod{220}$.
