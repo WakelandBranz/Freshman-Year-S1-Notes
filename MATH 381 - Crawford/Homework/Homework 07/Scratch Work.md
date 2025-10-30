@@ -109,5 +109,5 @@ $1 = 41 - 5(8) \rightarrow 1 = 41 - (46 - 41)(8) \to 1 = 9(41) - 8(46)$ $\to 1 =
 
 (2) Use the equation found in (1) to determine the multiplicative inverse of 307 in $\mathbb{Z}_{220}$.
 
-$307x + 220(-60) = 1 \to 307x - 13200 = 1 \to 307x = $
+$307x + 220(-60) = 1 \to 307x - 13200 = 1 \to 307x = -13199 \to x = $
 
