@@ -14,6 +14,7 @@ Therefore, $x \equiv 2 \pmod 3$.
 
 $7 \mid (3 + 2x + 2) \to 7 \mid (2x + 5) \to 2x + 5 \equiv 0 \pmod{7} \to x \equiv -\frac{1}{2} \pmod 7$
 
+
 ---
 
 ### 2. Prove that for all integers $n \geq 0$, $10^n \equiv 1 \pmod{9}$. Then, use that result to show that a positive integer is divisible by 9 if and only if the sum of its digits is divisible by 9.
@@ -34,7 +35,7 @@ Let $k =$ the number of $m$'s digits.
 We will represent $m$ as its individual digits with $d_{k}$ being the leftmost digit of $m$. 
 So, $m = (d_{k} \times 10^k) + (d_{k - 1} \times 10^{k - 1}) \dots + (d_{1} \times 10^1) + (d_{0} \times 10^0).$
 If $9 \mid m$, then $m \pmod{9} = [(d_{k} \times 10^k) + (d_{k - 1} \times 10^{k - 1}) \dots (d_{1} \times 10^1), (d_{0} \times 10^0)] \pmod{9} = 0$.
-$\implies [(d_{k} \times 10^k) \pmod{9} + (d_{k - 1} \times 10^{k - 1}) \pmod{9} \dots + (d_{1} \times 10^1) \pmod{9} + (d_{0} \times 10^0) \pmod{9}] \pmod{9}$
+So, $[(d_{k} \times 10^k) \pmod{9} + (d_{k - 1} \times 10^{k - 1}) \pmod{9} \dots + (d_{1} \times 10^1) \pmod{9} + (d_{0} \times 10^0) \pmod{9}] \pmod{9}$
 We have proven that any $10^k \pmod{9} = 1$ already, so we can substitute that into our equivalence. 
 So $m = [(d_{k} \times 1) + (d_{k - 1} \times 1) \dots (d_{1} \times 1), (d_{0} \times 1)] \equiv 0 \pmod{9}$.
 Therefore a positive integer is divisible by 9 if and only if the sum of its digits is divisible by 9.
@@ -106,3 +107,4 @@ $1 = 41 - 5(8) \rightarrow 1 = 41 - (46 - 41)(8) \to 1 = 9(41) - 8(46)$ $\to 1 =
 **Answer: $x = 43, y = -60$**
 
 (2) Use the equation found in (1) to determine the multiplicative inverse of 307 in $\mathbb{Z}_{220}$.
+
