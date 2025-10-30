@@ -2,7 +2,7 @@
 
 (1) $2x - 4 \equiv 0 \pmod{6}$
 
-$6 \mid (2x-4+0) \to 6 \mid 2(x - 2) \to 2(3) \mid 2(x - 2)$
+$6 \mid (2x-4-0) \to 6 \mid 2(x - 2) \to 2(3) \mid 2(x - 2)$
 We can prove that both of these sides have a common factor of 2.
 Since $2 \mid 6 = 6/2 = 3$, and 3 is an integer, $2 \mid 6$.
 Since $2 \mid 2(x - 2) = \frac{2(x-2)}{2} = x-2,$ $2 \mid 2(x - 2)$.
@@ -40,6 +40,7 @@ We have proven that any $10^k \pmod{9} = 1$ already, so we can substitute that i
 So $m = [(d_{k} \times 1) + (d_{k - 1} \times 1) \dots (d_{1} \times 1), (d_{0} \times 1)] \equiv 0 \pmod{9}$.
 Therefore a positive integer is divisible by 9 if and only if the sum of its digits is divisible by 9.
 
+===FIX THIS ONE===
 
 ---
 
