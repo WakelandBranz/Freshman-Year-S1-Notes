@@ -14,8 +14,9 @@ Therefore, $x \equiv 2 \pmod 3$.
 
 $3 + 2x \equiv -2 \pmod{7} \to 2x \equiv -5 \pmod{7}$
 We can find the positive equivalent of $-5 \pmod{7}$ to be $2 \pmod{7}$.
-So, $2x \equiv 2 \pmod{7} \to x \equiv 1 \pmod{7}$.
-Therefore, $x \equiv 1 \pmod{7}$
+So, $2x \equiv 2 \pmod{7}$.
+Dividing both sides by $2$ we get $x \equiv 1 \pmod{7}$.
+Therefore, the solution is $x \equiv 1 \pmod{7}$
 
 ---
 
