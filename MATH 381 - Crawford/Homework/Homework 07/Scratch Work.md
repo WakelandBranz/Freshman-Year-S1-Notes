@@ -15,6 +15,7 @@ Therefore, $x \equiv 2 \pmod 3$.
 $7 \mid (3 + 2x + 2) \to 7 \mid (2x + 5) \to 2x + 5 \equiv 0 \pmod{7} \to x \equiv -\frac{1}{2} \pmod 7$
 
 
+
 ---
 
 ### 2. Prove that for all integers $n \geq 0$, $10^n \equiv 1 \pmod{9}$. Then, use that result to show that a positive integer is divisible by 9 if and only if the sum of its digits is divisible by 9.
@@ -41,6 +42,42 @@ So $m = [(d_{k} \times 1) + (d_{k - 1} \times 1) \dots (d_{1} \times 1), (d_{0} 
 Therefore a positive integer is divisible by 9 if and only if the sum of its digits is divisible by 9.
 
 ===FIX THIS ONE===
+
+### Fixed Version
+
+**-PF-**
+
+**Part 1:** We want to show that $10^n \equiv 1 \pmod{9}$ for all $n \geq 0$, where $n \in \mathbb{Z}$.
+
+Note that $10 \equiv 1 \pmod{9}$ since $10 = 9 + 1$.
+
+Now, $10^n = \underbrace{10 \times 10 \times \cdots \times 10}_{n \text{ times}}$.
+
+Therefore, $$10^n \pmod{9} = \underbrace{10 \times 10 \times \cdots \times 10}_{n \text{ times}} \pmod{9}$$
+
+By the multiplicative property of congruences: $$\equiv \underbrace{(10 \pmod{9}) \times (10 \pmod{9}) \times \cdots \times (10 \pmod{9})}_{n \text{ times}} \pmod{9}$$
+
+$$\equiv \underbrace{1 \times 1 \times \cdots \times 1}_{n \text{ times}} \pmod{9} = 1$$
+
+**Part 2:** Now we want to show that for an arbitrary positive integer $m$, we have $9 \mid m \iff 9 \mid \text{(sum of } m\text{'s digits)}$.
+
+Let $k$ be the number of digits in $m$. We represent $m$ using its individual digits, with $d_{k-1}$ being the leftmost digit.
+
+So, $m = (d_{k-1} \times 10^{k-1}) + (d_{k-2} \times 10^{k-2}) + \cdots + (d_1 \times 10^1) + (d_0 \times 10^0)$.
+
+Taking both sides modulo 9: $$m \pmod{9} = [(d_{k-1} \times 10^{k-1}) + (d_{k-2} \times 10^{k-2}) + \cdots + (d_1 \times 10^1) + (d_0 \times 10^0)] \pmod{9}$$
+
+By the additive and multiplicative properties of congruences: $$\equiv [(d_{k-1} \times 10^{k-1}) \pmod{9} + (d_{k-2} \times 10^{k-2}) \pmod{9} + \cdots + (d_1 \times 10^1) \pmod{9} + (d_0 \times 10^0) \pmod{9}] \pmod{9}$$
+
+We have already proven that $10^j \equiv 1 \pmod{9}$ for all $j \geq 0$, so we can substitute: $$m \equiv [(d_{k-1} \times 1) + (d_{k-2} \times 1) + \cdots + (d_1 \times 1) + (d_0 \times 1)] \pmod{9}$$
+
+$$m \equiv d_{k-1} + d_{k-2} + \cdots + d_1 + d_0 \pmod{9}$$
+
+This shows that $m \equiv \text{(sum of digits)} \pmod{9}$.
+
+Therefore, $9 \mid m \iff m \equiv 0 \pmod{9} \iff \text{(sum of digits)} \equiv 0 \pmod{9} \iff 9 \mid \text{(sum of digits)}$.
+
+Thus, a positive integer is divisible by 9 if and only if the sum of its digits is divisible by 9.
 
 ---
 
