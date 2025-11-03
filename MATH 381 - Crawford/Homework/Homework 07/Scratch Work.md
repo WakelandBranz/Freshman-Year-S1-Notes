@@ -12,9 +12,10 @@ Therefore, $x \equiv 2 \pmod 3$.
 
 (2) $3 + 2x \equiv -2 \pmod{7}$
 
-$7 \mid (3 + 2x + 2) \to 7 \mid (2x + 5) \to 2x + 5 \equiv 0 \pmod{7} \to x \equiv -\frac{1}{2} \pmod 7$
-
-
+$3 + 2x \equiv -2 \pmod{7} \to 2x \equiv -5 \pmod{7}$
+We can find the positive equivalent of $-5 \pmod{7}$ to be $2 \pmod{7}$.
+So, $2x \equiv 2 \pmod{7} \to x \equiv 1 \pmod{7}$.
+Therefore, $x \equiv 1 \pmod{7}$
 
 ---
 
