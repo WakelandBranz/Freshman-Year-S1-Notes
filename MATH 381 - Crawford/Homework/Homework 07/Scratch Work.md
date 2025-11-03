@@ -63,17 +63,17 @@ $$\equiv \underbrace{1 \times 1 \times \cdots \times 1}_{n \text{ times}} \pmod{
 
 **Part 2:** Now we want to show that for an arbitrary positive integer $m$, we have $9 \mid m \iff 9 \mid \text{(sum of } m\text{'s digits)}$.
 
-Let $k$ be the number of digits in $m$. We represent $m$ using its individual digits, with $d_{k-1}$ being the leftmost digit.
+Let $k$ be the number of digits in $m$. We represent $m$ using its individual digits, with $d_{k}$ being the leftmost digit.
 
-So, $m = (d_{k-1} \times 10^{k-1}) + (d_{k-2} \times 10^{k-2}) + \cdots + (d_1 \times 10^1) + (d_0 \times 10^0)$.
+So, $m = (d_{k} \times 10^{k}) + (d_{k-1} \times 10^{k-1}) + \cdots + (d_1 \times 10^1) + (d_0 \times 10^0)$.
 
-Taking both sides modulo 9: $$m \pmod{9} = [(d_{k-1} \times 10^{k-1}) + (d_{k-2} \times 10^{k-2}) + \cdots + (d_1 \times 10^1) + (d_0 \times 10^0)] \pmod{9}$$
+Taking both sides modulo 9: $$m \pmod{9} = [(d_{k} \times 10^{k}) + (d_{k-1} \times 10^{k-1}) + \cdots + (d_1 \times 10^1) + (d_0 \times 10^0)] \pmod{9}$$
 
-By the additive and multiplicative properties of congruences: $$\equiv [(d_{k-1} \times 10^{k-1}) \pmod{9} + (d_{k-2} \times 10^{k-2}) \pmod{9} + \cdots + (d_1 \times 10^1) \pmod{9} + (d_0 \times 10^0) \pmod{9}] \pmod{9}$$
+By the additive and multiplicative properties of congruences: $$\equiv [(d_{k} \times 10^{k}) \pmod{9} + (d_{k-1} \times 10^{k-1}) \pmod{9} + \cdots + (d_1 \times 10^1) \pmod{9} + (d_0 \times 10^0) \pmod{9}] \pmod{9}$$
 
-We have already proven that $10^j \equiv 1 \pmod{9}$ for all $j \geq 0$, so we can substitute: $$m \equiv [(d_{k-1} \times 1) + (d_{k-2} \times 1) + \cdots + (d_1 \times 1) + (d_0 \times 1)] \pmod{9}$$
+We have already proven that $10^j \equiv 1 \pmod{9}$ for all $j \geq 0$, so we can substitute: $$m \equiv [(d_{k} \times 1) + (d_{k-1} \times 1) + \cdots + (d_1 \times 1) + (d_0 \times 1)] \pmod{9}$$
 
-$$m \equiv d_{k-1} + d_{k-2} + \cdots + d_1 + d_0 \pmod{9}$$
+$$m \equiv d_{k} + d_{k-1} + \cdots + d_1 + d_0 \pmod{9}$$
 
 This shows that $m \equiv \text{(sum of digits)} \pmod{9}$.
 
