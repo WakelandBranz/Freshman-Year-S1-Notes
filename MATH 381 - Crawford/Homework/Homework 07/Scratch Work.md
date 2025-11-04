@@ -129,8 +129,9 @@ Assume $a$ and $n$ are relatively prime.
 WTS that integer $a \in \mathbb{Z_n}$ does have a multiplicative inverse.
 This means that $gcd(a, n) = 1$.
 By Bézout's theorem, $\exists x, y \in \mathbb{Z}$ such that $gcd(a, n) = 1 = ax + ny$.
-Substituting $ax + ny$ for $1$ we can represent $a \cdot a^{-1} \equiv 1 \pmod{n}$ as $a \cdot a^{-1} \equiv ax + ny \pmod{7}$.
-
+Substituting $ax + ny$ for $1$ we can represent $a \cdot a^{-1} \equiv 1 \pmod{n}$ as $a \cdot a^{-1} \equiv ax + ny \pmod{n}$.
+All multiples of $n$ are congruent to $0 \pmod{n}$ so $ax + ny \pmod{n} \to ax \pmod{n}$.
+Thus our equivalence is now $a \cdot a^{-1}
 
 
 **Direction 2:** If $a \in \mathbb{Z_n}$ has a multiplicative inverse, $a$ and $n$ are relatively prime.
