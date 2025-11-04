@@ -127,6 +127,7 @@ Since $r$ is now equal to 0, the algorithm terminates and $gcd(620, 140) = 20$.
 
 Assume $a$ and $n$ are relatively prime.
 This means that $gcd(a, n) = 1$.
+This tells us that 
 We must find an integer $a^{-1}$ s.t. $a \cdot a^{-1} \equiv 1 \pmod{n}$.
 
 
