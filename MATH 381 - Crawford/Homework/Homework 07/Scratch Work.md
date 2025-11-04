@@ -147,9 +147,12 @@ Let $d = gcd(a, n)$.
 This tells us that $d \mid a$ and $d \mid n$.
 So, $d \mid ax$ and $d \mid kn$.
 Therefore, $d \mid (ax - kn) = 1$.
-The only positive integer that divides itself is 1.
+The only positive integer that divides 1 is 1.
+Therefore $d = 1$.
+But since $d = 1$, $gcd(a, n) = 1$.
+Therefore, if $a \in \mathbb{Z}_n$ has a multiplicative inverse, $a$ and $n$ are relatively prime.
 
-Since we have proven both directions, is is true that $a \in \mathbb{Z}_n$ has a multiplicative inverse if and only if $a$ and $n$ are relatively prime.
+Since we have proven both directions, it is true that $a \in \mathbb{Z}_n$ has a multiplicative inverse if and only if $a$ and $n$ are relatively prime.
 
 ---
 
