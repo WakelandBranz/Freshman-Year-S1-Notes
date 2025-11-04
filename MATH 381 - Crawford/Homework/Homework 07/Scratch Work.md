@@ -125,7 +125,9 @@ Since $r$ is now equal to 0, the algorithm terminates and $gcd(620, 140) = 20$.
 
 **-PF-**
 
-Direction 1: If $a$ and $n$ are relatively prime, 
+Direction 1: If $a$ and $n$ are relatively prime, integer $a \in \mathbb{Z_n}$ has a multiplicative inverse.
+
+
 
 ---
 
