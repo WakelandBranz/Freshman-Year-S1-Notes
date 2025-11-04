@@ -4,7 +4,7 @@
 
 $6 \mid (2x-4-0) \to 6 \mid 2(x - 2) \to 2(3) \mid 2(x - 2)$
 We can prove that both of these sides have a common factor of 2.
-Since $2 \mid 6 = 6/2 = 3$, and 3 is an integer, $2 \mid 6$.
+Since $6 = 2 \cdot 3$ and $3$ is an integer, we have $2 \mid 6$.
 Since $2 \mid 2(x - 2) = \frac{2(x-2)}{2} = x-2,$ $2 \mid 2(x - 2)$.
 Both $2 \mid 6$ and $2 \mid 2(x - 2)$ are true, so both sides have a common factor of 2, so we can simplify both sides by dividing 6 by 2 and $2(x - 2)$ by 2.
 So, $2(3) \mid 2(x - 2) \to 3 \mid x - 2 \to x - 2 \equiv 0 \pmod 3$
