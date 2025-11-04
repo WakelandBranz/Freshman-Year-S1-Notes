@@ -132,7 +132,7 @@ By Bézout's theorem, $\exists x, y \in \mathbb{Z}$ such that $gcd(a, n) = 1 = a
 Therefore, $ax + ny \equiv 1 \pmod{n}$.
 Since the multiple of any $n \pmod{n} = 0$, we can simplify our equivalence.
 So, $ax + ny \equiv 1 \pmod{n} \to ax \equiv 1 \pmod{n}$.
-This shows that $x$ is $a \in \mathbb{Z}_n$
+This shows that $x$ is the multiplicative inverse $a \in \mathbb{Z}_n$ when $a$ and $n$ are relatively prime.
 
 
 **Direction 2:** If $a \in \mathbb{Z_n}$ has a multiplicative inverse, $a$ and $n$ are relatively prime.
