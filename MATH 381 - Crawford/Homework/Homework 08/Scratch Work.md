@@ -2,7 +2,10 @@
 
 Prove the inequality $n < 2^n$ for all positive integers $n$.
 
-1. WTS $n < 2^n$ 
+1. WTS $n < 2^n$, $\forall n \in \mathbb{Z^+}$.
+2. Base case: When $n = 1$, $n < 2^n \to 1 < 2^1 \to 1 < 2$ which is true.
+3. Inductive step: Assume $k < 2^k$ for $k \in \mathbb{Z^+}, k \geq 1$.
+4. WTS $
 
 ---
 
