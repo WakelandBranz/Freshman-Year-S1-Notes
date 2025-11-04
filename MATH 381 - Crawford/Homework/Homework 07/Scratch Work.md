@@ -138,11 +138,11 @@ This shows that $x \pmod{n}$ is the multiplicative inverse of $a \in \mathbb{Z}_
 **Direction 2:** If $a \in \mathbb{Z}_{n}$ has a multiplicative inverse, $a$ and $n$ are relatively prime.
 
 Assume $a \in \mathbb{Z}_n$ has a multiplicative inverse.
-For contradiction, assume $a, n$ are **not** relatively prime.
-We will use a counterexample where $a = 3, n = 5$.
-So, $ax \equiv 1 \pmod{n} \to 3x \equiv 1 \pmod{7}$.
-But in this case there exists an $x$ such that $3x \equiv 1 \pmod{5}$ is true.
-When $x = 5$, the equivalence becomes $3 \cdot 5 \equiv 1 \pmod{5} \to 1 \equiv 1 \pmod{5}
+WTS that $gcd(a, n) = 1$.
+Since $a \in \mathbb{Z}_n$ has a multiplicative inverse, there exists an $x$ such that $ax \equiv 1 \pmod{n}$.
+
+
+Since we have proven both directions, is is true that $a \in \mathbb{Z}_n$ has a multiplicative inverse if and only if $a$ and $n$ are relatively prime.
 
 ---
 
