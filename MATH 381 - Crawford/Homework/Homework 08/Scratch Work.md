@@ -7,12 +7,12 @@ Prove the inequality $n < 2^n$ for all positive integers $n$.
 3. Inductive step: Assume $k < 2^k$ for $k \in \mathbb{Z^+}, k \geq 1$.
 4. WTS $k + 1 < 2^{k + 1}$.
 5. By the inductive hypothesis:
-$$k < 2^k$$
-$$\to k + 1 < 2^k + 1$$
-$$\to 2(k + 1) < 2(2^k + 1)$$
-$$2k + 2 < 2^{k + 1} + 2$$
-$$2k < 2^{k + 1}$$
-
+Note: $k \geq 1$
+$$k + 1 < 2^k + 1 < 2^k + 2^k$$
+$$\to k + 1 < 2^k + 1 < 2(2^k)$$
+$$\to k + 1 < 2^k + 1 < 2^{k + 1}$$
+From this, we can deduce the following: 
+$$\to k + 1 < 2^{k + 1}$$
 
 ---
 
