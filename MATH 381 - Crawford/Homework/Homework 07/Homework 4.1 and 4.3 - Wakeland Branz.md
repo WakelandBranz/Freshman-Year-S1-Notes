@@ -106,6 +106,36 @@ page break above me
 
 **-PF-**
 
+**Direction 1:** If $a$ and $n$ are relatively prime, integer $a \in \mathbb{Z}_{n}$ has a multiplicative inverse.
+
+Assume $a$ and $n$ are relatively prime.
+WTS that integer $a \in \mathbb{Z}_n$ does have a multiplicative inverse.
+This means that $gcd(a, n) = 1$.
+By Bézout's theorem, $\exists x, y \in \mathbb{Z}$ such that $gcd(a, n) = 1 = ax + ny$.
+Therefore, $ax + ny \equiv 1 \pmod{n}$.
+Since any multiple of $n$ is congruent to $0 \pmod{n}$, we have $ny \equiv 0 \pmod{n}$.
+So, $ax + ny \equiv 1 \pmod{n} \to ax \equiv 1 \pmod{n}$.
+This shows that $x \pmod{n}$ is the multiplicative inverse of $a \in \mathbb{Z}_n$ when $a$ and $n$ are relatively prime.
+
+
+**Direction 2:** If $a \in \mathbb{Z}_{n}$ has a multiplicative inverse, $a$ and $n$ are relatively prime.
+
+Assume $a \in \mathbb{Z}_n$ has a multiplicative inverse.
+WTS that $gcd(a, n) = 1$.
+Since $a \in \mathbb{Z}_n$ has a multiplicative inverse, there exists an $x$ such that $ax \equiv 1 \pmod{n}$.
+By the definition of congruence, $n \mid ax - 1$.
+By the definition of divisibility, $\exists k \in \mathbb{Z}$ s.t. $ax - 1 = kn$.
+Rearranging we get $ax - kn = 1$.
+Let $d = gcd(a, n)$.
+This tells us that $d \mid a$ and $d \mid n$.
+So, $d \mid ax$ and $d \mid kn$.
+Therefore, $d \mid (ax - kn) = 1$.
+The only positive integer that divides 1 is 1.
+Therefore $d = 1$.
+But since $d = 1$, $gcd(a, n) = 1$.
+Therefore, if $a \in \mathbb{Z}_n$ has a multiplicative inverse, $a$ and $n$ are relatively prime.
+
+Since we have proven both directions, it is true that $a \in \mathbb{Z}_n$ has a multiplicative inverse if and only if $a$ and $n$ are relatively prime.
 
 ---
 <div style="page-break-after: always;"></div>
@@ -139,8 +169,9 @@ $1 = 41 - 5(8) \rightarrow 1 = 41 - (46 - 41)(8) \to 1 = 9(41) - 8(46)$ $\to 1 =
 Equation found in 1: $307(43) + 220(-60) = 1$
 In $\mathbb{Z_{220}}$, our equation can be represented as $307(43) + 220(-60) \equiv 1 \pmod{220}$.
 This can be represented as $307(43) \equiv 1 \pmod{220}$ because $220(-60) \pmod{220} = 0$.
-This gives us the multiplicative inverse of $43$ for $307 \in \mathbb{Z_{220}}$.
+This gives us 43 as the multiplicative inverse of $307 \in \mathbb{Z_{220}}$.
 We can verify this with the following.
 $307(43) = 13201$ and $220(-60) = -13200 \to 13201 + (-13200) = 1 \equiv 1 \pmod{220}$.
+Since $307 \equiv 87 \pmod{220}$, we're finding the inverse of 87, which is 43.
 
 **Answer:** 43
