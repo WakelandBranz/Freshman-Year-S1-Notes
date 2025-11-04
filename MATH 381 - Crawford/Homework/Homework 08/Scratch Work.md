@@ -2,7 +2,7 @@
 
 Prove the inequality $n < 2^n$ for all positive integers $n$.
 
-1. WTS $n < 2^n$, $\forall n \in \mathbb{Z^+}$.
+1. WTS $n < 2^n$ for all positive integers $n$.
 2. Base case: When $n = 1$, $n < 2^n \to 1 < 2^1 \to 1 < 2$ which is true.
 3. Inductive step: Assume $k < 2^k$ for $k \in \mathbb{Z^+}, k \geq 1$.
 4. WTS $k + 1 < 2^{k + 1}$.
@@ -11,14 +11,16 @@ Note: $k \geq 1$
 $$k + 1 < 2^k + 1 < 2^k + 2^k$$
 $$\to k + 1 < 2^k + 1 < 2(2^k)$$
 $$\to k + 1 < 2^k + 1 < 2^{k + 1}$$
-From this, we can deduce the following: 
 $$\to k + 1 < 2^{k + 1}$$
+6. By mathematical induction, $n < 2^n$ for all positive integers $n$.
 
 ---
 
 ### 2.
 
 Prove that $7^{n+2} + 8^{2n+1}$ is divisible by 57 for every nonnegative integer $n$.
+
+1. WTS $57 \mid 7^{n + 2} + 8^{2n + 1}$ for all $n \geq 0$.
 
 ---
 
