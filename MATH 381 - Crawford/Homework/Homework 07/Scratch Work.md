@@ -140,6 +140,8 @@ This shows that $x \pmod{n}$ is the multiplicative inverse of $a \in \mathbb{Z}_
 Assume $a \in \mathbb{Z}_n$ has a multiplicative inverse.
 WTS that $gcd(a, n) = 1$.
 Since $a \in \mathbb{Z}_n$ has a multiplicative inverse, there exists an $x$ such that $ax \equiv 1 \pmod{n}$.
+By the definition of congruence, $n \mid ax - 1$.
+By the definition of divisibility, $\exists k \in \mathbb{Z}$ s.t. $ax - 1 = kn$.
 
 
 Since we have proven both directions, is is true that $a \in \mathbb{Z}_n$ has a multiplicative inverse if and only if $a$ and $n$ are relatively prime.
