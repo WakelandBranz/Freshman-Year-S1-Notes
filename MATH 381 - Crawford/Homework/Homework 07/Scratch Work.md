@@ -121,15 +121,14 @@ Since $r$ is now equal to 0, the algorithm terminates and $gcd(620, 140) = 20$.
 
 ### 5. Show that an integer $a \in \mathbb{Z}_n$ has a multiplicative inverse, that is, an element $a^{-1} \in \mathbb{Z}_n$ with $a \cdot_n a^{-1} = 1$, if and only if $a$ and $n$ are relatively prime.
 
-
-
 **-PF-**
 
 **Direction 1:** If $a$ and $n$ are relatively prime, integer $a \in \mathbb{Z_n}$ has a multiplicative inverse.
 
 Assume $a$ and $n$ are relatively prime.
 This means that $gcd(a, n) = 1$.
-We must find an integer $a^{-1}$ s.t. $a \cdot a^{-1} \equiv 1 \pmod{n}$
+We must find an integer $a^{-1}$ s.t. $a \cdot a^{-1} \equiv 1 \pmod{n}$.
+
 
 **Direction 2:** If $a \in \mathbb{Z_n}$ has a multiplicative inverse, $a$ and $n$ are relatively prime.
 
