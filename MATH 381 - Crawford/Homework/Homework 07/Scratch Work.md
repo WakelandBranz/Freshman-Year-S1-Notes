@@ -187,6 +187,6 @@ This can be represented as $307(43) \equiv 1 \pmod{220}$ because $220(-60) \pmod
 This gives us 43 as the multiplicative inverse of $307 \in \mathbb{Z_{220}}$.
 We can verify this with the following.
 $307(43) = 13201$ and $220(-60) = -13200 \to 13201 + (-13200) = 1 \equiv 1 \pmod{220}$.
-Since $307 \e
+Since $307 \equiv 87 \pmod{220}$, we're finding the inverse of 87, which is 43.
 
 **Answer:** 43
