@@ -126,8 +126,11 @@ Since $r$ is now equal to 0, the algorithm terminates and $gcd(620, 140) = 20$.
 **Direction 1:** If $a$ and $n$ are relatively prime, integer $a \in \mathbb{Z_n}$ has a multiplicative inverse.
 
 Assume $a$ and $n$ are relatively prime.
+Towards contradiction, assume that integer $a \in \mathbb{Z_n}$ does **not** have a multiplicative inverse.
 This means that $gcd(a, n) = 1$.
-This tells us that 
+We will use a counterexam 
+
+
 We must find an integer $a^{-1}$ s.t. $a \cdot a^{-1} \equiv 1 \pmod{n}$.
 
 
