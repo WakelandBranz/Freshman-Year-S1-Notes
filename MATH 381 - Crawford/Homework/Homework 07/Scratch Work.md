@@ -126,11 +126,13 @@ Since $r$ is now equal to 0, the algorithm terminates and $gcd(620, 140) = 20$.
 **Direction 1:** If $a$ and $n$ are relatively prime, integer $a \in \mathbb{Z_n}$ has a multiplicative inverse.
 
 Assume $a$ and $n$ are relatively prime.
-WTS that integer $a \in \mathbb{Z_n}$ does have a multiplicative inverse.
+WTS that integer $a \in \mathbb{Z}_n$ does have a multiplicative inverse.
 This means that $gcd(a, n) = 1$.
 By Bézout's theorem, $\exists x, y \in \mathbb{Z}$ such that $gcd(a, n) = 1 = ax + ny$.
-So, $ax + ny \equiv 1 \pmod{n}$.
-
+Therefore, $ax + ny \equiv 1 \pmod{n}$.
+Since the multiple of any $n \pmod{n} = 0$, we can simplify our equivalence.
+So, $ax + ny \equiv 1 \pmod{n} \to ax \equiv 1 \pmod{n}$.
+This shows that $x$ is $a \in \mathbb{Z}_n$
 
 
 **Direction 2:** If $a \in \mathbb{Z_n}$ has a multiplicative inverse, $a$ and $n$ are relatively prime.
