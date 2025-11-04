@@ -142,7 +142,12 @@ WTS that $gcd(a, n) = 1$.
 Since $a \in \mathbb{Z}_n$ has a multiplicative inverse, there exists an $x$ such that $ax \equiv 1 \pmod{n}$.
 By the definition of congruence, $n \mid ax - 1$.
 By the definition of divisibility, $\exists k \in \mathbb{Z}$ s.t. $ax - 1 = kn$.
-
+Rearranging we get $ax - kn = 1$.
+Let $d = gcd(a, n)$.
+This tells us that $d \mid a$ and $d \mid n$.
+So, $d \mid ax$ and $d \mid kn$.
+Therefore, $d \mid (ax - kn) = 1$.
+The only positive integer that divides itself is 1.
 
 Since we have proven both directions, is is true that $a \in \mathbb{Z}_n$ has a multiplicative inverse if and only if $a$ and $n$ are relatively prime.
 
