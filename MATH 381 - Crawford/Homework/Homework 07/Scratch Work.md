@@ -128,8 +128,13 @@ Since $r$ is now equal to 0, the algorithm terminates and $gcd(620, 140) = 20$.
 Assume $a$ and $n$ are relatively prime.
 Towards contradiction, assume that integer $a \in \mathbb{Z_n}$ does **not** have a multiplicative inverse.
 This means that $gcd(a, n) = 1$.
-We will use a counterexam 
-
+We will use a counterexample where $a =3$ and $n = 7$.
+Let there be an arbitrary $k$ such that $a \cdot k \equiv 1 \pmod{n}$.
+So $a \cdot k \equiv 1 \pmod{n}$ is equivalent to $3 \cdot k \equiv 1 \pmod{7}$.
+But in this case, there exists a $k$ s.t. $3 \cdot k \equiv 1 \pmod{7}$ when $k = 5$.
+$3 \cdot 5 \equiv 1 \pmod{7}$.
+Therefore our assumption that $a \in \mathbb{Z_n}$ does **not** have a multiplicative inverse is false.
+Thus if $a$ and $n$ are relatively prime, 
 
 We must find an integer $a^{-1}$ s.t. $a \cdot a^{-1} \equiv 1 \pmod{n}$.
 
