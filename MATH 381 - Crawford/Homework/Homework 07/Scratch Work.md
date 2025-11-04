@@ -184,8 +184,9 @@ $1 = 41 - 5(8) \rightarrow 1 = 41 - (46 - 41)(8) \to 1 = 9(41) - 8(46)$ $\to 1 =
 Equation found in 1: $307(43) + 220(-60) = 1$
 In $\mathbb{Z_{220}}$, our equation can be represented as $307(43) + 220(-60) \equiv 1 \pmod{220}$.
 This can be represented as $307(43) \equiv 1 \pmod{220}$ because $220(-60) \pmod{220} = 0$.
-This gives us the multiplicative inverse of $43$ for $307 \in \mathbb{Z_{220}}$.
+This gives us 43 as the multiplicative inverse of $307 \in \mathbb{Z_{220}}$.
 We can verify this with the following.
 $307(43) = 13201$ and $220(-60) = -13200 \to 13201 + (-13200) = 1 \equiv 1 \pmod{220}$.
+Since $307 \e
 
 **Answer:** 43
