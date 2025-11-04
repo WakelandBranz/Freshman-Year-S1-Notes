@@ -128,7 +128,8 @@ Since $r$ is now equal to 0, the algorithm terminates and $gcd(620, 140) = 20$.
 Assume $a$ and $n$ are relatively prime.
 WTS that integer $a \in \mathbb{Z_n}$ does have a multiplicative inverse.
 This means that $gcd(a, n) = 1$.
-By Bézout's theorem, $gcd(a, n) = 1 = ax + ny$.
+By Bézout's theorem, $\exists x, y \in \mathbb{Z}$ such that $gcd(a, n) = 1 = ax + ny$.
+Substituting $ax + ny$ for $1$ we can represent $a \cdot a^{-1} \equiv 1 \pmod{n}$ as $a \cdot a^{-1} \equiv ax + ny \pmod{7}$.
 
 
 
