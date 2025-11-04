@@ -128,6 +128,7 @@ Since $r$ is now equal to 0, the algorithm terminates and $gcd(620, 140) = 20$.
 Assume $a$ and $n$ are relatively prime.
 WTS that integer $a \in \mathbb{Z_n}$ does have a multiplicative inverse.
 This means that $gcd(a, n) = 1$.
+By Bézout's theorem, $gcd(a, n) = 1 = ax + ny$.
 
 
 
