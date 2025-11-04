@@ -123,20 +123,22 @@ Since $r$ is now equal to 0, the algorithm terminates and $gcd(620, 140) = 20$.
 
 **-PF-**
 
-**Direction 1:** If $a$ and $n$ are relatively prime, integer $a \in \mathbb{Z_n}$ has a multiplicative inverse.
+**Direction 1:** If $a$ and $n$ are relatively prime, integer $a \in \mathbb{Z}_{n}$ has a multiplicative inverse.
 
 Assume $a$ and $n$ are relatively prime.
 WTS that integer $a \in \mathbb{Z}_n$ does have a multiplicative inverse.
 This means that $gcd(a, n) = 1$.
 By Bézout's theorem, $\exists x, y \in \mathbb{Z}$ such that $gcd(a, n) = 1 = ax + ny$.
 Therefore, $ax + ny \equiv 1 \pmod{n}$.
-Since the multiple of any $n \pmod{n} = 0$, we can simplify our equivalence.
+Since any multiple of $n$ is congruent to $0 \pmod{n}$, we have $ny \equiv 0 \pmod{n}$.
 So, $ax + ny \equiv 1 \pmod{n} \to ax \equiv 1 \pmod{n}$.
-This shows that $x$ is the multiplicative inverse $a \in \mathbb{Z}_n$ when $a$ and $n$ are relatively prime.
+This shows that $x \pmod{n}$ is the multiplicative inverse of $a \in \mathbb{Z}_n$ when $a$ and $n$ are relatively prime.
 
 
-**Direction 2:** If $a \in \mathbb{Z_n}$ has a multiplicative inverse, $a$ and $n$ are relatively prime.
+**Direction 2:** If $a \in \mathbb{Z}_{n}$ has a multiplicative inverse, $a$ and $n$ are relatively prime.
 
+Assume $a \in \mathbb{Z}_n$ has a multiplicative inverse.
+WTS that $a, n$ are relatively prime.
 
 
 ---
