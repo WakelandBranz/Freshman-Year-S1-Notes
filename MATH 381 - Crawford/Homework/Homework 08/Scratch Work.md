@@ -8,8 +8,10 @@ Prove the inequality $n < 2^n$ for all positive integers $n$.
 4. WTS $k + 1 < 2^{k + 1}$.
 5. By the inductive hypothesis:
 $$k < 2^k$$
-$$\to 2k < 2^{k} \cdot 2$$
-$$\to 2k < 2^{k + 1}$$
+$$\to k + 1 < 2^k + 1$$
+$$\to 2(k + 1) < 2(2^k + 1)$$
+$$2k + 2 < 2^{k + 1} + 2$$
+
 
 ---
 
