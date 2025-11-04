@@ -133,6 +133,7 @@ We must find an integer $a^{-1}$ s.t. $a \cdot a^{-1} \equiv 1 \pmod{n}$.
 **Direction 2:** If $a \in \mathbb{Z_n}$ has a multiplicative inverse, $a$ and $n$ are relatively prime.
 
 
+
 ---
 
 ### 6. The numbers 307 and 220 are relatively prime.
