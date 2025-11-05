@@ -1,0 +1,5 @@
+ - Does MLK conflict with Lincoln?
+	 - Slightly, but not on the surface. Lincoln was slightly more like the white clergymen; he was initially hesitant as well.
+ - Does MLK's account conflict with the declaration of independence?
+	 - 
+ - 
