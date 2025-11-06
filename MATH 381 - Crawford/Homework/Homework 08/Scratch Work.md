@@ -38,13 +38,13 @@ Prove that $n! < n^n$ for all integers $n > 1$.
 
 WTS $n! < n^n$ for all integers $n > 1$.
 Base case: $n = 2 \to 2! < 2^2 \to 2 < 4$ which is true.
-Inductive step: Assume for an arbitrary $k$ that $k! < k^k$ for all integers $k > 1$.
-Inductive hypothesis: WTS $(k + 1)! < (k + 1)^{k + 1}$.
+Inductive hypothesis: Assume that for some arbitrary integer $k > 1$, $k! < k^k$.
+WTS $(k + 1)! < (k + 1)^{k + 1}$.
 For all $k$, $(k + 1)!$ can be represented as the following:
-$$\underbrace{(k  + 1) \cdot (k) \cdot k - 1 \dots \cdot 2 \cdot 1}_{\text{k + 1 times}}$$
-This means that $(k + 1)$ is multiplied $k$ times where each subsequent number being multiplied decreases by 1 until 1 is reached.
+$$\underbrace{(k  + 1) \cdot (k) \cdot k - 1 \dots 2 \cdot 1}_{\text{k + 1 times}}$$
 For all $k$, $(k + 1)^{k + 1}$ can be represented as the following:
-$$\underbrace{(k + 1) \cdot (k + 1) \cdot (k + 1) \dots \cdot (k + 1)}_{\text{k + 1 times}}$$
+$$\underbrace{(k + 1) \cdot (k + 1) \cdot (k + 1) \dots (k + 1)}_{\text{k + 1 times}}$$
+By the inductive hypothesis, $(k + 1)! < (k + 1)^{k + 1} \to (k + 1)! < (k + 1) \cdot (k + 1)^k$.
 Since $k > 1$, $(k + 1)^{k + 1} > (k + 1)!$ because both sides of the inequality are multiplied $k + 1$ times but $(k + 1)^{k + 1}$ is always multiplied by larger numbers than $(k + 1)!$.
 Therefore, by induction, $n! < n^n$ for all integers $n > 1$. 
 
