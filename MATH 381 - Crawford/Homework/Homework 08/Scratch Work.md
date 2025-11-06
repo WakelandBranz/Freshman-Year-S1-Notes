@@ -61,8 +61,8 @@ $n = 21$ can be formed with 3 7-cent stamps $\to 21 = 3(7) + 4(0)$.
 $n = 22$ can be formed the same amount of stamps as $n = 18$ plus 1 4-cent stamp.
 Let there be arbitrary integers $k, j$ s.t. $k \geq 21$ and $18 \leq j \leq k + 1$.
 Assume that for all $j$ where $18 \leq j \leq k + 1$, we can form $j$ using 4-cent and 7-cent stamps.
-So, $(k + 1) - 4 
-
+So, $18 \leq (k + 1) - 4 \to 18 \leq k - 3$ which tells us that by adding 1 4-cent stamp we can represent $k + 1$.
+By induction, $n \geq$ can be formed using only 4-cent and 7-cent stamps.
 
 ---
 
