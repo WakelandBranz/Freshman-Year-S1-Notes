@@ -5,8 +5,7 @@ Prove the inequality $n < 2^n$ for all positive integers $n$.
 WTS $n < 2^n$ for all positive integers $n$.
 Base case: When $n = 1$, $n < 2^n \to 1 < 2^1 \to 1 < 2$ which is true.
 Inductive step: Assume $k < 2^k$ for $k \in \mathbb{Z^+}, k \geq 1$.
-Inductive hypothesis: WTS $k + 1 < 2^{k + 1}$.
-By the inductive hypothesis:
+WTS $k + 1 < 2^{k + 1}$.
 Note: $k \geq 1$
 $$k + 1 < 2^k + 1 < 2^k + 2^k$$
 $$\to k + 1 < 2^k + 1 < 2(2^k)$$
@@ -45,7 +44,7 @@ $$\underbrace{(k  + 1) \cdot (k) \cdot k - 1 \dots 2 \cdot 1}_{\text{k + 1 times
 For all $k$, $(k + 1)^{k + 1}$ can be represented as the following:
 $$\underbrace{(k + 1) \cdot (k + 1) \cdot (k + 1) \dots (k + 1)}_{\text{k + 1 times}}$$
 By the inductive hypothesis, $(k + 1)! < (k + 1)^{k + 1} \to (k + 1)! < (k + 1) \cdot (k + 1)^k$.
-Therefore, $(k)! < (k + 1)^k
+Therefore, $(k)! < (k + 1)
 Since $k > 1$, $(k + 1)^{k + 1} > (k + 1)!$ because both sides of the inequality are multiplied $k + 1$ times but $(k + 1)^{k + 1}$ is always multiplied by larger numbers than $(k + 1)!$.
 Therefore, by induction, $n! < n^n$ for all integers $n > 1$. 
 
