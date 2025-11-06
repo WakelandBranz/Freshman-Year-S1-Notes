@@ -2,6 +2,8 @@
 
 Prove the inequality $n < 2^n$ for all positive integers $n$.
 
+1. WTS that $n < 2^n$ for all positive integers $n$.
+
 ---
 
 ### 2.
