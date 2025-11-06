@@ -40,9 +40,11 @@ WTS $n! < n^n$ for all integers $n > 1$.
 Base case: $n = 2 \to 2! < 2^2 \to 2 < 4$ which is true.
 Inductive step: Assume for an arbitrary $k$ that $k! < k^k$ for all integers $k > 1$.
 Inductive hypothesis: WTS $(k + 1)! < (k + 1)^{k + 1}$.
-For all $k$, $(k + 1)!$ can be represented as $[(k  + 1) \cdot (k) \cdot k - 1 \dots \cdot 2 \cdot 1]$.
+For all $k$, $(k + 1)!$ can be represented as the following
+$$\underbrace{(k  + 1) \cdot (k) \cdot k - 1 \dots \cdot 2 \cdot 1]}_{\text{k times}}$$.
 This means that $(k + 1)$ is multiplied $k$ times where each subsequent number being multiplied decreases by 1 until 1 is reached.
-For all $k$, $(k + 1)^{k + 1}$ can be represented as 
+For all $k$, $(k + 1)^{k + 1}$ can be represented as the following:
+$$\underbrace{(k + 1) \cdot (k + 1) \cdot (k + 1) \dots \cdot (k + 1)}_{\text{k + 1 times}}$$
 
 ---
 
