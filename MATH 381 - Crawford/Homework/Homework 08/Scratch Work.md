@@ -60,7 +60,7 @@ $n = 20$ can be formed with 5 4-cent stamps $\to 20 = 7(0) + 4(5)$.
 $n = 21$ can be formed with 3 7-cent stamps $\to 21 = 3(7) + 4(0)$.
 $n = 22$ can be formed the same amount of stamps as $n = 18$ plus 1 4-cent stamp.
 Let there be arbitrary integers $k, j$ s.t. $k \geq 22$ and $18 \leq j \leq k + 1$.
-
+Assume that for all $j$ where $18 \leq j \leq k + 1$, we can form $j$ using 4-cent and 7-cent stamps.
 
 ---
 
