@@ -54,9 +54,11 @@ Prove that any amount of postage $n \geq 18$ can be formed using only 4-cent and
 
 WTS $n \geq 18$ can be formed using only 4-cent and 7-cent stamps.
 Base cases: 
-18 can be formed with 2 7-cent stamps and 1 4-cent stamp ($18 = 7(2) + 4(1)$).
-19 can be formed with 1 7-cent stamp and 3 4-cent stamps ($19 = 7(1) + 4(3)$).
-20 can be formed with 5 4-cent stamps ($20 = )
+$n = 18$ can be formed with 2 7-cent stamps and 1 4-cent stamp $\to 18 = 7(2) + 4(1)$.
+$n = 19$ can be formed with 1 7-cent stamp and 3 4-cent stamps $\to 19 = 7(1) + 4(3)$.
+$n = 20$ can be formed with 5 4-cent stamps $\to 20 = 7(0) + 4(5)$.
+$n = 21$ can be formed with 3 7-cent stamps $\to 21 = 3(7) + 4(0)$.
+$n = 22$ can be formed the same amount of stamps as $n = 18$ plus 1 4-cent stamp.
 
 ---
 
