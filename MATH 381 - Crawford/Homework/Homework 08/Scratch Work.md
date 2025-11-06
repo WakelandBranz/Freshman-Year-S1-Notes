@@ -52,7 +52,11 @@ Prove that every positive integer can be written as a sum of distinct powers of 
 
 **-PF-**
 WTS that every positive integer can be written as a sum of distinct powers of 2.
-Let there exist an arbitrary $x$ such that $
+Let there exist an arbitrary $x$ such that $x \in \mathbb{Z}^+$.
+So, $\exists k \in \mathbb{Z}^+$ such that $x$ can be represented as $2k$ or $2k + 1$.
+This creates two cases.
+Case 1: 
+
 
 ---
 
