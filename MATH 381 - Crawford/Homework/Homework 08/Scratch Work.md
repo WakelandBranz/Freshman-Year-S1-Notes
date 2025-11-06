@@ -43,8 +43,6 @@ For all $k$, $(k + 1)!$ can be represented as the following:
 $$\underbrace{(k  + 1) \cdot (k) \cdot k - 1 \dots 2 \cdot 1}_{\text{k + 1 times}}$$
 For all $k$, $(k + 1)^{k + 1}$ can be represented as the following:
 $$\underbrace{(k + 1) \cdot (k + 1) \cdot (k + 1) \dots (k + 1)}_{\text{k + 1 times}}$$
-By the inductive hypothesis, $(k + 1)! < (k + 1)^{k + 1} \to (k + 1)! < (k + 1) \cdot (k + 1)^k$.
-Therefore, $(k)! < (k + 1)
 Since $k > 1$, $(k + 1)^{k + 1} > (k + 1)!$ because both sides of the inequality are multiplied $k + 1$ times but $(k + 1)^{k + 1}$ is always multiplied by larger numbers than $(k + 1)!$.
 Therefore, by induction, $n! < n^n$ for all integers $n > 1$. 
 
@@ -53,6 +51,12 @@ Therefore, by induction, $n! < n^n$ for all integers $n > 1$.
 ### 5.
 
 Prove that any amount of postage $n \geq 18$ can be formed using only 4-cent and 7-cent stamps.
+
+WTS $n \geq 18$ can be formed using only 4-cent and 7-cent stamps.
+Base cases: 
+18 can be formed with 2 7-cent stamps and 1 4-cent stamp ($18 = 7(2) + 4(1)$).
+19 can be formed with 1 7-cent stamp and 3 4-cent stamps ($19 = 7(1) + 4(3)$).
+20 can be formed with 5 4-cent stamps ($20 = )
 
 ---
 
