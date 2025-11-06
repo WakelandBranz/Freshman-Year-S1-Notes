@@ -57,7 +57,6 @@ So, $\exists k \in \mathbb{Z}^+$ such that $x$ can be represented as $2k$ or $2k
 This creates two cases.
 Case 1: 
 
-
 ---
 
 ### 7.
