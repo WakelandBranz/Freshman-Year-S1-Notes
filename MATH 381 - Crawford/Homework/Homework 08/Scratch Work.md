@@ -50,6 +50,10 @@ Prove that every positive integer can be written as a sum of distinct powers of 
 
 (This is why binary code works. Ex: $3 = 2^1 + 2^0$, $11 = 2^3 + 2^1 + 2^0$, $30 = 2^4 + 2^3 + 2^2 + 2^1$)
 
+**-PF-**
+WTS that every positive integer can be written as a sum of distinct powers of 2.
+Let there exist an arbitrary $x$ such that $
+
 ---
 
 ### 7.
