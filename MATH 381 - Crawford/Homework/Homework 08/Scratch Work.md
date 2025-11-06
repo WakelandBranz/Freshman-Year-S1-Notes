@@ -43,7 +43,7 @@ For all $k$, $(k + 1)!$ can be represented as the following:
 $$\underbrace{(k  + 1) \cdot (k) \cdot k - 1 \dots 2 \cdot 1}_{\text{k + 1 times}}$$
 For all $k$, $(k + 1)^{k + 1}$ can be represented as the following:
 $$\underbrace{(k + 1) \cdot (k + 1) \cdot (k + 1) \dots (k + 1)}_{\text{k + 1 times}}$$
-Since $k > 1$, $(k + 1)^{k + 1} > (k + 1)!$ because both sides of the inequality are multiplied $k + 1$ times but $(k + 1)^{k + 1}$ is always multiplied by larger numbers than $(k + 1)!$.
+===FIX THIS SENTENCE!!!!=== Since $k > 1$, $(k + 1)^{k + 1} > (k + 1)!$ because both sides of the inequality are multiplied $k + 1$ times but $(k + 1)^{k + 1}$ is always multiplied by larger numbers than $(k + 1)!$.
 Therefore, by induction, $n! < n^n$ for all integers $n > 1$. 
 
 ---
@@ -59,8 +59,10 @@ $n = 19$ can be formed with 1 7-cent stamp and 3 4-cent stamps $\to 19 = 7(1) + 
 $n = 20$ can be formed with 5 4-cent stamps $\to 20 = 7(0) + 4(5)$.
 $n = 21$ can be formed with 3 7-cent stamps $\to 21 = 3(7) + 4(0)$.
 $n = 22$ can be formed the same amount of stamps as $n = 18$ plus 1 4-cent stamp.
-Let there be arbitrary integers $k, j$ s.t. $k \geq 22$ and $18 \leq j \leq k + 1$.
+Let there be arbitrary integers $k, j$ s.t. $k \geq 21$ and $18 \leq j \leq k + 1$.
 Assume that for all $j$ where $18 \leq j \leq k + 1$, we can form $j$ using 4-cent and 7-cent stamps.
+So, $(k + 1) - 4 
+
 
 ---
 
