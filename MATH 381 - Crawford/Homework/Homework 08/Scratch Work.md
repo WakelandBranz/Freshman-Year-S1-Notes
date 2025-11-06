@@ -2,17 +2,17 @@
 
 Prove the inequality $n < 2^n$ for all positive integers $n$.
 
-1. WTS $n < 2^n$ for all positive integers $n$.
-2. Base case: When $n = 1$, $n < 2^n \to 1 < 2^1 \to 1 < 2$ which is true.
-3. Inductive step: Assume $k < 2^k$ for $k \in \mathbb{Z^+}, k \geq 1$.
-4. Inductive hypothesis: WTS $k + 1 < 2^{k + 1}$.
-5. By the inductive hypothesis:
+WTS $n < 2^n$ for all positive integers $n$.
+Base case: When $n = 1$, $n < 2^n \to 1 < 2^1 \to 1 < 2$ which is true.
+Inductive step: Assume $k < 2^k$ for $k \in \mathbb{Z^+}, k \geq 1$.
+Inductive hypothesis: WTS $k + 1 < 2^{k + 1}$.
+By the inductive hypothesis:
 Note: $k \geq 1$
 $$k + 1 < 2^k + 1 < 2^k + 2^k$$
 $$\to k + 1 < 2^k + 1 < 2(2^k)$$
 $$\to k + 1 < 2^k + 1 < 2^{k + 1}$$
 $$\to k + 1 < 2^{k + 1}$$
-6. By mathematical induction, $n < 2^n$ for all positive integers $n$.
+By mathematical induction, $n < 2^n$ for all positive integers $n$.
 
 ---
 
@@ -35,6 +35,12 @@ Prove the early proposition that $|P(S)| = 2^n$ where $|S| = n$.
 Prove that $n! < n^n$ for all integers $n > 1$.
 
 (The notation $n!$ is the product of all positive integers less than or equal to $n$. Ex: $5! = 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120$)
+
+WTS $n! < n^n$ for all integers $n > 1$.
+Base case: $n = 2 \to 2! < 2^2 \to 2 < 4$ which is true.
+Inductive step: Assume for an arbitrary $k$ that $k! < k^k$ for all integers $k > 1$.
+Inductive hypothesis: WTS $(k + 1)! < (k + 1)^{k + 1}$.
+
 
 ---
 
