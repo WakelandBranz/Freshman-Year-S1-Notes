@@ -27,6 +27,11 @@ Prove that $7^{n+2} + 8^{2n+1}$ is divisible by 57 for every nonnegative integer
 
 Prove the early proposition that $|P(S)| = 2^n$ where $|S| = n$.
 
+WTS that $|P(S)| = 2^n$ where $|S| = n$.
+*Base case:* $n = 0$
+When $n = 0$, then $|S| = 0$ thus $S = \emptyset$.
+So
+
 ---
 
 ### 4.
@@ -78,8 +83,7 @@ Prove that every positive integer can be written as a sum of distinct powers of 
 **-PF-**
 WTS that every positive integer can be written as a sum of distinct powers of 2.
 *Base case:* For $n = 1$, $1 = 2^0$ thus for $n = 1$ our proposition holds.
-*Inductive Hypothesis:* Let $n > 1$ and assume that for $k \in \mathbb{Z}^+$, $k$ can be wri
-
+*Inductive Hypothesis:* Let there exist $k \in \mathbb{Z}^+$ s.t. $1 \leq  
 
 ---
 
