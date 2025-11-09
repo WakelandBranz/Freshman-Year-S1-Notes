@@ -30,7 +30,12 @@ Prove the early proposition that $|P(S)| = 2^n$ where $|S| = n$.
 WTS that $|P(S)| = 2^n$ where $|S| = n$.
 *Base case:* $n = 0$
 When $n = 0$, then $|S| = 0$ thus $S = \emptyset$.
-So
+So, $P(\emptyset) = \set{\emptyset}$.
+So $|P(\emptyset) = 1 = 2^0.$
+*Inductive step:* Let $n \geq 0$ and assume that for any set $S$ with $|S| = n$, we have $|P(S)| = 2^n$.
+Now consider a set $K$ with $|K| = n + 1$.
+Since $K$ is nonempty, we can find an element $x  \in K$.
+
 
 ---
 
