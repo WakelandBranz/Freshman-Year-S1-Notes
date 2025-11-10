@@ -29,7 +29,7 @@ $855 \pmod{57} = 0$ thus $57 \mid 855$ so this case is valid.
 WTS that $57 \mid 7^{k + 1 + 2} + 8^{2(k + 1) + 1} \to 57 \mid 7^{k + 3} + 8^{2k + 3}$.
 
 mod 57 possibilities for 7^exponent = 1, 7, 49
-mod 57 possibilities for 8^exponent =
+mod 57 possibilities for 8^exponent = 8, 7, 56
 
 
 
