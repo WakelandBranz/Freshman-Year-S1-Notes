@@ -19,12 +19,14 @@ By mathematical induction, $n < 2^n$ for all positive integers $n$.
 
 Prove that $7^{n+2} + 8^{2n+1}$ is divisible by 57 for every nonnegative integer $n$.
 
-WTS $57 \mid 7^{n + 2} + 8^{2n + 1}$ for all $n \in \mathbb{Z}^+$.
+WTS $57 \mid 7^{n + 2} + 8^{2n + 1}$ for all $n \in \mathbb{Z}, n \geq 0$.
 **Base cases:** 
 For $n = 0, 7^{n + 2} + 8^{2n + 1} \to 7^2 + 8^1 = 57$
-$57 \pmod{57} = 0$ thus $57 \mid 57$.
+$57 \pmod{57} = 0$ thus $57 \mid 57$ so this case is valid.
 For $n = 1$, $7^{n + 2} + 8^{2n + 1} \to 7^3 + 8^3  = 855$
 $855 \pmod{57} = 0$ thus $57 \mid 855$ so this case is valid.
+**Inductive step:** Assume that $57 \mid 7^{k + 2} + 8^{2k + 1}$ for $k \in \mathbb{Z}, k \geq 0$.
+WTS that $57 \mid 7^{k + 1 + 2} + 8^{2(k + 1) + 1} \to 57 \mid 7^{k + 3} + $.
 
 
 
