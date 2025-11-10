@@ -28,8 +28,12 @@ WTS that $57 \mid 7^{k + 1 + 2} + 8^{2(k + 1) + 1} \to 57 \mid 7^{k + 3} + 8^{2k
 From the inductive hypothesis we can deduce $7^{k + 2} + 8^{2k + 1} \equiv 0 \pmod{57}$.
 So, $7^{k + 2} \equiv -8^{2k + 1} \pmod{57}$.
 Furthermore, we can deduce that $7^{k + 3} + 8^{2k + 3} = 7(7^{k + 2}) + 64(8^{2k + 1})$.
-So, substituting $-8^{2k + 1} \pmod{57}$ for $7^{k + 2} \pmod{57}$ we can find $
-
+So, substituting $-8^{2k + 1} \pmod{57}$ for $7^{k + 2} \pmod{57}$ we can find the following: $$7(7^{k + 2}) + 64(8^{2k + 1}) \equiv 7(-8^{2k + 1}) + 64(8^{2k + 1}) \pmod{57}$$
+Simplifying, we find the following:
+$$\equiv 57(8^{2k + 1}) \pmod{57}$$
+Any arbitrary number multiplied by $57 \pmod{57}$ is equivalent to 0.
+This means that $57 \mid 7^{k + 3} + 8^{2k + 3}$.
+By mathematical induction, $57 \mid 7^{n + 2} + 8^{2n + 1}$ for all $n \in \mathbb{Z}, n \geq 0$.
 
 
 # wrong
