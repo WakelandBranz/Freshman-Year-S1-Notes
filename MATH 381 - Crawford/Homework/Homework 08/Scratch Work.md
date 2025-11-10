@@ -27,7 +27,7 @@ $57 \pmod{57} = 0$ thus $57 \mid 57$ so this case is valid.
 WTS that $57 \mid 7^{k + 1 + 2} + 8^{2(k + 1) + 1} \to 57 \mid 7^{k + 3} + 8^{2k + 3}$.
 From the inductive hypothesis we can deduce $7^{k + 2} + 8^{2k + 1} \equiv 0 \pmod{57}$.
 So, $7^{k + 2} \equiv -8^{2k + 1} \pmod{57}$.
-
+We can deduce that $7^{k + 3} + 8^{2k + 3} = $
 
 
 # ===***faggot***===
