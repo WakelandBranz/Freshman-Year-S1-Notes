@@ -25,6 +25,11 @@ For $n = 0, 7^{n + 2} + 8^{2n + 1} \to 7^2 + 8^1 = 57$
 $57 \pmod{57} = 0$ thus $57 \mid 57$ so this case is valid.
 **Inductive step:** Assume that $57 \mid 7^{k + 2} + 8^{2k + 1}$ for $k \in \mathbb{Z}, k \geq 0$.
 WTS that $57 \mid 7^{k + 1 + 2} + 8^{2(k + 1) + 1} \to 57 \mid 7^{k + 3} + 8^{2k + 3}$.
+$7^
+
+
+# faggot
+
 $7^{k + 3}$ can be represented as $7(7^k \cdot 49) \to 343(7^k).$
 $8^{2k + 3}$ can be represented as $8(8^{2k} \cdot 64) \to 512(8^{2k})$.
 $343 \equiv 1 \pmod{57}$.
