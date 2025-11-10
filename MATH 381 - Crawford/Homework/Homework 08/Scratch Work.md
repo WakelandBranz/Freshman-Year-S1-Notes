@@ -30,8 +30,10 @@ $8^{2k + 3}$ can be represented as $8(8^{2k} \cdot 64) \to 512(8^{2k})$.
 $343 \equiv 1 \pmod{57}$.
 Since $343(7^k)$ is a multiple of $343$, $343(7^k) \equiv 1 \pmod{57} = 343 \equiv 1 \pmod{57}$.
 $512 \equiv 56 \pmod{57}$.
-Since $512(8^{2k})$ is a multiple of 512, $512(8^{2k}) \equiv 56 \pmod{57} = 
-
+Since $512(8^{2k})$ is a multiple of 512, $512(8^{2k}) \equiv 56 \pmod{57} = 512 \equiv 56 \pmod{57}$.
+From this, we can deduce that $[343(7^k) + 512(8^{2k})] \pmod{57} = (343 + 512) \pmod{57}$.
+$343 + 512 \equiv 0 \pmod{57}$.
+Therefore, for all $k \in \mathbb{Z}, k \geq 0$, $57 \mid 7^{k + 3} + 8^{2k + 3}$.
 
 
 ---
