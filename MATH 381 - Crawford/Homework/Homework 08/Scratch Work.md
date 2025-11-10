@@ -20,7 +20,7 @@ By mathematical induction, $n < 2^n$ for all positive integers $n$.
 Prove that $7^{n+2} + 8^{2n+1}$ is divisible by 57 for every nonnegative integer $n$.
 
 WTS $57 \mid 7^{n + 2} + 8^{2n + 1}$ for all $n \in \mathbb{Z}^+$.
-
+**Base case:** For $n = 1$, $7^{n + 2} + 8^{2n + 1} = 
 
 ---
 
@@ -88,7 +88,7 @@ Prove that every positive integer can be written as a sum of distinct powers of 
 **-PF-**
 WTS that every positive integer can be written as a sum of distinct powers of 2.
 *Base case:* For $n = 1$, $1 = 2^0$ thus for $n = 1$ our proposition holds.
-*Inductive Hypothesis:* Let there exist $k \in \mathbb{Z}^+$ s.t
+*Inductive Hypothesis:* Let there exist $k \in \mathbb{Z}^+$ s.t. 
 
 
 
