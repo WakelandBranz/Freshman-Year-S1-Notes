@@ -23,13 +23,13 @@ WTS $57 \mid 7^{n + 2} + 8^{2n + 1}$ for all $n \in \mathbb{Z}, n \geq 0$.
 **Base cases:** 
 For $n = 0, 7^{n + 2} + 8^{2n + 1} \to 7^2 + 8^1 = 57$
 $57 \pmod{57} = 0$ thus $57 \mid 57$ so this case is valid.
-For $n = 1$, $7^{n + 2} + 8^{2n + 1} \to 7^3 + 8^3  = 855$
-$855 \pmod{57} = 0$ thus $57 \mid 855$ so this case is valid.
 **Inductive step:** Assume that $57 \mid 7^{k + 2} + 8^{2k + 1}$ for $k \in \mathbb{Z}, k \geq 0$.
 WTS that $57 \mid 7^{k + 1 + 2} + 8^{2(k + 1) + 1} \to 57 \mid 7^{k + 3} + 8^{2k + 3}$.
-
-mod 57 possibilities for 7^exponent = 1, 7, 49
-mod 57 possibilities for 8^exponent = 8, 7, 56
+$7^{k + 3}$ can be represented as $7(7^k \cdot 49) \to 343(7^k).$
+$8^{2k + 3}$ can be represented as $8(8^{2k} \cdot 64) \to 512(8^{2k})$.
+$343 \equiv 1 \pmod{57}$.
+$512 \equiv 56 \pmod{57}$.
+Any number which multiplied
 
 
 
