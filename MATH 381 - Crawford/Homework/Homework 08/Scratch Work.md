@@ -135,7 +135,6 @@ $a_2 = 6a_{1} - 5a_{0} = 6(7) - 5(3) = 27$
 $a_3 = 6a_{2} - 5a_{1} = 6(27) - 5(7) = 127$
 $a_4 = 6a_{3} - 5a_{2} = 6(127) - 5(27) = 627$
 
-
 $a_5 = 6a_4 - 5a_3 = 6(627) - 5(127) = 3127$
 $a_6 = 6a_5 - 5a_4 = 6(3127) - 5(627) = 15627$
 $a_7 = 6a_6 - 5a_5 = 6(15627) - 5(3127) = 78127$
@@ -154,7 +153,9 @@ WTS that $a_n = 5^n + 2$ is equivalent to the recursive formula $a_n = 6a_{n - 1
 ***Base cases:***
 $n = 0, a_0 = 5^0 + 2 = 3$, this is true.
 $n = 1, a_1 = 5^1 + 2 = 7$, this is true.
-Assume that $a_k$ is true for all $k \leq 1$.
+Assume $a_{k} = 5^k + 2$ is equivalent to the recursive formula $a_k = 6a_{k - 1} - 5a_{k - 2}$ for $k \geq 1$, where $k$ is an arbitrary fixed integer.
+
+
 
 ---
 
