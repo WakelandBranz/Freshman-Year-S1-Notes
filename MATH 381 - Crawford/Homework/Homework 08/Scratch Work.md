@@ -131,6 +131,8 @@ Once $n$ increases by 1, a single distinct power of 2 is the result which repres
 Therefore, by mathematical induction, every positive integer can be written as a sum of distinct powers of 2.
 
 
+
+
 $n = 2, 2 = 2^1$ thus for $n = 2$ this is true.
 $n = 3, 3 = 2^1 + 2^0$ thus for $n = 3$ this is true.
 $n = 4, 4 = 2^2$ thus for $n = 4$ this is true.
