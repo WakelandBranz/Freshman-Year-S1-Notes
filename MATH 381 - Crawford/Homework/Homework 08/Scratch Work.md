@@ -113,7 +113,10 @@ Prove that every positive integer can be written as a sum of distinct powers of 
 WTS that every positive integer can be written as a sum of distinct powers of 2.
 ***Base cases:***
 $n = 1, 2^0 = 1$, this is valid.
-Let $j \in \mathbb{Z}^+$ and assume for all $k \in \mathbb{Z}^+$ s.t. $k \
+Assume $j \in \mathbb{Z}^+$ with $1 \leq j \leq k$ and that our proposition holds for $j$.
+WTS, for $k \in \mathbb{Z}^+$, that $k + 1$ can be written as a sum of distinct powers of 2.
+This creates two cases.
+Case 1: $k + 1$ is even.
 
 
 
