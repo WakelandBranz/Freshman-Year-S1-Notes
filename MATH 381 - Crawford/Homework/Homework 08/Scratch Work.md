@@ -47,7 +47,6 @@ From this, we can deduce that $[343(7^k) + 512(8^{2k})] \pmod{57} = (343 + 512) 
 $343 + 512 \equiv 0 \pmod{57}$.
 Therefore, for all $k \in \mathbb{Z}, k \geq 0$, $57 \mid 7^{k + 3} + 8^{2k + 3}$.
 
-
 ---
 
 ### 3.
@@ -58,7 +57,7 @@ WTS that $|P(S)| = 2^n$ where $|S| = n$.
 *Base case:* $n = 0$
 When $n = 0$, then $|S| = 0$ thus $S = \emptyset$.
 So, $P(\emptyset) = \set{\emptyset}$.
-So $|P(\emptyset) = 1 = 2^0.$
+So $|P(\emptyset)| = 1 = 2^0.$
 *Inductive step:* Let $n \geq 0$ and assume that for any set $S$ with $|S| = n$, we have $|P(S)| = 2^n$.
 Now consider a set $K$ with $|K| = n + 1$.
 Since $K$ is nonempty, we can find an element $x  \in K$.
@@ -113,7 +112,8 @@ Prove that every positive integer can be written as a sum of distinct powers of 
 
 **-PF-**
 WTS that every positive integer can be written as a sum of distinct powers of 2.
-*Base case:* For $n = 1$, $1 = 2^0$ thus for $n = 1$ our proposition holds.
+***Base case:*
+$n = 1$, $1 = 2^0$ thus for $n = 1$ our proposition holds.
 *Inductive Hypothesis:* Let there exist $k \in \mathbb{Z}^+$ s.t. 
 
 
