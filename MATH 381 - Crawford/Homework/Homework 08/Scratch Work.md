@@ -153,7 +153,7 @@ WTS that $a_n = 5^n + 2$ is equivalent to the recursive formula $a_n = 6a_{n - 1
 ***Base cases:***
 $n = 0, a_0 = 5^0 + 2 = 3$, this is true.
 $n = 1, a_1 = 5^1 + 2 = 7$, this is true.
-Assume that for all integers $m$ with $0 \leq m \leq k$ (where $k \geq 1$), we have $a_m = 5^m + 2$.
+Assume that for all integers $j$ with $0 \leq j \leq k$ (where $k \geq 1$), we have $a_j = 5^j + 2$.
 WTS $a_{k + 1} = 5^{k + 1} + 2$ is equivalent to the recursive formula $a_{k + 1} = 6a_k - 5a_{k - 1}$.
 Note, $5^{k + 1} + 2 = 5(5^k) + 2$.
 From the inductive hypothesis we know that $a_k = 5^k + 2$ and $a_{k - 1} = 5^{k - 1} + 2$.
