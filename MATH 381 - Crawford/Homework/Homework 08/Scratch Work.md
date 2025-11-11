@@ -144,11 +144,19 @@ $a_7 = 6a_6 - 5a_5 = 6(15627) - 5(3127) = 78127$
 Conjecture a formula for $a_n$ which is not defined recursively. (Such as $a_n = n^2 + 1$.)
 
 $a_{n} = 5^n + 2$
+
+Saw a pattern in the equations that $5^n = a_n - 2$ so I discovered algebraically that $a_n = 5^n + 2$.
 #### (c)
 
 Prove your formula using strong induction.
 
-
+WTS that $a_n = 5^n + 2$ is equivalent to the recursive formula $a_n = 6a_{n - 1} - 5a_{n - 2}$ for all $n \in \mathbb{Z}, n \geq 0$.
+***Base cases:***
+$n = 0, a_0 = 5^0 + 2 = 3$, this is true.
+$n = 1, a_1 = 5^1 + 2 = 7$, this is true.
+$n = 2, a_2 = 5^2 + 2 = 27$, this is true.
+$n = 3, a_3 = 5^3 + 2 = 127$, this is true.
+$n = 4, a_4 = 
 
 ---
 
