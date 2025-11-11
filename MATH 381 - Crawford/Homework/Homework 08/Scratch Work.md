@@ -35,7 +35,6 @@ Any arbitrary number multiplied by $57 \pmod{57}$ is equivalent to 0.
 This means that $57 \mid 7^{k + 3} + 8^{2k + 3}$.
 By mathematical induction, $57 \mid 7^{n + 2} + 8^{2n + 1}$ for all $n \in \mathbb{Z}, n \geq 0$.
 
-
 # wrong
 $7^{k + 3}$ can be represented as $7(7^k \cdot 49) \to 343(7^k).$
 $8^{2k + 3}$ can be represented as $8(8^{2k} \cdot 64) \to 512(8^{2k})$.
