@@ -85,6 +85,11 @@ Prove that any amount of postage $n \geq 18$ can be formed using only 4-cent and
 
 ===FIX UP THIS LOGIC===
 
+WTS that any amount of postage $n \geq 18$ can be formed using only 4-cent and 7-cent stamps.
+Base cases:
+
+
+## Old
 WTS $n \geq 18$ can be formed using only 4-cent and 7-cent stamps.
 Base cases: 
 $n = 18$ can be formed with 2 7-cent stamps and 1 4-cent stamp $\to 18 = 7(2) + 4(1)$.
