@@ -118,7 +118,12 @@ WTS, for $k \in \mathbb{Z}^+$, that $k + 1$ can be written as a sum of distinct 
 This creates two cases.
 Case 1: $k + 1$ is even.
 Since $k + 1$ is even, we know that $\frac{k + 1}{2} \in \mathbb{Z}^+$.
-From our inductive hypothesis, we know that $1 \leq \frac{k + 1}{2} \leq k + 1$ meaning that it can be represented as a sum of distinct powers of 2.
+From our inductive hypothesis, we know that $1 \leq \frac{k + 1}{2} \leq k + 1$ meaning that $\frac{k + 1}{2}$ can be represented as a sum of distinct powers of 2.
+Multiplying $\frac{k+ 1}{2}$ by 2 results in $k + 1$, but this simply results in each distinct power of 2 which sums to equal $k + 1$ having its exponent increased by 1, thus allowing it to remain distinct.
+Case 2: $k + 1$ is odd.
+We know that $k + 1$ is odd, so $k$ must be even.
+Using our inductive hypothesis, we know that $k$ can be represented as the sum of distinct powers of 2 since $j \leq k$.
+
 
 
 
