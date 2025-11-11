@@ -117,11 +117,14 @@ Assume $j \in \mathbb{Z}^+$ with $1 \leq j \leq k$ and that our proposition hold
 WTS, for $k \in \mathbb{Z}^+$, that $k + 1$ can be written as a sum of distinct powers of 2.
 This creates two cases.
 Case 1: $k + 1$ is even.
+Since $k + 1$ is even, we know that $\frac{k + 1}{2} \in \mathbb{Z}^+$.
+From our inductive hypothesis, we know that $1 \leq \frac{k + 1}{2} \leq k + 1$ meaning that it can be represented as a sum of distinct powers of 2.
 
 
 
 
-## Old
+////
+/## Old
 WTS that every positive integer can be written as a sum of distinct powers of 2.
 ***Base cases:***
 $n = 1, 1 = 2^0$ thus for $n = 1$ this is true.
