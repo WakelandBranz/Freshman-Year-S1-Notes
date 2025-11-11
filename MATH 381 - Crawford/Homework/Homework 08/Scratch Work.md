@@ -35,7 +35,6 @@ Any arbitrary number multiplied by $57 \pmod{57}$ is equivalent to 0.
 This means that $57 \mid 7^{k + 3} + 8^{2k + 3}$.
 By mathematical induction, $57 \mid 7^{n + 2} + 8^{2n + 1}$ for all $n \in \mathbb{Z}, n \geq 0$.
 
-
 # wrong
 $7^{k + 3}$ can be represented as $7(7^k \cdot 49) \to 343(7^k).$
 $8^{2k + 3}$ can be represented as $8(8^{2k} \cdot 64) \to 512(8^{2k})$.
@@ -47,7 +46,6 @@ From this, we can deduce that $[343(7^k) + 512(8^{2k})] \pmod{57} = (343 + 512) 
 $343 + 512 \equiv 0 \pmod{57}$.
 Therefore, for all $k \in \mathbb{Z}, k \geq 0$, $57 \mid 7^{k + 3} + 8^{2k + 3}$.
 
-
 ---
 
 ### 3.
@@ -58,7 +56,7 @@ WTS that $|P(S)| = 2^n$ where $|S| = n$.
 *Base case:* $n = 0$
 When $n = 0$, then $|S| = 0$ thus $S = \emptyset$.
 So, $P(\emptyset) = \set{\emptyset}$.
-So $|P(\emptyset) = 1 = 2^0.$
+So $|P(\emptyset)| = 1 = 2^0.$
 *Inductive step:* Let $n \geq 0$ and assume that for any set $S$ with $|S| = n$, we have $|P(S)| = 2^n$.
 Now consider a set $K$ with $|K| = n + 1$.
 Since $K$ is nonempty, we can find an element $x  \in K$.
@@ -113,12 +111,30 @@ Prove that every positive integer can be written as a sum of distinct powers of 
 
 **-PF-**
 WTS that every positive integer can be written as a sum of distinct powers of 2.
-*Base case:* For $n = 1$, $1 = 2^0$ thus for $n = 1$ our proposition holds.
-*Inductive Hypothesis:* Let there exist $k \in \mathbb{Z}^+$ s.t. 
+***Base cases:***
+$n = 1, 1 = 2^0$ thus for $n = 1$ this is true.
+Assume that for all positive integers $k$ (where $k \geq 1$), $k$ can be written as a sum of distinct powers of 2.
+WTS $k + 1$ can be written as a sum of distinct powers of 2.
+Note, $1 = 2^0$.
+This creates two cases.
+Since we want to prove $k + 1$ can be written as a sum of distinct powers of 2, we can substitute $2^0$ for 1 which results in $k + 2^0$.
+This creates two cases.
+Case 1: $k$ is not written with $2^0$ as a sum of its distinct powers of 2.
+In this case, $k + 1$ can be represented as $k + 2^0$ and since we know that $k$ can already be written as a sum of distinct integers, $k + 1$ can also be written as a sum of distinct powers of 2.
+Case 2: $k$ is written with $2^0$ as a sum of its distinct powers of 2.
+In this case, writing $k + 1$ as $k + 2^0$ would result in $k + 1$ not being represented by a sum **distinct** powers of 2.
+Despite this, $k$ can have its final term, $2^0$ combined with 1, which can be represented as $2^0$ as well to equal $2^1$.
+In this case, the term $2^1$ can be carried over repeatedly until a single distinct power of 2 is the result.
+For example, if $k = 15$ then $k = 2^3 + 2^2 + 2^1 + 2^0$ and $k + 1$ can be represented as $2^3 + 2^2 + 2^1 + 2^0 + 2^0$.
+This can be simplified using carrying by combining the last two term repeatedly until an arbitrary $n$, the largest exponent in the sequence representing $k + 1$, increases by 1.
+Once $n$ increases by 1, a single distinct power of 2 is the result which represents $k + 1$.
+Therefore, by mathematical induction, every positive integer can be written as a sum of distinct powers of 2.
 
 
-
-
+$n = 2, 2 = 2^1$ thus for $n = 2$ this is true.
+$n = 3, 3 = 2^1 + 2^0$ thus for $n = 3$ this is true.
+$n = 4, 4 = 2^2$ thus for $n = 4$ this is true.
+*Inductive Hypothesis:* Let there exist an arbitrary $k, j \in \mathbb{Z}^+$ s.t. $1 \leq j \leq k$ 
 
 ---
 
