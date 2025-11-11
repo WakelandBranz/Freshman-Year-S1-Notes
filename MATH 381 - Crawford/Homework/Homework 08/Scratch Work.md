@@ -143,10 +143,12 @@ $a_7 = 6a_6 - 5a_5 = 6(15627) - 5(3127) = 78127$
 
 Conjecture a formula for $a_n$ which is not defined recursively. (Such as $a_n = n^2 + 1$.)
 
-
+$a_{n} = 5^n + 2$
 #### (c)
 
 Prove your formula using strong induction.
+
+
 
 ---
 
