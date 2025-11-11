@@ -159,7 +159,7 @@ Note, $5^{k + 1} + 2 = 5(5^k) + 2$.
 From the inductive hypothesis we know that $a_k = 5^k + 2$ and $a_{k - 1} = 5^{k - 1} + 2$.
 So, substituting these into our recursive formula we get $$a_{k + 1} = 6(5^k + 2) - 5(5^{k - 1} + 2) = 6 \cdot 5^k + 12 - 5^k - 10 = 5 \cdot 5^k + 2 = 5^{k + 1} + 2$$
 From this substitution we know that $5^{k + 1} + 2 = a_{k + 1}$ so this proves our inductive hypothesis.
-Thus, via strong induction $a_n = 5^n + 2$ is equivalent to the recursive formula $a_n = 6a_{n - 1} - 5a_{n - 2}$.
+Thus, via strong induction, $a_n = 5^n + 2$ is equivalent to the recursive formula $a_n = 6a_{n - 1} - 5a_{n - 2}$.
 
 ---
 
