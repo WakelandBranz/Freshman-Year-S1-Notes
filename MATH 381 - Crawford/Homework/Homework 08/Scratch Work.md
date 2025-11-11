@@ -117,8 +117,16 @@ $n = 1, 1 = 2^0$ thus for $n = 1$ this is true.
 Assume that for all positive integers $k$ (where $k \geq 1$), $k$ can be written as a sum of distinct powers of 2.
 WTS $k + 1$ can be written as a sum of distinct powers of 2.
 Note, $1 = 2^0$.
-Since we want to prove $k + 1$ can be written as a sum of distinct integers, we can substitute $2^=0$ for 1 which results in $k + 2^0$.
-Since we know that $k$ can be written as a sum of distinct powers of 2, $k + 1$ can also be written as a sum of distinct powers of 2 when $2^0$ is substituted for 1.
+This creates two cases.
+Since we want to prove $k + 1$ can be written as a sum of distinct powers of 2, we can substitute $2^0$ for 1 which results in $k + 2^0$.
+This creates two cases.
+Case 1: $k$ is not written with $2^0$ as a sum of its distinct powers of 2.
+In this case, $k + 1$ can be represented as $k + 2^0$ and since we know that $k$ can already be written as a sum of distinct integers, $k + 1$ can also be written as a sum of distinct powers of 2.
+Case 2: $k$ is written with $2^0$ as a sum of its distinct powers of 2.
+In this case, writing $k + 1$ as $k + 2^0$ would result in $k + 1$ not being represented by a sum **distinct** powers of 2.
+Despite this, 
+
+
 Therefore, by mathematical induction, every positive integer can be written as a sum of distinct powers of 2.
 
 
