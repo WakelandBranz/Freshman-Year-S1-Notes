@@ -124,7 +124,7 @@ Case 1: $k$ is not written with $2^0$ as a sum of its distinct powers of 2.
 In this case, $k + 1$ can be represented as $k + 2^0$ and since we know that $k$ can already be written as a sum of distinct integers, $k + 1$ can also be written as a sum of distinct powers of 2.
 Case 2: $k$ is written with $2^0$ as a sum of its distinct powers of 2.
 In this case, writing $k + 1$ as $k + 2^0$ would result in $k + 1$ not being represented by a sum **distinct** powers of 2.
-Despite this, 
+Despite this, $k + 1$ 
 
 
 Therefore, by mathematical induction, every positive integer can be written as a sum of distinct powers of 2.
