@@ -133,12 +133,12 @@ Determine $a_2$, $a_3$ and $a_4$.
 $a_n = 6a_{n - 1} - 5a_{n - 2}$
 $a_2 = 6a_{1} - 5a_{0} = 6(7) - 5(3) = 27$
 $a_3 = 6a_{2} - 5a_{1} = 6(27) - 5(7) = 127$
-$a_4 = 6a_{3} - 5a_{2}
-
-
+$a_4 = 6a_{3} - 5a_{2} = 6(127) - 5(27) = 627$
+$a_5 = 6a_4 - 5a_3 = 6(627) - 5(127) = 3127$
 #### (b)
 
 Conjecture a formula for $a_n$ which is not defined recursively. (Such as $a_n = n^2 + 1$.)
+
 
 #### (c)
 
