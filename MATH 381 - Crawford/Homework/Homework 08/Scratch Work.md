@@ -114,6 +114,12 @@ Prove that every positive integer can be written as a sum of distinct powers of 
 WTS that every positive integer can be written as a sum of distinct powers of 2.
 ***Base cases:***
 $n = 1, 1 = 2^0$ thus for $n = 1$ this is true.
+Assume that for all positive integers $k$ (where $k \geq 1$), $k$ can be written as a sum of distinct powers of 2.
+WTS $k + 1$ can be written as a sum of distinct powers of 2.
+Note, $1 = 2^0$.
+Since we want to prove $k + 1$ can be written as a sum of distinct integers, we can substitute $2^=0$ for 1 which results in $k + 2^0$.
+Since we know that $k$ can be written as a sum of distinct powers of 2, $k + 1$ can also be written as a sum of distinct powers of 2 when $2^0$ is substituted for 1.
+Therefore, by mathematical induction, every positive integer can be written as a sum of distinct powers of 2.
 
 
 $n = 2, 2 = 2^1$ thus for $n = 2$ this is true.
