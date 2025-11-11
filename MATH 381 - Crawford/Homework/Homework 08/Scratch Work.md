@@ -14,7 +14,6 @@ $$\to k + 1 < 2^{k + 1}$$
 By mathematical induction, $n < 2^n$ for all positive integers $n$.
 
 ---
-
 ### 2.
 
 Prove that $7^{n+2} + 8^{2n+1}$ is divisible by 57 for every nonnegative integer $n$.
@@ -47,7 +46,6 @@ $343 + 512 \equiv 0 \pmod{57}$.
 Therefore, for all $k \in \mathbb{Z}, k \geq 0$, $57 \mid 7^{k + 3} + 8^{2k + 3}$.
 
 ---
-
 ### 3.
 
 Prove the early proposition that $|P(S)| = 2^n$ where $|S| = n$.
@@ -63,7 +61,6 @@ Since $K$ is nonempty, we can find an element $x  \in K$.
 
 
 ---
-
 ### 4.
 
 Prove that $n! < n^n$ for all integers $n > 1$.
@@ -82,7 +79,6 @@ $$\underbrace{(k + 1) \cdot (k + 1) \cdot (k + 1) \dots (k + 1)}_{\text{k + 1 ti
 Therefore, by induction, $n! < n^n$ for all integers $n > 1$. 
 
 ---
-
 ### 5.
 
 Prove that any amount of postage $n \geq 18$ can be formed using only 4-cent and 7-cent stamps.
@@ -102,7 +98,6 @@ So, $18 \leq (k + 1) - 4 \to 18 \leq k - 3$ which tells us that by adding 1 4-ce
 By induction, $n \geq$ can be formed using only 4-cent and 7-cent stamps.
 
 ---
-
 ### 6.
 
 Prove that every positive integer can be written as a sum of distinct powers of 2.
@@ -123,13 +118,10 @@ Multiplying $\frac{k+ 1}{2}$ by 2 results in $k + 1$, but this simply results in
 Case 2: $k + 1$ is odd.
 We know that $k + 1$ is odd, so $k$ must be even.
 Using our inductive hypothesis, we know that $k$ can be represented as the sum of distinct powers of 2 since $j \leq k$.
+Since $k$ is even, its sum of distinct powers of 2 does not include $2^0$, thus $k + 1$ can be represented as $k + 2^0$ and it remains a sum of distinct powers of 2.
+Thus, by mathematical induction, every positive integer can be written as a sum of distinct powers of 2.
 
-
-
-
-
-////
-/## Old
+## Old
 WTS that every positive integer can be written as a sum of distinct powers of 2.
 ***Base cases:***
 $n = 1, 1 = 2^0$ thus for $n = 1$ this is true.
