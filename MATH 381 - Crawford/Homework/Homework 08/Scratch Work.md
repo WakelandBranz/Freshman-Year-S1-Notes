@@ -154,9 +154,7 @@ WTS that $a_n = 5^n + 2$ is equivalent to the recursive formula $a_n = 6a_{n - 1
 ***Base cases:***
 $n = 0, a_0 = 5^0 + 2 = 3$, this is true.
 $n = 1, a_1 = 5^1 + 2 = 7$, this is true.
-$n = 2, a_2 = 5^2 + 2 = 27$, this is true.
-$n = 3, a_3 = 5^3 + 2 = 127$, this is true.
-$n = 4, a_4 = 
+Assume that $a_k$ is true for all $k \leq 1$.
 
 ---
 
