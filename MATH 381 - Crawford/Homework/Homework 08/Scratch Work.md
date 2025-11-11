@@ -124,9 +124,11 @@ Case 1: $k$ is not written with $2^0$ as a sum of its distinct powers of 2.
 In this case, $k + 1$ can be represented as $k + 2^0$ and since we know that $k$ can already be written as a sum of distinct integers, $k + 1$ can also be written as a sum of distinct powers of 2.
 Case 2: $k$ is written with $2^0$ as a sum of its distinct powers of 2.
 In this case, writing $k + 1$ as $k + 2^0$ would result in $k + 1$ not being represented by a sum **distinct** powers of 2.
-Despite this, $k + 1$ 
-
-
+Despite this, $k$ can have its final term, $2^0$ combined with 1, which can be represented as $2^0$ as well to equal $2^1$.
+In this case, the term $2^1$ can be carried over repeatedly until a single distinct power of 2 is the result.
+For example, if $k = 15$ then $k = 2^3 + 2^2 + 2^1 + 2^0$ and $k + 1$ can be represented as $2^3 + 2^2 + 2^1 + 2^0 + 2^0$.
+This can be simplified using carrying by combining the last two term repeatedly until an arbitrary $n$, the largest exponent in the sequence representing $k + 1$, increases by 1.
+Once $n$ increases by 1, a single distinct power of 2 is the result which represents $k + 1$.
 Therefore, by mathematical induction, every positive integer can be written as a sum of distinct powers of 2.
 
 
