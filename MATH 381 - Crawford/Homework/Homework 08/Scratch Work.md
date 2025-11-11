@@ -154,6 +154,8 @@ WTS that $a_n = 5^n + 2$ is equivalent to the recursive formula $a_n = 6a_{n - 1
 $n = 0, a_0 = 5^0 + 2 = 3$, this is true.
 $n = 1, a_1 = 5^1 + 2 = 7$, this is true.
 Assume $a_{k} = 5^k + 2$ is equivalent to the recursive formula $a_k = 6a_{k - 1} - 5a_{k - 2}$ for $k \geq 1$, where $k$ is an arbitrary fixed integer.
+WTS $a_k = 5^{k + 1} + 2$ is equivalent to the recursive formula $a_{k + 1} = 6a_k - 5a_{k - 1}$.
+Since we know 
 
 
 
