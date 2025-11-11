@@ -112,13 +112,14 @@ Prove that every positive integer can be written as a sum of distinct powers of 
 
 **-PF-**
 WTS that every positive integer can be written as a sum of distinct powers of 2.
-***Base case:*
-$n = 1$, $1 = 2^0$ thus for $n = 1$ our proposition holds.
-*Inductive Hypothesis:* Let there exist $k \in \mathbb{Z}^+$ s.t. 
+***Base cases:***
+$n = 1, 1 = 2^0$ thus for $n = 1$ this is true.
 
 
-
-
+$n = 2, 2 = 2^1$ thus for $n = 2$ this is true.
+$n = 3, 3 = 2^1 + 2^0$ thus for $n = 3$ this is true.
+$n = 4, 4 = 2^2$ thus for $n = 4$ this is true.
+*Inductive Hypothesis:* Let there exist an arbitrary $k, j \in \mathbb{Z}^+$ s.t. $1 \leq j \leq k$ 
 
 ---
 
