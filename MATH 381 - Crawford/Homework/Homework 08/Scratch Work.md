@@ -70,10 +70,12 @@ $\to |P(S)| = 2^0 = 1$.
 Thus this base case is valid for $n = 0$.
 Assume for $k \in \mathbb{Z}^+$ that $|P(S)| = 2^k$ where $|S| = k$.
 WTS that $|P(S)| = 2^{k + 1}$ where $|S| = k + 1$.
-Let $|S| = k + 1$ and pick a single element $x \in T$.
-Let $T = S$ with element $x$ removed.
-So $|T| = k$.
+Let $|T| = k + 1$ and pick a single element $x \in T$.
+Let $S = T$ with element $x$ removed.
+So $|S| = k$.
 By our inductive hypothesis, we know that $|P(S)| = 2^k$.
+Call $P(S)$'s subsets $A_i, A_{i + 1} \dots A_{k - 1}, A_k$.
+Call $P(T)$'s subsets $A_i, A_{i + 1} \dots A_k, A_{k + 1}
 
 
 
