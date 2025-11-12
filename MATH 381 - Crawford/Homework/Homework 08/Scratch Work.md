@@ -72,16 +72,23 @@ Base case:
 $n = 2, 2! < 2^2 \to 2 < 4$, this is valid.
 Assume that for some arbitrary integer $k > 1$, $k! < k^k$.
 WTS $(k + 1)! < (k + 1)^{k + 1}$.
+$(k + 1)!$ can be represented as $(k + 1) \cdot (k!)$.
+$(k + 1)^{k + 1}$ can be represented as $(k + 1)\cdot (k + 1)^k$.
+Putting them into an inequality and dividing both sides by $(k + 1)$ results in the following: $$(k + 1) \cdot (k!) < (k + 1) \cdot (k + 1)^k \to k! < (k + 1)^k$$
+It is known from the inductive hypothesis that $k! < k^k$, so we can deduce that $k! < k^k < (k + 1)^k$.
+Thus $(k + 1)! < (k + 1)^{k + 1}$.
+Therefore, by mathematical deduction, $n! < n^n$ for all integers $n > 1$.
+
+
+## Old
+Since $k > 1$, $(k + 1)^{k + 1} > (k + 1)!$ because both sides of the inequality are multiplied $k + 1$ times but $(k + 1)^{k + 1}$ is always multiplied by larger numbers than $(k + 1)!$.
+Therefore, by induction, $n! < n^n$ for all integers $n > 1$.
+
 For all $k$, $(k + 1)!$ can be represented as the following:
 $$\underbrace{(k  + 1) \cdot (k) \cdot k - 1 \dots 2 \cdot 1}_{\text{k + 1 times}}$$
 For all $k$, $(k + 1)^{k + 1}$ can be represented as the following:
 $$\underbrace{(k + 1) \cdot (k + 1) \cdot (k + 1) \dots (k + 1)}_{\text{k + 1 times}}$$
-$(k + 1)!$ can be represented as $(k + 1) \cdot (k!)$.
-$(k + 1)^{k + 1}$ can be represented as $(k + 1)\cdot (k + 1)^k$.
-Putting them into an inequality and dividing both sides by $(k + 1)$ results in the following: $$(k + 1) \cdot (k!) < (k + 1) \cdot (k + 1)^k$$
 
-Since $k > 1$, $(k + 1)^{k + 1} > (k + 1)!$ because both sides of the inequality are multiplied $k + 1$ times but $(k + 1)^{k + 1}$ is always multiplied by larger numbers than $(k + 1)!$.
-Therefore, by induction, $n! < n^n$ for all integers $n > 1$. 
 
 ---
 ### 5.
