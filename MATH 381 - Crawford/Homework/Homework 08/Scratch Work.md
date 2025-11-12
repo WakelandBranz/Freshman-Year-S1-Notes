@@ -72,6 +72,13 @@ Base case:
 $n = 2, 2! < 2^2 \to 2 < 4$, this is valid.
 Assume that for some arbitrary integer $k > 1$, $k! < k^k$.
 WTS $(k + 1)! < (k + 1)^{k + 1}$.
+Since $k < k + 1$ and $k > 1$, we have $k^k < (k + 1)^k$.
+From this we can deduce that $k! < k^k < (k + 1)^k$.
+
+
+
+
+
 $(k + 1)!$ can be represented as $(k + 1) \cdot (k!)$.
 $(k + 1)^{k + 1}$ can be represented as $(k + 1)\cdot (k + 1)^k$.
 Putting them into an inequality and dividing both sides by $(k + 1)$ results in the following: $$(k + 1) \cdot (k!) < (k + 1) \cdot (k + 1)^k \to k! < (k + 1)^k$$
