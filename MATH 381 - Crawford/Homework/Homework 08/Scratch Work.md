@@ -55,18 +55,13 @@ Therefore, for all $k \in \mathbb{Z}, k \geq 0$, $57 \mid 7^{k + 3} + 8^{2k + 3}
 Prove the early proposition that $|P(S)| = 2^n$ where $|S| = n$.
 
 Example $S$: $\{ 1, 2, 3 \}$
-$P(S): \{ (1, 2), (1, 3), (2, 1), (2, 3), (3, 1), (3, 2) \}$
+$P(S): \{ \emptyset, \{ 1 \}, \{ 2 \}, \{ 3 \}, \{ 1, 2 \}, \{ 1, 3 \}, \{ 2, 3 \}, \{ 1, 2, 3 \}\}$
 
 **-PF-**
 
 WTS that $|P(S)| = 2^n$ where $|S| = n$.
 *Base case:* $n = 0$
 When $n = 0$, then $|S| = 0$ thus $S = \emptyset$.
-So, $P(\emptyset) = \set{\emptyset}$.
-So $|P(\emptyset)| = 1 = 2^0.$
-*Inductive step:* Let $n \geq 0$ and assume that for any set $S$ with $|S| = n$, we have $|P(S)| = 2^n$.
-Now consider a set $K$ with $|K| = n + 1$.
-Since $K$ is nonempty, we can find an element $x  \in K$.
 
 
 ---
