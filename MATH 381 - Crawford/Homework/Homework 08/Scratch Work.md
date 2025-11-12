@@ -87,6 +87,12 @@ Prove that any amount of postage $n \geq 18$ can be formed using only 4-cent and
 
 WTS that any amount of postage $n \geq 18$ can be formed using only 4-cent and 7-cent stamps.
 Base cases:
+$n = 18, 18 = 7(2) + 4(1)$, this is valid.
+$n = 19, 19 = 7(1) + 4(3)$, this is valid.
+$n = 20, 20 = 7(0) + 4(5)$, this is valid.
+$n = 21, 21 = 7(3) + 4(0)$, this is valid.
+Assume for all $j, k \in \mathbb{Z}^+, j, k \geq 18$, $18 \leq j \leq k$ can be formed using only 4-cent and 7-cent stamps.
+WTS that $k + 1$ can be formed using only 4-cent and 7-cent stamps.
 
 
 ## Old
