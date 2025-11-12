@@ -69,17 +69,17 @@ $\to P(S) = \{ \emptyset \}$
 $\to |P(S)| = 2^0 = 1$.
 Thus this base case is valid for $n = 0$.
 Assume for some $k \in \mathbb{N}$ that $|P(S)| = 2^k$ where $|S| = k$.
-WTS that $|P(S)| = 2^{k + 1}$ where $|S| = k + 1$.
+WTS that $|P(T)| = 2^{k + 1}$ where $|T| = k + 1$.
 Let $|T| = k + 1$ and pick a single element $x \in T$.
 Let $S = T$ with element $x$ removed.
 So $|S| = k$.
 By our inductive hypothesis, we know that $|P(S)| = 2^k$.
-Call $P(S)$'s subsets $A_, A_{2}} \dots A_{2^{k}}$.
+Call $P(S)$'s subsets $A_{1}, A_{2} \dots A_{2^{k}}$.
 This means that $P(T)$ consists of the following:
  - All of the sets $A_1, A_{2} \dots A_{2^k}$.
  - And the added set of $A_1, A_{2} \dots A_{2^k}$ plus the element $x$, which is the following set.
 $$A_{1} \cup \{ x \}, A_{2} \cup \{ x \} \dots A_{2^k} \cup \{ x \}$$
-Thus $$|P(T)| = |A_1, A_{2} \dots A_{2^k}| + |A_{1} \cup \{ x \}, A_{2} \cup \{ x \} \dots A_{2^k} \cup \{ x \}| = 2^k + 2^k = 2^{k + 1}$$
+Thus $$|P(T)| = |\{ A_1, A_{2} \dots A_{2^k} \}| + |\{ A_{1} \cup \{ x \}, A_{2} \cup \{ x \} \dots A_{2^k} \cup \{ x \} \}| = 2^k + 2^k = 2^{k + 1}$$
 By mathematical induction, $|P(S)| = 2^n$ where $|S| = n$.
 
 
