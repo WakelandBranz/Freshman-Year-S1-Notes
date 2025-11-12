@@ -75,7 +75,11 @@ Let $S = T$ with element $x$ removed.
 So $|S| = k$.
 By our inductive hypothesis, we know that $|P(S)| = 2^k$.
 Call $P(S)$'s subsets $A_i, A_{i + 1} \dots A_{k - 1}, A_k$.
-Call $P(T)$'s subsets $A_i, A_{i + 1} \dots A_k, A_{k + 1}
+Call $P(T)$'s subsets $A_i, A_{i + 1} \dots A_k, A_{k + 1}$.
+This means that $P(T)$ consists of the following:
+ - All of the sets $A_i, A_{i + 1} \dots A_{k - 1}, A_k$.
+ - And the added set of plus the element $x$, creating the following set.
+$$A_{i} \cup \{ x \}, $$
 
 
 
