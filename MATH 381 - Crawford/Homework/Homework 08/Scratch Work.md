@@ -71,6 +71,8 @@ Thus this base case is valid for $n = 0$.
 Assume for $k \in \mathbb{Z}^+$ that $|P(S)| = 2^k$ where $|S| = k$.
 WTS that $|P(S)| = 2^{k + 1}$ where $|S| = k + 1$.
 Let there exist $x \in \mathbb{Z}^+$ s.t. $S + \{ x \} \to |S| + |x| = k + 1$.
+So, by adding element $x$ to $S$, $P(S)$ now has an extra element, $x$, creating two cases.
+Case 1: $k + 1 - 1 
 
 
 
