@@ -64,6 +64,7 @@ WTS that $|P(S)| = 2^n$ where $|S| = n$.
 When $n = 0$, then $|S| = 0$ thus $S = \emptyset$.
 
 
+
 ---
 ### 4.
 
