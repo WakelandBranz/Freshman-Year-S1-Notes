@@ -20,6 +20,8 @@ By mathematical induction, $n < 2^n$ for all positive integers $n$.
 
 Prove that $7^{n+2} + 8^{2n+1}$ is divisible by 57 for every nonnegative integer $n$.
 
+**-PF-**
+
 WTS $57 \mid 7^{n + 2} + 8^{2n + 1}$ for all $n \in \mathbb{Z}, n \geq 0$.
 **Base cases:** 
 For $n = 0, 7^{n + 2} + 8^{2n + 1} \to 7^2 + 8^1 = 57$
@@ -52,6 +54,10 @@ Therefore, for all $k \in \mathbb{Z}, k \geq 0$, $57 \mid 7^{k + 3} + 8^{2k + 3}
 
 Prove the early proposition that $|P(S)| = 2^n$ where $|S| = n$.
 
+
+
+**-PF-**
+
 WTS that $|P(S)| = 2^n$ where $|S| = n$.
 *Base case:* $n = 0$
 When $n = 0$, then $|S| = 0$ thus $S = \emptyset$.
@@ -68,6 +74,8 @@ Since $K$ is nonempty, we can find an element $x  \in K$.
 Prove that $n! < n^n$ for all integers $n > 1$.
 
 (The notation $n!$ is the product of all positive integers less than or equal to $n$. Ex: $5! = 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120$)
+
+**-PF-**
 
 WTS $n! < n^n$ for all integers $n > 1$.
 Base case: 
@@ -105,7 +113,10 @@ $$\underbrace{(k + 1) \cdot (k + 1) \cdot (k + 1) \dots (k + 1)}_{\text{k + 1 ti
 ---
 ### 5.
 
-Prove that any amount of postage $n \geq 18$ can be formed using only 4-cent and 7-cent stamps.
+Prove that any amount of postage $n \geq 18$ can be formed using only 4-cent 
+and 7-cent stamps.
+
+**-PF-**
 
 WTS that any amount of postage $n \geq 18$ can be formed using only 4-cent and 7-cent stamps.
 Base cases:
@@ -140,6 +151,7 @@ Prove that every positive integer can be written as a sum of distinct powers of 
 (This is why binary code works. Ex: $3 = 2^1 + 2^0$, $11 = 2^3 + 2^1 + 2^0$, $30 = 2^4 + 2^3 + 2^2 + 2^1$)
 
 **-PF-**
+
 WTS that every positive integer can be written as a sum of distinct powers of 2.
 ***Base cases:***
 $n = 1, 2^0 = 1$, this is valid.
@@ -213,6 +225,8 @@ Saw a pattern in the equations that $5^n = a_n - 2$ so I discovered algebraicall
 #### (c)
 
 Prove your formula using strong induction.
+
+**-PF-**
 
 WTS that $a_n = 5^n + 2$ is equivalent to the recursive formula $a_n = 6a_{n - 1} - 5a_{n - 2}$ for all $n \in \mathbb{Z}, n \geq 0$.
 ***Base cases:***
