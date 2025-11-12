@@ -61,7 +61,15 @@ $P(S): \{ \emptyset, \{ 1 \}, \{ 2 \}, \{ 3 \}, \{ 1, 2 \}, \{ 1, 3 \}, \{ 2, 3 
 
 WTS that $|P(S)| = 2^n$ where $|S| = n$.
 *Base case:* $n = 0$
-When $n = 0$, then $|S| = 0$ thus $S = \emptyset$.
+When $n = 0$:
+$|S| = 0$.
+$\to S = \emptyset$.
+$\to P(S) = \{ \emptyset \}$
+$\to |P(S)| = 2^0 = 1$.
+Thus this base case is valid for $n = 0$.
+Assume for $k \in \mathbb{Z}^+$ that $|P(S)| = 2^k$ where $|S| = k$.
+WTS that $|P(S)| = 2^{k + 1}$ where $|S| = k + 1$.
+
 
 
 
