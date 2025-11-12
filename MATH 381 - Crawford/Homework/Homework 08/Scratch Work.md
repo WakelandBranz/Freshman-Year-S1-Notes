@@ -73,8 +73,14 @@ $n = 2, 2! < 2^2 \to 2 < 4$, this is valid.
 Assume that for some arbitrary integer $k > 1$, $k! < k^k$.
 WTS $(k + 1)! < (k + 1)^{k + 1}$.
 Since $k < k + 1$ and $k > 1$, we have $k^k < (k + 1)^k$.
-From this we can deduce that $k! < k^k < (k + 1)^k$.
-
+From this we can deduce that $k! < k^k < (k + 1)^k$ so $k! < (k + 1)^k$.
+With the same logic in mind, $(k + 1)^k < (k + 1)^{k + 1}$.
+$(k + 1)!$ can be represented as $(k + 1) \cdot (k!)$.
+$(k + 1)^{k + 1}$ can be represented as $(k + 1)\cdot (k + 1)^k$.
+We can divide both $(k + 1) \cdot (k!)$ and $(k + 1)\cdot (k + 1)^k$ by $k + 1$ which results in $k!$ and $(k + 1)^k$.
+But we know that $k! < (k + 1)^k$ from our prior assumption.
+So, $(k + 1)! < (k + 1)^{k + 1}$.
+Therefore, by mathematical deduction, $n! < n^n$ for all integers $n > 1$.
 
 
 
