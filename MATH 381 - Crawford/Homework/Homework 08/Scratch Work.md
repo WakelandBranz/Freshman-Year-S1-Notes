@@ -2,6 +2,8 @@
 
 Prove the inequality $n < 2^n$ for all positive integers $n$.
 
+**-PF-**
+
 WTS $n < 2^n$ for all positive integers $n$.
 Base case: When $n = 1$, $n < 2^n \to 1 < 2^1 \to 1 < 2$ which is true.
 Inductive step: Assume $k < 2^k$ for $k \in \mathbb{Z^+}, k \geq 1$.
