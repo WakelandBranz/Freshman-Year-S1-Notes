@@ -81,10 +81,6 @@ Therefore, by induction, $n! < n^n$ for all integers $n > 1$.
 ---
 ### 5.
 
-Prove that any amount of postage $n \geq 18$ can be formed using only 4-cent and 7-cent stamps.
-
-===FIX UP THIS LOGIC===
-
 WTS that any amount of postage $n \geq 18$ can be formed using only 4-cent and 7-cent stamps.
 Base cases:
 $n = 18, 18 = 7(2) + 4(1)$, this is valid.
