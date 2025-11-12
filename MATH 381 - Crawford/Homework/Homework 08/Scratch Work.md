@@ -138,7 +138,7 @@ $n = 18, 18 = 7(2) + 4(1)$, this is valid.
 $n = 19, 19 = 7(1) + 4(3)$, this is valid.
 $n = 20, 20 = 7(0) + 4(5)$, this is valid.
 $n = 21, 21 = 7(3) + 4(0)$, this is valid.
-Assume for all $j, k \in \mathbb{Z}^+, j, k \geq 18$, $18 \leq j \leq k$ can be formed using only 4-cent and 7-cent stamps.
+Assume for some $k \geq 21$ that all values $j$ with $18 \leq j \leq k$ can be formed using only 4-cent and 7-cent stamps.
 WTS that $k + 1$ can be formed using only 4-cent and 7-cent stamps.
 For $k \geq 21$, we know that $k - 3$ can be formed using only 4-cent and 7-cent stamps because it falls within $j$.
 So, $k + 1 = (k - 3) + 4$ can be formed by taking the stamp combination for $k - 3$ (which falls within our inductive hypothesis' range) plus a 4-cent stamp, meaning that $k + 1$ can be formed using only 4-cent and 7-cent stamps.
