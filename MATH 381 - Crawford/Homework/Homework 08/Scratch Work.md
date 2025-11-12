@@ -68,8 +68,9 @@ Prove that $n! < n^n$ for all integers $n > 1$.
 (The notation $n!$ is the product of all positive integers less than or equal to $n$. Ex: $5! = 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120$)
 
 WTS $n! < n^n$ for all integers $n > 1$.
-Base case: $n = 2 \to 2! < 2^2 \to 2 < 4$ which is true.
-Inductive hypothesis: Assume that for some arbitrary integer $k > 1$, $k! < k^k$.
+Base case: 
+$n = 2, 2! < 2^2 \to 2 < 4$, this is valid
+Assume that for some arbitrary integer $k > 1$, $k! < k^k$.
 WTS $(k + 1)! < (k + 1)^{k + 1}$.
 For all $k$, $(k + 1)!$ can be represented as the following:
 $$\underbrace{(k  + 1) \cdot (k) \cdot k - 1 \dots 2 \cdot 1}_{\text{k + 1 times}}$$
