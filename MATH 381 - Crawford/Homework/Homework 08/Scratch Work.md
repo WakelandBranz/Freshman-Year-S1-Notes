@@ -54,7 +54,8 @@ Therefore, for all $k \in \mathbb{Z}, k \geq 0$, $57 \mid 7^{k + 3} + 8^{2k + 3}
 
 Prove the early proposition that $|P(S)| = 2^n$ where $|S| = n$.
 
-
+Example $S$: $\{ 1, 2, 3 \}$
+$P(S): \{ (1, 2), (1, 3), (2, 1), (2, 3), (3, 1), (3, 2) \}$
 
 **-PF-**
 
