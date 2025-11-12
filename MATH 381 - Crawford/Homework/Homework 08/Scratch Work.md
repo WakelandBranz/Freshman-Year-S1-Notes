@@ -82,9 +82,6 @@ $$A_{1} \cup \{ x \}, A_{2} \cup \{ x \} \dots A_{2^k} \cup \{ x \}$$
 Thus $$|P(T)| = |\{ A_1, A_{2} \dots A_{2^k} \}| + |\{ A_{1} \cup \{ x \}, A_{2} \cup \{ x \} \dots A_{2^k} \cup \{ x \} \}| = 2^k + 2^k = 2^{k + 1}$$
 By mathematical induction, $|P(S)| = 2^n$ where $|S| = n$.
 
-
-
-
 ---
 ### 4.
 

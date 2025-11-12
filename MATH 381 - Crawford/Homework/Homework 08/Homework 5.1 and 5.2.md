@@ -16,10 +16,12 @@ $$\to k + 1 < 2^{k + 1}$$
 By mathematical induction, $n < 2^n$ for all positive integers $n$.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ### 2.
 
-rove that $7^{n+2} + 8^{2n+1}$ is divisible by 57 for every nonnegative integer $n$.
+Prove that $7^{n+2} + 8^{2n+1}$ is divisible by 57 for every nonnegative integer $n$.
 
 **-PF-**
 
@@ -40,12 +42,40 @@ This means that $57 \mid 7^{k + 3} + 8^{2k + 3}$.
 By mathematical induction, $57 \mid 7^{n + 2} + 8^{2n + 1}$ for all $n \in \mathbb{Z}, n \geq 0$.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ### 3.
 
 Prove the early proposition that $|P(S)| = 2^n$ where $|S| = n$.
 
+**-PF-**
+
+WTS that $|P(S)| = 2^n$ where $|S| = n$.
+*Base case:* $n = 0$
+When $n = 0$:
+$|S| = 0$.
+$\to S = \emptyset$.
+$\to P(S) = \{ \emptyset \}$
+$\to |P(S)| = 2^0 = 1$.
+Thus this base case is valid for $n = 0$.
+Assume for some $k \in \mathbb{N}$ that $|P(S)| = 2^k$ where $|S| = k$.
+WTS that $|P(T)| = 2^{k + 1}$ where $|T| = k + 1$.
+Let $|T| = k + 1$ and pick a single element $x \in T$.
+Let $S = T$ with element $x$ removed.
+So $|S| = k$.
+By our inductive hypothesis, we know that $|P(S)| = 2^k$.
+Call $P(S)$'s subsets $A_{1}, A_{2} \dots A_{2^{k}}$.
+This means that $P(T)$ consists of the following:
+ - All of the sets $A_1, A_{2} \dots A_{2^k}$.
+ - And the added set of $A_1, A_{2} \dots A_{2^k}$ plus the element $x$, which is the following set.
+$$A_{1} \cup \{ x \}, A_{2} \cup \{ x \} \dots A_{2^k} \cup \{ x \}$$
+Thus $$|P(T)| = |\{ A_1, A_{2} \dots A_{2^k} \}| + |\{ A_{1} \cup \{ x \}, A_{2} \cup \{ x \} \dots A_{2^k} \cup \{ x \} \}| = 2^k + 2^k = 2^{k + 1}$$
+By mathematical induction, $|P(S)| = 2^n$ where $|S| = n$.
+
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ### 4.
 
@@ -68,6 +98,8 @@ Since both expressions differ only by a positive factor of $(k + 1)$, and we kno
 Therefore, by mathematical induction, $n! < n^n$ for all integers $n > 1$.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ### 5.
 
@@ -89,6 +121,8 @@ So, $k + 1 = (k - 3) + 4$ can be formed by taking the stamp combination for $k -
 Therefore, by mathematical induction, any amount of postage $n \geq 18$ can be formed using only 4-cent and 7-cent stamps.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ### 6.
 
@@ -115,6 +149,8 @@ Since $k$ is even, its sum of distinct powers of 2 does not include $2^0$, thus 
 Thus, by mathematical induction, every positive integer can be written as a sum of distinct powers of 2.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ### 7.
 
