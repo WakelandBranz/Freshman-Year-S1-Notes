@@ -69,7 +69,7 @@ Prove that $n! < n^n$ for all integers $n > 1$.
 
 WTS $n! < n^n$ for all integers $n > 1$.
 Base case: 
-$n = 2, 2! < 2^2 \to 2 < 4$, this is valid
+$n = 2, 2! < 2^2 \to 2 < 4$, this is valid.
 Assume that for some arbitrary integer $k > 1$, $k! < k^k$.
 WTS $(k + 1)! < (k + 1)^{k + 1}$.
 For all $k$, $(k + 1)!$ can be represented as the following:
