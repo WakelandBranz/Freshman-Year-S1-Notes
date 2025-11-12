@@ -75,12 +75,13 @@ Let $S = T$ with element $x$ removed.
 So $|S| = k$.
 By our inductive hypothesis, we know that $|P(S)| = 2^k$.
 Call $P(S)$'s subsets $A_i, A_{i + 1} \dots A_{k - 1}, A_k$.
-Call $P(T)$'s subsets $A_i, A_{i + 1} \dots A_k, A_{k + 1}$.
+Call $P(T)$'s subsets $A_0, A_{i + 1} \dots A_k, A_{k + 1}$.
 This means that $P(T)$ consists of the following:
  - All of the sets $A_i, A_{i + 1} \dots A_{k - 1}, A_k$.
- - And the added set of plus the element $x$, creating the following set.
-$$A_{i} \cup \{ x \}, $$
-
+ - And the added set of $A_i, A_{i + 1} \dots A_{k - 1}, A_k$ plus the element $x$, which is the following set.
+$$A_{i} \cup \{ x \}, A_{i + 1} \cup \{ x \} \dots A_{k - 1} \cup \{ x \}, A_{k} \cup \{ x \}$$
+Thus $$|P(T)| = $|$A_i, A_{i + 1} \dots A_{k - 1}, A_k$| + |A_{i} \cup \{ x \}, A_{i + 1} \cup \{ x \} \dots A_{k - 1} \cup \{ x \}, A_{k} \cup \{ x \}| = 2^k + 2^k = 2^{k + 1}$$
+By mathematical induction, $|P(S)| = 2^n$ where $|S| = n$.
 
 
 
