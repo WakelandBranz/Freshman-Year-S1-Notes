@@ -91,7 +91,8 @@ $n = 20, 20 = 7(0) + 4(5)$, this is valid.
 $n = 21, 21 = 7(3) + 4(0)$, this is valid.
 Assume for all $j, k \in \mathbb{Z}^+, j, k \geq 18$, $18 \leq j \leq k$ can be formed using only 4-cent and 7-cent stamps.
 WTS that $k + 1$ can be formed using only 4-cent and 7-cent stamps.
-For $k \geq 22$, we can use
+For $k \geq 21$, we know that $k - 3$ can be formed using only 4-cent and 7-cent stamps because it falls within $j$.
+So, $k + 1 = k - 3 + 4$ represents a base case plus an additional 4-cent stamp, thus meaning that $k + 1$ can be represented as 
 
 ## Old
 WTS $n \geq 18$ can be formed using only 4-cent and 7-cent stamps.
