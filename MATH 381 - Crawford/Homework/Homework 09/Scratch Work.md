@@ -3,10 +3,12 @@
 On the set $\mathbb{Z}$, let $R_1$ be the relation "divides" and let $R_2$ be the relation "is a multiple of". In other words $R_1 = {(a, b) \mid a|b}$ and $R_2 = {(a, b) \mid a = bk \text{ for some } k \in \mathbb{Z}}$. Find each of the following in as simple a description as possible.
 
 **(a)** $R_1 \cap R_2$
-$\{ (a, b) \mid |a| = |b| \}$
+
+$R_{1} \cap R_{2} = \{ (a, b) \mid |a| = |b| \}$
 
 **(b)** $R_1 \cup R_2$
 
+$R_1 \cup R_2 = \{ (a, b) \mid  \}$
 
 **(c)** $R_2 - R_1$
 
