@@ -7,7 +7,7 @@ On the set $\mathbb{Z}$, let $R_1$ be the relation "divides" and let $R_2$ be th
 Case 1: $a > b$
 When $a > b$, $a \not \mid b$, so this is not in $R_1 \cap R_2$.
 Case 2: $b > a$
-When $b > a$, 
+	When $b > a$, $a \neq bk$ because $k
 
 **(b)** $R_1 \cup R_2$
 
