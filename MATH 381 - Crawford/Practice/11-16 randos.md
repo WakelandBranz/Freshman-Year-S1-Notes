@@ -1,0 +1,1 @@
+3. Prove that $A = \{ x \in \mathbb{Z} \mid x = 2k, k \in \mathbb{Z} \}$ and $B = \{ x \in \mathbb{Z} \mid 0 \equiv x \pmod{2} \}$.
