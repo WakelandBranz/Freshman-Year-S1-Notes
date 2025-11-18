@@ -24,7 +24,7 @@ Let $R$ be a relation on $\mathbb{N} = {0, 1, 2, \cdots}$ that is both symmetric
 
 Let $S = \mathcal{P}(\{1, 2, 3, 4, 5\})$. Define a relation $R$ on $S$ as follows: Set $A$ is related to set $B$ iff $|A| = |B|$.
 
-**(a)** Determine the equivalence class $[{2, 3}]$.
+**(a)** Determine the equivalence class $[\{2, 3\}]$.
 
 $[\{2, 3\}] = \{ \{ 1, 2 \}, \{ 1, 3 \}, \{ 1, 4 \}, \{ 1, 5 \}, \{ 2, 3 \}, \{ 2, 4 \}, \{ 2, 5 \}, \{ 3, 4 \}, \{ 3, 5 \}, \{ 4, 5 \} \}$
 
@@ -77,15 +77,15 @@ Let $m > 1$ be an integer. Show that the relation $R$ on $\mathbb{Z}$ defined by
 
 Reflexive:
 Let there exist an arbitrary $k \in \mathbb{Z}$. 
-It is clear that any $k \equiv k \pmod{n}$ is true, so this is reflexive.
+It is clear that any $k \equiv k \pmod{m}$ is true, so this is reflexive.
 
 Symmetric:
 Let there exist an arbitrary $k, j \in \mathbb{Z}$.
-It is clear that for any $k \equiv j \pmod{n}$, $j \equiv k \pmod{n}$ is true so this is symmetric.
+It is clear that for any $k \equiv j \pmod{m}$, $j \equiv k \pmod{m}$ is true so this is symmetric.
 
 Transitive:
 Let there exist an arbitrary $k, j, x \in \mathbb{Z}$.
-If $k \equiv j \pmod{n}$ and $
+If $k \equiv j \pmod{n}$ and $j \equiv x \pmod{n}$, 
 
 
 
