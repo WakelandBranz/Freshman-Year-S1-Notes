@@ -22,7 +22,7 @@ Let $R$ be a relation on $\mathbb{N} = {0, 1, 2, \cdots}$ that is both symmetric
 
 ### Problem 3
 
-Let $S = \mathcal{P}({1, 2, 3, 4, 5})$. Define a relation $R$ on $S$ as follows: Set $A$ is related to set $B$ iff $|A| = |B|$.
+Let $S = \mathcal{P}(\{1, 2, 3, 4, 5\})$. Define a relation $R$ on $S$ as follows: Set $A$ is related to set $B$ iff $|A| = |B|$.
 
 **(a)** Determine the equivalence class $[{2, 3}]$.
 
@@ -76,13 +76,16 @@ Given the relation $R$ on ${a, b, c, d}$ defined by the digraph below, determine
 Let $m > 1$ be an integer. Show that the relation $R$ on $\mathbb{Z}$ defined by $aRb$ if and only if $a \equiv b \pmod{m}$ is an equivalence relation.
 
 Reflexive:
-Let there exist an arbitrary $x \in \mathbb{Z}$. 
-It is clear that any $x \equiv x \pmod{n}$ is true for all of
+Let there exist an arbitrary $k \in \mathbb{Z}$. 
+It is clear that any $k \equiv k \pmod{n}$ is true, so this is reflexive.
 
 Symmetric:
-
+Let there exist an arbitrary $k, j \in \mathbb{Z}$.
+It is clear that for any $k \equiv j \pmod{n}$, $j \equiv k \pmod{n}$ is true so this is symmetric.
 
 Transitive:
+Let there exist an arbitrary $k, j, x \in \mathbb{Z}$.
+If $k \equiv j \pmod{n}$ and $
 
 
 
