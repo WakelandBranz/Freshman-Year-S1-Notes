@@ -30,11 +30,11 @@ $[\{2, 3\}] = \{ \{ 1, 2 \}, \{ 1, 3 \}, \{ 1, 4 \}, \{ 1, 5 \}, \{ 2, 3 \}, \{ 
 
 **(b)** Determine the equivalence class $[\{\emptyset\}]$.
 
-$[{\emptyset}] = \{ \{ \emptyset \}, \{ 1 \}, \{ 2 \}, \{ 3 \}, \{ 4 \}, \{ 5 \} \}$
+$[\{\emptyset\}] = \{\{ 1 \}, \{ 2 \}, \{ 3 \}, \{ 4 \}, \{ 5 \} \}$
 
 **(c)** How many distinct equivalence classes does $R$ have? Explain your answer.
 
-
+$R$ has 6 distinct equivalence classes. Since the cardinality of the largest set of $\mathcal{P}({1, 2, 3, 4, 5})$ is 5, and the power set includes the empty set, then there must be 6 distinct equivalence classes.
 
 **(d)** How many distinct elements does each equivalence class contain?
 
