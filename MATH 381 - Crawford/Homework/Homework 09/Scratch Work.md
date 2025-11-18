@@ -41,8 +41,8 @@ $R$ has 6 distinct equivalence classes. Since the cardinality of the largest set
 $[\emptyset]$ contains 1 distinct element.
 $[\{ 1 \}]$ contains 5 distinct elements.
 $[\{ 1, 2 \}]$ contains 10 distinct elements.
-$[\{ 1, 2, 3 \}]$ contains 6 distinct elements.
-$[\{ 1, 2, 3, 4 \}]$ contains 3 distinct elements.
+$[\{ 1, 2, 3 \}]$ contains 10 distinct elements.
+$[\{ 1, 2, 3, 4 \}]$ contains 5 distinct elements.
 $[\{ 1, 2, 3, 4, 5 \}]$ contains 1 distinct element.
 
 **(e)** Challenge/Ungraded: Come up with a formula to find the number of elements in each equivalence class so that we can be sure we do not miss any when doing a problem like part (d)?
