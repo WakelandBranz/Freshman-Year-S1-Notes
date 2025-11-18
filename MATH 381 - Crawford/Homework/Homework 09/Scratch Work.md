@@ -26,6 +26,8 @@ Let $S = \mathcal{P}({1, 2, 3, 4, 5})$. Define a relation $R$ on $S$ as follows:
 
 **(a)** Determine the equivalence class $[{2, 3}]$.
 
+$[2, 3] = \{  \}$
+
 **(b)** Determine the equivalence class $[{\emptyset}]$.
 
 **(c)** How many distinct equivalence classes does $R$ have? Explain your answer.
