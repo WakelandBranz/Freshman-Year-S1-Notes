@@ -30,7 +30,8 @@ $[\{2, 3\}] = \{ \{ 1, 2 \}, \{ 1, 3 \}, \{ 1, 4 \}, \{ 1, 5 \}, \{ 2, 3 \}, \{ 
 
 **(b)** Determine the equivalence class $[\{\emptyset\}]$.
 
-$[\{\emptyset\}] = \{\{ 1 \}, \{ 2 \}, \{ 3 \}, \{ 4 \}, \{ 5 \} \}$
+This question doesn't make sense.
+The power set $\mathcal{P}({1, 2, 3, 4, 5})$ does not contain an element $\{ \emptyset \}$ thus this is an invalid equivalence class.
 
 **(c)** How many distinct equivalence classes does $R$ have? Explain your answer.
 
@@ -73,6 +74,13 @@ Given the relation $R$ on ${a, b, c, d}$ defined by the digraph below, determine
 ### Problem 5
 
 Let $m > 1$ be an integer. Show that the relation $R$ on $\mathbb{Z}$ defined by $aRb$ if and only if $a \equiv b \pmod{m}$ is an equivalence relation.
+
+Reflexive:
+
+Symmetric:
+
+Transitive:
+
 
 ---
 
