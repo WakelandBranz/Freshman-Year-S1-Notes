@@ -76,10 +76,14 @@ Given the relation $R$ on ${a, b, c, d}$ defined by the digraph below, determine
 Let $m > 1$ be an integer. Show that the relation $R$ on $\mathbb{Z}$ defined by $aRb$ if and only if $a \equiv b \pmod{m}$ is an equivalence relation.
 
 Reflexive:
+Let there exist an arbitrary $x \in \mathbb{Z}$. 
+It is clear that any $x \equiv x \pmod{n}$ is true for all of
 
 Symmetric:
 
+
 Transitive:
+
 
 
 ---
