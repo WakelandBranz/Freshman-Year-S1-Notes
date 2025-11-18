@@ -83,6 +83,7 @@ Symmetric:
 Let there exist an arbitrary $k, j \in \mathbb{Z}$.
 It is clear that for any $k \equiv j \pmod{m}$, $j \equiv k \pmod{m}$ is true so this is symmetric.
 
+
 Transitive:
 Let there exist an arbitrary $k, j, x \in \mathbb{Z}$.
 If $k \equiv j \pmod{n}$ and $j \equiv x \pmod{n}$, 
