@@ -68,6 +68,9 @@ Given the relation $R$ on ${a, b, c, d}$ defined by the digraph below, determine
 
 **Reflexive:**
 
+$(a, a) \in R$ and $(d, d) \in R$
+$(b, b) \not \in R$ and $(c, c) \not \in R$
+
 Vertices $a, d$ have self-loops, but vertices $b, c$ do not.
 Since not all $a, b, c, d$ have self-loops, this digraph is not reflexive.
 
@@ -83,9 +86,7 @@ Therefore, $R$ is symmetric.
 
 **Transitive:**
 
-$(a, b) \in R$
-$(b, c) \in R$
-$(a, c) \not \in R$
+$(a, b) \in R$ and $(b, d) \in R$ but $(a, d) \not \in R$
 
 Therefore this digraph is not transitive.
 
