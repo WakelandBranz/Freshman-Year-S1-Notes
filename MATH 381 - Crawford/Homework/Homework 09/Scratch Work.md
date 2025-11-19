@@ -99,13 +99,11 @@ Assume $aRb$. WTS $bRa$.
 By the definition of $R$, we have $a \equiv b \pmod{m}$.
 By the definition of congruence, $m \mid (a - b)$.
 By the definition of divisibility, $a - b = mn$ for some integer $n$.
-So, $b = -mn + a$.
-By the definition of $R$, we want to show $b \equiv a \pmod{m}$.
-By the definition of congruence, we want to show $m \mid (b - a)$.
-By the definition of divisibility, $b - a = mn$ for some integer $n$.
-Substituting our known $a$ into this equivalence, $b - (mn + b) = mn \to $
-So, $m \mid (b - a)$.
-So, $b \equiv a \pmod{n}$.
+By the definition of $R$, WTS $b \equiv a \pmod{m}$.
+By the definition of congruence, WTS $m \mid (b - a)$.
+By the definition of divisibility, WTS $b - a = mn$ for some integer $n$.
+Multiplying this entire equation by $-1$ gives us $-b + a = -mn \to a - b = m(-n)$.
+Since $-n \in \mathbb{Z}$, we have $m \mid (b - a) \iff b \equiv a \pmod{m}$.
 Since $a, b$ were arbitrary, $R$ is symmetrical.
 
 Transitive:
