@@ -60,11 +60,22 @@ Given the relation $R$ on ${a, b, c, d}$ defined by the digraph below, determine
 
 ![[Digraph.png]]
 
-**Symmetric:**
+**Reflexive:** A relation $R$ on a set $A$ is reflexive if $(a, a) \in R$ for every element $a \in A$.
 
-**Transitive:**
+**Symmetric:** A relation $R$ on a set $A$ is symmetric if whenever $(a, b) \in R$, then $(b, a) \in R$.
+
+**Transitive:** A relation $R$ on a set $A$ is transitive if whenever $(a, b) \in R$ and $(b, c) \in R$, then $(a, c) \in R$.
 
 **Reflexive:**
+
+Vertices $a, d$ have self-loops, but vertices $b, c$ do not.
+Since not all $a, b, c, d$ have self-loops, this digraph is not reflexive.
+
+**Symmetric:**
+
+
+
+**Transitive:**
 
 ---
 
