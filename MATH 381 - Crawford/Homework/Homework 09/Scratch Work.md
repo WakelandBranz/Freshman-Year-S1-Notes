@@ -86,7 +86,11 @@ Reflexive:
 By the definition of reflexivity, $R$ is reflexive if $\forall a \in A, a \equiv a \pmod{n}$.
 Let $a \in A$ be arbitrary.
 WTS $aRa$.
-$aRa \to a \equiv a \pmod{n} \to$
+$aRa \to a \equiv a \pmod{n}$.
+By the definition of congruent modulo, $a \equiv a \pmod{n} \to m \mid (a - a)$.
+$a - a = 0$ so $m \mid (a - a)$.
+This implies $a \equiv a \pmod{n}$ which tells us $aRa$.
+Since $a$ was arbitrary, our relation $R$ on set $A$ is reflexive because $\forall a \in A, (a, a) \in \
 
 
 Symmetric:
