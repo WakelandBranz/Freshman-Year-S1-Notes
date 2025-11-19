@@ -104,7 +104,7 @@ Transitive:
 
 Let $a, b, c \in \mathbb{Z}$ be arbitrary.
 Assume $aRb$ and $bRc$. WTS $aRc$.
-By the definition of $R$, we have $a \equiv b \pmod{m}$ and $b \equiv c \pmod{n}$.
+By the definition of $R$, we have $a \equiv b \pmod{m}$ and $b \equiv c \pmod{m}$.
 By the definition of congruence, $m \mid (a - b)$ and $m \mid (b - c)$.
 By the definition of divisibility, $a - b = mn_1$ and $b - c = mn_2$ for integers $n_1, n_2$. 
 Isolate $b$ in the equality $a - b = mn_1$ to get $b = -mn_1 + a$.
@@ -122,5 +122,8 @@ So, relation $R$ is an equivalence relation.
 A relation $R$ is said to be **asymmetric** if $(a, b) \in R$ implies that $(b, a) \notin R$.
 
 **(a)** If a relation is asymmetric, must it be antisymmetric? Prove your answer or provide a counterexample.
+
+In order for a relation to be ant
+If a relation is asymmetric, then $(b, a) \not \in R$, so  
 
 **(b)** If a relation is antisymmetric, must it be asymmetric? Prove your answer or provide a counterexample.
