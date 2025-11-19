@@ -62,14 +62,14 @@ Given the relation $R$ on ${a, b, c, d}$ defined by the digraph below, determine
 
 **-PF-**
 
-**Reflexive:**
+#### **Reflexive:**
 
 $(a, a) \in R$ and $(d, d) \in R$ but $(b, b) \not \in R$ and $(c, c) \not \in R$
 Vertices $a, d$ have self-loops, but vertices $b, c$ do not.
 For this digraph to be reflexive, we would need $(b, b) \in R$ and $(c, c) \in R$.
 Therefore $R$ is not reflexive.
 
-**Symmetric:**
+#### **Symmetric:**
 
 $(a, b) \in R$ and $(b, a) \in R$
 $(a, c) \in R$ and $(c, a) \in R$
@@ -79,7 +79,7 @@ $(c, d) \not \in R$ and $(d, c) \not \in R$
 For every edge $(x, y)$ in the digraph, the reverse edge $(y, x)$ also exists.
 Therefore, $R$ is symmetric.
 
-**Transitive:**
+#### **Transitive:**
 
 $(a, b) \in R$ and $(b, d) \in R$ but $(a, d) \not \in R$.
 By definition of transitivity, we would need $(a, d) \in R$.
