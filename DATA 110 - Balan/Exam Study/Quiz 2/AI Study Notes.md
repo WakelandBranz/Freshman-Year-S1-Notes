@@ -86,7 +86,7 @@
 
 ## Matrix Layout
 
-||Actual Negative (0)|Actual Positive (1)|
+|Prediction/Actual|Actual Negative (0)|Actual Positive (1)|
 |---|---|---|
 |**Predicted Negative (0)**|TN|FN|
 |**Predicted Positive (1)**|FP|TP|
