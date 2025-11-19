@@ -81,7 +81,7 @@ Relation: $\{ a, b \in \mathbb{Z} \times \mathbb{Z} \mid a \equiv b \pmod{n}  \}
 
 Reflexive:
 
-Let $a \in A$ be arbitrary. WTS $aRa$.
+Let $a \in \mathbb{Z}$ be arbitrary. WTS $aRa$.
 By the definition of $R$, we need to show $a \equiv a \pmod{m}$.
 By the definition of congruence modulo $m$, we need to show $m \mid (a - a)$.
 Since $a - a = 0$ and $0 = m \cdot 0$, we have $m \mid (a - a)$.
@@ -92,15 +92,13 @@ Symmetric:
 
 **Symmetric:** A relation $R$ on a set $A$ is symmetric if whenever $(a, b) \in R$, then $(b, a) \in R$.
 
-Let $a, b \in R$ be arbitrary. 
+Let $a, b \in \mathbb{Z}$ be arbitrary. 
 Assume $aRb$. WTS $bRa$.
 By the definition of $R$, we have $a \equiv b \pmod{m}$.
 By the definition of congruence, $m \mid (a - b)$.
 By the definition of divisibility, $a - b = mn$ for some integer $n$.
-By the definition of $R$, WTS $b \equiv a \pmod{m}$.
-By the definition of congruence, WTS $m \mid (b - a)$.
-By the definition of divisibility, WTS $b - a = mn$ for some integer $n$.
-Multiplying this entire equation by $-1$ gives us $-b + a = -mn \to a - b = m(-n)$.
+Multiplying the entire equivalence $a - b = mn$ by $-1$ gives us $b - a = m(-n)$.
+This shows $m \mid (b - a)$ which implies $b \equiv a \pmod{m}$ 
 Since $-n \in \mathbb{Z}$, we have $m \mid (b - a) \iff b \equiv a \pmod{m}$.
 Since $a, b$ were arbitrary, $R$ is symmetrical.
 
