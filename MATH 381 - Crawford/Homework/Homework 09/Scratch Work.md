@@ -85,11 +85,17 @@ Let there exist an arbitrary $k \in \mathbb{Z}$.
 By the definition of reflexivity, 
 
 Symmetric:
+
+**Symmetric:** A relation $R$ on a set $A$ is symmetric if whenever $(a, b) \in R$, then $(b, a) \in R$.
+
 Let there exist an arbitrary $k, j \in \mathbb{Z}$.
 It is clear that for any $k \equiv j \pmod{m}$, $j \equiv k \pmod{m}$ is true so this is symmetric.
 
 
 Transitive:
+
+**Transitive:** A relation $R$ on a set $A$ is transitive if whenever $(a, b) \in R$ and $(b, c) \in R$, then $(a, c) \in R$.
+
 Let there exist an arbitrary $k, j, x \in \mathbb{Z}$.
 If $k \equiv j \pmod{n}$ and $j \equiv x \pmod{n}$, 
 
