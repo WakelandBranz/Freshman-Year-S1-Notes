@@ -123,7 +123,8 @@ A relation $R$ is said to be **asymmetric** if $(a, b) \in R$ implies that $(b, 
 
 **(a)** If a relation is asymmetric, must it be antisymmetric? Prove your answer or provide a counterexample.
 
-In order for a relation to be ant
-If a relation is asymmetric, then $(b, a) \not \in R$, so  
+By the definition of an antisymmetric relation, if $(a, b) \in R$ and $(b, a) \in R$, then $a = b$.
+If a relation is asymmetric, then $(b, a) \not \in R$, so the hypothesis of an antisymmetric relation is always false. 
+Thus, since the hypothesis of the definition of antisymmetric is always false in an asymmetric relations, it is always antisymmetric.
 
 **(b)** If a relation is antisymmetric, must it be asymmetric? Prove your answer or provide a counterexample.
