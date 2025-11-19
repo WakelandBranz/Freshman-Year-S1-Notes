@@ -102,8 +102,6 @@ Since $a, b$ were arbitrary, $R$ is symmetrical.
 
 Transitive:
 
-**Transitive:** A relation $R$ on a set $A$ is transitive if whenever $(a, b) \in R$ and $(b, c) \in R$, then $(a, c) \in R$.
-
 Let $a, b, c \in \mathbb{Z}$ be arbitrary.
 Assume $aRb$ and $bRc$. WTS $aRc$.
 By the definition of $R$, we have $a \equiv b \pmod{m}$ and $b \equiv c \pmod{n}$.
@@ -112,8 +110,10 @@ By the definition of divisibility, $a - b = mn_1$ and $b - c = mn_2$ for integer
 Isolate $b$ in the equality $a - b = mn_1$ to get $b = -mn_1 + a$.
 Substitute this $b$ into $b - c = mn_2$ to get $(-mn_1 + a) - c = mn_2$.
 This simplifies to $a - c = mn_1 + mn_2 \to a - c = m(n_1 + n_2)$.
-Since we have found an $(n_1 + n_2)$ 
+Since $(n_1 + n_2) \in \mathbb{Z}$, we have $m \mid (a - c)$.
+Therefore, $a \equiv c \pmod{m}$ and $aRc$.
 
+So, relation $R$ is an equivalence relation.
 
 ---
 
