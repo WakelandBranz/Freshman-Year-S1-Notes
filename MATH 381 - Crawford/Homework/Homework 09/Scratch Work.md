@@ -58,12 +58,7 @@ Can you do the same thing for the same relation on the set $\mathcal{P}({1, 2, 3
 
 Given the relation $R$ on ${a, b, c, d}$ defined by the digraph below, determine, with justification, whether $R$ is symmetric, transitive, and/or reflexive. Provide explanation for each of the three properties.
 
-**Digraph:**
-
-- $a$ has edges to: $a$ (self-loop), $b$
-- $b$ has edges to: $a$, $d$ (self-loop)
-- $c$ has edges to: $c$ (self-loop), $a$
-- $d$ has edges to: $d$ (self-loop), $b$
+![[Digraph.png]]
 
 **Symmetric:**
 
@@ -76,6 +71,8 @@ Given the relation $R$ on ${a, b, c, d}$ defined by the digraph below, determine
 ### Problem 5
 
 Let $m > 1$ be an integer. Show that the relation $R$ on $\mathbb{Z}$ defined by $aRb$ if and only if $a \equiv b \pmod{m}$ is an equivalence relation.
+
+**-PF-**
 
 Relation: $\{ a, b \in \mathbb{Z} \times \mathbb{Z} \mid a \equiv b \pmod{m}  \}$
 
@@ -123,11 +120,15 @@ A relation $R$ is said to be **asymmetric** if $(a, b) \in R$ implies that $(b, 
 
 **(a)** If a relation is asymmetric, must it be antisymmetric? Prove your answer or provide a counterexample.
 
+**-PF-**
+
 By the definition of an antisymmetric relation, if $(a, b) \in R$ and $(b, a) \in R$, then $a = b$.
 If a relation is asymmetric, then $(b, a) \not \in R$, so the hypothesis of an antisymmetric relation is always false. 
 Thus, since the hypothesis of the definition of antisymmetric is always false in asymmetric relations, an asymmetric relation is always antisymmetric.
 
 **(b)** If a relation is antisymmetric, must it be asymmetric? Prove your answer or provide a counterexample.
+
+**-PF-**
 
 Take two cases:
 
