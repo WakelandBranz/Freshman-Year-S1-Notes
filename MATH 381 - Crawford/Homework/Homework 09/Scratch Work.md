@@ -77,7 +77,7 @@ Given the relation $R$ on ${a, b, c, d}$ defined by the digraph below, determine
 
 Let $m > 1$ be an integer. Show that the relation $R$ on $\mathbb{Z}$ defined by $aRb$ if and only if $a \equiv b \pmod{m}$ is an equivalence relation.
 
-Relation: $\{ a, b \in \mathbb{Z} \times \mathbb{Z} \mid a \equiv b \pmod{n}  \}$
+Relation: $\{ a, b \in \mathbb{Z} \times \mathbb{Z} \mid a \equiv b \pmod{m}  \}$
 
 Reflexive:
 
@@ -90,24 +90,23 @@ Since $a$ was arbitrary, $R$ is reflexive.
 
 Symmetric:
 
-**Symmetric:** A relation $R$ on a set $A$ is symmetric if whenever $(a, b) \in R$, then $(b, a) \in R$.
-
 Let $a, b \in \mathbb{Z}$ be arbitrary. 
 Assume $aRb$. WTS $bRa$.
 By the definition of $R$, we have $a \equiv b \pmod{m}$.
 By the definition of congruence, $m \mid (a - b)$.
 By the definition of divisibility, $a - b = mn$ for some integer $n$.
 Multiplying the entire equivalence $a - b = mn$ by $-1$ gives us $b - a = m(-n)$.
-This shows $m \mid (b - a)$ which implies $b \equiv a \pmod{m}$ 
-Since $-n \in \mathbb{Z}$, we have $m \mid (b - a) \iff b \equiv a \pmod{m}$.
+Since $-n \in \mathbb{Z}$, we have $m \mid (b - a) \to b \equiv a \pmod{m}$.
+Thus $bRa$.
 Since $a, b$ were arbitrary, $R$ is symmetrical.
 
 Transitive:
 
 **Transitive:** A relation $R$ on a set $A$ is transitive if whenever $(a, b) \in R$ and $(b, c) \in R$, then $(a, c) \in R$.
 
-Let there exist an arbitrary $k, j, x \in \mathbb{Z}$.
-If $k \equiv j \pmod{n}$ and $j \equiv x \pmod{n}$, 
+Let $a, b, c \in \mathbb{Z}$ be arbitrary.
+Assume $aRb$ and $bRc$. WTS $aRc$.
+
 
 
 
