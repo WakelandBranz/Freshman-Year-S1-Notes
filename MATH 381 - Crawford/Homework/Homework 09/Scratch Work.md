@@ -81,22 +81,19 @@ Relation: $\{ a, b \in \mathbb{Z} \times \mathbb{Z} \mid a \equiv b \pmod{n}  \}
 
 Reflexive:
 
-**Reflexive:** A relation $R$ on a set $A$ is reflexive if $(a, a) \in R$ for every element $a \in A$.
-
-By the definition of reflexivity, $R$ is reflexive if $\forall a \in A, a \equiv a \pmod{n}$.
-Let $a \in A$ be arbitrary.
-WTS $aRa$.
-$aRa \to a \equiv a \pmod{n}$.
-By the definition of congruent modulo, $a \equiv a \pmod{n} \to m \mid (a - a)$.
-$a - a = 0$ so $m \mid (a - a)$.
-This implies $a \equiv a \pmod{n}$ which tells us $aRa$.
-Since $a$ was arbitrary, our relation $R$ on set $A$ is reflexive because $\forall a \in A, (a, a) \in \
-
+By the definition of reflexivity, $R$ is reflexive if $\forall a \in A, a \equiv a \pmod{m}$.
+Let $a \in A$ be arbitrary. WTS $aRa$.
+By the definition of $R$, we need to show $a \equiv a \pmod{m}$.
+By the definition of congruence modulo $m$, we need to show $m \mid (a - a)$.
+Since $a - a = 0$ and $0 = m \cdot 0$, we have $m \mid (a - a)$.
+Therefore $a \equiv a \pmod{m}$ which tells us $aRa$.
+Since $a$ was arbitrary, $R$ is reflexive.
 
 Symmetric:
 
 **Symmetric:** A relation $R$ on a set $A$ is symmetric if whenever $(a, b) \in R$, then $(b, a) \in R$.
 
+By the definition of symmetry, $R$ is symmetric if \
 Let there exist an arbitrary $k, j \in \mathbb{Z}$.
 It is clear that for any $k \equiv j \pmod{m}$, $j \equiv k \pmod{m}$ is true so this is symmetric.
 
