@@ -131,7 +131,7 @@ Thus, since the hypothesis of the definition of antisymmetric is always false in
 
 Take two cases:
 
-Case 1: Assume a relation is antisymmetric because the hypothesis and conclusion of the definition of antisymmetry are true.
+Case 1: Suppose there exists $a, b$ s.t. $(a, b) \in R$, $(b, a) \in R$, and $a = b$.
 By the definition of an antisymmetric relation, if $(a, b) \in R$ and $(b, a) \in R$, then $a = b$.
 By the definition of asymmetric, the hypothesis $(a, b) \in R$ is always true because all antisymmetric relations have $(a, b) \in R$.
 By the definition of asymmetric, the conclusion $(b, a) \not \in R$ is always false because all antisymmetric relations have $(b, a) \in R$.
