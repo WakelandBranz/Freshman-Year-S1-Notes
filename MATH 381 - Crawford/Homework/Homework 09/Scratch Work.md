@@ -77,14 +77,16 @@ Given the relation $R$ on ${a, b, c, d}$ defined by the digraph below, determine
 
 Let $m > 1$ be an integer. Show that the relation $R$ on $\mathbb{Z}$ defined by $aRb$ if and only if $a \equiv b \pmod{m}$ is an equivalence relation.
 
-Relation: $\{ a, b \in \mathbb{Z}  \}$
+Relation: $\{ a, b \in \mathbb{Z} \times \mathbb{Z} \mid a \equiv b \pmod{n}  \}$
 
 Reflexive:
 
 **Reflexive:** A relation $R$ on a set $A$ is reflexive if $(a, a) \in R$ for every element $a \in A$.
 
-By the definition of reflexivity, 
-Let there exist an arbitrary $k \in \mathbb{Z}$. 
+By the definition of reflexivity, $R$ is reflexive if $\forall a \in A, a \equiv a \pmod{n}$.
+Let $a \in A$ be arbitrary.
+WTS $aRa$.
+$aRa \to a \equiv a \pmod{n} \to$
 
 
 Symmetric:
