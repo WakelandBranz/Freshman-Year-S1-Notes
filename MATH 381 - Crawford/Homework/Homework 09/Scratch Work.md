@@ -94,15 +94,18 @@ Symmetric:
 **Symmetric:** A relation $R$ on a set $A$ is symmetric if whenever $(a, b) \in R$, then $(b, a) \in R$.
 
 By the definition of symmetry, $R$ is symmetric if $\forall a, b \in A, a \equiv b \pmod{m}$ then $b \equiv a \pmod{m}$.
-Assume $aRb$.
-By the definition of $R$, we need to show $a \equiv a \pmod{m}$.
-By the definition of congruence modulo $m$, we need to show $m \mid (b - a)$.
-By the definition of divisibility, we need to show $a - b = mn$ where $n$ is arbitrary.
-
-Let $a, b \in R$ be arbitrary. WTS $aRb$ implies $bRa$.
+Let $a, b \in R$ be arbitrary. 
+Assume $aRb$. WTS $aRb$ implies $bRa$.
+By the definition of $R$, $a \equiv b \pmod{m}$.
+By the definition of congruence modulo $m$, $m \mid (a - b)$.
+By the definition of divisibility, $a - b = mn$ where $n$ is arbitrary.
+So, $a = mn + b$ and $b = -mn + a$.
 By the definition of $R$, we need to show $b \equiv a \pmod{m}$.
 By the definition of congruence modulo $m$, we need to show $m \mid (b - a)$.
-By the definition of divisibility, we need to show $a - b = mn$ where $n$ is arbitrary.
+By the definition of divisibility, we need to show $b - a = mn$ where $n$ is arbitrary.
+We can rewrite $b - a = mn$ to be $b = -mn + a$.
+We know that $b = -mn + a$, so this implies that $b - a = mn$ where $n$ is arbitrary.
+So, $m \mid (b - a)$.
 
 Transitive:
 
