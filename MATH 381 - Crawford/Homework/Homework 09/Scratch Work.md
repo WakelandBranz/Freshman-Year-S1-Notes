@@ -129,8 +129,15 @@ Thus, since the hypothesis of the definition of antisymmetric is always false in
 
 **(b)** If a relation is antisymmetric, must it be asymmetric? Prove your answer or provide a counterexample.
 
+Take two cases:
+
+Case 1: Assume a relation is antisymmetric because the hypothesis and conclusion of the definition of antisymmetry are true.
 By the definition of an antisymmetric relation, if $(a, b) \in R$ and $(b, a) \in R$, then $a = b$.
 By the definition of asymmetric, the hypothesis $(a, b) \in R$ is always true because all antisymmetric relations have $(a, b) \in R$.
 By the definition of asymmetric, the conclusion $(b, a) \not \in R$ is always false because all antisymmetric relations have $(b, a) \in R$.
 In antisymmetric relations, the asymmetric property's hypothesis is true and the conclusion is false.
-Therefore no antisymmetric relation is asymmetric.
+Therefore no antisymmetric relation is asymmetric when the hypothesis and conclusion of the definition of antisymmetry are true.
+
+Case 2: Assume a relation is antisymmetric because the hypothesis of the definition of antisymmetry is false.
+This means that the conclusion of the definition of antisymmetry can be either false or true, thus $(a, b) \in R$ or $(a, b) \not \in R$.
+
