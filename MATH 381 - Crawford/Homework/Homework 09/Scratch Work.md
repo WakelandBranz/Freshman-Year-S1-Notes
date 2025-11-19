@@ -139,5 +139,10 @@ In antisymmetric relations, the asymmetric property's hypothesis is true and the
 Therefore no antisymmetric relation is asymmetric when the hypothesis and conclusion of the definition of antisymmetry are true.
 
 Case 2: Assume a relation is antisymmetric because the hypothesis of the definition of antisymmetry is false.
-This means that the conclusion of the definition of antisymmetry can be either false or true, thus $(a, b) \in R$ or $(a, b) \not \in R$.
+This makes it possible for the relation to be asymmetric only if $(a, b) \in R$ and $(b, a) \not \in R$. or $(a, b) \not \in R$.
+In all other cases, the relation is not asymmetric.
+
+Thus, if a relation is antisymmetric, it does not always have to be asymmetric.
+
+
 
