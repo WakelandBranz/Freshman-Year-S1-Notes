@@ -137,7 +137,8 @@ Therefore in this case a set cannot be asymmetric.
 
 Case 2: Suppose that it is never true that $(a, b) \in R$ and $(b, a) \in R$.
 Thus, the antisymmetry property's condition holds vacuously.
-In this case, the relation could be asymmetric, but it does not have to be.
+When $(a, b) \not \in R$ the asymmetry property's condition holds vacuously.
+When $(a, b) \in R$ the asymmetry property's hypothesis and conclusion hold vacuously because $(b, a) \not \in R$ for this case (it is never true that $(a, b) \in R$ and $(b, a) \in R$).
 
 Thus, if a relation is antisymmetric, it does not always have to be asymmetric.
 
