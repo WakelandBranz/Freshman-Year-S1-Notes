@@ -18,6 +18,8 @@ $R_1 \cup R_2 = \{ (a, b) \mid a \mid b \lor a = bk \text{ for some } k \in \mat
 
 Let $R$ be a relation on $\mathbb{N} = {0, 1, 2, \cdots}$ that is both symmetric and transitive. Further, suppose that $(x, 7) \in R$ for all $x \in \mathbb{N}$. Show that $R$ induces a partition on $\mathbb{N}$.
 
+In order for $R$ to induce a partition on $\mathbb{N}$, $R$ must produce equivalence classes which, when summed, are equivalent to $\mathbb{N}$.
+
 ---
 
 ### Problem 3
@@ -76,8 +78,11 @@ Given the relation $R$ on ${a, b, c, d}$ defined by the digraph below, determine
 Let $m > 1$ be an integer. Show that the relation $R$ on $\mathbb{Z}$ defined by $aRb$ if and only if $a \equiv b \pmod{m}$ is an equivalence relation.
 
 Reflexive:
+
+**Reflexive:** A relation $R$ on a set $A$ is reflexive if $(a, a) \in R$ for every element $a \in A$.
+
 Let there exist an arbitrary $k \in \mathbb{Z}$. 
-It is clear that any $k \equiv k \pmod{m}$ is true, so this is reflexive.
+By the definition of reflexivity, 
 
 Symmetric:
 Let there exist an arbitrary $k, j \in \mathbb{Z}$.
