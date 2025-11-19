@@ -72,7 +72,8 @@ $(a, a) \in R$ and $(d, d) \in R$
 $(b, b) \not \in R$ and $(c, c) \not \in R$
 
 Vertices $a, d$ have self-loops, but vertices $b, c$ do not.
-Since not all $a, b, c, d$ have self-loops, this digraph is not reflexive.
+For this digraph to be reflexive, we would need $(b, b) \in R$ and $(c, c) \in R$.
+Therefore $R$ is not reflexive.
 
 **Symmetric:**
 
@@ -86,9 +87,9 @@ Therefore, $R$ is symmetric.
 
 **Transitive:**
 
-$(a, b) \in R$ and $(b, d) \in R$ but $(a, d) \not \in R$
-
-Therefore this digraph is not transitive.
+$(a, b) \in R$ and $(b, d) \in R$ but $(a, d) \not \in R$.
+By definition of transitivity, we would need $(a, d) \in R$.
+Therefore $R$ is not transitive.
 
 ---
 
