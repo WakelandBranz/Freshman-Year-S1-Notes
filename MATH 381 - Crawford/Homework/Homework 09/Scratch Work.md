@@ -132,15 +132,12 @@ Thus, since the hypothesis of the definition of antisymmetric is always false in
 Take two cases:
 
 Case 1: Suppose there exists $a, b$ s.t. $(a, b) \in R$, $(b, a) \in R$, and $a = b$.
-By the definition of an antisymmetric relation, if $(a, b) \in R$ and $(b, a) \in R$, then $a = b$.
-By the definition of asymmetric, the hypothesis $(a, b) \in R$ is always true because all antisymmetric relations have $(a, b) \in R$.
-By the definition of asymmetric, the conclusion $(b, a) \not \in R$ is always false because all antisymmetric relations have $(b, a) \in R$.
-In antisymmetric relations, the asymmetric property's hypothesis is true and the conclusion is false.
-Therefore no antisymmetric relation is asymmetric when the hypothesis and conclusion of the definition of antisymmetry are true.
+In this case, the hypothesis of the definition of asymmetry is true but the conclusion is false because $(b, a) \in R$.
+Therefore in this case a set cannot be asymmetric.
 
-Case 2: Assume a relation is antisymmetric because the hypothesis of the definition of antisymmetry is false.
-This makes it possible for the relation to be asymmetric only if $(a, b) \in R$ and $(b, a) \not \in R$. or $(a, b) \not \in R$.
-In all other cases, the relation is not asymmetric.
+Case 2: Suppose that it is never true that $(a, b) \in R$ and $(b, a) \in R$.
+Thus, the antisymmetry property's condition holds vacuously.
+In this case, the relation could be asymmetric, but it does not have to be.
 
 Thus, if a relation is antisymmetric, it does not always have to be asymmetric.
 
