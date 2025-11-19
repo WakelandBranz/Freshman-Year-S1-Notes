@@ -73,7 +73,12 @@ Since not all $a, b, c, d$ have self-loops, this digraph is not reflexive.
 
 **Symmetric:**
 
-
+$(a, b) \in R$ and $(b, a) \in R$.
+$(a, c) \in R$ and $(c, a) \in R$.
+$(b, c) \in R$ and $(c, b) \in R$.
+$(b,d) \in R$ and $(d, b) \in R$.
+$(c, d) \not \in R$ and $(d, c) \not \in R$.
+All vertices $k$
 
 **Transitive:**
 
