@@ -133,15 +133,13 @@ Take two cases:
 
 Case 1: Suppose there exists $a, b$ s.t. $(a, b) \in R$, $(b, a) \in R$, and $a = b$.
 In this case, the hypothesis of the definition of asymmetry is true but the conclusion is false because $(b, a) \in R$.
-Therefore in this case a set cannot be asymmetric.
-
-This shows that if a relation is antisymmetric, it does not always have to be asymmetric.
+Therefore a set cannot be asymmetric in this case.
 
 Case 2: Suppose that it is never true that $(a, b) \in R$ and $(b, a) \in R$.
 Thus, the antisymmetry property's condition holds vacuously.
 When $(a, b) \not \in R$ the asymmetry property holds vacuously.
 When $(a, b) \in R$, we must have $(b, a) \not \in R$ (by our case assumption) so the asymmetry condition is satisfied.
-Therefore in this
+Therefore the relation is asymmetric in this case.
 
 Thus, if a relation is antisymmetric, it does not always have to be asymmetric.
 
