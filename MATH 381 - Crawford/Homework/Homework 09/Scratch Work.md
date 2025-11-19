@@ -93,10 +93,11 @@ Symmetric:
 
 **Symmetric:** A relation $R$ on a set $A$ is symmetric if whenever $(a, b) \in R$, then $(b, a) \in R$.
 
-By the definition of symmetry, $R$ is symmetric if \
-Let there exist an arbitrary $k, j \in \mathbb{Z}$.
-It is clear that for any $k \equiv j \pmod{m}$, $j \equiv k \pmod{m}$ is true so this is symmetric.
-
+By the definition of symmetry, $R$ is symmetric if $\forall a, b \in A, a \equiv b \pmod{m}$ then $b \equiv a \pmod{m}$.
+Assume $aRb$.
+Let $a, b \in R$ be arbitrary. WTS $aRb$ implies $bRa$.
+By the definition of $R$, we need to show $b \equiv a \pmod{m}$.
+By the definition of con
 
 Transitive:
 
