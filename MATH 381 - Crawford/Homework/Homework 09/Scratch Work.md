@@ -95,16 +95,11 @@ Symmetric:
 
 By the definition of symmetry, $R$ is symmetric if $\forall a, b \in A, a \equiv b \pmod{m}$ then $b \equiv a \pmod{m}$.
 Let $a, b \in R$ be arbitrary. 
-Assume $aRb$. WTS $aRb$ implies $bRa$.
-By the definition of $R$, $a \equiv b \pmod{m}$.
-By the definition of congruence modulo $m$, $m \mid (a - b)$.
-By the definition of divisibility, $a - b = mn$.
-So, $a = mn + b$ and $b = -mn + a$.
-By the definition of $R$, we need to show $b \equiv a \pmod{m}$.
-By the definition of congruence modulo $m$, we need to show $m \mid (b - a)$.
-By the definition of divisibility, we need to show $b - a = mn$.
-We can rewrite $b - a = mn$ to be $b = -mn + a$.
-We know that $b = -mn + a$, so this implies that $b - a = mn$.
+Assume $aRb$. WTS $bRa$.
+By the definition of $R$, we have $a \equiv b \pmod{m}$.
+By the definition of congruence, $m \mid (a - b)$.
+By the definition of divisibility, $a - b = mn$ for some integer $n$.
+So, $a = 
 So, $m \mid (b - a)$.
 So, $b \equiv a \pmod{n}$.
 Since $a, b$ were arbitrary, $R$ is symmetrical.
