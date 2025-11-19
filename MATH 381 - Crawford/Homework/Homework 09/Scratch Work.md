@@ -95,9 +95,14 @@ Symmetric:
 
 By the definition of symmetry, $R$ is symmetric if $\forall a, b \in A, a \equiv b \pmod{m}$ then $b \equiv a \pmod{m}$.
 Assume $aRb$.
+By the definition of $R$, we need to show $a \equiv a \pmod{m}$.
+By the definition of congruence modulo $m$, we need to show $m \mid (b - a)$.
+By the definition of divisibility, we need to show $a - b = mn$ where $n$ is arbitrary.
+
 Let $a, b \in R$ be arbitrary. WTS $aRb$ implies $bRa$.
 By the definition of $R$, we need to show $b \equiv a \pmod{m}$.
-By the definition of con
+By the definition of congruence modulo $m$, we need to show $m \mid (b - a)$.
+By the definition of divisibility, we need to show $a - b = mn$ where $n$ is arbitrary.
 
 Transitive:
 
