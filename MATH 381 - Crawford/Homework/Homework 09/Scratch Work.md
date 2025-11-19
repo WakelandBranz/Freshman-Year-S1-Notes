@@ -81,7 +81,6 @@ Relation: $\{ a, b \in \mathbb{Z} \times \mathbb{Z} \mid a \equiv b \pmod{n}  \}
 
 Reflexive:
 
-By the definition of reflexivity, $R$ is reflexive if $\forall a \in A, a \equiv a \pmod{m}$.
 Let $a \in A$ be arbitrary. WTS $aRa$.
 By the definition of $R$, we need to show $a \equiv a \pmod{m}$.
 By the definition of congruence modulo $m$, we need to show $m \mid (a - a)$.
@@ -93,7 +92,6 @@ Symmetric:
 
 **Symmetric:** A relation $R$ on a set $A$ is symmetric if whenever $(a, b) \in R$, then $(b, a) \in R$.
 
-By the definition of symmetry, $R$ is symmetric if $\forall a, b \in A, a \equiv b \pmod{m}$ then $b \equiv a \pmod{m}$.
 Let $a, b \in R$ be arbitrary. 
 Assume $aRb$. WTS $bRa$.
 By the definition of $R$, we have $a \equiv b \pmod{m}$.
