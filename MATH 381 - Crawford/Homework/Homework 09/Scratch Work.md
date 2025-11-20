@@ -27,7 +27,17 @@ In order for $R$ to induce a partition on $\mathbb{N}$, $R$ must produce equival
 WTS $R$ induces a partition on $\mathbb{N}$.
 So, WTS $R$ is reflexive.
 
-For any 
+We know for all $x \in \mathbb{N}, (x, 7) \in R$.
+Since $R$ is symmetric, $(7, x) \in R$.
+By transitivity, since $(x, 7), (7, x) \in R$, $(x, x) \in R$.
+Therefore $R$ is reflexive.
+
+We are given that $R$ is symmetric and transitive and we have proven that $R$ is reflexive.
+Therefore $R$ is an equivalence relation.
+
+By the fundamental theorem of equivalence relations, any equivalence relation on a set induces a partition of that set which is made up of disjoint equivalence classes whose union is the set.
+
+Therefore $R$ induces a partition on $\mathbb{N}$.
 
 ---
 
