@@ -15,6 +15,8 @@ $R_1 \cup R_2 = \{ (a, b) \mid a \mid b \lor b \mid a \}$
 $R_2 - R_1 = \{ (a, b) \mid b \mid a \land a \not \mid b \}$
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ### Problem 2
 
@@ -40,6 +42,8 @@ By the fundamental theorem of equivalence relations, any equivalence relation on
 Therefore $R$ induces a partition on $\mathbb{N}$.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ### Problem 3
 
@@ -67,11 +71,9 @@ $[\{ 1, 2, 3 \}]$ contains 10 distinct elements.
 $[\{ 1, 2, 3, 4 \}]$ contains 5 distinct elements.
 $[\{ 1, 2, 3, 4, 5 \}]$ contains 1 distinct element.
 
-**(e)** Challenge/Ungraded: Come up with a formula to find the number of elements in each equivalence class so that we can be sure we do not miss any when doing a problem like part (d)?
-
-Can you do the same thing for the same relation on the set $\mathcal{P}({1, 2, 3, \cdots, n})$?
-
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ### Problem 4
 
@@ -105,6 +107,8 @@ By definition of transitivity, we would need $(a, d) \in R$.
 Therefore $R$ is not transitive.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ### Problem 5
 
@@ -151,6 +155,8 @@ Therefore, $a \equiv c \pmod{m}$ and $aRc$.
 So, relation $R$ is an equivalence relation.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ### Problem 6
 
