@@ -181,6 +181,3 @@ When $(a, b) \in R$, we must have $(b, a) \not \in R$ (by our case assumption) s
 Therefore the relation is asymmetric in this case.
 
 Thus, if a relation is antisymmetric, it does not always have to be asymmetric.
-
-
-
