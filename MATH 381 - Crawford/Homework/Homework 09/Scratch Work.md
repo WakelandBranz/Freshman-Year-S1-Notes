@@ -8,9 +8,11 @@ $R_{1} \cap R_{2} = \{ (a, b) \mid |a| = |b| \}$
 
 **(b)** $R_1 \cup R_2$
 
-$R_1 \cup R_2 = \{ (a, b) \mid a \mid b \lor a = bk \text{ for some } k \in \mathbb{Z} \}$
+$R_1 \cup R_2 = \{ (a, b) \mid a \mid b \lor b \mid a \}$
 
 **(c)** $R_2 - R_1$
+
+
 
 ---
 
