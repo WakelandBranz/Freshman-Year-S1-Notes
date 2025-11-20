@@ -12,7 +12,7 @@ $R_1 \cup R_2 = \{ (a, b) \mid a \mid b \lor b \mid a \}$
 
 **(c)** $R_2 - R_1$
 
-
+$R_2 - R_1 = \{ (a, b) \mid b \mid a \land a \not \mid b \}$
 
 ---
 
@@ -21,6 +21,13 @@ $R_1 \cup R_2 = \{ (a, b) \mid a \mid b \lor b \mid a \}$
 Let $R$ be a relation on $\mathbb{N} = {0, 1, 2, \cdots}$ that is both symmetric and transitive. Further, suppose that $(x, 7) \in R$ for all $x \in \mathbb{N}$. Show that $R$ induces a partition on $\mathbb{N}$.
 
 In order for $R$ to induce a partition on $\mathbb{N}$, $R$ must produce equivalence classes which, when summed, are equivalent to $\mathbb{N}$.
+
+**-PF-**
+
+WTS $R$ induces a partition on $\mathbb{N}$.
+So, WTS $R$ is reflexive.
+
+For any 
 
 ---
 
