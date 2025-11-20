@@ -116,8 +116,6 @@ Let $m > 1$ be an integer. Show that the relation $R$ on $\mathbb{Z}$ defined by
 
 **-PF-**
 
-Relation: $\{ a, b \in \mathbb{Z} \times \mathbb{Z} \mid a \equiv b \pmod{m}  \}$
-
 Reflexive:
 
 Let $a \in \mathbb{Z}$ be arbitrary. WTS $aRa$.
@@ -155,9 +153,6 @@ Therefore, $a \equiv c \pmod{m}$ and $aRc$.
 So, relation $R$ is an equivalence relation.
 
 ---
-<div style="page-break-after: always;"></div>
-page break above me
-
 ### Problem 6
 
 A relation $R$ is said to be **asymmetric** if $(a, b) \in R$ implies that $(b, a) \notin R$.
