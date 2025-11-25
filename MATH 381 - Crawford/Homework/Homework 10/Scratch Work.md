@@ -7,6 +7,7 @@
 
 How many different three letter initials with none of the letters repeating can people have?
 
+$P(26, 3) = \frac{26!}{(26 - 3)!} = \frac{26!}{23!} = 26 \cdot 25 \cdot 24$
 
 ---
 
@@ -30,6 +31,11 @@ For $n > 1$, how many functions are there from the set ${1, \ldots, n}$ to the s
 
 How many ways are there to seat 4 people from a group of 10 people around a circular table where two seatings are considered the same when everyone has the same neighbor, without regard to whether they are left or right neighbors.
 
+$C(10, 4) = \frac{10!}{4!(10 - 4)!} = \frac{10!}{4!(6!)}$
+
+**OR**
+
+$\frac{10!}{4}$
 
 ---
 
@@ -47,7 +53,11 @@ How many bit strings of length 12 contain:
 
 **(a)** exactly three 1s
 
+$6 \cdot 2^6$
+
 **(b)** at most three 1s
+
+
 
 **(c)** at least three 1s
 
@@ -80,9 +90,6 @@ What are the coefficients of $x^6 y^9$ and $y^{14}$ in $(5x^2 + 2y^3)^6$?
 Show that if $n$ is a positive integer then:
 
 $$\binom{2n}{2} = 2\binom{n}{2} + n^2$$
-
-**-PF-**
-
 
 ---
 
