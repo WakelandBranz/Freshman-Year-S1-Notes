@@ -48,9 +48,7 @@ Let $S$ be the set of integers that are not divisible by 17 and let $T$ be any s
 Since there are 16 integers in the domain of $\pmod{17}$, there are 308 integers ("objects") and 16 potential remainders ("boxes") so we must find $\lceil \frac{308}{16} \rceil$.
 
 $\frac{308}{16} = 19.25$
-$\lceil \frac{|T|}{16} \rceil = \lceil \frac{308}{16} \rceil = \lceil  \rceil \rceil \rceil 20$
-
-??????
+$\lceil \frac{|T|}{16} \rceil = \lceil \frac{308}{16} \rceil = \lceil 19.25 \rceil = 20$.
 
 ---
 
