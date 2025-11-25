@@ -46,6 +46,8 @@ Let $S$ be the set of integers that are not divisible by 17 and let $T$ be any s
 
 $\lceil \frac{|T|}{17} \rceil = \lceil \frac{308}{17} \rceil = 19$
 
+??????
+
 ---
 
 ## Problem 6
@@ -91,6 +93,15 @@ What are the coefficients of $x^6 y^9$ and $y^{14}$ in $(5x^2 + 2y^3)^6$?
 Show that if $n$ is a positive integer then:
 
 $$\binom{2n}{2} = 2\binom{n}{2} + n^2$$
+
+Let $n$ be a positive integer.
+WTS $\binom{2n}{2} = 2\binom{n}{2} + n^2$.
+From this we know $\binom{2n}{2} = C(2n, 2) = \frac{(2n)!}{2!} = \frac{(2n)!}{2}$
+We now want to find $\binom{n}{2}$.
+$\binom{n}{2} = C(n, 2) = \frac{n!}{2!} = \frac{n!}{2}$
+So, $\binom{n}{2} \cdot 2 = $
+
+
 
 ---
 
