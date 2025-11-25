@@ -7,7 +7,7 @@
 
 How many different three letter initials with none of the letters repeating can people have?
 
-
+$P(26, 3) = \frac{26!}{(26 - 3)!} = \frac{26!}{23!} = 26 \cdot 25 \cdot 24$
 
 ---
 
