@@ -33,10 +33,6 @@ How many ways are there to seat 4 people from a group of 10 people around a circ
 
 $C(10, 4) = \frac{10!}{4!(10 - 4)!} = \frac{10!}{4!(6!)}$
 
-**OR**
-
-$\frac{10!}{4}$
-
 ---
 
 ## Problem 5
@@ -53,7 +49,7 @@ How many bit strings of length 12 contain:
 
 **(a)** exactly three 1s
 
-$6 \cdot 2^6$
+$6 \cdot 2^5$
 
 **(b)** at most three 1s
 
