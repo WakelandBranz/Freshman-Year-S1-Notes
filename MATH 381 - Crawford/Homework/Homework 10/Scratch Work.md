@@ -33,6 +33,7 @@ How many ways are there to seat 4 people from a group of 10 people around a circ
 
 $C(10, 4) = \frac{10!}{4!(10 - 4)!} = \frac{10!}{4!(6!)}$
 
+
 ---
 
 ## Problem 5
