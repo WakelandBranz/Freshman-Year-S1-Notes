@@ -45,9 +45,10 @@ Without regard to whether they are left or right neighbors, this is halved, so $
 
 Let $S$ be the set of integers that are not divisible by 17 and let $T$ be any subset of $S$ so that $|T| = 308$. Show that there must be at least twenty integers in $T$ that have the same remainder when divided by 17.
 
-$|S| $
+Since there are 16 integers in the domain of $\pmod{17}$, there are 308 integers ("objects") and 16 potential remainders ("boxes") so we must find $\lceil \frac{308}{16} \rceil$.
 
-$\lceil \frac{|T|}{17} \rceil = \lceil \frac{308}{17} \rceil = 19$
+$\frac{308}{16} = 19.25$
+$\lceil \frac{|T|}{16} \rceil = \lceil \frac{308}{16} \rceil = \lceil  \rceil \rceil \rceil 20$
 
 ??????
 
