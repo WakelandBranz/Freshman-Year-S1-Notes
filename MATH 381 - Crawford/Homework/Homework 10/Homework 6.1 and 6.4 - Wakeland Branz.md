@@ -23,7 +23,7 @@ How many bit strings of length $n > 1$ begin and end with a 1?
 
 For $n > 1$, how many functions are there from the set ${1, \ldots, n}$ to the set ${0, 1}$?
 
-**-PF-**
+
 
 ---
 
@@ -31,7 +31,11 @@ For $n > 1$, how many functions are there from the set ${1, \ldots, n}$ to the s
 
 How many ways are there to seat 4 people from a group of 10 people around a circular table where two seatings are considered the same when everyone has the same neighbor, without regard to whether they are left or right neighbors.
 
-**-PF-**
+$C(10, 4) = \frac{10!}{4!(10 - 4)!} = \frac{10!}{4!(6!)}$
+
+**OR**
+
+$\frac{10!}{4}$
 
 ---
 
@@ -39,7 +43,7 @@ How many ways are there to seat 4 people from a group of 10 people around a circ
 
 Let $S$ be the set of integers that are not divisible by 17 and let $T$ be any subset of $S$ so that $|T| = 308$. Show that there must be at least twenty integers in $T$ that have the same remainder when divided by 17.
 
-**-PF-**
+
 
 ---
 
