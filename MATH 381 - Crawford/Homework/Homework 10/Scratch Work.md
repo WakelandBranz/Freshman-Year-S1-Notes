@@ -34,7 +34,7 @@ How many ways are there to seat 4 people from a group of 10 people around a circ
 $C(10, 4) = \frac{10!}{4!(10 - 4)!} = \frac{10!}{4!(6!)}$
 
 With regard to whether they are left or right neighbors, any set of 4 people from the group of 10 people has $\frac{4!}{4}$ seating arrangements.
-Without regard, this is halved, so $\frac{4!}{4} / 2$.
+Without regard to whether , this is halved, so $\frac{4!}{4} / 2$.
 
 **Final answer:** $[\frac{10!}{4!(10-4)!} \cdot \frac{4!}{4}] / 2$
 
@@ -99,7 +99,8 @@ WTS $\binom{2n}{2} = 2\binom{n}{2} + n^2$.
 From this we know $\binom{2n}{2} = C(2n, 2) = \frac{(2n)!}{2!} = \frac{(2n)!}{2}$
 We now want to find $\binom{n}{2}$.
 $\binom{n}{2} = C(n, 2) = \frac{n!}{2!} = \frac{n!}{2}$
-So, $\binom{n}{2} \cdot 2 = $
+So, $\binom{n}{2} \cdot 2 = 2(\frac{n!}{2}) = n!$
+
 
 
 
