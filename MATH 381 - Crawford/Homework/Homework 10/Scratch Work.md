@@ -15,7 +15,7 @@ $P(26, 3) = \frac{26!}{(26 - 3)!} = \frac{26!}{23!} = 26 \cdot 25 \cdot 24$
 
 How many bit strings of length $n > 1$ begin and end with a 1?
 
-
+$2^{n - 2}$
 
 ---
 
@@ -44,7 +44,7 @@ Without regard, this is halved, so $\frac{4!}{4} / 2$.
 
 Let $S$ be the set of integers that are not divisible by 17 and let $T$ be any subset of $S$ so that $|T| = 308$. Show that there must be at least twenty integers in $T$ that have the same remainder when divided by 17.
 
-
+$\lceil \frac{|T|}{17} \rceil = \lceil \frac{308}{17} \rceil = 19$
 
 ---
 
