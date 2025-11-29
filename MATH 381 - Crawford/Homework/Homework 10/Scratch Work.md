@@ -58,11 +58,11 @@ How many bit strings of length 12 contain:
 
 **(a)** exactly three 1s
 
-$2^9 \cdot 10$
+$\frac{12!}{(12 - 3)!}$
 
 **(b)** at most three 1s
 
-$(2^{11} \cdot 12) \cdot (2^{10} \cdot 11) \cdot (2^9 \cdot 10)$
+$(\frac{12!}{(12 - 1)!})(\frac{12!}{(12 - 2)!a})(\frac{12!}{(12 - 3)!})$
 
 **(c)** at least three 1s
 
