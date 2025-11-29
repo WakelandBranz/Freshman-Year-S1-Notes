@@ -76,6 +76,9 @@ How many strings of six letters from the English alphabet contain:
 
 **(a)** the letter a
 
+$26^6 =$ # of all strings of 6 letters from the English alphabet.
+$25^6$ 
+
 **(b)** the letters a and b
 
 **(c)** the letters a and b in consecutive positions with a preceding b and all the letters distinct
