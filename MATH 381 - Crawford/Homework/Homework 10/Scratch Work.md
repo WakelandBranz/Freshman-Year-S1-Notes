@@ -88,7 +88,7 @@ $26^6 - 24^6 =$ # of all strings from the English alphabet containing the letter
 
 **(c)** the letters a and b in consecutive positions with a preceding b and all the letters distinct
 
-
+$(24 \cdot 23 \cdot 22 \cdot 21) \cdot 5$
 
 ---
 
