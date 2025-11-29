@@ -78,11 +78,17 @@ How many strings of six letters from the English alphabet contain:
 
 $26^6 =$ # of all strings of 6 letters from the English alphabet.
 $25^6 =$ # of all strings of 6 letters from the English alphabet not containing the letter a.
-$26^6 - 25^6 =$ # of all strings from the English alphabet containing the l
+$26^6 - 25^6 =$ # of all strings from the English alphabet containing the letter a.
 
 **(b)** the letters a and b
 
+$26^6 =$ # of all strings of 6 letters from the English alphabet.
+$24^6 =$ # of all strings of 6 letters from the English alphabet not containing the letters a and b.
+$26^6 - 24^6 =$ # of all strings from the English alphabet containing the letter a and b.
+
 **(c)** the letters a and b in consecutive positions with a preceding b and all the letters distinct
+
+
 
 ---
 
