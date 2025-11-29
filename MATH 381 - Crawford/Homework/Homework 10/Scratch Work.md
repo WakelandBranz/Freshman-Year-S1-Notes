@@ -58,15 +58,19 @@ How many bit strings of length 12 contain:
 
 **(a)** exactly three 1s
 
-$\frac{12!}{(12 - 3)!}$
+$\frac{12!}{3!(12 - 3)!}$
 
 **(b)** at most three 1s
 
-$(\frac{12!}{(12 - 1)!})(\frac{12!}{(12 - 2)!a})(\frac{12!}{(12 - 3)!})$
+$1 + (\frac{12!}{1!(12 - 1)!}) + (\frac{12!}{2!(12 - 2)!}) + (\frac{12!}{3!(12 - 3)!})$
 
 **(c)** at least three 1s
 
+$2^12 - [1 + (\frac{12!}{1!(12 - 1)!}) + (\frac{12!}{2!(12 - 2)!}]$
+
 **(d)** an equal number of 0s and 1s
+
+$\frac{12!}{6!(12! - 6!)}$
 
 ---
 
