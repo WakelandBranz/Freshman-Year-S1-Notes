@@ -105,7 +105,11 @@ $\binom{11}{7} = \frac{11!}{7!(11 - 7)!} = \frac{11!}{(7!)(4!)}$
 What are the coefficients of $x^6 y^9$ and $y^{14}$ in $(5x^2 + 2y^3)^6$?
 
 $a = 5x^2, b = 2y^3, n = 6$
-$\sum_{n = 0}^6 \binom{6}{j}(5x^2)^$
+$\sum_{k = 0}^6 \binom{6}{k}(5x^2)^{6 - k}(2y^3)^k$
+ For $k = 3: \binom{6}{3} \cdot 5^3 \cdot 2^3 = 20000$
+ Coefficient of $x^6y^9 = 20000$
+
+Coefficient of $y^14 = 0$ WHY IS IT 0????????????????
 
 ---
 
