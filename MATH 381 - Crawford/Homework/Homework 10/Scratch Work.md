@@ -105,7 +105,7 @@ $\binom{11}{7} = \frac{11!}{7!(11 - 7)!} = \frac{11!}{(7!)(4!)}$
 What are the coefficients of $x^6 y^9$ and $y^{14}$ in $(5x^2 + 2y^3)^6$?
 
 $a = 5x^2, b = 2y^3, n = 6$
-$
+$\sum_{n = 0}^6 \binom{6}{j}(5x^2)^$
 
 ---
 
