@@ -100,7 +100,7 @@ $(24 \cdot 23 \cdot 22 \cdot 21) \cdot 5$
 
 What is the coefficient of $x^7$ in $(1 + x)^{11}$?
 
-$\binom{11}
+$\binom{11}{}
 
 What are the coefficients of $x^6 y^9$ and $y^{14}$ in $(5x^2 + 2y^3)^6$?
 
