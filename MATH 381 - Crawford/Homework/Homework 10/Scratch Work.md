@@ -106,7 +106,7 @@ What are the coefficients of $x^6 y^9$ and $y^{14}$ in $(5x^2 + 2y^3)^6$?
 
 $a = 5x^2, b = 2y^3, n = 6$
 $\sum_{k = 0}^6 \binom{6}{k}(5x^2)^{6 - k}(2y^3)^k$
- For $k = 3: \binom{6}{3} \cdot 5^3 \cdot 2^3 = 20000$
+ For $k = 3: \binom{6}{3} \cdot 5^3 \cdot 2^3$
  Coefficient of $x^6y^9 = 20000$
 
 Coefficient of $y^{14} = 0$ because there is no $k$ such that $x$'s exponent is 0 and $y$'s exponent is $14$.
@@ -118,14 +118,6 @@ Coefficient of $y^{14} = 0$ because there is no $k$ such that $x$'s exponent is 
 Show that if $n$ is a positive integer then:
 
 $$\binom{2n}{2} = 2\binom{n}{2} + n^2$$
-
-Let $n$ be a positive integer.
-WTS $\binom{2n}{2} = 2\binom{n}{2} + n^2$.
-From this we know $\binom{2n}{2} = C(2n, 2) = \frac{(2n)!}{2!} = \frac{(2n)!}{2}$
-We now want to find $\binom{n}{2}$.
-$\binom{n}{2} = C(n, 2) = \frac{n!}{2!} = \frac{n!}{2}$
-So, $\binom{n}{2} \cdot 2 = 2(\frac{n!}{2}) = n!$
-
 
 
 
