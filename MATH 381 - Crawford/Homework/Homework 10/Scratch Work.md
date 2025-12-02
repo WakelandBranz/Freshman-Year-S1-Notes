@@ -119,7 +119,9 @@ Show that if $n$ is a positive integer then:
 
 $$\binom{2n}{2} = 2\binom{n}{2} + n^2$$
 
-
+First, we must simplify the left side of the equation.
+$\binom{2n}{2} = \frac{(2n)!}{(2!)(2n - 2)!}$
+$\frac{1}{2n - 2}! = \frac{(2n)(2n-1)}{(2n)!}$
 
 ---
 
