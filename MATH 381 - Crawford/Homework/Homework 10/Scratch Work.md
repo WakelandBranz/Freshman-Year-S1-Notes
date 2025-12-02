@@ -109,7 +109,7 @@ $\sum_{k = 0}^6 \binom{6}{k}(5x^2)^{6 - k}(2y^3)^k$
  For $k = 3: \binom{6}{3} \cdot 5^3 \cdot 2^3 = 20000$
  Coefficient of $x^6y^9 = 20000$
 
-Coefficient of $y^14 = 0$ WHY IS IT 0????????????????????
+Coefficient of $y^{14} = 0$ because there is no $k$ such that $x$'s exponent is 0 and $y$'s exponent is $14$.
 
 ---
 
