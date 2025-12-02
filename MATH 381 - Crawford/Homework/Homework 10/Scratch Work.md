@@ -153,6 +153,8 @@ Applying the inductive hypothesis: $$= \binom{n + r + 1}{r} + \binom{n + r + 1}{
 Simplifying this, we get the following: $$\frac{(n + r + 1)!}{(r)!(n + r - r + 1)!} + \frac{(n + r + 1)!}{(r + 1)!(n + r - r + 1 - 1)} = \frac{(n + r + 1)!}{(r)!(n + 1)!} + \frac{(n + r + 1)!}{(r + 1)!(n)!}$$
 $$=\frac{(n + r + 1)!(r + 1)!(n)!}{(r)!(n + 1)!(r + 1)!(n)!} + \frac{(n + r + 1)!(n + 1)!(r)!}{(r)!(n + 1)!(r + 1)!(n)!}$$
 $$ = \frac{(n + r + 1)!(r + 1)!(r)!(n)! + (n + r + 1)!(n + 1)!(r)!(n)!}{(r)!(n + 1)!(r + 1)!(n)!} = \frac{(n + r + 1)!(n)!(r)!(r + n + 2)}{(r)!(n + 1)!(r + 1)!(n)!}$$
-$$= \frac{(n + r + 1)!(r + n + 2)}{(r + 1)!(n + 1)!}$$
+$$= \frac{(n + r + 1)!(n + r + 2)}{(r + 1)!(n + 1)!} = \frac{(n + r + 2)!}{(r + 1)!(n + 1)!}$$
 Now we will simplify the **RHS** for $r + 1$: 
-$$\binom{n + r + 2}{r + 1} = \frac{(n + r + 2)!}{(r + 1)!(n)!}$$
+$$\binom{n + r + 2}{r + 1} = \frac{(n + r + 2)!}{(r + 1)!(n + r + 2 - r - 1)!} = \frac{(n + r + 2)!}{(r + 1)!(n + 1)!}$$
+We have shown that, for $r + 1$, both sides are equivalent to $\frac{(n + r + 2)!}{(r + 1)!(n + 1)!}$
+Thus, for $n, r > 0$: $$\sum_{k=0}^{r} \binom{n+k}{k} = \binom{n+r+1}{r}$$
