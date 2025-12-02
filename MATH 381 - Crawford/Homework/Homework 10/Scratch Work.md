@@ -121,11 +121,12 @@ $$\binom{2n}{2} = 2\binom{n}{2} + n^2$$
 
 First, we must simplify the left side of the equality.
 $\binom{2n}{2} = \frac{(2n)!}{(2!)(2n - 2)!}$
-$\frac{1}{2n - 2}! = \frac{(2n)(2n-1)}{(2n)!}$
+$\frac{1}{(2n - 2)!} = \frac{(2n)(2n-1)}{(2n)!}$
 So, $\frac{(2n)!}{(2!)(2n - 2)!} = \frac{(2n)!(2n)(2n - 1)}{(2!)(2n)!} = \frac{(2n)(2n - 1)}{(2!)} =  \frac{(2n)(2n - 1)}{(2)} = \frac{4n^2 - 2n}{2} = 2n^2 - n$
 Second, we must simplify the right side of the equality.
-$2 \binom{n}{2} + n^2 = 2(\frac{n!}{(2!)(n - 2)!}) = n^2$
-
+$2 \binom{n}{2} + n^2 = 2(\frac{n!}{(2!)(n - 2)!}) + n^2 = 2(\frac{n!}{(2)(n - 2)!}) + n^2 = \frac{n!}{(n - 2)!} + n^2$
+$\frac{1}{(n - 2)!}  = \frac{(n)(n - 1)}{n!}$
+So, $\frac{n!}{(n - 2)!} + n^2 = \frac{(n!)(n)(n - 1)}{n!} + n^2 = (n)(n-1) + n^2 = n^2 - n + n^2$
 
 
 ---
