@@ -140,3 +140,12 @@ Prove that for $n, r > 0$:
 $$\sum_{k=0}^{r} \binom{n+k}{k} = \binom{n+r+1}{r}$$
 
 **-PF-**
+Base case: $r = 0$
+
+**LHS:** $\sum_{k=0}^{0} \binom{n+k}{k} = \binom{n}{0} = 1$
+**RHS:** $\binom{n+0+1}{0} = 1$
+So for $r = 0$, this holds.
+
+Assume $\sum_{k=0}^{r} \binom{n+k}{k} = \binom{n+r+1}{r}$
+WTS this holds for $r + 1$.
+$Assume $\sum_{k=0}^{r} \binom{n+k}{k} = $
