@@ -150,4 +150,4 @@ Assume $\sum_{k=0}^{r} \binom{n+k}{k} = \binom{n+r+1}{r}$
 WTS this holds for $r + 1$.
 For $r + 1$, the **LHS** is equivalent to the following: $$\sum_{k=0}^{r + 1} \binom{n+k}{k} = \sum_{k=0}^{r} \binom{n+k}{k} + \binom{n + r + 1}{r + 1}$$
 Applying the inductive hypothesis: $$= \binom{n + r + 1}{r} + \binom{n + r + 1}{r + 1}$$
-Simplifying this, we get the following: $$\frac{(n + r + 1)!}{(r!)(n + r - r + 1)} + \frac{(n + r + 1)!}{}$$
+Simplifying this, we get the following: $$\frac{(n + r + 1)!}{(r)!(n + r - r + 1)!} + \frac{(n + r + 1)!}{(r + 1)!(n + r - r + 1 - 1)} = \frac{(n + r + 1)!}{(r)!(n + 1)!} + \frac{(n + r + 1)!}{(r + 1)!(n)!}$$
