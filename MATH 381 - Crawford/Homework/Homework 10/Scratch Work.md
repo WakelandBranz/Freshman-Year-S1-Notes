@@ -143,7 +143,7 @@ $$\sum_{k=0}^{r} \binom{n+k}{k} = \binom{n+r+1}{r}$$
 Base case: $r = 1$
 **LHS:** $\sum_{k=0}^{1} \binom{n+k}{k} = \binom{n + 0}{0} + \binom{n + 1}{1} = 1 + n + 1 = n + 2$
 **RHS:** $\binom{n+1+1}{1} = n + 2$
-So for $r = 0$, this holds.
+So for $r = 1$, this holds.
 
 Assume $\sum_{k=0}^{r} \binom{n+k}{k} = \binom{n+r+1}{r}$
 WTS this holds for $r + 1$.
@@ -151,9 +151,9 @@ For $r + 1$, the **LHS** is equivalent to the following: $$\sum_{k=0}^{r + 1} \b
 Applying the inductive hypothesis: $$= \binom{n + r + 1}{r} + \binom{n + r + 1}{r + 1}$$
 By Pascal's Identity ($\binom{n}{k} + \binom{n}{k + 1} = \binom{n + 1}{k + 1}$): $$= \binom{n + r + 2}{r + 1}$$
 For $r + 1$, the **RHS** is equivalent to the following: $$= \binom{n + r + 2}{r + 1}$$
-Since the **RHS** and **LHS** are equal (both $= \binom{n + r + 2}{r + 1}$), the inductive hypothesis holds.
+Since the **RHS** and **LHS** are equal (both $= \binom{n + r + 2}{r + 1}$), the statement holds for $r + 1$.
 
-By m
+By mathematical induction, for $n, r > 0$, $\sum_{k=0}^{r} \binom{n+k}{k} = \binom{n+r+1}{r}$.
 
 **OLD PROOF!!!!**
 Prove that for $n, r > 0$:

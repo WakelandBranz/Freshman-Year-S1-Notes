@@ -27,6 +27,8 @@ I viewed this as binary strings
 $2^n$
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ## Problem 4
 
@@ -142,3 +144,17 @@ Prove that for $n, r > 0$:
 $$\sum_{k=0}^{r} \binom{n+k}{k} = \binom{n+r+1}{r}$$
 
 **-PF-**
+Base case: $r = 1$
+**LHS:** $\sum_{k=0}^{1} \binom{n+k}{k} = \binom{n + 0}{0} + \binom{n + 1}{1} = 1 + n + 1 = n + 2$
+**RHS:** $\binom{n+1+1}{1} = n + 2$
+So for $r = 1$, this holds.
+
+Assume $\sum_{k=0}^{r} \binom{n+k}{k} = \binom{n+r+1}{r}$
+WTS this holds for $r + 1$.
+For $r + 1$, the **LHS** is equivalent to the following: $$\sum_{k=0}^{r + 1} \binom{n+k}{k} = \sum_{k=0}^{r} \binom{n+k}{k} + \binom{n + r + 1}{r + 1}$$
+Applying the inductive hypothesis: $$= \binom{n + r + 1}{r} + \binom{n + r + 1}{r + 1}$$
+By Pascal's Identity ($\binom{n}{k} + \binom{n}{k + 1} = \binom{n + 1}{k + 1}$): $$= \binom{n + r + 2}{r + 1}$$
+For $r + 1$, the **RHS** is equivalent to the following: $$= \binom{n + r + 2}{r + 1}$$
+Since the **RHS** and **LHS** are equal (both $= \binom{n + r + 2}{r + 1}$), the statement holds for $r + 1$.
+
+By mathematical induction, for $n, r > 0$, $\sum_{k=0}^{r} \binom{n+k}{k} = \binom{n+r+1}{r}$.
