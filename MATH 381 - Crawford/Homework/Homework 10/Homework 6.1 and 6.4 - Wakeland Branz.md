@@ -58,8 +58,6 @@ $\lceil \frac{|T|}{16} \rceil = \lceil \frac{308}{16} \rceil = \lceil 19.25 \rce
 
 How many bit strings of length 12 contain:
 
-How many bit strings of length 12 contain:
-
 **(a)** exactly three 1s
 
 $\frac{12!}{3!(12 - 3)!}$
@@ -70,7 +68,7 @@ $1 + (\frac{12!}{1!(12 - 1)!}) + (\frac{12!}{2!(12 - 2)!}) + (\frac{12!}{3!(12 -
 
 **(c)** at least three 1s
 
-$2^12 - [1 + (\frac{12!}{1!(12 - 1)!}) + (\frac{12!}{2!(12 - 2)!}]$
+$2^{12} - [1 + (\frac{12!}{1!(12 - 1)!}) + (\frac{12!}{2!(12 - 2)!}]$
 
 **(d)** an equal number of 0s and 1s
 
