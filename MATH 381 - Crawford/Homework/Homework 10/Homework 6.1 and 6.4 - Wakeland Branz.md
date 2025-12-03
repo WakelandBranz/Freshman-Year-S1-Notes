@@ -45,6 +45,8 @@ Without regard to whether they are left or right neighbors, this is halved, so $
 **Final answer:** $[\frac{10!}{4!(10-4)!} \cdot \frac{4!}{4}] / 2$
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ## Problem 5
 
@@ -77,6 +79,8 @@ $2^{12} - [1 + (\frac{12!}{1!(12 - 1)!}) + (\frac{12!}{2!(12 - 2)!}]$
 $\frac{12!}{6!(12 - 6)!}$
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ## Problem 7
 
@@ -120,17 +124,14 @@ Show that if $n$ is a positive integer then:
 $$\binom{2n}{2} = 2\binom{n}{2} + n^2$$
 
 **-PF-**
-Show that if $n$ is a positive integer then:
-
-$$\binom{2n}{2} = 2\binom{n}{2} + n^2$$
 
 First, we must simplify the left side of the equality.
 $\binom{2n}{2} = \frac{(2n)!}{(2!)(2n - 2)!}$
-$\frac{1}{(2n - 2)!} = \frac{(2n)(2n-1)}{(2n)!}$
+$\frac{(2n)!}{(2n-2)!} = (2n)(2n - 1)$
 So, $\frac{(2n)!}{(2!)(2n - 2)!} = \frac{(2n)!(2n)(2n - 1)}{(2!)(2n)!} = \frac{(2n)(2n - 1)}{(2!)} =  \frac{(2n)(2n - 1)}{(2)} = \frac{4n^2 - 2n}{2} = 2n^2 - n$
 Second, we must simplify the right side of the equality.
 $2 \binom{n}{2} + n^2 = 2(\frac{n!}{(2!)(n - 2)!}) + n^2 = 2(\frac{n!}{(2)(n - 2)!}) + n^2 = \frac{n!}{(n - 2)!} + n^2$
-$\frac{1}{(n - 2)!}  = \frac{(n)(n - 1)}{n!}$
+$\frac{n!}{(n - 2)!} = n(n - 1)$
 So, $\frac{n!}{(n - 2)!} + n^2 = \frac{(n!)(n)(n - 1)}{n!} + n^2 = (n)(n-1) + n^2 = n^2 - n + n^2 = 2n^2 - n$
 We have now proven that both $\binom{2n}{2} = 2n^2 - n$ and $2\binom{n}{2} + n^2 = 2n^2 - n$.
 Thus $\binom{2n}{2} = 2\binom{n}{2} + n^2$ is true.
