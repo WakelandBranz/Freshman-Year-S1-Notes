@@ -7,6 +7,7 @@
 
 How many different three letter initials with none of the letters repeating can people have?
 
+$P(26, 3) = \frac{26!}{(26 - 3)!} = \frac{26!}{23!} = 26 \cdot 25 \cdot 24$
 
 ---
 
@@ -14,7 +15,7 @@ How many different three letter initials with none of the letters repeating can 
 
 How many bit strings of length $n > 1$ begin and end with a 1?
 
-
+$2^{n - 2}$
 
 ---
 
@@ -22,7 +23,7 @@ How many bit strings of length $n > 1$ begin and end with a 1?
 
 For $n > 1$, how many functions are there from the set ${1, \ldots, n}$ to the set ${0, 1}$?
 
-
+$2^n$
 
 ---
 
