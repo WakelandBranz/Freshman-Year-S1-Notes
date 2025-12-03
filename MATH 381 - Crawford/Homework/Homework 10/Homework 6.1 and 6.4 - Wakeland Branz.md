@@ -23,6 +23,7 @@ $2^{n - 2}$
 
 For $n > 1$, how many functions are there from the set ${1, \ldots, n}$ to the set ${0, 1}$?
 
+I viewed this as binary strings
 $2^n$
 
 ---
@@ -32,13 +33,22 @@ $2^n$
 How many ways are there to seat 4 people from a group of 10 people around a circular table where two seatings are considered the same when everyone has the same neighbor, without regard to whether they are left or right neighbors.
 
 
-$[\frac{10!}{4!(10-4)!} \cdot \frac{4!}{4}] / 2$
+How many ways are there to seat 4 people from a group of 10 people around a circular table where two seatings are considered the same when everyone has the same neighbor, without regard to whether they are left or right neighbors.
+
+$C(10, 4) = \frac{10!}{4!(10 - 4)!} = \frac{10!}{4!(6!)}$
+
+With regard to whether they are left or right neighbors, any set of 4 people from the group of 10 people has $\frac{4!}{4}$ seating arrangements.
+Without regard to whether they are left or right neighbors, this is halved, so $\frac{4!}{4} / 2$.
+
+**Final answer:** $[\frac{10!}{4!(10-4)!} \cdot \frac{4!}{4}] / 2$
 
 ---
 
 ## Problem 5
 
 Let $S$ be the set of integers that are not divisible by 17 and let $T$ be any subset of $S$ so that $|T| = 308$. Show that there must be at least twenty integers in $T$ that have the same remainder when divided by 17.
+
+Since there are 16 integers in the domain of $\pmod{17}$, there are 308 integers ("objects") and 16 potential remainders ("boxes") so we must find $\lceil \frac{308}{16} \rceil$.
 
 $\lceil \frac{|T|}{16} \rceil = \lceil \frac{308}{16} \rceil = \lceil 19.25 \rceil = 20$.
 
