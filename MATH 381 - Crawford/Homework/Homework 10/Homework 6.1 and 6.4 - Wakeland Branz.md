@@ -1,6 +1,4 @@
 
-> For this homework, formal proofs are not required, except for 9 and 10. You should provide at least some explanation for your answers.
-
 ---
 
 ## Problem 1
@@ -45,8 +43,6 @@ Without regard to whether they are left or right neighbors, this is halved, so $
 **Final answer:** $[\frac{10!}{4!(10-4)!} \cdot \frac{4!}{4}] / 2$
 
 ---
-<div style="page-break-after: always;"></div>
-page break above me
 
 ## Problem 5
 
@@ -57,6 +53,8 @@ Since there are 16 integers in the domain of $\pmod{17}$, there are 308 integers
 $\lceil \frac{|T|}{16} \rceil = \lceil \frac{308}{16} \rceil = \lceil 19.25 \rceil = 20$.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ## Problem 6
 
@@ -79,8 +77,6 @@ $2^{12} - [1 + (\frac{12!}{1!(12 - 1)!}) + (\frac{12!}{2!(12 - 2)!}]$
 $\frac{12!}{6!(12 - 6)!}$
 
 ---
-<div style="page-break-after: always;"></div>
-page break above me
 
 ## Problem 7
 
@@ -99,6 +95,8 @@ $26^6 - 2 \cdot 25^6 + 24^6$
 $(24 \cdot 23 \cdot 22 \cdot 21) \cdot 5$
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ## Problem 8
 
@@ -137,6 +135,8 @@ We have now proven that both $\binom{2n}{2} = 2n^2 - n$ and $2\binom{n}{2} + n^2
 Thus $\binom{2n}{2} = 2\binom{n}{2} + n^2$ is true.
 
 ---
+<div style="page-break-after: always;"></div>
+page break above me
 
 ## Problem 10 _(Formal Proof Required)_
 
