@@ -100,7 +100,7 @@ page break above me
 
 ## Problem 8
 
-What is the coefficient of $x^7$ in $(1 + x)^{11}$?]
+What is the coefficient of $x^7$ in $(1 + x)^{11}$?
 
 $\binom{11}{7} = \frac{11!}{7!(11 - 7)!} = \frac{11!}{(7!)(4!)}$
 
