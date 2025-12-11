@@ -219,8 +219,8 @@ What is the coefficient of $x^8 y^{43}$ in the expansion of $(3x - 11y)^{51}$? W
 
 Let $f: A \to B$ be a function. Recall the following definitions.
 
-- If $S \subseteq A$, then $f[S] = {f(a) \mid a \in S}$ is the _image_ of $S$ under $f$.
-- If $S \subseteq B$, then $f^{-1}[S] = {a \mid f(a) \in S}$ is the _preimage_ of $S$ under $f$.
+- If $S \subseteq A$, then $f[S] = \{f(a) \mid a \in S\}$ is the _image_ of $S$ under $f$.
+- If $S \subseteq B$, then $f^{-1}[S] = \{a \mid f(a) \in S\}$ is the _preimage_ of $S$ under $f$.
 
 **Note.** You **must not** use the inverse function $f^{-1}: B \to A$ because $f$ may be not invertible.
 
