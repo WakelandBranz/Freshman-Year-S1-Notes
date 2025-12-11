@@ -82,7 +82,7 @@ For each statement, select all equivalent logical statements.
 
 (b) $\forall x \in A, \forall y \in A, (f(x) \neq f(y)) \to (x \neq y)$
 
-(c) $\forall x \in A, \forall y \in A, (f(x) = f(y)) \to (x = y)$
+===(c)=== $\forall x \in A, \forall y \in A, (f(x) = f(y)) \to (x = y)$
 
 (d) $\forall x \in A, \forall y \in A, (x \neq y) \to (f(x) \neq f(y))$
 
