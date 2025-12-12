@@ -16,6 +16,9 @@ C. $\forall y , (T(\text{Ramses}, y) \land \exists z (z \neq y \rightarrow \neg 
 
 D. $\exists y , (T(\text{Ramses}, y) \land \forall z (z \neq y \rightarrow \neg T(\text{Ramses}, z)))$
 
+Alternative definition since D is right
+$\exists y, (T(Ramses, y) \land \forall z(z = y \rightarrow T(Ramses, z))$
+
 ---
 
 **2.** True/False. Determine the truth values of the following statements. If True, no justification is needed. If False, provide a counterexample.
